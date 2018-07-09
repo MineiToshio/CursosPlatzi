@@ -2,17 +2,17 @@
 
 ## Diferencias entre Sass, Stylus y Less
 
-Aunque hay muchos preprocesadores, en este curso nos vamos a concentrar en Sass, Stylus y Less.
+Existen muchos preprocesadores css. Entre ellos podemos encontrar:
 
 * `Less` es un preprocesador muy simple.
 * `Sass` es una herramienta muy interesante gracias a su comunidad.
-* `Stylus` tiene la ventaja de que es muy completo e incluso complejo.
+* `Stylus` es muy completo pero a la vez incluso complejo.
 
 Elegir cuál es el mejor procesador depende de lo que queremos lograr con el proyecto. Algunas de las razones están relacionadas con el equipo y las necesidades que tenemos con el proyecto.
 
-Cuando trabajamos con preprocesadores el compila el código al para transformarlo en css y las páginas html lo puedan entender.
+Cuando trabajamos con preprocesadores se tiene que compilar el código para transformarlo en css y las páginas html lo puedan entender.
 
-los archivos de sass tienen las extensión scss.
+los archivos de sass tienen las extensión `.scss`.
 
 ## Estructura de CSS
 
