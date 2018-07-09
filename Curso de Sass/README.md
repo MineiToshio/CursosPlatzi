@@ -16,7 +16,7 @@ los archivos de sass tienen las extensión `.scss`.
 
 ## Estructura de CSS
 
-La primera ventaja que se nos ocurre es que podemos organizar nuestro Sass. Lo clave es que podemos separar nuestro código en archivos. Ya no tenemos que revisar un archivo muy amplio, sino que podemos separar nuestros estilos en varios módulos, lo que nos hace el trabajo mucho más fácil.
+Una ventaja que trae Sass es el poder organizar mejor nuestros archivos. Esto lo podemos lograr separando nuestros estílos en múltiples archivos. De tal modo, ya no tenemos que revisar un archivo muy amplio, sino que podemos separar nuestros estilos en varios módulos haciendo el trabajo mucho más fácil.
 
 Para organizar e importar archivos usamos `@import`.
 
@@ -28,7 +28,9 @@ La forma de nombrar los archivos que van a ser importados es con un `_` al inici
 
 ## Variables
 
-Piense en las variables como una forma de almacenar la información que desea reutilizar a lo largo de su hoja de estilo. Puede almacenar cosas como colores, pilas de fuentes o cualquier valor de CSS que crea que desea reutilizar. Sass usa el símbolo `$` para hacer que algo sea una variable. 
+Las variables son una forma de almacenar la información que se desea reutilizar a lo largo de la hoja de estilo. 
+
+Se puede almacenar cosas como colores, pilas de fuentes o cualquier valor de CSS que que se desea reutilizar. Sass usa el símbolo `$` para hacer que algo sea una variable. 
 
 Aquí hay un ejemplo:
 
@@ -64,7 +66,7 @@ El comodín `&` se usa para hacer referencia al padre.
 
 ## Mixins
 
-Lo primero que debemos hacer es definir qué son los mixins. Lo que hacen los mixins nos ayudan a reciclar declaraciones para evitar mucho trabajo. Dentro de los archivos de nuestro curso vamos a crear una carpeta llamada mixins. Para esto vamos a usar @`mixin`.
+Los mixins nos ayudan a reciclar declaraciones para evitar mucho trabajo. Para esto vamos a usar @`mixin`.
 
 Cuando se define un mixin, los argumentos se definen como una serie de variables separadas por comas, y todo ello encerrado entre paréntesis.
 
@@ -107,7 +109,7 @@ section {
 
 ## Extend
 
-Permiten que una declaración herede estilos declarados por otra regla o placeholder (%).
+Permiten que una declaración herede estilos declarados por otra regla o placeholder. Los extend se declaran con el símbolo de porcentaje `%`.
 
 ```scss
 %btn {
@@ -123,7 +125,7 @@ Permiten que una declaración herede estilos declarados por otra regla o placeho
 
 ## Funciones
 
-Sass tiene muchas funciones que podemos usar cuando estamos modificando CSS. Muchas de estas funciones son muy útiles como por ejemplo aclarar un color u oscurecerlo. Así hay muchísimas más, sin embargo hay algunas que no nos permiten hacer cambios visuales y que pueden parecer no tan útiles.
+Sass tiene muchas funciones que podemos usar cuando estamos modificando CSS. Muchas de estas funciones son muy útiles como por ejemplo aclarar un color u oscurecerlo. 
 
 ```scss
 darken(#ffffff, 25%)
@@ -203,7 +205,7 @@ y esto da como resultado:
 }
 ```
 
-resultado:
+Resultado:
 
 ```css
 .class-1:before {
@@ -240,7 +242,9 @@ $background-color: black;
 
 ## Escapar una variable
 
-Para escapar una variable se usa el comodín `#`.
+Para escapar una variable se usa el comodín `#`. 
+
+Esto es necesario en casos como, por ejemplo, cuando la variable está rodeada por comillas y de no ponerse el escape la variable pasaría como una cadena de caracteres..
 
 ```scss
 $size: 10;
