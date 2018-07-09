@@ -88,7 +88,7 @@ Una de las características que tienen los mixins es la directiva content. Esta 
 
 ```scss
 @mixin response-to($width) {
-  @media only screen and (min-width: $width) {
+  media only screen and (min-width: $width) {
     @content;
   }
 }
