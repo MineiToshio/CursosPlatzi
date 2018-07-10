@@ -194,6 +194,6 @@ Para ignorar archivos o carpetas de los commits se crea un archivo que se llame 
 Página que crear .gitignore para los proyectos:
 https://www.gitignore.io/
 
-## Enlaces de Referencias
+## Enlaces de Interés
 * https://platzi.com/clases/git-github/
 * https://git-scm.com/book/es/v2
