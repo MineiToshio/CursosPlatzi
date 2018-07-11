@@ -273,9 +273,9 @@ ReactDOM.render(holaMundo, app);
 #### Componentes
 
 Existen tres tipos de componentes:
-* `Funcional` Este tipo de componentes se definen como funciones y no tiene ni trabajan con estados.
-* `Puro` También se implementan como clases, pero en este caso van a extender de React.PureComponent.
-* `Normal o de Estado` Las principales características de este tipo de componentes es que utilizan la encapsulación en clases, tienen un estado que definen, y actualizan.
+* `Funcional` Este tipo de componentes se definen como funciones y no tienen estados ni trabajan con ellos.
+* `Puro` Se implementan como clases, pero en este caso, van a extender de React.PureComponent.
+* `Normal o de Estado` Utilizan la encapsulación en clases. Tienen un estado que definen y actualizan.
 
 Los componentes deben de seguir estas reglas:
 * Se escriben en Pascal Case. 
@@ -311,5 +311,79 @@ import HolaMundo from "./src/js/components/HolaMundo.jsx";
 render(<HolaMundo/>, app);
 ```
 
+#### Estilos CSS
+
+**Estilos inline**
+
+* Los estilos se crean como si fueran un objeto json.
+* Por convensión, las propiedades se escriben en `Cammel Case`.
+* El tamaño por defecto es px. Esto quiere decir que no es necesario agregarlo cuando esta sea la medida a aplicar.
+
+```jsx
+import React, { Component } from "react";
+
+class Media extends Component {
+  render() {
+
+    const styles = {
+      container: {
+        fontSize: 14
+      }
+    }
+
+    return (
+      <div style={styles.container}></div>
+    )
+  }
+}
+
+export default Media;
+```
+
+**Archivos .css**
+
+Los archivos `.css` se importan con un import dentro del archivo `.js` o `.jsx`.
+
+```javascript
+import "./media.css";
+```
+
+Para usarlos dentro de un elementos JSX se usa el atributos `className`.
+
+```html
+<div className="Media">
+```
+
+#### Propiedades
+
+Lo que se conoce como `atributos` en HTML, se llama `propiedades` en JSX.
+
+**Pasar propiedades a un componente**
+
+Al crear un componente se requiere que estos tengan datos dinámicos de tal manera que se puedan reutilizar. 
+
+Para esto, podemos pasar las propiedades a los componentes en el momento que los referenciamos.
+
+```jsx
+render(<Media title="¿Qué es responsive design?"/>, app);
+```
+
+Para indicar en dónde se va a poner la propiedad dentro del componente se usa `this.props`.
+
+```jsx
+<h1>{this.props.title}</h1>
+```
+
+También se puede extraer la propiedad de this.props y usarlas de una forma más directa en el componente.
+
+```javascript
+const {title} = this.props; 
+```
+
+```jsx
+<h1>{title}</h1>
+```
 ## Enlaces de Interés
+* https://platzi.com/clases/react/
+* https://github.com/LeonidasEsteban/platzi-video
 * https://github.com/facebook/create-react-app
