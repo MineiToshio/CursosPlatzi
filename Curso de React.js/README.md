@@ -580,7 +580,7 @@ Nota: Aquí el componente ya está en pantalla entonces se pueden hacer llamados
 `componentDidCatch()` método llamado cuando ocurre un error al renderizar el componente. El manejo de errores solamente ocurre en componentes hijos.
 
 ## Recursos complementarios
-* [Diapositivas del curso](dosc/bienvenido-desarrollador-react.pdf)
+* [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
 ## Enlaces de Interés
 * https://platzi.com/clases/react/
