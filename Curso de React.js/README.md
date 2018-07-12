@@ -521,6 +521,67 @@ Para mostrar el valor de un elemento de estado se usa `this.state` seguido por e
 <p>{this.state.author}</p>
 ```
 
+### Ciclo de vida de los componentes
+
+El ciclo de vida de un componente se divide en 4 etapas principales:
+* `Montado` es el render del componente, cuando este entra en escena.
+* `Actualización` es cuando el componente recibe nuevos datos
+* `Desmontado` es cómo el componente se va de la escena.
+* `Manejo de errores` previene que la aplicación se ropa si el componente tiene algún problema (implementado desde React 16).
+
+#### Métodos del ciclo de vida
+
+**Montado**
+
+`constructor()` método llamado antes de que el componente sea montado (componente aun no se ve).
+
+1. Podemos iniciar el estado
+2. Enlazar eventos (bind).
+3. Es el primer metodo que se llama al instanciar un componente.
+
+`componentWillMount()` método llamado inmediatamente antes de que el componente se vaya a montar (componente aun no se ve).
+
+
+1. Podemos hacer un setState()
+2. No hacer llamados a un API o suscripción a eventos.
+
+`render()` método que contiene todos los elementos a renderizar (estructura del componente).
+
+1. Contiene JSX en el return.
+2. Puedes calcular propiedades 
+nCompleto = name + lastName.
+
+`componentDidMount()` método llamado luego de montarse el componente (el componente ya esta en la pantalla).
+
+1. Solo se lanza una vez.
+2. Enlazar (bind) de eventos.
+3. Es el primer método que se llama al instanciar un componente.
+
+Nota: Aquí el componente ya está en pantalla entonces se pueden hacer llamados de API
+
+**Actualización**
+
+`componentWillReceiveProps()` método llamado al recibir nuevas propiedades. Sirve para actualizar el estado con base a las nuevas propiedades.
+
+`shouldComponentUpdate()` método que condiciona si el componente se debe volver a renderizar. Utilizado para optimizar el rendimiento.
+
+`componentWillUpdate()` método llamado antes de re-renderizar un componente. Utilizado para optimizar el rendimiento.
+
+`render()` método llamado por componentWillUpdate() para hacer el re-render del componente.
+
+`componentDidUpdate()` método llamado luego del re-render.
+
+**Desmontado**
+
+`componentWillUnmount()` método llamado antes de que el componente sea retirado de la aplicación.
+
+**Manejo de Errores**
+
+`componentDidCatch()` método llamado cuando ocurre un error al renderizar el componente. El manejo de errores solamente ocurre en componentes hijos.
+
+## Recursos complementarios
+* [Diapositivas del curso](dosc/bienvenido-desarrollador-react.pdf)
+
 ## Enlaces de Interés
 * https://platzi.com/clases/react/
 * https://github.com/LeonidasEsteban/platzi-video
