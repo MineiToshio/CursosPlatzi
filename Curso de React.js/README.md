@@ -474,6 +474,53 @@ handleClick = (event) => {
 Documentación completa del manejo de eventos:
 https://reactjs.org/docs/handling-events.html
 
+### Estado de componentes
+
+Las propiedades son  inmutables. Estas no pueden cambiar. Si se desea hacer un cambio se usan los `states`. 
+
+#### Creación del estado
+
+**ES6**
+
+En ES6 se tiene que construir un constructor y crear un state en el cual se le asignen las propiedades que se desea modificar.
+
+```js
+constructor(props) {
+  super(props);
+  this.state = {
+    author: props.author
+  }
+}
+```
+
+**ES7**
+
+En ES7 solo se declara el state y se asignan las valores que se deseen usar.
+
+```js
+state = {
+  author: "Sergio Minei"
+}
+```
+
+#### Modificar un estado
+
+Para modificar un estado se usa la función `setState`.
+
+```js
+this.setState({
+  author: "Ricardo Celis"
+})
+```
+
+#### Mostrar el valor del estado
+
+Para mostrar el valor de un elemento de estado se usa `this.state` seguido por el elemento que se desea usar.
+
+```jsx
+<p>{this.state.author}</p>
+```
+
 ## Enlaces de Interés
 * https://platzi.com/clases/react/
 * https://github.com/LeonidasEsteban/platzi-video
