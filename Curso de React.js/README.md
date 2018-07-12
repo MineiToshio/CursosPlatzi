@@ -252,7 +252,7 @@ npm install react react-dom
 
 React sirve para crear componentes de la aplicación y dividirlo en bloques.
 
-#### React DOM
+### React DOM
 
 ReactDOM sirve para renderizar en el navegador.
 
@@ -270,7 +270,7 @@ const holaMundo = <h1>hola mundo</h1>;
 ReactDOM.render(holaMundo, app);
 ```
 
-#### Componentes
+### Componentes
 
 Existen tres tipos de componentes:
 * `Funcional` Este tipo de componentes se definen como funciones y no tienen estados ni trabajan con ellos.
@@ -311,7 +311,7 @@ import HolaMundo from "./src/js/components/HolaMundo.jsx";
 render(<HolaMundo/>, app);
 ```
 
-#### Estilos CSS
+### Estilos CSS
 
 **Estilos inline**
 
@@ -354,11 +354,11 @@ Para usarlos dentro de un elementos JSX se usa el atributos `className`.
 <div className="Media">
 ```
 
-#### Propiedades
+### Propiedades
 
 Lo que se conoce como `atributos` en HTML, se llama `propiedades` en JSX.
 
-**Pasar propiedades a un componente**
+#### Pasar propiedades a un componente
 
 Al crear un componente se requiere que estos tengan datos dinámicos de tal manera que se puedan reutilizar. 
 
@@ -383,6 +383,97 @@ const {title} = this.props;
 ```jsx
 <h1>{title}</h1>
 ```
+
+#### Validado de propiedades
+
+Es importante validar las propiedades para que el componente pueda funcionar correctamente.
+
+Para realizar el validado se va a usar `prop-types`.
+
+```bash
+npm install prop-types -D
+```
+
+Para usar prop-types primero hay que importarlo.
+
+```js
+import PropTypes from "prop-types";
+```
+
+Para realizar las respectivas validaciones se va a usar `Media.propTypes`. Esto se agrega al final del componente (entre la clase y el export) y contiene las validaciones respectivas por cada propiedad.
+
+**Tipo de dato**
+
+Para validar el tipo de dato a recibir, se agrega `PropTypes` seguido del tipo de dato que se recibir. 
+
+```js
+Media.propTypes = {
+  image: PropTypes.string
+}
+```
+Los tipos de `PropTypes` que se pueden recibir son los siguientes:
+* `func` Funcione
+* `string` Texto
+* `object` Objeto
+* `bool` Booleano
+* `number` Número
+* `array` Array
+
+**Lista de elementos**
+
+```js
+Media.propTypes = {
+  type: PropTypes.oneOf(["video", "audio"])
+}
+```
+
+**La propiedad es obligatoria**
+
+```js
+Media.propTypes = {
+  title: PropTypes.string.isRequired
+}
+```
+
+Cuando exista un error al pasar una propiedad se va a mostrar un warnning en la consola. 
+
+Documentación completa de prop-types:
+https://reactjs.org/docs/typechecking-with-proptypes.html
+
+### Enlazando eventos del DOM
+
+Para enlazar un evento al DOM se hace añadiendo un `on + Event` (ejemplo, onClick) y así asignarle el nombre de la función. Por convención, se asigna `handle + Event` (ejemplo, handleEvent)
+
+```jsx
+<div onClick={this.handleClick}>
+```
+
+Luego se puede hacer la implementación de la función fuera del render. Si se desea usar las propiedades que han sido pasadas se hace lo siguiente:
+
+**ES6**
+
+Hacer una función constructor en donde se cambia el contexto del evento.
+
+```js
+constructor() {
+  super(props);
+  this.handleClick = this.handleClick.bind(this);
+}
+```
+
+**ES7**
+
+Implementar el evento como un arrow function ya que estas, por defecto, heredan el contexto del padre.
+
+```js
+handleClick = (event) => { 
+  console.log(this.props.title);
+}
+```
+
+Documentación completa del manejo de eventos:
+https://reactjs.org/docs/handling-events.html
+
 ## Enlaces de Interés
 * https://platzi.com/clases/react/
 * https://github.com/LeonidasEsteban/platzi-video
