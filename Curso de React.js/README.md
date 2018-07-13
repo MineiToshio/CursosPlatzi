@@ -660,6 +660,46 @@ function Playlist(props) {
 * Separación de responsabilidades (Se parece a MVC, V para dumbs y C para smarts)
 * Mejorar la capacidad de reutilizar componentes
 
+### props.chidren
+
+`props.chidren` permite que los elementos que se creen dentro del componente, aparescan en el lugar donde se ubica esta propiedad.
+
+```jsx
+import React from "react";
+
+function Icon(props) {
+  return (
+    <svg viewBox="0 0 32 32">
+      {props.children}
+    </svg>
+  )
+}
+
+export default Icon;
+```
+
+```jsx
+import React from "react";
+import Icon from "./icon.jsx";
+
+function Pause(props) {
+  return (
+    <Icon {...props}>
+      <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
+    </Icon>
+  )
+}
+
+export default Pause;
+```
+
+Eso genera un HTLM como el siguiente:
+
+```html
+<svg viewBox="0 0 32 32">
+  <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
+</svg>
+```
 ## Recursos complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
