@@ -579,6 +579,87 @@ Nota: Aquí el componente ya está en pantalla entonces se pueden hacer llamados
 
 `componentDidCatch()` método llamado cuando ocurre un error al renderizar el componente. El manejo de errores solamente ocurre en componentes hijos.
 
+## Trabajando con componentes
+
+### Listas de React
+
+```jsx
+class Playlist extends Component {
+render() {
+  const playlist = this.props.playlist;
+
+  return (
+    <div className="Playlist">
+      {
+        playlist.map((item) => {
+          return <Media {...item} key={item.id} />
+        })
+      }
+    </div>
+  )
+}
+```
+
+### Componentes puros
+
+`PureComponent` tiene el método `shouldComponentUpdate()` asignado por defecto. Si este componente no se le actualizan las propiedades, no tenemos que validar a mano con shouldComponentUpdate porque PureComponent lo hace por nosotros.
+
+PureComponent se usa del mismo modo que Component. Lo único que cambia es la clase de la que se extiende.
+
+```jsx
+importReact, { PureComponent } from 'react';
+
+class Playlist extends PureComponent{
+  render() {
+    <Componente />
+  }
+}
+```
+
+### Componentes funcionales
+
+* Se escribe como si fuera una función.
+* No usa el método render() ya que en si es solo un render.
+* Es mucho más fácil de probar
+* No tiene un ciclo de vida.
+
+```jsx
+function Playlist(props) {
+  return (
+    <div>
+      {props.title}
+    </div>
+  )
+}
+```
+
+### Metodología de Smart & Dumb Components
+
+**Dumb Component - Presentational (cómo se ve)**
+
+* Puede contener smart componentes u otros componentes presentacionales.
+* Permite composición {props.children}
+* Son independientes del resto de la aplicación.
+* No especifica como se cargan los datos. Eg. this.props.title
+* Recibe datos y callbacks mediante propiedades.
+* Generalmente no tienen su propio estado, es raro que tenga un ciclo de vida.
+* Se escriben como componentes funcionales al menos que necesiten mejoras de performance (PureComponents)
+
+**Smart Component - Container (qué hace)**
+
+* Se centra en como funciona la app. Tienen ciclo de vida y states. Controlan como funciona la aplicación.
+* Contiene componentes de UI y otros smart.
+* No tienen estilos.
+* Proveen datos y callbacks a otros componentes (UI o smart)
+* Normalmente tienen estado.
+* Llaman a acciones
+* Se pueden generar por higher order components
+
+**¿Por qué dividir los componentes en smart y dumbs?**
+
+* Separación de responsabilidades (Se parece a MVC, V para dumbs y C para smarts)
+* Mejorar la capacidad de reutilizar componentes
+
 ## Recursos complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
