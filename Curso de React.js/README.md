@@ -700,6 +700,38 @@ Eso genera un HTLM como el siguiente:
   <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
 </svg>
 ```
+
+### Portales
+
+`Portales` es la manera en la que podemos renderizar componentes fuera del contenedor principal de la aplicación.
+
+El caso de uso mas común son las ventanas modal.
+
+Para crear un portal, se debe importar el método createPortal de react-dom:
+
+```jsx
+import { createPortal} from'react-dom';
+```
+
+El metodo `createPortal()` recibe dos parametros, al igual que con `render()` es:
+* Lo que se va a renderizar.
+* Dónde se va a renderizar.
+
+```jsx
+import React, { Component } from "react";
+import { createPortal } from "react-dom";
+
+class ModalContainer extends Component {
+  render () {
+    return createPortal(
+      this.props.children, 
+      document.getElementById("modal-container"))
+  } 
+}
+
+export default ModalContainer;
+```
+
 ## Recursos complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
