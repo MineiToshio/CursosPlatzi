@@ -732,6 +732,59 @@ class ModalContainer extends Component {
 export default ModalContainer;
 ```
 
+### Manejo de errores
+
+El menejo de errores se hace con el metodo `componentDidCatch()`. Este método recibe dos parámetros:
+* El Error
+* Información acerca de ese error
+
+```jsx
+componentDidCatch(error, info) { }
+```
+
+Se puede hacer un controlador de errores para que muestre un mensaje de error cada vez que el componente falle.
+
+```jsx
+import React, { Component } from "react";
+import RegularError from "../components/regular-error.jsx";
+
+class HandleError extends Component {
+  state = {
+    handleError: false
+  }
+
+  componentDidCatch(error, info) {
+    this.setState({
+      handleError: true
+    })
+  }
+
+  render () {
+    if(this.state.handleError) {
+      return (
+        <RegularError />
+      )
+    }
+    return this.props.children;
+  }
+}
+
+export default HandleError;
+```
+
+```jsx
+render() {
+  return (
+    <HandleError>
+      <Componente />
+    </HandleError>
+  )
+}
+```
+
+Se recomienda usar servicios como `Sentry` para gestionar los errores.
+https://sentry.io
+
 ## Recursos complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
