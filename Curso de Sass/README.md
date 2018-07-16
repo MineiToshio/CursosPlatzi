@@ -198,7 +198,7 @@ y esto da como resultado:
 ```scss
 @for $i from 1 to 5 {
   .class-#{$i} {
-    $:before {
+    &:before {
       content: "#{$i}"
     }
   }
