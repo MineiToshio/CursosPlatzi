@@ -785,6 +785,37 @@ render() {
 Se recomienda usar servicios como `Sentry` para gestionar los errores.
 https://sentry.io
 
+### Referencias
+
+Las referencias nos permite alamacenar en react un elemento HTML.
+
+```jsx
+//componente.jsx
+<input type="text" ref={props.setRef} />
+```
+
+```jsx
+//usando el componente
+
+setInputRef = element => {
+  this.input = element;
+}
+
+render() {
+  return (
+    <Componente setRef={this.setInputRef}/>
+  )
+}
+```
+
+### Input en React
+
+Si se asigna el valor de `value` se define como un valor constanete, es decir, no va a poder ser modificado.
+
+Si se desea asignar un valor inicial, pero que este pueda ser modificado, entonces se usa la propiedad `defaultValue`.
+
+Si se desea manipular el valor asignado a value se puede hacer con el método `onChange` del input.
+
 ## Recursos complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
