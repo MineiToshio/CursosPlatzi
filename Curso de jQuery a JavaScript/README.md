@@ -280,6 +280,45 @@ $element.classList.toggle("clase");
 $modal.style.animation = "modalOut .8s forwards";
 ```
 
+## Creación de elementos 
+
+```js
+const $loader = document.createElement("img");
+```
+
+## Asignación de Atributos
+
+**jQuery**
+
+```js
+$("#element").attr({
+  src: "",
+  height: ""
+})
+```
+
+**JavaScript**
+
+```js
+const $element = document.getElementById("element");
+
+//setear el atributo en un elemento DOM
+$element.setAttribute("src", "img/foto.png");
+
+//obtener un atruto de un elemento DOM
+const src = $element.setAttribute("src")
+```
+
+También se puede crear una función para asignar múltiples atributos a un elemento DOM.
+
+```js
+function setAttributes($element, attributes) {
+  for(const attribute in attributes) {
+    $element.setAttribute(attribute, attributes[attribute]);
+  }
+}
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
