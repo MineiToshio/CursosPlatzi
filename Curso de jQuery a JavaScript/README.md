@@ -125,6 +125,92 @@ fetch("url")
 
 Fetch devuelve una promesa. Esta promesa, a su vez, tiene un método llamado `json()` que regresa otra promesa con los datos en formato JSON.
 
+## Funciones asíncronas
+
+Una función asíncrona va a ser como una función normal, pero poniendo código asíncrono de forma que sea más fácil de leer de forma síncrona.
+
+Para declarar una función asíncrona se usa `async` / `await`:
+* async: declara quye una función es asíncrona.
+* await: indica que se debe de terminar con el fragmento de código para continuar con la ejecución de la función.
+
+```js
+async function load() {
+  const response = await fetch("url") 
+}
+```
+
+## Selectores
+
+Los selectores nos permites seleccionar un elemento del DOM con el fin de poder manipularlos. 
+
+Por convención, las variables que son elementos del DOM comienzan con una `$`.
+
+**jQuery**
+
+```js
+const $home = $(".home") //Elemento con la clase home
+const $home = $("#home") //Elemento con el id home
+```
+
+**JavaScript**
+
+```js
+//Retorna un elemento con el id home
+document.getElementById("home")
+
+//Retorna una lista de elementos con la clase home
+document.getElementsByClassname("home")
+
+//Retorna una lista de elementos con el tag div
+document.getElementsByTagName("div")
+
+//Devuelve el primer elemento que coincida con el query de búsqueda.
+document.querySelector("div .home #modal")
+
+//Devuelve todos los elementos que coincidan con el query de búsqueda.
+document.querySelectorAll("div .home #modal")
+```
+
+## Templates
+
+**jQuery**
+
+En jQuery se tiene que poner todo el html dentro de una cadena de texto.
+
+```js
+function videoItemTemplate(src, title) {
+  return (
+    '<div class="primaryPlaylistItem">' +
+      '<div class="primaryPlaylistItem-image">' +
+        '<img src="' + src + '">' +
+      '</div>' +
+      '<h4 class="primaryPlaylistItem-title">' +
+        title +
+      '</h4>' +
+    '</div>'
+  )
+}
+```
+
+**JavaScript**
+
+Se usa una característica de ES6 que se llama `template literals`.
+
+```js
+function videoItemTemplate(src, title) {
+  return (
+    `<div class="primaryPlaylistItem">
+      <div class="primaryPlaylistItem-image">
+        <img src="${src}">
+      </div>
+      <h4 class="primaryPlaylistItem-title">
+        ${title}
+      </h4>
+    </div>`
+  )
+}
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
