@@ -211,6 +211,75 @@ function videoItemTemplate(src, title) {
 }
 ```
 
+## Usando Templates
+
+La plantilla no puede puede ser llamada de frente puesto que en el html se mostraría como texto. Primero se hace una transformación de la plantilla para recién agregarla al contenedor que se desee.
+
+```js
+function titleTemplate(title) {
+  return (
+    `<h1>${title}</h1>`
+  )
+}
+
+//se trae la plantilla y se guarda en una variable.
+const HTMLString = titleTemplate(movie);
+//se crea un documento html vacío
+const html = document.implementation.createHTMLDocument();
+//se agrega la plantilla al innerHTML del documento html 
+//esto hace que la plantilla en texto se convierta a elementos DOM
+html.body.innerHTML = HTMLString;
+//se agrega el primer hijo (que es donde se encuentra la plantilla) al contenedor donde se quiere agregar la plantilla
+$actionContainer.append(html.body.children[0]);
+```
+
+## Eventos
+
+Son una forma de notificar a la aplicación cuando algo interesante ha sucedido.
+
+**jQuery**
+
+```js
+$("div").on("click", function(event) {
+
+})
+```
+
+**JavaScript**
+
+```js
+const $element = document.getElementById("element");
+$element.addEventListener("click", function(event) {
+
+})
+```
+
+**Nota**: cuando se activa el evento submit, el browser de refresca por defecto. Para evitar esto se usa `event.preventDefault()`.
+
+Para ver la lista de eventos:
+http://developer.mozilla.org/en-US/docs/Web/Events
+
+## Clases y estilos CSS
+
+**Clases**
+
+```js
+//agrega una clase
+$element.classList.add("clase");
+
+//remueve una clase
+$element.classList.remove("clase");
+
+//intercambia entre agregar y remover una clase
+$element.classList.toggle("clase");
+```
+
+**Estilos Inline**
+
+```js
+$modal.style.animation = "modalOut .8s forwards";
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
