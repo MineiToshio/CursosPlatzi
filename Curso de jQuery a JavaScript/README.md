@@ -75,6 +75,7 @@ Promise.all([
 .then(function() {})
 .catch(function() {})
 
+//Se ejecuta el then de la promesa que termine primero.
 Promise.race([
   promesa1,
   promesa2
@@ -83,10 +84,46 @@ Promise.race([
 .catch(function() {})
 ```
 
+Una promesa puede retornar otra promesa.
+
+Las promesas resuelven el problema del Callback Hell haciendo que una promesa pueda devolver otra promesa y en lugar de ser anidadas como los callback, estas promesas son encadenadas.
+
 ## Timers
 
 * `setInterval()` se ejecuta cada cierto tiempo.
 * `setTimeout()` se ejecuta una sola vez luego de un periodo de tiempo.
+
+## Ajax
+
+**jQuery**
+
+```js
+$.ajax("url", {
+  method: "GET", //POST, PUT, DELETE
+  success: function(data) {
+    //se ejecuta cuando todo sale bien
+    //data: lo que devuelve el api
+  },
+  error: function(error) {
+    //se ejecuta cuando hay un error
+    //error: mensaje de error del api
+  }
+})
+```
+
+**JavaScript**
+
+```js
+fetch("url")
+  .then(function(response) {
+
+  })
+  .catch(function(response) {
+
+  })
+```
+
+Fetch devuelve una promesa. Esta promesa, a su vez, tiene un método llamado `json()` que regresa otra promesa con los datos en formato JSON.
 
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
