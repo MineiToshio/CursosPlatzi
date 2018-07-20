@@ -431,6 +431,31 @@ catch(error) {
 throw new Error('No se encontró ningún resultado');
 ```
 
+## Guardar datos
+
+* `localStorage` permite almacenar datos sin tiempo de expiración
+* `sessionStorage` permite almacenar datos. Estos datos se van a borrar cuando se termine la sessión del navegador
+
+En `localStorage` solo se puede guardar texto plano. No se pueden guardar objetos.
+
+```js
+//eliminar los datos
+window.localStorage.clear();
+
+//setear un valor
+window.localStorage.setItem("nombre", "Toshi");
+
+//setear un objeto
+//primero se tiene que convertir el objeto en un string
+window.localStorage.setItem("objeto", JSON.stringify({"peli": "wonder woman"});
+
+//obtener el valor de un key
+window.localStorage.getItem("nombre");
+
+//obtener el valor de un texto objeto y convertirlo a objeto
+JSON.parse(window.localStorage.getItem("objeto"));
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
