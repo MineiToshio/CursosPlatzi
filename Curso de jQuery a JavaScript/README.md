@@ -456,6 +456,28 @@ window.localStorage.getItem("nombre");
 JSON.parse(window.localStorage.getItem("objeto"));
 ```
 
+## Revisar datos en cache
+
+Revisar si los datos se encuentran en cache.
+
+```js
+async function cacheExist(key) {
+  const cacheList = window.localStorage.getItem(key);
+
+  if (cacheList)
+    return JSON.parse(cacheList);
+  
+  const data = await fetch("url");
+  window.localStorage.setItem(key, JSON.stringify(data));
+  return data;
+}
+```
+
+Si se desea volver a traer los datos se puede hacer lo siguiente:
+* Poner un botón que traiga los datos
+* Hacer un setTimeout que borre el localStorage.
+
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
