@@ -352,6 +352,32 @@ const response = await fetch(`api_url`);
 const pelis = response.data.movies;
 ```
 
+## Dataset
+
+`Dataset` permite acceder a un objeto con todos los atributos `data` de un elemento DOM.
+
+```html
+<div id="element" data-id="10" data-category="action">
+</div>
+```
+```js
+const $element = document.getElementById("element");
+
+//guarda el valor de data-id
+const id = $element.dataset.id;
+//guarda el valor de data-category
+const category = $element.dataset.category;
+```
+
+## Transformar tipos de datos
+
+Cambiar un string a entero
+
+```js
+//parseInt("número", base)
+let n = parseInt("500", 10)
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
