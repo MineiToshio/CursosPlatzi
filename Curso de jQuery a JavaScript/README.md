@@ -456,7 +456,7 @@ window.localStorage.getItem("nombre");
 JSON.parse(window.localStorage.getItem("objeto"));
 ```
 
-## Revisar datos en cache
+## Obtener datos del cache
 
 Revisar si los datos se encuentran en cache.
 
