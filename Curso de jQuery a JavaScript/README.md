@@ -319,6 +319,39 @@ function setAttributes($element, attributes) {
 }
 ```
 
+## Formularios
+
+`FormData()` es una interfaz que te permite obtener los valores de un formulario.
+
+```js
+//FormData va a abstraerr todos los valores de los elementos del formulario que cuenten con un atributo 'name' asignado y los va a setear en un objeto de tipo FormData.
+const data = new FormData($form);
+
+//retorna el valor del elemento con el atributo name="nombre"
+data.get("nombre");
+
+//setea el valor avengers en la key pelicula 
+data.set("pelicula", "avengers");
+```
+
+## Desestructuración de objetos
+
+`Destructuring assignment` permite entrar a un objeto o lista y poder sacar un dato para asignarlo a otra variable.
+
+```js
+//el fetch devuelve una promesa con la siguiente estructura: promesa.data.movies
+//con el destructuring assignmen estamos creando una variable que se llama pelis y solo contiene la información de movies.
+const { 
+  data: {
+    movies: pelis
+  }
+} = await fetch(`api_url`); 
+
+//Lo anterior sería igual a esto:
+const response = await fetch(`api_url`);
+const pelis = response.data.movies;
+```
+
 ## Recursos complementarios
 * [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
 
