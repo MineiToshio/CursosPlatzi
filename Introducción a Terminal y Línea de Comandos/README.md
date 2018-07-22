@@ -124,7 +124,7 @@ Copia un archivo a otro directorio.
 $ cp archivo.txt C:/
 ```
 
-## Navegar entre 2 directorios
+**Navegar entre 2 directorios**
 
 pushd y popd: te permiten navegar entre dos directorios fácilmente.
 
@@ -133,19 +133,38 @@ pushd y popd: te permiten navegar entre dos directorios fácilmente.
 
 Si no se especifica la ruta de `pushd`, se guarda el directorio actual.
 
-## Abrir un archivo
+**Abrir un archivo**
 
 `open [archivo]`
 
 Abre el archivo especificado.
 
+**Ver las primeras líneas de un archivo**
+
+`more [archivo]`
+
+Te da las primeras líneas de lo que hay en el archivo. 
+* Para ver la siguiente página utilizamos espacio.
+* Enter para pasar línea por línea.
+* b para regresar.
+
+`less [archivo]` 
+
+En algunas distribuciones ya no se usa more sino less.
+
+**Imprimir todo el contenido de un archivo**
+
+`cat [archivo]`
+
+Imprime todo el contenido de un archivo en pantalla.
+
+**Ver las últimas líneas de un archivo**
+
+`tail [archivo]` te muestra las últimas 10 líneas de un archivo. 
+* `-[número]` puedes agregarle un número con el - y pedir más que 10 líneas.
+* `-f:` muestra en tiempo real las ultimas lineas del archivo.
 
 
-more: te da las primeras líneas de lo que hay en el archivo. Para ver la siguiente página hacemos lo mismo que con el man, utilizamos espacio para pasar de página, enter pasa linea por linea, b para regresar
-less: en algunas distrubuciones ya no se usa more sino less
-cat: imprime todo el contenido de un archivo en pantalla.
-tail: te muestra las últimas 10 líneas de un archivo. Puedes agregarle un número con el - y pedir más que 10 líneas.
--f: se ve siempre las ultimas lineas del archivo
 which [comando] //especifica donde se encuentra el ejecutable del comando
 alias ll='[comando]': crea un alias para un comando 
 top: ver todos los procesos que están corriendo en la computadora
