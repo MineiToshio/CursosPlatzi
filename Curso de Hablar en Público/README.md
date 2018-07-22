@@ -40,5 +40,42 @@ Cuando hablamos con una persona, el cerebro se enfoca en las relaciones pública
 
 Cuando practiques no lo hagas tu solo o imagina que estás frente a una audiencia.
 
+## Reglas básicas para dar conferencias
+
+1. Practica
+2. Intenta no dar siempre la MISMA conferencia
+3. Investiga quién es tu audiencia
+4. Ten un sólo gran mensaje
+5. Ten un "Call to Action"
+6. Habla lento, claro, fuerte
+7. Ten frases asertivas
+8. Evita el "yo yo yo"
+9. Habla con un lenguaje inclusivo
+10. Combina anécdotas con datos
+11. Da una charla corta y resumida
+12. No sólo des ordenes, explica por qué
+13. Cierra con un resumen inspirador
+14. Reitera tu "Call to Action"
+15. Da la milla extra
+
+## Cómo investigar y entender a tu audiencia
+
+La diferencia entre un buen y un gran conferencista es la investigación de la audiencia, incluso si vas a dar la misma charla a grupos distintos. Aunque sea el mismo mensaje base puedes cambiar la forma en la que lo dices, para que todos se identifiquen con lo que dices.
+
+Estas son las preguntas que puedes usar para entender a quién le vas a hablar:
+
+* ¿Cuándo es tu evento?
+* ¿En qué país y ciudad?
+* ¿Quién te interesa que vaya o qué temas debe cubrir?
+* ¿Cuántas personas a nivel presencial estarían en la charla del evento?
+* Cuéntame brevemente el tipo de perfil de la audiencia
+* ¿Cuál es el sitio web del evento?
+* ¿Es una charla o un taller técnico lo que esperan?
+* ¿Aparte de la charla esperan algún otro tipo de actividad con quien de la conferencia?
+
+En canales como YouTube y Facebook puedes acceder a tu panel de administración y obtener datos mucho más específicos sobre el tipo de personas que consumen tu contenido. Utiliza esto a tu favor para reforzar las relaciones con la audiencia a la que estás llegando y para intentar hacer cambios y llegar a otro tipo de público.
+
+Recomendación: Usa Google Trends, busca blogs locales, investiga como el evento vendió tu ponencia, empatíza con tu audiencia y siempre crearás una gran charla que nadie olvidará.
+
 ## Enlaces de Interés
 * https://platzi.com/clases/hablar-en-publico/
