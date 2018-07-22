@@ -50,7 +50,7 @@ Print Work Directory. Muestra el directorio donde me encuentro.
 
 ```bash
 $ pwd
-/home/toshio
+output: /home/toshio
 ```
 
 **Cambiar de directorio**
@@ -164,9 +164,41 @@ Imprime todo el contenido de un archivo en pantalla.
 * `-[número]` puedes agregarle un número con el - y pedir más que 10 líneas.
 * `-f:` muestra en tiempo real las ultimas lineas del archivo.
 
+**Ver ruta ejecutable de un comando**
 
-which [comando] //especifica donde se encuentra el ejecutable del comando
-alias ll='[comando]': crea un alias para un comando 
+`which [comando]` 
+
+Especifica donde se encuentra el ejecutable del comando
+
+```bash
+$ which ls
+output: /usr/bin/ls
+```
+
+**Alias para comandos**
+
+`alias [comando_alias]='[comando]'`
+
+Crea un alias para un comando definido. 
+
+```bash
+$ alias ll='ls -lh'
+```
+En este ejemplo se está creando el comando `ll` que ejecutará `ls -lh`. 
+
+Todo lo que se agregue después del alias se agrega automáticamente luego del comando.
+
+```bash
+$ ll -a
+$ ls -lh -a
+```
+
+En el ejemplo, los 2 comandos hacen lo mismo.
+
+Cada vez que abrimos la terminal se ejecuta un programa llamado `.bash_profile` que es una serie de comandos que da de alta unas variables.
+
+En el `.bash_profile` se guardan los alias.
+
 top: ver todos los procesos que están corriendo en la computadora
 kill -9 [proceso id]: matar un proceso
  &: espacio y amberson para dejar un proceso en background
