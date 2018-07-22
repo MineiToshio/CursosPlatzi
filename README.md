@@ -5,6 +5,7 @@ Guía de resumen de los cursos de Platzi
 
 ##### Fundamentos de Programación
 1. [Curso Profesional de Git y GitHub](Curso%20Profesional%20de%20Git%20y%20GitHub/README.md#curso-profesional-de-git-y-github)
+2. [Introducción a Terminal y Línea de Comandos](Introducción%20a%20Terminal%20y%20Línea%20de%20Comandos/README.md#introducción-a-terminal-y-línea-de-comandos)
 
 ##### Arquitectura Frontend
 1. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
