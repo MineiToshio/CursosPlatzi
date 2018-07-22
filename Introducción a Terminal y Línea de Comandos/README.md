@@ -430,35 +430,87 @@ Ejecuta script.sh
 
 **Nota**: al momento de editar la tabla de crontab, asegurarse que se vea ordenado las columnas.
 
-# Permisos
+## Permisos
 
+Podemos ver los permisos que tiene un archivo con `ls -l`.
+
+```
+$ ls -l
+drwxr-xr-x 1 Sergio 197609   0 Jul  9 16:43 'a.txt'
+```
+
+Los permisos se muestran en el primer bloque del resultado. En el ejemplo anterior sería `drwxr-xr-x`.
+
+Los permisos se pueden separar de la siguiente manera:
+
+```
 F/---/---/---
 -: dir/link/file
----: owner
----: group
----: enyone
+---: permisos del owner (yo)
+---: permisos del gropo
+---: permisos de todo el mundo
+```
 
-`r–` permiso de lectura
-`rw-` permiso de lectura y escritura
-`rwx` permiso de lectura, escritura y ejecución
+Tipos de permisos:
+* `r-–` permiso de lectura
+* `rw-` permiso de lectura y escritura
+* `rwx` permiso de lectura, escritura y ejecución
 
-Los permisos tiene valores numéricos: r = 4, w = 2, x = 1. Entonces para otorgar permisos debemos darle un número que sea la suma de cada una de estas tres letras.
+Los permisos tiene valores numéricos: 
+* r = 4
+* w = 2
+* x = 1
 
-r--: 4
-rw-: 6
-r-x: 5
+Para otorgar permisos debemos darle un número que sea la suma de cada una de estas tres letras:
+
+```
+---: 0
 --x: 1
+-r-: 2
 -wx: 3
+r--: 4
+r-x: 5
+rw-: 6
 rwx: 7
+````
 
+Para asignar los permisos se debe de dar el número tanto para el owner, el grupo y el público.
+```
 ---/---/---
-666: rw-rw-rw
-750: rwxr-x---
+666: rw-rw-rw-
+750: rwxr-x---`
+```
 
-Recuerda que cuando haces ls -l, cuando aparezca el listado, podrás ver al comienzo de cada línea cuáles son los permisos. En primer lugar aparecen los permisos del owner (tú), después los del grupo, y finalmente los de todo el mundo.
+**Cambiar permisos**
 
-chmod [numero] [archivo] //cambiar los permisos
-sudo //usar como super user
+`chmod [numero] [archivo]` 
 
+Permite cambiar los permisos a un archivo.
 
-\#! [ruta ejecutable] //vuelve un archivo como ejecutable
+```bash
+$ chmod 750 archivo.txt
+```
+
+**Ejecutar como super user**
+
+`sudo [script/comando]`
+
+Ejecuta un comando como super usuario.
+
+## Convertir archivos a ejecutable
+
+`#! [ruta del ejecutable]` 
+
+Vuelve un archivo como ejecutable, estamos especificando quién va a ejecutar el comando que sigue.
+
+`#!` necesariamente debe incluirse al inicio del archivo. En la primera línea. 
+
+```php
+#! /usr/local/bin/php
+<?php
+date_default_timezone_set("America/Bogota");
+printf("%s\n", data("Y-m-d H:i:s"));
+```
+En este caso, estamos indicando a `/usr/local/bin/php` que ejecute el comando que está en las líneas posteriores.
+
+De este modo cuando ejecutamos `ejemplo.php` se ejecuta automáticamente y ya no hay que indicar quién se va a encargar de su ejecución.
