@@ -246,12 +246,29 @@ Muestra la cantidad de procesos que se están ejecutando actualmente.
 * Cuántos usuarios se han logueado
 * La carga promedio
 
-du //disk usage
--h //human
--d [numero] //nivel de profundidad. cuantos niveles de carpeta baja
-ln -s [fikes/] [nombre] //crea acceso directi
--s //link simbolico. si se usa este parametro con rm solo se elimina el acceso directo.
-whoami //te dice cual es el usuario que esta operando
+**Uso del disco**
+
+`du` muestra la cantidad de espacio usado por los archivos en un directorio. 
+* `-h` muestra el output de una manera que se pueda leer mejor.
+* `-d [numero]` nivel de profundidad. Cuántos niveles baja de carpeta.
+
+**Links**
+
+`ln -s [ruta del directorio] [alias]` Crea un alias que apunta a un directorio.
+* `-s` link simbolico. Si se usa este parámetro con `rm` solo se elimina el acceso directo.
+
+```bash
+ls -s C:/carpeta alias_file 
+cd alias_file
+```
+
+La terminal está interpretando `cd C:/carpeta`.
+
+**Nombre de usuario**
+
+`whoami` 
+
+Te dice cual es el usuario que esta operando
 
 ## Streams
 
