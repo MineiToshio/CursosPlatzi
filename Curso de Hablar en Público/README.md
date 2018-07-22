@@ -39,3 +39,6 @@ Tu cerebro usa lados distintos cuando hablas en público y en privado.
 Cuando hablamos con una persona, el cerebro se enfoca en las relaciones públicas mientras que cuando hablamos en público es muy dificil ver las reacciones de las personas. 
 
 Cuando practiques no lo hagas tu solo o imagina que estás frente a una audiencia.
+
+## Enlaces de Interés
+* https://platzi.com/clases/hablar-en-publico/

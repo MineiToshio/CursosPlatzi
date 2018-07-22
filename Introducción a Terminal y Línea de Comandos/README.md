@@ -514,3 +514,6 @@ printf("%s\n", data("Y-m-d H:i:s"));
 En este caso, estamos indicando a `/usr/local/bin/php` que ejecute el comando que está en las líneas posteriores.
 
 De este modo cuando ejecutamos `ejemplo.php` se ejecuta automáticamente y ya no hay que indicar quién se va a encargar de su ejecución.
+
+## Enlaces de Interés
+* https://platzi.com/clases/terminal/

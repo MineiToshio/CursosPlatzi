@@ -67,3 +67,6 @@ Para que no es bueno
 * Bigdata.
 * Procesamiento intensivo de CPU.
 * Aplicaciones de Sistemas y para manejar componentes nativas.
+
+## Enlaces de Interés
+* https://platzi.com/clases/nodejs/
