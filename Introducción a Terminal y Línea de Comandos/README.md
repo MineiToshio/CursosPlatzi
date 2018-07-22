@@ -214,34 +214,45 @@ ln -s [fikes/] [nombre] //crea acceso directi
 -s //link simbolico. si se usa este parametro con rm solo se elimina el acceso directo.
 whoami //te dice cual es el usuario que esta operando
 
-Streams
-STDIN: parametro de entrada
-STDOUT: salida standar
-STDERR: salida de error
+## Streams
+
+Los streams son una forma de enviar datos a un comando y recibir un output de salida.
+
+* `STDIN` Standard Input. Parametro de entrada.
+* `STDOUT` Standard Output. Es la salida por defecto.
+* `STDERR` Standard Error. Es la salida en caso suceda un error.
+
+```php
 <?php 
 echo "número: ";
 $d = trim(fread(STDIN, 100));
 $i = 0;
 
 while(true) {
-    if(++$i % $d == 0) {
+  if(++$i % $d == 0) {
     fwrite(STDOUT, sprintf("El %d es múltiplo de %d.\n", $i, $d));
-    } else {
+  } else {
     fwrite(STDERR,
     sprintf("Error, El %d NO es múltiplo de %d \n", $i, $d));
-    }
-    sleep(1);
+  }
+  sleep(1);
 }
 ?>
+```
 
+```bash
 php 1-streams.php 1> salida 2>error
-//guarda la salida en un archivo salida y el error en un archivo error
-//si se usa >> en vez de >, entonces el archivo se concatena en vez de sobreescribirse
+```
+* Se guarda la salida en un archivo salida y el error en un archivo error
+* Si se usa `>>` en vez de `>`, entonces el archivo se concatena en vez de sobreescribirse
 
+```bash
 php 1-streams.php 1> salida 2>&1
-//el error y el output aparecen en el mismo archivo
+```
+El error y el output aparecen en el mismo archivo
 
-power tools
+## Power Tools
+
 grep -r [ruta] -e [expresion]: nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares.
 -r: que sea recursivo
 -n: numero de linea donde se encuentra la palabra en el archivo
