@@ -199,14 +199,53 @@ Cada vez que abrimos la terminal se ejecuta un programa llamado `.bash_profile` 
 
 En el `.bash_profile` se guardan los alias.
 
-top: ver todos los procesos que están corriendo en la computadora
-kill -9 [proceso id]: matar un proceso
- &: espacio y amberson para dejar un proceso en background
-; //con un punto y coma puedo separar procesos para que se ejecuten en una misma linea. El segundo proceso se ejecuta cuando termine el anterior.
-ps -wA //ver todos los procesos que se están ejecutando y desde donde vienen
-uptime //cuanto tiempo lleva prendida la computadora
-| wc -l //devolver solo la cantidad de lineas
-> //manda el output a un archivo
+**Ver los procesos que están corriendo**
+
+`top`
+
+Ver todos los procesos que están corriendo en la computadora de manera interactiva. Es decir, la lista de procesos se va actualizando.
+
+`ps -wA` 
+
+Muestra todos los procesos que se están ejecutando y desde donde vienen. Este comando no es interactivo.
+
+**Matar procesos**
+
+`kill -9 [proceso id]`
+
+Mata un proceso.
+
+**Ejecutar en 2do plano (background)**
+
+` &` espacio y amberson para dejar un proceso en background. Esto quiere decir que el usuario va a seguir teniendo el control de la terminal.
+
+```bash
+$ npm start &
+output: [1] 23954 (Id del proceso)
+```
+
+**Ejecutar varios procesos**
+
+`;` con un punto y coma puedo separar procesos para que se ejecuten en una misma linea. El segundo proceso se ejecuta cuando termine el anterior.
+
+```bash
+$ ls; echo "hola"
+```
+
+**Mostrar cantidad de procesos**
+
+`ps -wA | wc -l`
+
+Muestra la cantidad de procesos que se están ejecutando actualmente.
+
+**Tiempo de prendida de la computadora**
+
+`uptime` 
+
+* Muestra cuánto tiempo lleva prendida la computadora
+* Cuántos usuarios se han logueado
+* La carga promedio
+
 du //disk usage
 -h //human
 -d [numero] //nivel de profundidad. cuantos niveles de carpeta baja
@@ -241,13 +280,14 @@ while(true) {
 ```
 
 ```bash
-php 1-streams.php 1> salida 2>error
+php 1-streams.php 1> salida.log 2> error.log
 ```
+* `>` manda el output a un archivo
 * Se guarda la salida en un archivo salida y el error en un archivo error
 * Si se usa `>>` en vez de `>`, entonces el archivo se concatena en vez de sobreescribirse
 
 ```bash
-php 1-streams.php 1> salida 2>&1
+php 1-streams.php 1> salida.log 2>&1
 ```
 El error y el output aparecen en el mismo archivo
 
@@ -274,10 +314,12 @@ tar: es un comando similar a zip, junta varios archivos en uno solo sin comprimi
 cfz [archivo.tar.gz]: junta y comprime 
 xfz [archivo .tar.gz]: descomprime
 
-Pipe //Sirve para encadenar el standard output de un comando con el standard input de otro comando
-| wc -l //cantidad de lineas
-| grep [patron] //devuelve las lineas que cumplen 
-| more //muestra la lista por paginas
+## Pipe
+
+Sirve para encadenar el standard output de un comando con el standard input de otro comando.
+* `| wc -l` cantidad de lineas
+* `| grep [patrón]` devuelve las lineas que cumplen.
+* `| more` muestra la lista por paginas.
 
 crontab //programa la ejecucion de scripts
 -l //muestra la lista de crontab
