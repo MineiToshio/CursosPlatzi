@@ -310,26 +310,54 @@ El error y el output aparecen en el mismo archivo
 
 ## Power Tools
 
-grep -r [ruta] -e [expresion]: nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares.
--r: que sea recursivo
--n: numero de linea donde se encuentra la palabra en el archivo
--e: expresion regular
--i: no importa si es mayuscula o minuscula
-find [ruta] -name [nombre]: busca en base al nombre y la metadata, dentro del directorio que le digamos.
--name: el nombre del archivo (*.js devuelve todos los archivos que terminan con .js)
--type: el tipo
-date: fecha actual
-time: tiempo del procesador
-date; [proceso]; date //ver cuanto se demora en ejecutar un proceso
-curl: emula un navegador. No es un browser como tal, hay uno para terminal pero este solo emula los requests (peticiones) y los trae.
-> [nombre]: descarga el archivo con el nombre que le has dado.
--o: igual que el anterior
-zip [nombre.zip] [archivo a comprimir]: agrega o reemplaza las entradas de un archivo zip de la lista, que puede incluir el nombre especial para comprimir la entrada.
-upzip [archivo]: descomprime un .zip
--vl: no descomprime sino que ve lo que hay adentro
-tar: es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Después se le dicta un algoritmo de compresión, que es zip.
-cfz [archivo.tar.gz]: junta y comprime 
-xfz [archivo .tar.gz]: descomprime
+**Buscar cadenas de caracteres**
+
+`grep -r [ruta] -e [expresion]` nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares.
+* -r: que sea recursivo
+* -n: numero de linea donde se encuentra la palabra en el archivo
+* -e: expresion regular
+* -i: no importa si es mayuscula o minuscula
+
+**Buscar archivos**
+
+`find [ruta] -name [nombre]` busca en base al nombre y la metadata dentro del directorio que le digamos.
+* -name: el nombre del archivo (*.js devuelve todos los archivos que terminan con .js)
+* -type: el tipo
+
+**Fecha actual**
+
+`date`
+
+Muestra la fecha actual.
+
+**Tiempo del procesador**
+
+`time` 
+
+Muestra tiempo del procesador
+
+**Tiempo de ejecución de un proceso**
+
+`date; [proceso]; date` 
+
+Con este comando se puede evaluar cuánto se demora en ejecutar un proceso
+
+**Emular un navegador**
+
+`curl [url]` emula un navegador.
+* `> [nombre]` descarga el archivo con el nombre que le has dado.
+* `-o [nombre]` igual que el anterior
+
+**Comprimir archivos**
+
+`zip [nombre.zip] [archivo a comprimir]`: agrega o reemplaza las entradas de un archivo zip de la lista, que puede incluir el nombre especial para comprimir la entrada.
+
+`upzip [archivo]` descomprime un .zip
+* `-vl` no descomprime sino que ve lo que hay adentro
+
+`tar` es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Después se le dicta un algoritmo de compresión, que es zip.
+* `cfz [archivo.tar.gz]` junta y comprime 
+* `xfz [archivo .tar.gz]` descomprime
 
 ## Pipe
 
