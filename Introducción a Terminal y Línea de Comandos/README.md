@@ -317,6 +317,7 @@ El error y el output aparecen en el mismo archivo
 * -n: numero de linea donde se encuentra la palabra en el archivo
 * -e: expresion regular
 * -i: no importa si es mayuscula o minuscula
+* -v: muestra solo los resultados que no cumplen con el patrón.
 
 **Buscar archivos**
 
@@ -361,14 +362,33 @@ Con este comando se puede evaluar cuánto se demora en ejecutar un proceso
 
 ## Pipe
 
-Sirve para encadenar el standard output de un comando con el standard input de otro comando.
-* `| wc -l` cantidad de lineas
-* `| grep [patrón]` devuelve las lineas que cumplen.
-* `| more` muestra la lista por paginas.
+Sirve para encadenar el standard output de un comando con el standard input de otro comando. Pa esto se usa `|`.
 
-crontab //programa la ejecucion de scripts
--l //muestra la lista de crontab
--e //editar el crontab. con esto se pueden agregar más scripts
+* `| wc -l` muestra cantidad de lineas del output.
+```bash
+$ ls -l | wc -l
+```
+* `| grep [patrón]` devuelve las lineas que cumplen con el patrón.
+```bash
+$ cat peliculas.csv | grep Thriller
+```
+* `| more` muestra la lista de resultados por paginas.
+```bash
+$ cat peliculas.csv | more
+```
+
+## Crontab
+
+`crontab` permite programar la ejecución de scripts.
+* `-l` muestra la lista de crontab
+* `-e` editar la tabla crontab. Con esto se pueden agregar más scripts
+
+```bash
+0   16  *   *   *    $Home/src/cronjobs/daily.sh
+0   *   *   *   *    $Home/src/cronjobs/hourly.sh
+*   *   *   *   *    $Home/src/cronjobs/minutely.sh
+```
+
 Columnas:
 - minuto 0-59
 - hora 0-23
@@ -377,17 +397,40 @@ Columnas:
 - dia semana: 0-7 (0 y 7 domingo)
 - script/comando
 
-Ejemplo 1 col (min)
-1
-1,10,18
-*/5
-1-10
-*
+**Ejemplo 1 para la columna minuto**
+`1` Se ejecuta en el minuto 1
+`1,10,18` Se ejecuta en el minuto 1, 10 y 18
+`*/5` Se ejecuta cada 5 minutos
+`1-10` Se ejecuta los primeros 10 minutos de cada hora
+`*` Se ejecuta cada minuto
 
+**Ejemplo 2**
+```bash
 */15 4 * * * script.sh
-0 3 * * 1 scr
+```
 
-Permisos
+Ejecuta script.sh 
+* todos los días de la semana
+* todos los meses
+* todos los días del mes
+* a las 4 am
+* cada 15 minutos
+
+**Ejemplo 3**
+```bash
+0 3 * * 1 script.sh
+```
+
+Ejecuta script.sh 
+* solo si es lunes
+* todos los meses
+* todos los días del mes
+* a las 3 am
+* en el minuto cero
+
+**Nota**: al momento de editar la tabla de crontab, asegurarse que se vea ordenado las columnas.
+
+# Permisos
 
 F/---/---/---
 -: dir/link/file
@@ -395,9 +438,9 @@ F/---/---/---
 ---: group
 ---: enyone
 
-r–: permiso de lectura
-rw-: permiso de lectura y escritura
-rwx: permiso de lectura, escritura y ejecución
+`r–` permiso de lectura
+`rw-` permiso de lectura y escritura
+`rwx` permiso de lectura, escritura y ejecución
 
 Los permisos tiene valores numéricos: r = 4, w = 2, x = 1. Entonces para otorgar permisos debemos darle un número que sea la suma de cada una de estas tres letras.
 
