@@ -22,11 +22,13 @@
 
 ## Introducción 
 
-`NoSql` es un conjunto de bases de datos que tienen un propósito específico. Lo que significa que cada motor de base de datos soluciona un problema en especial. Por ejemplo:
+**NoSql** (Not only SQL) es un conjunto de bases de datos que tienen un propósito específico. Lo que significa que cada motor de base de datos soluciona un problema en especial. Por ejemplo:
 * `MongoDB` resuelve un problema de escalabilidad.
 * `Redis` nos resuelve el problema de guardar información con llave - valor.
 
-NoSQL; Not only SQL
+![nosql databases](img/no-sql-dbs.gif)
+
+Las **bases de datos relacionales** no fueron diseñadas para hacer frente a los desafíos de escala y agilidad que enfrentan las aplicaciones modernas, ni tampoco fueron construidas para aprovechar el poder de almacenamiento y procesamiento de productos disponibles en la actualidad.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
