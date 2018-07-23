@@ -61,6 +61,10 @@ Todos los comandos se pueden buscar con el comando `man`.
 * `Ahorras memoria` puesto que no hay una interfaz gráfica
 * `Ahorras tiempo` pues hace más sentillo el trabajo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Comandos
 
 Los comandos, en su mayor parte, no son realmente más que pequeños programas incorporados en el sistema operativo.
@@ -78,6 +82,10 @@ Los `flags` (o banderas) sirven para decirle al comando cómo queremos que reali
 * El doble punto `..` es el directorio padre.
 * El sombrerito de eñe `~` sirve para ir a mi carpeta personal (home).
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Lista de comandos
 
 ### Listar
@@ -90,6 +98,10 @@ Los `flags` (o banderas) sirven para decirle al comando cómo queremos que reali
 `ls usr/bin` ver los binarios ejecutables tengo por el sistema
 `ls usr/bin | wc -l` ver la cantidad de ejecutables (comandos)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ver directorio actual
 
 `pwd` 
@@ -101,6 +113,10 @@ $ pwd
 output: /home/toshio
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Cambiar de directorio
 
 `cd [ruta]`
@@ -110,11 +126,19 @@ Change Directory. Sirve para moverse entre directorios.
 `cd ..` retrocede un directorio.
 `cd ~` se mueve al home.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Crear una carpeta
 
 `mkdir [directorio]` 
 
 Make Directory. Crea un directorio.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Crear archivos
 
@@ -123,6 +147,10 @@ Make Directory. Crea un directorio.
 * Si existe le cambia la fecha de modificación.
 
 `touch {1, 2, 3}.txt` permite crear varios archivos
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Mover un archivo
 
@@ -134,6 +162,10 @@ Mueve un archivo a una ruta destino.
 $ mv archivo.txt C:/
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Cambiar de nombre a un archivo
 
 `mv [archivo] [nuevo nombre]`
@@ -144,14 +176,22 @@ Este comando también se usa para renombrar un archivo.
 $ mv archivo.txt nuevo.txt
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Eliminar archivos
 
 `rm [archivo]` elimina archivos o links. No funciona para eliminar un directorio.
 `rm -rf [directorio]` elimina un directorio/carpeta recursivamente.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ayuda
 
-`man` 
+`man [comando]` 
 
 Es el manual de la terminal, puedes utilizarlo para entender qué hace un comando y sus banderas. Con espacio pasas una página, - con b te regresas una página y con q sales del manual.
 
@@ -161,6 +201,10 @@ Es equivalente a --help
 $ man cd
 $ cd --help
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Copiar
 
@@ -172,6 +216,10 @@ Copia un archivo a otro directorio.
 $ cp archivo.txt C:/
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Navegar entre 2 directorios
 
 pushd y popd: te permiten navegar entre dos directorios fácilmente.
@@ -181,11 +229,19 @@ pushd y popd: te permiten navegar entre dos directorios fácilmente.
 
 Si no se especifica la ruta de `pushd`, se guarda el directorio actual.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Abrir un archivo
 
 `open [archivo]`
 
 Abre el archivo especificado.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Ver las primeras líneas de un archivo
 
@@ -200,17 +256,29 @@ Te da las primeras líneas de lo que hay en el archivo.
 
 En algunas distribuciones ya no se usa more sino less.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Imprimir todo el contenido de un archivo
 
 `cat [archivo]`
 
 Imprime todo el contenido de un archivo en pantalla.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ver las últimas líneas de un archivo
 
 `tail [archivo]` te muestra las últimas 10 líneas de un archivo. 
 * `-[número]` puedes agregarle un número con el - y pedir más que 10 líneas.
 * `-f:` muestra en tiempo real las ultimas lineas del archivo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Ver ruta ejecutable de un comando
 
@@ -222,6 +290,10 @@ Especifica donde se encuentra el ejecutable del comando
 $ which ls
 output: /usr/bin/ls
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Alias para comandos
 
@@ -247,6 +319,10 @@ Cada vez que abrimos la terminal se ejecuta un programa llamado `.bash_profile` 
 
 En el `.bash_profile` se guardan los alias.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ver los procesos que están corriendo
 
 `top`
@@ -257,11 +333,19 @@ Ver todos los procesos que están corriendo en la computadora de manera interact
 
 Muestra todos los procesos que se están ejecutando y desde donde vienen. Este comando no es interactivo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Matar procesos
 
 `kill -9 [proceso id]`
 
 Mata un proceso.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Ejecutar en 2do plano (background)
 
@@ -272,6 +356,10 @@ $ npm start &
 output: [1] 23954 (Id del proceso)
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ejecutar varios procesos
 
 `;` con un punto y coma puedo separar procesos para que se ejecuten en una misma linea. El segundo proceso se ejecuta cuando termine el anterior.
@@ -280,11 +368,19 @@ output: [1] 23954 (Id del proceso)
 $ ls; echo "hola"
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Mostrar cantidad de procesos
 
 `ps -wA | wc -l`
 
 Muestra la cantidad de procesos que se están ejecutando actualmente.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tiempo de prendida de la computadora
 
@@ -294,11 +390,19 @@ Muestra la cantidad de procesos que se están ejecutando actualmente.
 * Cuántos usuarios se han logueado
 * La carga promedio
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Uso del disco
 
 `du` muestra la cantidad de espacio usado por los archivos en un directorio. 
 * `-h` muestra el output de una manera que se pueda leer mejor.
 * `-d [numero]` nivel de profundidad. Cuántos niveles baja de carpeta.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Links
 
@@ -312,11 +416,19 @@ cd alias_file
 
 La terminal está interpretando `cd C:/carpeta`.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Nombre de usuario
 
 `whoami` 
 
 Te dice cual es el usuario que esta operando
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Streams
 
@@ -356,6 +468,10 @@ php 1-streams.php 1> salida.log 2>&1
 ```
 El error y el output aparecen en el mismo archivo
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Power Tools
 
 ### Buscar cadenas de caracteres
@@ -367,11 +483,19 @@ El error y el output aparecen en el mismo archivo
 * -i: no importa si es mayuscula o minuscula
 * -v: muestra solo los resultados que no cumplen con el patrón.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Buscar archivos
 
 `find [ruta] -name [nombre]` busca en base al nombre y la metadata dentro del directorio que le digamos.
 * -name: el nombre del archivo (*.js devuelve todos los archivos que terminan con .js)
 * -type: el tipo
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Fecha actual
 
@@ -379,11 +503,19 @@ El error y el output aparecen en el mismo archivo
 
 Muestra la fecha actual.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Tiempo del procesador
 
 `time` 
 
 Muestra tiempo del procesador
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tiempo de ejecución de un proceso
 
@@ -391,11 +523,19 @@ Muestra tiempo del procesador
 
 Con este comando se puede evaluar cuánto se demora en ejecutar un proceso
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Emular un navegador
 
 `curl [url]` emula un navegador.
 * `> [nombre]` descarga el archivo con el nombre que le has dado.
 * `-o [nombre]` igual que el anterior
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Comprimir archivos
 
@@ -407,6 +547,10 @@ Con este comando se puede evaluar cuánto se demora en ejecutar un proceso
 `tar` es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Después se le dicta un algoritmo de compresión, que es zip.
 * `cfz [archivo.tar.gz]` junta y comprime 
 * `xfz [archivo .tar.gz]` descomprime
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Pipe
 
@@ -424,6 +568,10 @@ $ cat peliculas.csv | grep Thriller
 ```bash
 $ cat peliculas.csv | more
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Crontab
 
@@ -477,6 +625,10 @@ Ejecuta script.sh:
 * en el minuto cero
 
 **Nota**: al momento de editar la tabla de crontab, asegurarse que se vea ordenado las columnas.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Permisos
 
@@ -539,11 +691,19 @@ Permite cambiar los permisos a un archivo.
 $ chmod 750 archivo.txt
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ejecutar como super user
 
 `sudo [script/comando]`
 
 Ejecuta un comando como super usuario.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Convertir archivos a ejecutable
 
@@ -563,5 +723,13 @@ En este caso, estamos indicando a `/usr/local/bin/php` que ejecute el comando qu
 
 De este modo cuando ejecutamos `ejemplo.php` se ejecuta automáticamente y ya no hay que indicar quién se va a encargar de su ejecución.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * https://platzi.com/clases/terminal/
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
