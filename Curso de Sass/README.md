@@ -33,7 +33,7 @@ Cuando trabajamos con preprocesadores se tiene que compilar el código para tran
 los archivos de sass tienen las extensión `.scss`.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido-">🡡 volver al inicio</a></small>
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ## Estructura de CSS

@@ -1,6 +1,6 @@
 # Curso de jQuery a JavaScript <!-- omit in toc -->
 
-## Tabla de Contenido <!-- omit in toc -->
+## Tabla de Contenido<!-- omit in toc -->
 - [Introducción](#introducción)
 - [Problema](#problema)
 - [Ventajas de usar JavaScript](#ventajas-de-usar-javascript)
