@@ -1,4 +1,4 @@
-# Curso de Sass <!-- omit in toc -->
+# Curso de Sass<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Diferencias entre Sass, Stylus y Less](#diferencias-entre-sass-stylus-y-less)

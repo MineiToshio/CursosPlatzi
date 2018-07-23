@@ -1,4 +1,4 @@
-# Curso Profesional de Git y GitHub <!-- omit in toc -->
+# Curso Profesional de Git y GitHub<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Sistema de control de versiones](#sistema-de-control-de-versiones)

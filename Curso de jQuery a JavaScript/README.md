@@ -1,4 +1,4 @@
-# Curso de jQuery a JavaScript <!-- omit in toc -->
+# Curso de jQuery a JavaScript<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Introducción](#introducción)

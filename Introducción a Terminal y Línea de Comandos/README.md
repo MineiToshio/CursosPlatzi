@@ -1,4 +1,4 @@
-# Introducción a Terminal y Línea de Comandos <!-- omit in toc -->
+# Introducción a Terminal y Línea de Comandos<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Introducción](#introducción)
