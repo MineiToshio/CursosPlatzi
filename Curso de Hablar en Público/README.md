@@ -155,45 +155,45 @@ Los buenos mensajes van en grupos de a tres. Cuando hablas en grupos de tres la 
 
 ### Qué no hacer
 
-No utilices fondo nego y texto blanco. Esto es un problema porque los proyectores no siempre están bien calibrados, entonces es imposible de leer.
+**1.** No utilices fondo negro y texto blanco. Esto es un problema porque los proyectores no siempre están bien calibrados, entonces es imposible de leer.
 
-  ![Slide: Fondo Negro](img/slide-fondo-negro.png)
+![Slide: Fondo Negro](img/slide-fondo-negro.png)
 
-Evita utilizar más de una tipografía.
+**2.** Evita utilizar más de una tipografía.
 
-  ![Slide: ](img/slide-mucha-tipografia.png)
+![Slide: ](img/slide-mucha-tipografia.png)
 
-* Las listas o bullet points son un error. Recuerda dejar un solo mensaje por slide.
+**3.** Las listas o bullet points son un error. Recuerda dejar un solo mensaje por slide.
 
-  ![Slide: ](img/slide-muchos-bullets.png)
+![Slide: ](img/slide-muchos-bullets.png)
 
-* Utiliza los logos más actualizados de las empresas a las que te vas a referir.
+**4.** Utiliza los logos más actualizados de las empresas a las que te vas a referir.
 
-  ![Slide: ](img/slide-logo-pasado.png)
+![Slide: ](img/slide-logo-pasado.png)
 
-* No coloques fotos pixeladas o de baja calidad. Busca una foto de alta definición.
+**5.** No coloques fotos pixeladas o de baja calidad. Busca una foto de alta definición.
 
-  ![Slide: ](img/slide-foto-pixeleada.png)
+![Slide: ](img/slide-foto-pixeleada.png)
 
-* El espacio no es limitado. Tu texto no debe ser pequeño.
+**6.** El espacio no es limitado. Tu texto no debe ser pequeño.
 
-  ![Slide: ](img/slide-texto-chiquito.png)
+![Slide: ](img/slide-texto-chiquito.png)
 
-* No utilices gifs ni memes. Si tu conferencia es profesional evita esto para darle seriedad a tu mensaje.
+**7.** No utilices gifs ni memes. Si tu conferencia es profesional evita esto para darle seriedad a tu mensaje.
 
-  ![Slide: ](img/slide-meme.png)
+![Slide: ](img/slide-meme.png)
 
-* Revisa la tipografía que vas a usar, en general Times New Roman no funciona para presentaciones.
+**8.** Revisa la tipografía que vas a usar, en general Times New Roman no funciona para presentaciones.
 
-  ![Slide: ](img/slide-times-new-roman.png)
+![Slide: ](img/slide-times-new-roman.png)
 
-* Evita las fotos de bancos de imágenes, sobre todo si tienen las marcas de agua. Busca imágenes representativas de tu región o de tu audiencia.
+**9.** Evita las fotos de bancos de imágenes, sobre todo si tienen las marcas de agua. Busca imágenes representativas de tu región o de tu audiencia.
 
-  ![Slide: ](img/slide-foto-stock.png)
+![Slide: ](img/slide-foto-stock.png)
 
-* No des las gracias, no hace falta.
+**10.** No des las gracias, no hace falta.
 
-  ![Slide: ](img/slide-gracias.png)
+![Slide: ](img/slide-gracias.png)
 
 ## Enlaces de Interés
 * https://platzi.com/clases/hablar-en-publico/
