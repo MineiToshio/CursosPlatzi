@@ -3,19 +3,19 @@ Guía de resumen de los cursos de Platzi
 
 ## Tabla de Contenido
 
-##### Fundamentos de Programación
+### Fundamentos de Programación
 1. [Curso Profesional de Git y GitHub](Curso%20Profesional%20de%20Git%20y%20GitHub/README.md#curso-profesional-de-git-y-github)
 2. [Introducción a Terminal y Línea de Comandos](Introducción%20a%20Terminal%20y%20Línea%20de%20Comandos/README.md#introducción-a-terminal-y-línea-de-comandos)
 
-##### Arquitectura Frontend
+### Arquitectura Frontend
 1. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
 
-##### Desarrollo con Javascript
+### Desarrollo con Javascript
 1. [Curso Avanzado de Node.js](Curso%20Avanzado%20de%20Node.js/README.md#curso-avanzado-de-nodejs)
 2. [Curso de jQuery a JavaScript](Curso%20de%20jQuery%20a%20JavaScript/README.md#curso-de-jquery-a-javascript)
 
-##### Desarrollo con React
+### Desarrollo con React
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
 
-#### Base de Datos
+### Base de Datos
 1. [Curso de MongoDB y Redis](Curso%20de%20MongoDB%20y%20Redis/README.md#curso-de-mongodb-y-redis)
