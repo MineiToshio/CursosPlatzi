@@ -1,24 +1,24 @@
-# Curso de MongoDB y Redis
+# Curso de MongoDB y Redis <!-- omit in toc -->
 
-## Tabla de Contenido
-* [Introducción](#introducción)
-* [Implementaciones de NoSQL](#implementaciones-de-nosql)
-* [Ventajas](#ventajas)
-* [Desventajas](#desventajas)
-* [Diferencias entre SQL y NoSQL](#diferencias-entre-sql-y-nosql)
-* [MongoBD](#mongobd)
-  + [Representación de la información en SQL vs MongoDB](#representación-de-la-información-en-sql-vs-mongodb)
-  + [Modelado de datos](#modelado-de-datos)
-  + [Comandos](#comandos)
-  + [Funciones de inserción](#funciones-de-inserción)
-  + [Funciones de búsqueda](#funciones-de-búsqueda)
-  + [Funciones de actualización](#funciones-de-actualización)
-  + [Funciones de eliminación](#funciones-de-eliminación)
-* [Redis](#redis)
-  + [Utilidades](#utilidades)
-  + [Instalación](#instalación)
-  + [Ejecución de código](#ejecución-de-código)
-* [Enlaces de Interés](#enlaces-de-interés)
+## Tabla de Contenido<!-- omit in toc -->
+- [Introducción](#introducción)
+- [Implementaciones de NoSQL](#implementaciones-de-nosql)
+- [Ventajas](#ventajas)
+- [Desventajas](#desventajas)
+- [Diferencias entre SQL y NoSQL](#diferencias-entre-sql-y-nosql)
+- [MongoBD](#mongobd)
+  - [Representación de la información en SQL vs MongoDB](#representación-de-la-información-en-sql-vs-mongodb)
+  - [Modelado de datos](#modelado-de-datos)
+  - [Comandos](#comandos)
+  - [Funciones de inserción](#funciones-de-inserción)
+  - [Funciones de búsqueda](#funciones-de-búsqueda)
+  - [Funciones de actualización](#funciones-de-actualización)
+  - [Funciones de eliminación](#funciones-de-eliminación)
+- [Redis](#redis)
+  - [Utilidades](#utilidades)
+  - [Instalación](#instalación)
+  - [Ejecución de código](#ejecución-de-código)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción 
 
