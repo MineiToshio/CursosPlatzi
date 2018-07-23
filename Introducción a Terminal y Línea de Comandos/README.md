@@ -4,6 +4,8 @@
 - [Introducción](#introducción)
 - [Comandos](#comandos)
 - [Lista de comandos](#lista-de-comandos)
+  - [Listar](#listar)
+  - [Ver directorio actual](#ver-directorio-actual)
 - [Streams](#streams)
 - [Power Tools](#power-tools)
 - [Pipe](#pipe)
@@ -46,7 +48,7 @@ Los `flags` (o banderas) sirven para decirle al comando cómo queremos que reali
 
 ## Lista de comandos
 
-**Listar**
+### Listar
 
 `ls` lista las capetas y archivos que hay
 * `-l` lista las capetas y archivos con su información básica
@@ -56,7 +58,7 @@ Los `flags` (o banderas) sirven para decirle al comando cómo queremos que reali
 `ls usr/bin` ver los binarios ejecutables tengo por el sistema
 `ls usr/bin | wc -l` ver la cantidad de ejecutables (comandos)
 
-**Ver directorio actual**
+### Ver directorio actual
 
 `pwd` 
 
