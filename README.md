@@ -16,3 +16,6 @@ Guía de resumen de los cursos de Platzi
 
 ##### Desarrollo con React
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
+
+#### Base de Datos
+1. [Curso de MongoDB y Redis](Curso%20de%20MongoDB%20y%20Redis/README.md#curso-de-mongodb-y-redis)
