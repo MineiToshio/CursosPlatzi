@@ -438,12 +438,12 @@ $ cat peliculas.csv | more
 ```
 
 Columnas:
-- minuto 0-59
-- hora 0-23
-- dia mes 1-31
-- mes 1-12
-- dia semana: 0-7 (0 y 7 domingo)
-- script/comando
+* minuto 0-59
+* hora 0-23
+* dia mes 1-31
+* mes 1-12
+* dia semana: 0-7 (0 y 7 domingo)
+* script/comando
 
 **Ejemplo 1 para la columna minuto**
 `1` Se ejecuta en el minuto 1
@@ -457,7 +457,7 @@ Columnas:
 */15 4 * * * script.sh
 ```
 
-Ejecuta script.sh 
+Ejecuta script.sh:
 * todos los días de la semana
 * todos los meses
 * todos los días del mes
@@ -469,7 +469,7 @@ Ejecuta script.sh
 0 3 * * 1 script.sh
 ```
 
-Ejecuta script.sh 
+Ejecuta script.sh:
 * solo si es lunes
 * todos los meses
 * todos los días del mes
