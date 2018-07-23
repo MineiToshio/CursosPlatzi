@@ -1,8 +1,33 @@
-# Curso Profesional de Git y GitHub
+# Curso Profesional de Git y GitHub <!-- omit in toc -->
+
+## Tabla de Contenido<!-- omit in toc -->
+- [Sistema de control de versiones](#sistema-de-control-de-versiones)
+  - [Tipos de sistemas de control](#tipos-de-sistemas-de-control)
+- [Beneficios de Git](#beneficios-de-git)
+- [Fundamentos de Git](#fundamentos-de-git)
+- [Los 3 estados de Git](#los-3-estados-de-git)
+- [Github](#github)
+- [Configurar Git](#configurar-git)
+- [Comandos de terminal](#comandos-de-terminal)
+- [Comandos Git](#comandos-git)
+  - [Flujos de Trabajo](#flujos-de-trabajo)
+  - [Múltiples entornos de trabajo](#múltiples-entornos-de-trabajo)
+- [Repositorios Remotos (Github)](#repositorios-remotos-github)
+- [Configuraciones de Github](#configuraciones-de-github)
+  - [Notificaciones](#notificaciones)
+  - [Proteger un branch](#proteger-un-branch)
+  - [Plantillas](#plantillas)
+- [Ignorar archivos](#ignorar-archivos)
+- [Recursos complementarios](#recursos-complementarios)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## Sistema de control de versiones
 
 Un sistema que registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo. Este tipo de sistemas nos permiten volver en el tiempo y salvar nuestro trabajo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tipos de sistemas de control
 
@@ -22,13 +47,21 @@ Git es un Sistema de Control de Versiones Distribuido.
 
 Git fue creado por Linus Torvals
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Beneficios de Git
 
-* `Velocidad` Puedes trabajar fluidamente desde tu computador
-* `Diseño sencillo` El codigo es robusto con las herramientas necesarias, como viajar en el tiempo
-* `Fuerte apoyo en el desarrollo no lineal` No trabaja de manera lineal, la linea del tiempo tiene bifurcaciones de manera independiente al proyecto principal
+* `Velocidad` Puedes trabajar fluidamente desde tu computador.
+* `Diseño sencillo` El codigo es robusto con las herramientas necesarias, como viajar en el tiempo.
+* `Fuerte apoyo en el desarrollo no lineal` No trabaja de manera lineal, la linea del tiempo tiene bifurcaciones de manera independiente al proyecto principal.
 * `Completamente distribuido` Cada quien puede tener una copia del proyecto.
-* `Capaz de manejar grandes proyectos` Linux, Django, Laravel, etc. Usan git
+* `Capaz de manejar grandes proyectos` Linux, Django, Laravel, etc. Usan git.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Fundamentos de Git
 
@@ -42,6 +75,10 @@ Almacenamiento de archivos en GIT
 ![Almacenamiento de archivos en subversion](img/checkins-over-time-subversion.png)
 Almacenamiento de archivos en subversion
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Los 3 estados de Git
 
 * `Working Directory` Es donde trabajamos de manera local, pero para guardarlo hay que pasarlo al Staging Area
@@ -50,11 +87,19 @@ Almacenamiento de archivos en subversion
 
 ![estados de Git](img/estados-git.png)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Github
 
 `GitHub` es una plataforma en la que se almacenan los cambios de un proyecto. Además es una plataforma que funciona como una red social. Aquí, las personas que visiten tu sitio puedan darle estrellitas a los proyectos que hayas desarrollado.
 
 `Git` es el software que ayuda con el versionado y Github es la red social que nos va a ayudar a distribuir el software.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Configurar Git
 
@@ -83,6 +128,10 @@ Ver la lista de configuraciones
 git config --list
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Comandos de terminal
 
 * `cd [carpeta]` moverse entre carpeta.
@@ -96,7 +145,13 @@ git config --list
 * `vim [nombre]` editar un archivo de texto.
 * `:wq` guaradar y salirdel archivo de texto.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Comandos Git
+
+### Flujos de Trabajo
 
 * `git init [nombre]` inicia un repositorio y crea la carpeta [nombre].
 * `git status` muestra el estado de los archivos en el repositorio.
@@ -127,7 +182,11 @@ git config --list
 
 Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .git
 
-## Comandos para múltiples entornos de trabajo 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+### Múltiples entornos de trabajo 
 
 * `git branch [nombre]` crear la rama [nombre]
 * `git branch -l` lista las ramas
@@ -146,7 +205,11 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * `git stash apply stash@{numero}` aplica el stash
 * `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual
 
-## Comandos para repositorios remotos (Github)
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Repositorios Remotos (Github)
 
 * `git clone [ruta]` trae el repositorio a la computadora
 * `fork` hace una copia de un repositorio externo a nuestra cuenta
@@ -161,13 +224,21 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
   * `--tags` enviar los tags
 * `git push --all origin` push a todos los branch y tags
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Configuraciones de Github
 
-**Notificaciones**
+### Notificaciones
 
-para recibir notificaciones cuando un repositorio cambia, se puede hacer click al botón `watch`.
+Para recibir notificaciones cuando un repositorio cambia, se puede hacer click al botón `watch`.
 
-**Proteger un branch**
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+### Proteger un branch
 
 Agregar protección al master de tal manera que sea necesario hacer in pull request para hacer un cambio.
 ```
@@ -180,12 +251,20 @@ Settings
 ------Require pull request reviews before merging
 ```
 
-**Plantillas**
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+### Plantillas
 
 Es una buena práctica generar archivos de plantilla para que los usuarios o desarrolladores puedan notificar un issue o pullrequest. 
 
 * `issue_template.md` template para un issue
 * `pull_request_template.md` template para el pull request
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Ignorar archivos
 
@@ -194,6 +273,23 @@ Para ignorar archivos o carpetas de los commits se crea un archivo que se llame 
 Página que crear .gitignore para los proyectos:
 https://www.gitignore.io/
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Recursos complementarios
+* [Diapositivas del Curso](docs/GIT-intro.pdf)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * https://platzi.com/clases/git-github/
 * https://git-scm.com/book/es/v2
+* https://www.gitignore.io/
+* https://github.com/
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
