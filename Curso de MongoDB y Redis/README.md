@@ -1,6 +1,6 @@
 # Curso de MongoDB y Redis
 
-##Tabla de Contenido
+## Tabla de Contenido
 * [Introducción](#introducción)
 * [Implementaciones de NoSQL](#implementaciones-de-nosql)
 * [Ventajas](#ventajas)
