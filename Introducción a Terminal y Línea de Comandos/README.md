@@ -1,4 +1,18 @@
-# Introducción a Terminal y Línea de Comandos
+# Introducción a Terminal y Línea de Comandos <!-- omit in toc -->
+
+## Tabla de Contenido<!-- omit in toc -->
+- [Introducción](#introducción)
+- [Comandos](#comandos)
+- [Lista de comandos](#lista-de-comandos)
+- [Streams](#streams)
+- [Power Tools](#power-tools)
+- [Pipe](#pipe)
+- [Crontab](#crontab)
+- [Permisos](#permisos)
+- [Convertir archivos a ejecutable](#convertir-archivos-a-ejecutable)
+- [Enlaces de Interés](#enlaces-de-interés)
+
+## Introducción
 
 La línea de comandos te permite hacer de todo: configuraciones, editar texto, compilar código y utilizar las herramientas que existen dentro de tu sistema operativo.
 
