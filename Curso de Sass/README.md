@@ -1,4 +1,22 @@
-# Curso de Sass
+# Curso de Sass <!-- omit in toc -->
+
+## Tabla de Contenido <!-- omit in toc -->
+- [Diferencias entre Sass, Stylus y Less](#diferencias-entre-sass-stylus-y-less)
+- [Estructura de CSS](#estructura-de-css)
+- [Variables](#variables)
+  - [Escapar una variable](#escapar-una-variable)
+- [Anidaciones](#anidaciones)
+- [Mixins](#mixins)
+  - [Content](#content)
+- [Extend](#extend)
+- [Funciones](#funciones)
+  - [Crear funciones](#crear-funciones)
+- [Array](#array)
+- [Controles de Flujo](#controles-de-flujo)
+  - [each](#each)
+  - [for](#for)
+  - [if](#if)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## Diferencias entre Sass, Stylus y Less
 
@@ -48,6 +66,20 @@ body {
 
 Como su nombre indica, BEM distingue claramente 3 conceptos: el Bloque, el Elemento y el Modificador.
 
+### Escapar una variable
+
+Para escapar una variable se usa el comodín `#`. 
+
+Esto es necesario en casos como, por ejemplo, cuando la variable está rodeada por comillas y de no ponerse el escape la variable pasaría como una cadena de caracteres..
+
+```scss
+$size: 10;
+
+div {
+  content: "#{$size}"
+}
+```
+
 ## Anidaciones
 
 ```scss
@@ -84,7 +116,7 @@ En este caso le estamos definiendo un valor por defecto. Si deseamos cambiar ese
 @mixin max-width(1200px)
 ```
 
-## Content
+### Content
 
 Una de las características que tienen los mixins es la directiva content. Esta nos permite incluir un bloque de contenido dentro de un mixin.
 
@@ -167,7 +199,9 @@ small {
 }
 ```
 
-## each
+## Controles de Flujo
+
+### each
 
 ```scss
 $font-weights: normal bold italic;
@@ -193,7 +227,7 @@ y esto da como resultado:
 }
 ```
 
-## for
+### for
 
 ```scss
 @for $i from 1 to 5 {
@@ -223,7 +257,7 @@ Resultado:
 }
 ```
 
-## if
+### if
 
 ```scss
 $background-color: black;
@@ -240,19 +274,7 @@ $background-color: black;
 }
 ```
 
-## Escapar una variable
 
-Para escapar una variable se usa el comodín `#`. 
-
-Esto es necesario en casos como, por ejemplo, cuando la variable está rodeada por comillas y de no ponerse el escape la variable pasaría como una cadena de caracteres..
-
-```scss
-$size: 10;
-
-div {
-  content: "#{$size}"
-}
-```
 
 ## Enlaces de Interés
 * https://platzi.com/clases/sass/
