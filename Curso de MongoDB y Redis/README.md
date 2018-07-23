@@ -18,6 +18,7 @@
   + [Utilidades](#utilidades)
   + [Instalación](#instalación)
   + [Ejecución de código](#ejecución-de-código)
+* [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción 
 
@@ -160,3 +161,6 @@ Si tienes Windows 10, utilizar Linux for Windows:
 * `SETEX [clave] [tiempo en segundos] [valor]` setea el valor en la clave por un tiempo determinado.
 * `FLUSHDB` elimina toda la base de datos donde se encuentra seleccionada.
 * `FLUSHALL` elimina toda la información de todas las bases de datos.
+
+## Enlaces de Interés
+* https://platzi.com/clases/mongodb-redis/
