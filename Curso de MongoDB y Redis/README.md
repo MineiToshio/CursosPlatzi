@@ -21,14 +21,15 @@
 
 ## Introducción 
 
-
 `NoSql` es un conjunto de bases de datos que tienen un propósito específico. Lo que significa que cada motor de base de datos soluciona un problema en especial. Por ejemplo:
 * `MongoDB` resuelve un problema de escalabilidad.
 * `Redis` nos resuelve el problema de guardar información con llave - valor.
 
 NoSQL; Not only SQL
 
-<small><i><a href='#tabla-de-contenido'>tabla de contenido</a></i></small>
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Implementaciones de NoSQL
 
