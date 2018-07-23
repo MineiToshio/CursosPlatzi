@@ -1,9 +1,45 @@
 # Curso de jQuery a JavaScript
 
+## Tabla de Contenido
+* [Introducción](#introducción)
+* [Problema](#problema)
+* [Ventajas de usar JavaScript](#ventajas-de-usar-javascript)
+* [Procesos asíncronos](#procesos-asíncronos)
+* [Variables](#variables)
+* [Funciones](#funciones)
+* [Promesas](#promesas)
+* [Timers](#timers)
+* [Ajax](#ajax)
+* [Funciones asíncronas](#funciones-asíncronas)
+* [Selectores](#selectores)
+* [Templates](#templates)
+* [Usando Templates](#usando-templates)
+* [Eventos](#eventos)
+* [Clases y estilos CSS](#clases-y-estilos-css)
+* [Creación de elementos](#creación-de-elementos)
+* [Asignación de Atributos](#asignación-de-atributos)
+* [Formularios](#formularios)
+* [Desestructuración de objetos](#desestructuración-de-objetos)
+* [Dataset](#dataset)
+* [Transformar tipos de datos](#transformar-tipos-de-datos)
+* [Encontrando elementos en lista (find)](#encontrando-elementos-en-lista-find)
+* [Switch](#switch)
+* [Manejo de errores](#manejo-de-errores)
+* [Guardar datos en cache](#guardar-datos-en-cache)
+* [Obtener datos del cache](#obtener-datos-del-cache)
+* [Recursos complementarios](#recursos-complementarios)
+* [Enlaces de Interés](#enlaces-de-interés)
+
+## Introducción
+
 jQuery es una librería de Javascript que resuelve:
 * Una misma forma de acceder al DOM `$('selector')`: En ese tiempo, todos los navegadores accedian an DOM de una forma diferente.
 * Poder interactuar con datos de un servidor `$.ajax()`: jQuery permite hacer llamadas al servidor.
 * Crear animaciones `$.animate()`: En ese tiempo crear animaciones era muy dificil. 
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Problema
 
@@ -14,11 +50,19 @@ jQuery es una librería de Javascript que resuelve:
 
 La idea es no depender de una librería sino aprender la tecnología que está detrás de cada librería. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Ventajas de usar JavaScript
 
 * Reutilizar conocimiento en otros lados de tu aplicación.
 * Poder implementar soluciones sin depender de una librería.
 * Estar más capacitado para grandes empresas.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Procesos asíncronos
 
@@ -26,11 +70,19 @@ Un proceso asíncrono es un código que se está ejecutando, pero no ha terminad
 
 Esto permite que la aplicación no se cuelque mientras está ejecutando un proceso muy largo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Variables
 
 * `var` es la forma de crear variables hasta ES5.
 * `const` es para declarar constantes.
 * `let` es para crear variables que cambian.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Funciones
 
@@ -44,6 +96,10 @@ cambiarNombre = (nuevoNombre) => {
   cambia = nuevoNombre;
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Promesas
 
@@ -88,10 +144,18 @@ Una promesa puede retornar otra promesa.
 
 Las promesas resuelven el problema del Callback Hell haciendo que una promesa pueda devolver otra promesa y en lugar de ser anidadas como los callback, estas promesas son encadenadas.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Timers
 
 * `setInterval()` se ejecuta cada cierto tiempo.
 * `setTimeout()` se ejecuta una sola vez luego de un periodo de tiempo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Ajax
 
@@ -125,6 +189,10 @@ fetch("url")
 
 Fetch devuelve una promesa. Esta promesa, a su vez, tiene un método llamado `json()` que regresa otra promesa con los datos en formato JSON.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Funciones asíncronas
 
 Una función asíncrona va a ser como una función normal, pero poniendo código asíncrono de forma que sea más fácil de leer de forma síncrona.
@@ -138,6 +206,10 @@ async function load() {
   const response = await fetch("url") 
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Selectores
 
@@ -170,6 +242,10 @@ document.querySelector("div .home #modal")
 //Devuelve todos los elementos que coincidan con el query de búsqueda.
 document.querySelectorAll("div .home #modal")
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Templates
 
@@ -211,6 +287,10 @@ function videoItemTemplate(src, title) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Usando Templates
 
 La plantilla no puede puede ser llamada de frente puesto que en el html se mostraría como texto. Primero se hace una transformación de la plantilla para recién agregarla al contenedor que se desee.
@@ -232,6 +312,10 @@ html.body.innerHTML = HTMLString;
 //se agrega el primer hijo (que es donde se encuentra la plantilla) al contenedor donde se quiere agregar la plantilla
 $actionContainer.append(html.body.children[0]);
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Eventos
 
@@ -259,6 +343,10 @@ $element.addEventListener("click", function(event) {
 Para ver la lista de eventos:
 http://developer.mozilla.org/en-US/docs/Web/Events
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Clases y estilos CSS
 
 **Clases**
@@ -285,6 +373,10 @@ $modal.style.animation = "modalOut .8s forwards";
 ```js
 const $loader = document.createElement("img");
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Asignación de Atributos
 
@@ -319,6 +411,10 @@ function setAttributes($element, attributes) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Formularios
 
 `FormData()` es una interfaz que te permite obtener los valores de un formulario.
@@ -333,6 +429,10 @@ data.get("nombre");
 //setea el valor avengers en la key pelicula 
 data.set("pelicula", "avengers");
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Desestructuración de objetos
 
@@ -352,6 +452,10 @@ const response = await fetch(`api_url`);
 const pelis = response.data.movies;
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Dataset
 
 `Dataset` permite acceder a un objeto con todos los atributos `data` de un elemento DOM.
@@ -369,6 +473,10 @@ const id = $element.dataset.id;
 const category = $element.dataset.category;
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Transformar tipos de datos
 
 Cambiar un string a entero
@@ -380,6 +488,10 @@ let n = parseInt("500", 10);
 //también se puede usar el double not bitwise operator.
 let n2 = ~~"500";
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Encontrando elementos en lista (find)
 
@@ -394,7 +506,11 @@ function find(list, id) {
 Información referencial:
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/find
 
-## switch
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Switch
 
 ```js
 switch (category) {
@@ -409,6 +525,10 @@ switch (category) {
   }
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Manejo de errores
 
@@ -431,7 +551,11 @@ catch(error) {
 throw new Error('No se encontró ningún resultado');
 ```
 
-## Guardar datos
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Guardar datos en cache
 
 * `localStorage` permite almacenar datos sin tiempo de expiración
 * `sessionStorage` permite almacenar datos. Estos datos se van a borrar cuando se termine la sessión del navegador
@@ -456,6 +580,10 @@ window.localStorage.getItem("nombre");
 JSON.parse(window.localStorage.getItem("objeto"));
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Obtener datos del cache
 
 Revisar si los datos se encuentran en cache.
@@ -477,9 +605,20 @@ Si se desea volver a traer los datos se puede hacer lo siguiente:
 * Poner un botón que traiga los datos
 * Hacer un setTimeout que borre el localStorage.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos complementarios
-* [Diapositiva: La historia de jquery](docs/la-historia-de-jquery.pdf)
+* [Diapositivas del Curso](docs/la-historia-de-jquery.pdf)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlaces de Interés
 * https://platzi.com/clases/jquery-js
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
