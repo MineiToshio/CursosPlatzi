@@ -230,6 +230,7 @@ Si tienes Windows 10, utilizar Linux for Windows:
 
 ## Enlaces de Interés
 * https://platzi.com/clases/mongodb-redis/
+* https://github.com/MineiToshio/cryptongo
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
