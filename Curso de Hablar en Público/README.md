@@ -77,5 +77,25 @@ En canales como YouTube y Facebook puedes acceder a tu panel de administración 
 
 Recomendación: Usa Google Trends, busca blogs locales, investiga como el evento vendió tu ponencia, empatíza con tu audiencia y siempre crearás una gran charla que nadie olvidará.
 
+## Estructura de un discurso exitoso
+
+En la escuela probablemente aprendiste la estructura de un cuento: introducción, nudo y desenlace. Los discursos tienen una estructura similar, un poco más compleja.
+
+1. Crear un gancho que "enganche" a las personas.
+
+El gancho debería de ser:
+* Provocativo
+* Subversivo
+* Contrario
+
+> La realidad es que en Latino América nosotros no queremos reformar a los delincuentes. Queremos vengarnos de ellos. Por muchas razones, en particular porque nos han hecho daño. pero los datos nos dicen que en los mejores países del mundo, rehabilitan a sus criminales. Incluso a sus peores criminales y son los peores países del mundo que tienen esta actitud vengativa. 
+
+En este gancho se empieza dando una idea contraria al pensamiento común y se anima a las personas a pensar diferente.
+
+2. Después hay que establecer una necesidad que conecte con cómo se sienten las personas.
+3. Luego debe venir una solución anecdótica, accionable y factual.
+4. La visualización de la solución hace referencia a un mundo mejor.
+5. Finalmente está el llamado a la acción que es el objetivo de tu discurso.
+
 ## Enlaces de Interés
 * https://platzi.com/clases/hablar-en-publico/
