@@ -117,8 +117,25 @@ En el concepto se tiene la posibilidad de crear cualquier cosa.
 ### Diseño universal
 
 * El diseño universal debe comunicarnos algo sin necesidad de tener un sesgo cultural, geográfico o social.
+
+<div align="center">
+  <img src="img/fogata.png">
+  <small><p>Diseño de Fogata - Se entiende en todo el mundo</p></small>
+</div>
+
 * La señalética fue creada para comunicar necesidades muy específicas, por eso es funcional en cualquier parte del mundo y no está limitada culturalmente.
-* El diseño universal es muy importante, le da el sentido de pertenencia a la gente.
+
+<div align="center">
+  <img src="img/senales-universales.png">
+  <small><p>Señales Universales</p></small>
+</div>
+
+* El diseño universal es muy importante. Le da el sentido de pertenencia a la gente.
+
+<div align="center">
+  <img src="img/senales-aeropuerto.png">
+  <small><p>El aeropuerto es un lugar donde se usan señales universales</p></small>
+</div>
 
 ### Diseño atemporal
 
