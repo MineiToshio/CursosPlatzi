@@ -139,11 +139,19 @@ En el concepto se tiene la posibilidad de crear cualquier cosa.
 
 ### Diseño atemporal
 
+* El diseño atemporal es aquel diseño que perdura en el tiempo.
 * El diseño atemporal tenemos que tenerlo en cuenta a la hora de conceptualizar.
 * Buscar un diseño preciso para no sentir que el diseño va a morir pronto. Además de que el diseño atemporal nos sirve para comunicar algo que puede ser distinto a nivel cultural, geográfico o social.
 
-El diseño atemporal es aquel diseño que perdura en el tiempo
+<div align="center">
+  <img src="img/logo-juegos-olimpicos.png">
+  <small><p>El logo de las olimpiadas es el mismo desde 1912</p></small>
+</div>
 
+<div align="center">
+  <img src="img/logos-olimpiadas.png">
+  <small><p>El mismo logo se ha usado en todas las olimpiadas</p></small>
+</div>
 
 ### Boceto
 Este proceso tiene que estar presente en todas fases del diseño.
