@@ -2,15 +2,17 @@
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [¿Qué es el diseño?](#qué-es-el-diseño)
-- [Comunicación efectiva en el diseño](#comunicación-efectiva-en-el-diseño)
-- [¿Qué es el concepto?](#qué-es-el-concepto)
-- [Diseño universal](#diseño-universal)
-- [Diseño atemporal](#diseño-atemporal)
-- [Boceto](#boceto)
-- [Elementos Visuales](#elementos-visuales)
-- [Alineación](#alineación)
-- [Contraste](#contraste)
-- [Síntesis](#síntesis)
+- [Principios del Diseño](#principios-del-diseño)
+  - [Comunicación efectiva en el diseño](#comunicación-efectiva-en-el-diseño)
+  - [¿Qué es el concepto?](#qué-es-el-concepto)
+  - [Diseño universal](#diseño-universal)
+  - [Diseño atemporal](#diseño-atemporal)
+  - [Boceto](#boceto)
+  - [Elementos Visuales](#elementos-visuales)
+  - [Alineación](#alineación)
+  - [Contraste](#contraste)
+  - [Síntesis](#síntesis)
+- [Composición](#composición)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -30,7 +32,9 @@ Existen diferentes ramas del diseño:
 * Interiores
 * Interfaces
 
-## Comunicación efectiva en el diseño
+## Principios del Diseño
+
+### Comunicación efectiva en el diseño
 
 * La percepción visual es la relación que hacemos de lo que se está comunicando y la forma en la que lo vemos.
 * El diseño tiene que tomar los códigos visuales para poder comunicar cosas que para la gente sea preciso y pueda relacionarlo con su entorno.
@@ -71,25 +75,52 @@ Existen diferentes ramas del diseño:
   <small><p>Diseño Pop - Blur</p></small>
 </div>
 
-## ¿Qué es el concepto?
+### ¿Qué es el concepto?
 
 * El concepto es el punto de partida para todo.
 * El concepto es la historia que cuenta el diseño.
 * El concepto es la representación tangible de una idea.
 * Sin concepto, el diseño no puede cumplir su misión de comunicar.
 
+<div align="center">
+  <img src="img/war-peace.png">
+  <small><p>War - Peace</p></small>
+</div>
+
+<div align="center">
+  <img src="img/pollution.png">
+  <small><p>What are we breathing?</p></small>
+</div>
+
+<div align="center">
+  <img src="img/shigeo-fukuda-victory.png">
+  <small><p>Victory 1945</p></small>
+</div>
+
 Para crear la narrativa del diseño:
 * Conocer e investigar el tema
 * Tomar los puntos más importantes
 * Definir la comunicación visual
 
-## Diseño universal
+En el concepto se tiene la posibilidad de crear cualquier cosa.
+
+<div align="center">
+  <img src="img/isidro-ferrer-objetos-irreales">
+  <small><p>Isidro Ferrer - Objetos Irreales</p></small>
+</div>
+
+<div align="center">
+  <img src="img/santiago-pol-cine-paz.png">
+  <small><p>Santiago Pol - Cine por la Paz</p></small>
+</div>
+
+### Diseño universal
 
 * El diseño universal debe comunicarnos algo sin necesidad de tener un sesgo cultural, geográfico o social.
 * La señalética fue creada para comunicar necesidades muy específicas, por eso es funcional en cualquier parte del mundo y no está limitada culturalmente.
 * El diseño universal es muy importante, le da el sentido de pertenencia a la gente.
 
-## Diseño atemporal
+### Diseño atemporal
 
 * El diseño atemporal tenemos que tenerlo en cuenta a la hora de conceptualizar.
 * Buscar un diseño preciso para no sentir que el diseño va a morir pronto. Además de que el diseño atemporal nos sirve para comunicar algo que puede ser distinto a nivel cultural, geográfico o social.
@@ -97,7 +128,7 @@ Para crear la narrativa del diseño:
 El diseño atemporal es aquel diseño que perdura en el tiempo
 
 
-## Boceto
+### Boceto
 Este proceso tiene que estar presente en todas fases del diseño.
 Es la aproximación más real al diseño final, pues con él podemos probar distintas formas en las cuales podemos comunicar una idea.
 El diseño no debe tener improvisación, de ahí la necesidad de los bocetos.
@@ -106,7 +137,7 @@ El boceto nos sirve para encontrar el punto en el cual nos podemos sentir cómod
 El boceto está presente también en el diseño de interfases, esto es para poder prototipar la funcionalidad de las aplicaciones antes de llevar el diseño a digital.
 
 
-## Elementos Visuales
+### Elementos Visuales
 Fotografía
 Ilustración
 Tipografía
@@ -114,7 +145,7 @@ Color
 Líneas y puntos
 Figuras geométricas
 
-## Alineación
+### Alineación
 
 La alineación crea un balance por peso natural, nos da la sensación de que hay equilibrio en el diseño.
 La alineación es para tener una mejor lectura y una mejor disposición en el espacio.
@@ -140,7 +171,7 @@ Mas notorio:
 La alineacion esta en todo:
 Hay un sentido de importancia:
 
-## Contraste
+### Contraste
 Es la diferenciación visual de uno o varios elementos
 
 Tipos de contraste
@@ -157,7 +188,7 @@ Por disposición: Colocar las formas y colores en lugares específicos pueden co
 
 Ejemplo de combinación de constrastes
 
-## Síntesis
+### Síntesis
 La síntesis no solamente se da en una representación gráfica.
 La síntesis abarca desde el concepto.
 El propósito de la síntesis es saber tomar los punto más precisos y poder simplificar todo en una idea muy clara.
@@ -205,7 +236,9 @@ Resumen
 
 
 2. Buen recurso si no se domina la ilustración o fotografía.
-Composición
+
+## Composición
+
 La composición gráfica es la disposición de los elementos dentro de un formato, el cual utilizamos para poder comunicar algo. Comparte en el sistema de discusiones imágenes en las que notas que la composición comunica perfecto el objetivo del diseño.
 
 ## Recursos Complementarios
