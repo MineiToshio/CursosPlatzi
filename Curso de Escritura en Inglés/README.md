@@ -1,6 +1,6 @@
 # Curso de Escritura en Inglés
 
-## Por qué es importante escribir en inglés
+## Why do you need to learn how to write in English?
 
 * Why is it important to write in English?
 * Create an online presence
@@ -8,7 +8,7 @@
 * Find the best ways to communicate in diferent work situations
 * Most contents are written
 
-## Comunicación efectiva y persuasiva
+## Effective and persuasive communication
 
 * **Get to know your audience**. It is not the same to write for a doctor than a architect.
 * **Call your audience attention**, map the subjects you want to write about. It's always better to write about things you are interested in.
@@ -17,7 +17,7 @@
 * Persuade your audience.
 * Check punctuation and writting.
 
-## Elementos linguísticos para escribir en inglés
+## Linguistic elements
 
 **Nouns**: Words to designate names, people, animals, things, ideas, etc. They can be singular or plural and they can become possessives.  
 **Example**: The **dog** is a great animal and it’s usually consider **humans**’ best **friends**.
