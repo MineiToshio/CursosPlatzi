@@ -816,7 +816,7 @@ Si se desea asignar un valor inicial, pero que este pueda ser modificado, entonc
 
 Si se desea manipular el valor asignado a value se puede hacer con el método `onChange` del input.
 
-## Recursos complementarios
+## Recursos Complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
 ## Enlaces de Interés

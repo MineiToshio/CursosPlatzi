@@ -27,7 +27,7 @@
 - [Manejo de errores](#manejo-de-errores)
 - [Guardar datos en cache](#guardar-datos-en-cache)
 - [Obtener datos del cache](#obtener-datos-del-cache)
-- [Recursos complementarios](#recursos-complementarios)
+- [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -609,7 +609,7 @@ Si se desea volver a traer los datos se puede hacer lo siguiente:
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## Recursos complementarios
+## Recursos Complementarios
 * [Diapositivas del Curso](docs/la-historia-de-jquery.pdf)
 
 <div align="right">

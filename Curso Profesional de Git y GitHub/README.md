@@ -18,7 +18,7 @@
   - [Proteger un branch](#proteger-un-branch)
   - [Plantillas](#plantillas)
 - [Ignorar archivos](#ignorar-archivos)
-- [Recursos complementarios](#recursos-complementarios)
+- [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Sistema de control de versiones
@@ -277,7 +277,7 @@ https://www.gitignore.io/
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## Recursos complementarios
+## Recursos Complementarios
 * [Diapositivas del Curso](docs/GIT-intro.pdf)
 
 <div align="right">
