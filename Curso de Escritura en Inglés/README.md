@@ -239,6 +239,27 @@ Financial proposal:
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+### Planning one text using an outline
+
+**General Topic**: Education  
+**Specific Topic**: Online learning  
+**Objective**: To display experiences of online learning in Colombia.
+
+**Introduction**:
+* Anecdote
+* Context
+* Thesis -> Experiences
+
+**Body paragraph (x3)**:
+* Experiences Bogota
+* Experiences South
+* Experiences Caribbean
+
+**Conclusion**:
+* What needs to be done
+* Paraphase some of my friends
+* Reflection
+
 ## Recursos Complementarios
 * [Course Slides](docs/english-writing-course.pdf)
 
