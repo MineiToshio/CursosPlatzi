@@ -1,4 +1,27 @@
-# Curso de Escritura en Inglés
+# Curso de Escritura en Inglés<!-- omit in toc -->
+
+## Table of Contents<!-- omit in toc -->
+- [Why do you need to learn how to write in English?](#why-do-you-need-to-learn-how-to-write-in-english)
+- [Effective and persuasive communication](#effective-and-persuasive-communication)
+- [Linguistic elements](#linguistic-elements)
+- [El proceso de escritura](#el-proceso-de-escritura)
+- [Topic Sentence](#topic-sentence)
+- [Outline](#outline)
+  - [How to create an outline](#how-to-create-an-outline)
+  - [Types of outlines](#types-of-outlines)
+    - [Emails](#emails)
+    - [Formal Letter Outline](#formal-letter-outline)
+    - [Cover Letter Outline](#cover-letter-outline)
+    - [Business Proposal Outline](#business-proposal-outline)
+  - [Planning one text using an outline](#planning-one-text-using-an-outline)
+- [Netiquette](#netiquette)
+  - [The importance of netiquette](#the-importance-of-netiquette)
+- [Write emails](#write-emails)
+- [Write formal letters](#write-formal-letters)
+- [Write cover letters](#write-cover-letters)
+- [Write resumes](#write-resumes)
+- [Complementary Resources](#complementary-resources)
+- [Links of Interest](#links-of-interest)
 
 ## Why do you need to learn how to write in English?
 
@@ -116,8 +139,8 @@ Contact Information
 >
 >Dear John,
 >
->I’m writing to you because we had to make some adjustments to the presentation. I know that the clients were expecting to see all the numbers and figures, but apparently we still need to check those carefully. With this in mind, could you go over those to see if you find the missing information? It’s urgent.
-Let me know if you can get this done by today.
+>I’m writing to you because we had to make some adjustments to the presentation. I know that the clients were expecting to see all the numbers and figures, but apparently **we still need to check those carefully**. With this in mind, could you go over those to see if you find the missing information? It’s urgent.  
+**Let me know if you can get this done by today.**
 >
 >Regards,
 >
@@ -177,8 +200,8 @@ Platzi HQ Name of the company
 Calle xx # xx - xx Calle xx # xx - xx
 Oficina xxxx	Oficina xxxx
 Bogota, Colombia	Bogota, Colombia
+May 7th, 202X
 
-								May 7th, 202X
 Dear Mrs or Mr,
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -278,8 +301,59 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 
 With this in mind, it is very important that as members of online communities we acknowledge the need of respecting rules, values and basic behavior patterns.
 
+## Write emails
+
+* Use a powerful greeting
+* Keep your subject line short and clear
+* Be respectful and keep in mind etiquetter
+* Usa a call to action
+* Keep in mind the cultural
+* Read sample emails from the countries you’re trying to contact people from
+
+## Write formal letters
+
+Formal letters are, for example, the ones that we use to ask for a permission in your job, a resignation letter, a letter to ask for recommendation to a boss or college professor.
+
+Tips for writing formal letters:
+* Your address
+* The address of the company
+* Date
+* Saludation og greeting
+* Ending the letter
+
+## Write cover letters
+
+Cover letters are the ones that you use to put on top of your resume, sometimes resumes can ve very rigid, so you can use a cover letter to give more context about yourself.
+
+Tips for writing cover letters:
+* It’s not a copy for you resume
+* Clearly show what you are capable of
+* Showcase your skills
+* Highlight the right experiences
+* Be real
+* Edit
+
+## Write resumes
+
+* Create a professional email address and update contact information
+* Skills and experience
+* Use bold, caps and italics strategically
+* Use subheadings
+* Education
+
+<div align="center">
+  <img src="img/cv1.png">
+  <small><p>Tradicional CV</p></small>
+</div>
+
+<div align="center">
+  <img src="img/cv2.png">
+  <small><p>CV with design</p></small>
+</div>
+
 ## Complementary Resources
 * [Course Slides](docs/english-writing-course.pdf)
+* [Outlines](docs/models.pdf)
 
 ## Links of Interest
 * https://platzi.com/clases/escritura-ingles/
