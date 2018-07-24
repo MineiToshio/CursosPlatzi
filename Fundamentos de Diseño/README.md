@@ -154,21 +154,56 @@ En el concepto se tiene la posibilidad de crear cualquier cosa.
 </div>
 
 ### Boceto
-Este proceso tiene que estar presente en todas fases del diseño.
-Es la aproximación más real al diseño final, pues con él podemos probar distintas formas en las cuales podemos comunicar una idea.
-El diseño no debe tener improvisación, de ahí la necesidad de los bocetos.
-El boceto nos permite depurar ideas.
-El boceto nos sirve para encontrar el punto en el cual nos podemos sentir cómodos con la idea que queremos comunicar; que sea concisa y exacta.
-El boceto está presente también en el diseño de interfases, esto es para poder prototipar la funcionalidad de las aplicaciones antes de llevar el diseño a digital.
 
+* Este proceso tiene que estar presente en todas fases del diseño.
+* Es la aproximación más real al diseño final, pues con él podemos probar distintas formas en las cuales podemos comunicar una idea.
+* El diseño no debe tener improvisación, de ahí la necesidad de los bocetos.
+* El boceto nos permite depurar ideas.
+* El boceto nos sirve para encontrar el punto en el cual nos podemos sentir cómodos con la idea que queremos comunicar; que sea concisa y exacta.
+* El boceto está presente también en el diseño de interfases, esto es para poder prototipar la funcionalidad de las aplicaciones antes de llevar el diseño a digital.
+
+<div align="center">
+  <img src="img/boceto.png">
+  <small><p>Boceto de un Ferrari</p></small>
+</div>
 
 ### Elementos Visuales
-Fotografía
-Ilustración
-Tipografía
-Color
-Líneas y puntos
-Figuras geométricas
+
+**1.** Fotografía
+
+<div align="center">
+  <img src="img/fotografia.png">
+</div>
+
+**2.** Ilustración
+
+<div align="center">
+  <img src="img/ilustracion.png">
+</div>
+
+**3.** Tipografía
+
+<div align="center">
+  <img src="img/tipografia.png">
+</div>
+
+**4.** Color
+
+<div align="center">
+  <img src="img/color.png">
+</div>
+
+**5.** Líneas y puntos
+
+<div align="center">
+  <img src="img/lineas-puntos.png">
+</div>
+
+**6.** Figuras geométricas
+
+<div align="center">
+  <img src="img/figuras-geometricas.png">
+</div>
 
 ### Alineación
 
