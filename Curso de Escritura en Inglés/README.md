@@ -2,44 +2,45 @@
 
 ## Por qué es importante escribir en inglés
 
-* Crear presencia online
-* Comunicarse en diferentes ambiente de trabajo
-* Encontrar la mejor forma de comunicarse en diferentes situaciones de trabajo.
-* La mayoría del contenido se escribe en inglés
+* Why is it important to write in English?
+* Create an online presence
+* Commnunicate in different work environments
+* Find the best ways to communicate in diferent work situations
+* Most contents are written
 
 ## Comunicación efectiva y persuasiva
 
-* Conocer a tu audiencia. No escribes igual para estudiantes de bachillerato que para estudiantes de doctorado por ejemplo.
-* Llamar la atención de tu audiencia, mapea los temas de los que querrás hablar, siempre es mejor comenzar por los temas que te interesen más a ti
-* Establece credibilidad. Se autoridad en un área. Desarrolla tu marca persona.
-* Confecciona el mensaje al canal que estaremos utilizando, es diferente escribir para un blog que escribir para una publicación académica
-* Persuadir a tu audiencia
-* Revisa tu gramática, puntuación y asegura la calidad de tus contenidos
+* **Get to know your audience**. It is not the same to write for a doctor than a architect.
+* **Call your audience attention**, map the subjects you want to write about. It's always better to write about things you are interested in.
+* **Stablish credibility**. Be an authority. Develop your own personal brand.
+* **Tailor the message to the channel**. It is different to write for a blog than a academic paper.
+* Persuade your audience.
+* Check punctuation and writting.
 
 ## Elementos linguísticos para escribir en inglés
 
-Nouns: Words to designate names, people, animals, things, ideas, etc. They can be singular or plural and they can become possessives.
-Example: The **dog** is a great animal and it’s usually consider **humans**’ best **friends**.
+**Nouns**: Words to designate names, people, animals, things, ideas, etc. They can be singular or plural and they can become possessives.  
+**Example**: The **dog** is a great animal and it’s usually consider **humans**’ best **friends**.
 
-Pronouns: Words used to replace specific nouns. We can replace the name Yesica for the pronoun she.
-Example: John is a great teacher, **he** always prepares great activities.
+**Pronouns**: Words used to replace specific nouns. We can replace the name Yesica for the pronoun she.  
+**Example**: John is a great teacher, **he** always prepares great activities.
 
-Verbs: These are words that express an action; they are supposed to be conjugated accordingly to the moment in which they occur.
-Example: I **worked** really hard over the weekend; I’**m** exhausted.
+**Verbs**: These are words that express an action; they are supposed to be conjugated accordingly to the moment in which they occur.  
+**Example**: I **worked** really hard over the weekend; I’**m** exhausted.
 
-Adjectives: Words that are used to qualify nouns. Generally they are located before the noun and they are never pluralized.
-Example: There are many **interesting** courses at Platzi.
+**Adjectives**: Words that are used to qualify nouns. Generally they are located before the noun and they are never pluralized.  
+**Example**: There are many **interesting** courses at Platzi.
 
-Adverbs: The qualify adjectives and verbs. They provide specific information about degree, frequency, place or manner.
-Example: The work at the company is **fairly** good.
+**Adverbs**: The qualify adjectives and verbs. They provide specific information about degree, frequency, place or manner.  
+**Example**: The work at the company is **fairly** good.
 
-Prepositions: Words that are used to show the relationship between a noun or a pronoun with the other words of the sentence. Sometimes, prepositions work as meaning modifiers.
-Example: The already **on** the platform.
+**Prepositions**: Words that are used to show the relationship between a noun or a pronoun with the other words of the sentence. Sometimes, prepositions work as meaning modifiers.  
+**Example**: The already **on** the platform.
 
-Conjunctions: Words that connect words, sentences or clauses. They are usually classified in “and”, “or” and “but”.
-Example: The activities that have to be done are: revising, re-writing **and** publishing.
+**Conjunctions**: Words that connect words, sentences or clauses. They are usually classified in “and”, “or” and “but”.  
+**Example**: The activities that have to be done are: revising, re-writing **and** publishing.
 
-Punctuation:
+**Punctuation**:
 * Use CAPITALIZATION whenever you start a sentence.
 * Finish every sentence with a punctuation mark like a period, a question mark or a exclamation.
 * Use semicolons when you want to separate a clause from another or when you want to introduce a counter argument.
@@ -47,13 +48,13 @@ Punctuation:
 
 ## El proceso de escritura
 
-1. Pre-writing: research about the topic that you are going to be writing about.
-2. Pre-composing: start using outline in order to organize the idea.
-3. Writing: just write the idea that you already have done in the previous steps.
-4. Revision: check what are those mistakes that you made in punctuation, , missing some words, repetitive words, etc.
-5. Re-writing: polish into a better version.
-6. Checking: reread because maybe you can improve the text.
-7. Publish: can be in a Social Media, Magazine, Blog, News, etc.
+1. **Pre-writing**: research about the topic that you are going to be writing about.
+2. **Pre-composing**: start using outline in order to organize the idea.
+3. **Writing**: just write the idea that you already have done in the previous steps.
+4. **Revision**: check what are those mistakes that you made in punctuation, missing some words, repetitive words, etc.
+5. **Re-writing**: polish into a better version.
+6. **Checking**: reread because maybe you can improve the text.
+7. **Publish**: can be in a Social Media, Magazine, Blog, News, etc.
 
 ## Topic Sentence
 
@@ -65,11 +66,11 @@ A topic sentence has components:
 
 For example:
 
-**Topic**: moving abroad
+**Topic**: moving abroad.  
 **Controlling Idea**: Moving abroad is one of the alternatives that most students take when they are about to finish their programs
 
-**Topic**: Writing
-**Controlling Idea**: is one of the hardest language abilities to develop.
+**Topic**: Writing  
+**Controlling Idea**: is one of the hardest language abilities to develop.  
 **Supporting Details**:
 * Requires high order thinking skills.
 * Needs analysis and organization.
