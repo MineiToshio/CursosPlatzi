@@ -151,6 +151,12 @@ Los buenos mensajes van en grupos de a tres. Cuando hablas en grupos de tres la 
 
 ![Estructura de un discurso](img/estructura-discurso.png)
 
+## Cómo lograr que te escuchen y entiendan
+
+El micrófono de mano demuestra autoridad. Quizás es algo que tiene que ver con la puesta en escena, pues te permite modular mucho más. El uso del clicker también es algo importante que tienes que tener en cuenta, si vas a usar slides o algún tipo de apoyo gráfico, pues mover las manos mientras estás hablando es algo que se vuelve necesario.
+
+Tip: Antes de dar una conferencia intenta hacerle saber a las personas que manejan el audio si tu eres una persona que habla fuerte o suave. En caso de que quieras crear contenido para YouTube haz tu mejor esfuerzo por invertir en tener un buen audio. Asegúrate de que te escuchen bien.
+
 ## Diseño de Presentaciones
 
 ### Qué no hacer
