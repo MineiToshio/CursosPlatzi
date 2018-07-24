@@ -260,7 +260,25 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 * Paraphase some of my friends
 * Reflection
 
-## Recursos Complementarios
+## Netiquette
+
+**Netiquette** can be understood as a accepted online behavior. In a similar way, **online ethics** is defined as the correct use of assets in a online social setting. These two terms are constantly interchanged and used in a number of contexts to refer to the appropriate and responsible ways of behaving within an online social environment.
+
+### The importance of netiquette
+
+* Understanding that the online world is not a separate environment, but rather an extension of our face-to-face social context.
+
+* Keeping in mind that in this extension of the social environment the same values and social rules we are used to continue to apply. Every time you do something online ask yourself if that may offend or in anyway transgress the accepted behavior.
+
+* Knowing that as in the real world, breaking these rules can be taken as a felony and it can make people face judicial consequences.
+
+* Recognizing that we need to keep in mind how cultural differences can affect the way in which we communicate with each other.
+
+* Respecting privacy and maintaining transparency.
+
+With this in mind, it is very important that as members of online communities we acknowledge the need of respecting rules, values and basic behavior patterns.
+
+## Complementary Resources
 * [Course Slides](docs/english-writing-course.pdf)
 
 ## Links of Interest
