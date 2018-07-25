@@ -314,6 +314,7 @@ Investigar el perfil de las personas es muy importante para darle más personali
 ## Enlaces de Interés
 * [
 Introducción a la Creación de Empresas y Startups](https://platzi.com/clases/creacion-de-empresas/)
+* [Startup Playbook](https://platzi.com/startup-playbook/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
