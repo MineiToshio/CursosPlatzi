@@ -17,6 +17,8 @@
 - [Día 3: Decidir](#día-3-decidir)
   - [Decidir Solución](#decidir-solución)
   - [Crear Storyboard](#crear-storyboard)
+- [Día 4: Prototipar](#día-4-prototipar)
+- [Día 5: Testear](#día-5-testear)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -233,20 +235,25 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
 
 ### Crear Storyboard
 
-1. **Flujo de Test de Usuario**: cada integrante escribe corta y concretamente en 6 o 8 Post-its las etapas para usar el producto o servicio (Flojo de test de usuario).
+**1.** **Flujo de Test de Usuario**: cada integrante escribe corta y concretamente en 6 o 8 Post-its las etapas para usar el producto o servicio (Flujo de test de usuario).
 
-    **Ejemplo**:
-    1. Descargar aplicación,
-    2. Registrarse en la aplicación,
-    3. Hacer el Pedido.
-   
-    Finalmente el facilitador debe alinear los Post-its que son comunes y hacer el flojo que va a recorrer el usuario del producto.
+**Ejemplo**:
+1. Descargar aplicación,
+2. Registrarse en la aplicación,
+3. Hacer el Pedido.
 
-2. **Crear Storyboard**: Una persona (preferiblemente con habilidades para dibujar) divide el pizarrón en 8 partes y pega los post-its en cada cuadro según cada una de las etapas. Se iniciar a dibujar la interfaz (para un producto es similar a una historieta).
+Finalmente el facilitador debe alinear los Post-its que son comunes y hacer el flojo que va a recorrer el usuario del producto.
 
-    El storyboard debe de ser claro y conciso.
+**2.** **Crear Storyboard**: Una persona (preferiblemente con habilidades para dibujar) divide el pizarrón en 8 partes y pega los post-its en cada cuadro según cada una de las etapas. Se iniciar a dibujar la interfaz (para un producto es similar a una historieta).
 
-Día 4: Prototipar
+El storyboard debe de ser claro y conciso.
+
+<div align="center">
+  <img src="img/storyboard.png">
+  <small><p>Ejemplo: Storyboard</p></small>
+</div>
+
+## Día 4: Prototipar
 
 Actividades:
 Construir la Fachada: recibir el feedback lo antes posible.
@@ -291,7 +298,8 @@ Wireframes digitales (a partir del Storyboard)
 Un tipo de fuente.
 Esquema de colores.
 Enfocarse en interfaces claves.
-Día 5: Testear
+
+## Día 5: Testear
 
 Actividades:
 Conseguir los testers
