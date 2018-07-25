@@ -22,3 +22,6 @@ Guía de resumen de los cursos de Platzi
 
 ### Crecimiento Profesional
 1. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
+
+### Diseño de Productos Digitales y UX
+1. [Curso de Design Sprint](Curso%20de%20Design%20Sprint/README.md#curso-de-design-sprint)
