@@ -4,12 +4,11 @@
 - [Por qué escribir para Internet](#por-qué-escribir-para-internet)
 - [Técnicas Básicas de Redacción](#técnicas-básicas-de-redacción)
 - [Reglas de Ortografía](#reglas-de-ortografía)
-  - [Reglas de acento](#reglas-de-acento)
-    - [Agudas](#agudas)
-    - [Graves](#graves)
-    - [Esdrújulas](#esdrújulas)
-    - [Sobresdrújulas](#sobresdrújulas)
-    - [A tener en cuenta](#a-tener-en-cuenta)
+  - [Reglas de acento: Agudas](#reglas-de-acento-agudas)
+  - [Reglas de acento: Graves](#reglas-de-acento-graves)
+  - [Reglas de acento: Esdrújulas](#reglas-de-acento-esdrújulas)
+  - [Reglas de acento: Sobresdrújulas](#reglas-de-acento-sobresdrújulas)
+  - [Otras reglas de acento](#otras-reglas-de-acento)
   - [Has y haz son diferentes](#has-y-haz-son-diferentes)
   - [Reglas de la R](#reglas-de-la-r)
   - [Reglas de la B](#reglas-de-la-b)
@@ -38,9 +37,7 @@
 
 ## Reglas de Ortografía
 
-### Reglas de acento
-
-#### Agudas
+### Reglas de acento: Agudas
 
 Las palabras agudas (llevan la entonación en la última sílaba), se marca el acento cuando terminan en vocal, o en consonante n/s. 
 
@@ -57,7 +54,7 @@ En algunas ocasiones marcamos el acento incluso cuando no terminan en vocal n o 
 También existen palabras que son agudas, pero a las que no se les marca el acento.
 Ejemplo: Amor, cantidad, papel, reloj
 
-#### Graves
+### Reglas de acento: Graves
 
 Las palabras graves o llanas son las que tienen el acento en la penúltima sílaba. De la misma forma que las anteriores, no todas las palabras graves llevan acento ortográfico. Estas palabras no llevan acento si terminan en vocal n o s.
 
@@ -67,19 +64,19 @@ Las palabras graves o llanas son las que tienen el acento en la penúltima síla
 **Ejemplos** de palabras no llevan acento ortográfico:  
 Problema, adulto, martes, zapato
 
-#### Esdrújulas
+### Reglas de acento: Esdrújulas
 
 Las palabras esdrújulas son las que llevan el acento en la antepenúltima sílaba. Es importante aclarar que todas las palabras llevan acento ortográfico.
 
 **Ejemplos**: América, cuídate, hígado, ejército
 
-#### Sobresdrújulas
+### Reglas de acento: Sobresdrújulas
 
 Las palabras sobresdrújulas son aquellas que llevan el acento ortográfico en la sílaba anterior a la antepenúltima sílaba. Como las anteriores todas llevan tilde.
 
 **Ejemplos**: Cuéntamelo, éticamente, fácilmente, repítemelo
 
-#### A tener en cuenta
+### Otras reglas de acento
 
 Los monosílabos no llevan acento a menos que:
 * **Sí** (adverbio de afirmación) siempre lleva tilde y no debe ser confundido con si (conjunción).
