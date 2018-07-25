@@ -280,7 +280,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 
 **Conclusion**:
 * What needs to be done
-* Paraphase some of my friends
+* Paraphrase some of my friends
 * Reflection
 
 ## Netiquette
