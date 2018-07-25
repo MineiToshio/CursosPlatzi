@@ -16,10 +16,13 @@
   - [Planning one text using an outline](#planning-one-text-using-an-outline)
 - [Netiquette](#netiquette)
   - [The importance of netiquette](#the-importance-of-netiquette)
-- [Write emails](#write-emails)
-- [Write formal letters](#write-formal-letters)
-- [Write cover letters](#write-cover-letters)
-- [Write resumes](#write-resumes)
+- [Writings different of types of texts](#writings-different-of-types-of-texts)
+  - [Writing emails](#writing-emails)
+  - [Writing formal letters](#writing-formal-letters)
+  - [Writing cover letters](#writing-cover-letters)
+  - [Writing resumes](#writing-resumes)
+  - [Writing business proposals](#writing-business-proposals)
+  - [Writing a Blogpost](#writing-a-blogpost)
 - [Complementary Resources](#complementary-resources)
 - [Links of Interest](#links-of-interest)
 
@@ -301,7 +304,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 
 With this in mind, it is very important that as members of online communities we acknowledge the need of respecting rules, values and basic behavior patterns.
 
-## Write emails
+## Writings different of types of texts
+
+### Writing emails
 
 * Use a powerful greeting
 * Keep your subject line short and clear
@@ -310,7 +315,7 @@ With this in mind, it is very important that as members of online communities we
 * Keep in mind the cultural
 * Read sample emails from the countries you’re trying to contact people from
 
-## Write formal letters
+### Writing formal letters
 
 Formal letters are, for example, the ones that we use to ask for a permission in your job, a resignation letter, a letter to ask for recommendation to a boss or college professor.
 
@@ -321,7 +326,7 @@ Tips for writing formal letters:
 * Saludation og greeting
 * Ending the letter
 
-## Write cover letters
+### Writing cover letters
 
 Cover letters are the ones that you use to put on top of your resume, sometimes resumes can ve very rigid, so you can use a cover letter to give more context about yourself.
 
@@ -333,7 +338,7 @@ Tips for writing cover letters:
 * Be real
 * Edit
 
-## Write resumes
+### Writing resumes
 
 * Create a professional email address and update contact information
 * Skills and experience
@@ -351,9 +356,61 @@ Tips for writing cover letters:
   <small><p>CV with design</p></small>
 </div>
 
+### Writing business proposals
+
+* Understand the customer
+* Lay the groundwork
+* Focus on the how
+* Don’t over promise
+* Identify decision makers
+* Be confident
+* Be fair in pricing
+* Don’t forget about design and style
+* Remember to proofread
+
+**What goes in a business proposal?**
+* What you can do for the client?
+* How you will do it?
+* How much will it cost them?
+
+**Structure:**
+Executive Summary
+Problem Statement
+Problem Solution
+Financial proposal
+
+### Writing a Blogpost
+
+Whenever writing a blog post it is important to keep in mind the following aspects:
+
+* It’s something interesting for the audience.
+* We are teaching something.
+* We have a question or a problem to solve.
+* We provide a solution to that problem.
+
+Here I give you an outline that you can use to create your blobposts:
+
+**Introduction (One paragraph):**
+
+* Provide information about the field or the context.
+* Call the reader’s attention.
+* Provide your thesis statement.
+
+**Body paragraphs (Two to three paragraphs):**
+
+* Show information that supports the thesis statement, answers the question or solves the problem.
+* Provide supporting details for the previous idea.
+* Conclude the paragraph or make a transition to the next one.
+
+**Conclusion (One paragraph):**
+
+* Make a short summary of the information.
+* Finish the paragraph with an additional question or an anecdote.
+
 ## Complementary Resources
 * [Course Slides](docs/english-writing-course.pdf)
 * [Outlines](docs/models.pdf)
+* [Structure of a General Expository Essay](docs/StructureofaGeneralExpositoryEssay.pdf)
 
 ## Links of Interest
 * https://platzi.com/clases/escritura-ingles/
