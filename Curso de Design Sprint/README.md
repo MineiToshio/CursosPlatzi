@@ -45,7 +45,7 @@ El Design Spring es un proceso ideado en Google Ventures de 5 días de foco inte
 * 1 Prototipo realista
 * Feedback de 5 usuarios
 
-La ventaja es que nos permite tener un feedback de la idea muy rapido.
+La ventaja es que nos permite tener un feedback de la idea muy rápido.
 
 **Una sesión de Desing Sprint puede ayudar a validar o explorar**:
 * Nuevas características
@@ -77,19 +77,19 @@ La ventaja es que nos permite tener un feedback de la idea muy rapido.
 
 **Hacer un Design Sprint Cuando**:
 
-* Está la idea pero no el producto. Ejemplo, no tenemos una versión o prototipo con feedback de nuestro producto.
-* Hay mucho riesgo de por medio. Cuando es muy alto el riesgo tiene sentido tomarse el tiempo de una semana para reducir el riesgo en el proyecto.
-* Se quiere proponer una nueva idea. Ejemplo: puede servir como soporte para hacer pitch de una nueva idea con evidencia.
-* Se tiene un producto y se quiere mejorar un aspecto del mismo. Ejemplo Onboarding de una aplicación
+* **Está la idea pero no el producto**. Ejemplo, no tenemos una versión o prototipo con feedback de nuestro producto.
+* **Hay mucho riesgo de por medio**. Cuando es muy alto el riesgo tiene sentido tomarse el tiempo de una semana para reducir el riesgo en el proyecto.
+* **Se quiere proponer una nueva idea**. Ejemplo: puede servir como soporte para hacer pitch de una nueva idea con evidencia.
+* **Se quiere mejorar un aspecto de un producto**. Ejemplo Onboarding de una aplicación
 * El equipo está estancado.
 
 **No hacer un Design Sprint cuando:**
 
-* No se tiene información de antemano. No se quienes pueden ser mis usuarios del proyecto. No hay reaserch.
+* **No se tiene información de antemano**. No se quienes pueden ser mis usuarios del proyecto. No hay reaserch.
 * No se pueden poner de acuerdo en la visión del producto.
-* No es un problema de diseño de producto o servicio: ejemplo: el logo de una marca
-* El problema es muy amplio. Por ejemplo: resolver el problema de la pobreza
-* El problema es demasiado pequeño. Ejemplo: cual es el mejor lugar para colocar este botón en la interfaz.
+* **No es un problema de diseño de producto o servicio**: ejemplo: el logo de una marca
+* **El problema es muy amplio**. Por ejemplo: resolver el problema de la pobreza
+* **El problema es demasiado pequeño**. Ejemplo: cual es el mejor lugar para colocar este botón en la interfaz.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
