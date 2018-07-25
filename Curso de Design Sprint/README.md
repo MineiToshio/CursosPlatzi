@@ -47,7 +47,7 @@ El Design Spring es un proceso ideado en Google Ventures de 5 días de foco inte
 
 La ventaja es que nos permite tener un feedback de la idea muy rapido.
 
-Una sesión de Desing Sprint puede ayudar a validar o explorar:
+**Una sesión de Desing Sprint puede ayudar a validar o explorar**:
 * Nuevas características
 * Nuevos acercamientos a la resolución de un problema
 * Nuevos mercados o audiencias
@@ -65,9 +65,9 @@ Una sesión de Desing Sprint puede ayudar a validar o explorar:
   <small><p>Proceso de Design Sprint</p></small>
 </div>
 
-Historias de aplicación: https://sprintstories.com/
-
 ## Cuándo usar design sprint
+
+**Hacer un Design Sprint Cuando**:
 
 * Está la idea pero no el producto. Ejemplo, no tenemos una versión o prototipo con feedback de nuestro producto.
 * Hay mucho riesgo de por medio. Cuando es muy alto el riesgo tiene sentido tomarse el tiempo de una semana para reducir el riesgo en el proyecto.
@@ -150,12 +150,13 @@ Convertir los escenarios negativos en preguntas con un enfoque más positivos.
 ### Entrevista a expertos
 
 Estos generalmente son internos a la empresa y son especialistas en un área específica.
+
 Cada entrevista puede ser de 20-45 minutos
 
-Es importante entrevistar a alguien que sepa:
-* Estrategia. El CEO o una persona con alto poder de decisión.
-* Soporte / Vetas: Alguien que sea la voz del cliente.
-* Desarrollador / Diseñador: Alguien que sepa del producto
+**Entrevistar a alguien que sepa**:
+* **Estrategia**. El CEO o una persona con alto poder de decisión.
+* **Soporte / Vetas**: Alguien que sea la voz del cliente.
+* **Desarrollador / Diseñador**: Alguien que sepa del producto
 * Alguien que haya tenido experiencia pasada en resolver o ver ese problema. Alguien que haya participado en un esfuerzo anterior.
 
 Traer a tierra todas las ideas pasadas que se han intentado para resolver ese problema.
