@@ -34,6 +34,10 @@
 * Find the best ways to communicate in diferent work situations
 * Most contents are written
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Effective and persuasive communication
 
 * **Get to know your audience**. It is not the same to write for a doctor than a architect.
@@ -42,6 +46,10 @@
 * **Tailor the message to the channel**. It is different to write for a blog than a academic paper.
 * Persuade your audience.
 * Check punctuation and writting.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ## Linguistic elements
 
@@ -72,6 +80,10 @@
 * Use semicolons when you want to separate a clause from another or when you want to introduce a counter argument.
 * Use commas to separate elements, or to introduce an idea after a conjunction.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## El proceso de escritura
 
 1. **Pre-writing**: research about the topic that you are going to be writing about.
@@ -81,6 +93,10 @@
 5. **Re-writing**: polish into a better version.
 6. **Checking**: reread because maybe you can improve the text.
 7. **Publish**: can be in a Social Media, Magazine, Blog, News, etc.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ## Topic Sentence
 
@@ -104,11 +120,19 @@ For example:
 * Maintain a secuence
 * Closure
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Outline
 
 * It’s always good to define a structure. We need to plan out what we are going to include in the text.
 * It gives us an overview of the text.
 * It helps us to accomplish the objectives.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### How to create an outline
 
@@ -118,6 +142,10 @@ Steps to create a good outline:
 3. Define the sections that you will have
 4. Identify the ideas you will develop in each section.
 5. Close the text.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### Types of outlines
 
@@ -152,6 +180,10 @@ Ed. Analyst
 Platzi
 Phone number: 3000000
 Ext. 1200
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 #### Formal Letter Outline
 
@@ -196,6 +228,10 @@ May 7th, 202X
 >
 >John Smith
 >CEO at PaulEnglish
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 #### Cover Letter Outline
 
@@ -245,6 +281,10 @@ May 7th, 202X
 >
 >Juan Pérez
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 #### Business Proposal Outline
 
 Business Proposal
@@ -264,6 +304,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Financial proposal:
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### Planning one text using an outline
 
@@ -286,9 +330,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 * Paraphrase some of my friends
 * Reflection
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Netiquette
 
 **Netiquette** can be understood as a accepted online behavior. In a similar way, **online ethics** is defined as the correct use of assets in a online social setting. These two terms are constantly interchanged and used in a number of contexts to refer to the appropriate and responsible ways of behaving within an online social environment.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### The importance of netiquette
 
@@ -304,6 +356,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 
 With this in mind, it is very important that as members of online communities we acknowledge the need of respecting rules, values and basic behavior patterns.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Writings different of types of texts
 
 ### Writing emails
@@ -314,6 +370,10 @@ With this in mind, it is very important that as members of online communities we
 * Usa a call to action
 * Keep in mind the cultural
 * Read sample emails from the countries you’re trying to contact people from
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### Writing formal letters
 
@@ -326,6 +386,10 @@ Tips for writing formal letters:
 * Saludation og greeting
 * Ending the letter
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ### Writing cover letters
 
 Cover letters are the ones that you use to put on top of your resume, sometimes resumes can ve very rigid, so you can use a cover letter to give more context about yourself.
@@ -337,6 +401,10 @@ Tips for writing cover letters:
 * Highlight the right experiences
 * Be real
 * Edit
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### Writing resumes
 
@@ -354,6 +422,10 @@ Tips for writing cover letters:
 <div align="center">
   <img src="img/cv2.png">
   <small><p>CV with design</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
 </div>
 
 ### Writing business proposals
@@ -378,6 +450,10 @@ Executive Summary
 Problem Statement
 Problem Solution
 Financial proposal
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
 
 ### Writing blogposts
 
@@ -407,10 +483,22 @@ Here I give you an outline that you can use to create your blobposts:
 * Make a short summary of the information.
 * Finish the paragraph with an additional question or an anecdote.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Complementary Resources
 * [Course Slides](docs/english-writing-course.pdf)
 * [Outlines](docs/models.pdf)
 * [Structure of a General Expository Essay](docs/StructureofaGeneralExpositoryEssay.pdf)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
+
 ## Links of Interest
 * https://platzi.com/clases/escritura-ingles/
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+</div>
