@@ -197,10 +197,10 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
 
 ### Generar soluciones
 
-1. Tomar Notas (10-15 mins): Escribir lo que parezca más relevante de lo que hemos realizado hasta el momento (Meta, Preguntas, Mapa). Revisar todo lo que ha hecho hasta el momento.
-2. Generar Ideas (20 min): Continuamente durante 20 minutos escribir todas las ideas posibles, plasmar con dibujos o cualquier ilustración al respecto. Las notas son solo para uno, es decir, no se comparten.
-3. Crazy’8s (8 min. 1 minuto por idea): Escoger del paso anterior una idea y hacer 8 posibles variaciones. (Dividir una hoja de papel en 8 partes y comenzar a dibujar). El ejercicio es individual. Las variaciones no se muestran a nadie.
-4. Bocetar Solución (45 mins): Escoger una de las variaciones y en un formato de tres partes (3 hojas o una hoja con tres post-its) hacer una propuesta de la idea de la manera más explícita posible. Si es necesario, poner explicaciones a los costados. Se debe de tener en cuenta que no es la persona quien va a explicar el boceto, sino el facilitador. Algunas de las características del boceto para tener presentes:
+1. **Tomar Notas** (10-15 mins): Escribir lo que parezca más relevante de lo que hemos realizado hasta el momento (Meta, Preguntas, Mapa). Revisar todo lo que ha hecho hasta el momento.
+2. **Generar Ideas** (20 min): Continuamente durante 20 minutos escribir todas las ideas posibles, plasmar con dibujos o cualquier ilustración al respecto. Las notas son solo para uno, es decir, no se comparten.
+3. **Crazy’8s** (8 min. 1 minuto por idea): Escoger del paso anterior una idea y hacer 8 posibles variaciones. (Dividir una hoja de papel en 8 partes y comenzar a dibujar). El ejercicio es individual. Las variaciones no se muestran a nadie.
+4. **Bocetar Solución** (45 mins): Escoger una de las variaciones y en un formato de tres partes (3 hojas o una hoja con tres post-its) hacer una propuesta de la idea de la manera más explícita posible. Si es necesario, poner explicaciones a los costados. Se debe de tener en cuenta que no es la persona quien va a explicar el boceto, sino el facilitador. Algunas de las características del boceto para tener presentes:
     * En 3 partes
     * Autoexplicable
     * Anónimo
@@ -221,30 +221,30 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
 
 ### Decidir Solución
 
-**1.** **Exhibición (10-15 mins)**: Revisar la situación actual y hacer una observación de la ideas del día 2.
+1. **Exhibición** (10-15 mins): Revisar la situación actual y hacer una observación de la ideas del día 2.
    
-**2.** **Mapa de Calor (10-15 mins)**: Votar por una parte de la idea o la idea en general. esto se hace pegando un sticker. Si hay alguna duda se puede escribir en un postit y pegarlo junto a la solución.
+2. **Mapa de Calor** (10-15 mins): Votar por una parte de la idea o la idea en general. esto se hace pegando un sticker. Si hay alguna duda se puede escribir en un postit y pegarlo junto a la solución.
    
-**3.** **Critica rápida (5 mins por idea)**: Una persona se encarga de presentar las soluciones y concentrarse en las ideas o partes de la idea que más votos tienen. Si existen dudas cualquier miembro del equipo puede responderla según su criterio. Las dudas se despejan sin disponer de mucho tiempo para ello
+3. **Critica rápida** (5 mins por idea): Una persona se encarga de presentar las soluciones y concentrarse en las ideas o partes de la idea que más votos tienen. Si existen dudas cualquier miembro del equipo puede responderla según su criterio. Las dudas se despejan sin disponer de mucho tiempo para ello
    
-**4.** **Votación Silenciosa**: El facilitador da 2 stickers por persona para que puedan votar por una idea o la parte que más les ha gustado. El voto se hace todos al mismo tiempo para que no sean influenciados por los votos de otros.
+4. **Votación Silenciosa**: El facilitador da 2 stickers por persona para que puedan votar por una idea o la parte que más les ha gustado. El voto se hace todos al mismo tiempo para que no sean influenciados por los votos de otros.
    
-**5.** **Voto Decisor**: Finalmente el decidor selecciona una idea (Se puede o no tener en cuenta los votos anteriores). Se puede escoger un solo proyecto o juntar varias ideas de diferentes proyectos.
+5. **Voto Decisor**: Finalmente el decidor selecciona una idea (Se puede o no tener en cuenta los votos anteriores). Se puede escoger un solo proyecto o juntar varias ideas de diferentes proyectos.
 
 ### Crear Storyboard
 
-**1.** **Flujo de Test de Usuario**: cada integrante escribe corta y concretamente en 6 o 8 Post-its las etapas para usar el producto o servicio (Flojo de test de usuario).
+1. **Flujo de Test de Usuario**: cada integrante escribe corta y concretamente en 6 o 8 Post-its las etapas para usar el producto o servicio (Flojo de test de usuario).
 
-**Ejemplo**:
-1. Descargar aplicación,
-2. Registrarse en la aplicación,
-3. Hacer el Pedido.
+    **Ejemplo**:
+    1. Descargar aplicación,
+    2. Registrarse en la aplicación,
+    3. Hacer el Pedido.
    
-Finalmente el facilitador debe alinear los Post-its que son comunes y hacer el flojo que va a recorrer el usuario del producto.
+    Finalmente el facilitador debe alinear los Post-its que son comunes y hacer el flojo que va a recorrer el usuario del producto.
 
-**2.** **Crear Storyboard**: Una persona (preferiblemente con habilidades para dibujar) divide el pizarrón en 8 partes y pega los post-its en cada cuadro según cada una de las etapas. Se iniciar a dibujar la interfaz (para un producto es similar a una historieta).
+2. **Crear Storyboard**: Una persona (preferiblemente con habilidades para dibujar) divide el pizarrón en 8 partes y pega los post-its en cada cuadro según cada una de las etapas. Se iniciar a dibujar la interfaz (para un producto es similar a una historieta).
 
-El storyboard debe de ser claro y conciso.
+    El storyboard debe de ser claro y conciso.
 
 Día 4: Prototipar
 
