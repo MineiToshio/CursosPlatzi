@@ -22,7 +22,7 @@
   - [Writing cover letters](#writing-cover-letters)
   - [Writing resumes](#writing-resumes)
   - [Writing business proposals](#writing-business-proposals)
-  - [Writing a Blogpost](#writing-a-blogpost)
+  - [Writing blogposts](#writing-blogposts)
 - [Complementary Resources](#complementary-resources)
 - [Links of Interest](#links-of-interest)
 
@@ -379,7 +379,7 @@ Problem Statement
 Problem Solution
 Financial proposal
 
-### Writing a Blogpost
+### Writing blogposts
 
 Whenever writing a blog post it is important to keep in mind the following aspects:
 
