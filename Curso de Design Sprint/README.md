@@ -52,6 +52,10 @@ La ventaja es que nos permite tener un feedback de la idea muy rapido.
 * Nuevos acercamientos a la resolución de un problema
 * Nuevos mercados o audiencias
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Proceso del Design Sprint
 
 **Día 1**: Definir target y meta a largo plazo, entrevista a expertos y objetivo.
@@ -63,6 +67,10 @@ La ventaja es que nos permite tener un feedback de la idea muy rapido.
 <div align="center">
   <img src="img/design-sprint-process.jpg">
   <small><p>Proceso de Design Sprint</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ## Cuándo usar design sprint
@@ -82,7 +90,11 @@ La ventaja es que nos permite tener un feedback de la idea muy rapido.
 * No es un problema de diseño de producto o servicio: ejemplo: el logo de una marca
 * El problema es muy amplio. Por ejemplo: resolver el problema de la pobreza
 * El problema es demasiado pequeño. Ejemplo: cual es el mejor lugar para colocar este botón en la interfaz.
-  
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Roles en el equipo
 
 * **Facilitador**: Es quien lidera. Organiza recursos y lleva el tiempo y orden del ejercicio. Corta las discusiones que no son productivas.
@@ -93,6 +105,10 @@ Para poder ejecutar bien el design sprint es importante tener en cuenta el tiemp
 
 **Recomendación**: Tener un reloj para medir el tiempo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## El espacio
 
 * Amplio, cómodo y buena iluminación: Se va a estar de 3 a 5 días y con alrededor de 8 horas por día.
@@ -102,6 +118,10 @@ Para poder ejecutar bien el design sprint es importante tener en cuenta el tiemp
 * Agua y snacks. Que sean fuente de energía y no alimentos que tiren para abajo.
 * Música
 * Sin dispositivos
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Materiales
 
@@ -115,6 +135,10 @@ Para poder ejecutar bien el design sprint es importante tener en cuenta el tiemp
 * Temporizador
 * Pizarrón
 * Snacks saludables
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Día 1: Entender
 
@@ -132,6 +156,10 @@ Tener un mapa que represente una versión simplificada de la experiencia de usua
   * Paso a paso simplificado de cómo es la experiencia
   * Marcar en un círculo el paso en donde se va a enfocar la experiencia
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Meta a largo plazo
 
 * Anotar en un postit la visión del producto en un plazo determinado.
@@ -146,6 +174,10 @@ Hay que tener la visión más pesimista.
 Convertir los escenarios negativos en preguntas con un enfoque más positivos.
 
 **Ejemplo**: En vez de decir "nuestra aplicación es difícil de usar" decimos ¿podremos hacer que nuestra aplicación sea difícil de usar?
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Entrevista a expertos
 
@@ -184,6 +216,10 @@ Ordenar las notas de mayor a menor votos.
 
 Las notas que tienen mas de 1 voto son aquellas en las cuales se debe de prestar atención.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### El mapa (45 mins aprox)
 
 Es una versión simplificada de la experiencia del usuario usando nuestro producto de inicio a fin.
@@ -197,6 +233,10 @@ En el centro se pone cómo completar
   <small><p>Ejemplo: Design Sprint Map</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Día 2: Bocetar
 
 El día 2 está enfocado en crear soluciones.
@@ -205,6 +245,10 @@ El día 2 está enfocado en crear soluciones.
 * Buscar inspiración
 * Generar Soluciones
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Buscar inspiración
 
 Demos rápidos o "lightning demos": Soluciones ya existentes en el mercado.
@@ -212,6 +256,10 @@ Demos rápidos o "lightning demos": Soluciones ya existentes en el mercado.
 Anotar en post-its lo que más llama la atención de las ideas.
 
 Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo el equipo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Generar soluciones
 
@@ -231,11 +279,19 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
   <small><p>Ejemplo: Boceto</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Día 3: Decidir
 
 **Actividades**:
 * Decidir Solución
 * Crear Storyboard
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Decidir Solución
 
@@ -248,6 +304,10 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
 4. **Votación Silenciosa**: El facilitador da 2 stickers por persona para que puedan votar por una idea o la parte que más les ha gustado. El voto se hace todos al mismo tiempo para que no sean influenciados por los votos de otros.
    
 5. **Voto Decisor**: Finalmente el decidor selecciona una idea (Se puede o no tener en cuenta los votos anteriores). Se puede escoger un solo proyecto o juntar varias ideas de diferentes proyectos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Crear Storyboard
 
@@ -269,6 +329,10 @@ El storyboard debe de ser claro y conciso.
   <small><p>Ejemplo: Storyboard</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Día 4: Prototipar
 
 **Actividades**:
@@ -279,6 +343,10 @@ El storyboard debe de ser claro y conciso.
 * Prototipos descartables
 * Hacer solo lo suficiente
 * Experiencia realista
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Formas de prototipar
 * Interfaces digitales
@@ -292,6 +360,10 @@ A mayor tiempo invertido, menos apertura para corregir.
 
 El prototipo debe de reflejar la esencia de lo que se va a hacer. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Pasos para prototipar
 
 1. Elegir Herramientas
@@ -299,6 +371,10 @@ El prototipo debe de reflejar la esencia de lo que se va a hacer.
 3. Juntar las Partes
 4. Hacer una Prueba
    
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Herramientas para prototipar
 
 * Sketch, Photoshop, Illustrator
@@ -307,19 +383,31 @@ El prototipo debe de reflejar la esencia de lo que se va a hacer.
 * keynote, Power Point
 * Squarespace, Wix
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Delegación de tareas (roles)
 
 * **Colectores**: Es responsable de conseguir los recursos necesarios para el prototipo. También encargado de llenar el contenido.
 * **Artistas**: Son responsables de la creación visual.
 * **Stitcher**: Juntan las partes (Crean la interacción)
 * **Entrevistador**: Preparan el ambiente para las entrevistas del día 5.
-  
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Tips al crear el prototipo
 
 * Wireframes digitales (a partir del Storyboard)
 * Un tipo de fuente.
 * Esquema de colores.
 * Enfocarse en interfaces claves.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Día 5: Testear
 
@@ -328,6 +416,10 @@ El prototipo debe de reflejar la esencia de lo que se va a hacer.
 * Cronograma
 
 Es bueno empezar a buscar testers desde el día 2.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Conseguir testers
 
@@ -338,10 +430,18 @@ Es bueno empezar a buscar testers desde el día 2.
 
 Basta con 5 usuarios es para recibir feedback. A partir del 6to las sugerencias se empiezan a repetir.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Cronograma
 
 * Hacer un cronograma de las entrevistas.
 * Se puede tomar alrededor de 1 hora por entrevistas con media hora de descanso entre dada entrevista.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Setup para las entrevistas
 
@@ -362,6 +462,10 @@ Se debe de tener de antenado el prototipo listo en un equipo. No se instala reci
 
 El equipo debe de ver la pantalla donde se están probando los prototipos y poder escuchar el audio de los entrevistados.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Pasos para la entrevista
 
 1. Bienvenida
@@ -369,6 +473,10 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
 3. Iniciar Pruebas con Prototipo
 4. Tareas Detalladas (Enfocar)
 5. Cierre
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tips para la entrevista
 
@@ -378,6 +486,10 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
 * Recordarle que piense en voz alta
 * No lo ayudes
 * Dale una recompensa
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Cómo recibir feedback
 
@@ -392,6 +504,10 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
 
 **Recomendación**: Tener 2 colores de post-its. Un color para feedback positivo y otro para el negativo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Reporte sumario
 
 1. **Aprendizaje principal**: Qué es lo más importante que se ha aprendido en el sprint.
@@ -400,11 +516,19 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
 4. **Próximos pasos**: Decidir si se empieza con el desarrollo del mvp o ir en una dirección diferente.
 5. Feedback detallado
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Conclusiones del Sprint
 
 * Si el feedback fue muy positivo, hacer un mvp
 * Si el feedback es muy negativo, evaluar si se va en la dirección correcta.
 * Si el feedback es mixto, hacer cambios al prototipo y volver a hacer las pruebas con los usuarios.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Desiciones sin discusiones
 
@@ -426,10 +550,18 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
   <small><p>Ejemplo: Mapa de Esfuerzo vs Impacto</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Design Sprint, Design Thinking y Metodologías Ágiles
 
 * **Design Sprint**: Es un proceso especifico, paso a paso. Es una implementación específica de cómo aplicar design thinking.
 * **Design Thinking**: Es un enfoque para resolver un problema.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlaces de Interés
 * [Curso de Design Sprint](https://platzi.com/clases/design-sprint/)
@@ -438,3 +570,7 @@ El equipo debe de ver la pantalla donde se están probando los prototipos y pode
 * [Sprint Stories](https://sprintstories.com/)
 * [AJ&Smart](https://ajsmart.com/)
 * [Lightning Decision Jam](https://medium.muz.li/a-super-simple-exercise-for-solving-almost-any-product-design-challenge-f9e6c0019d7d)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
