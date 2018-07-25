@@ -1,6 +1,22 @@
 # Introducción a la Creación de Empresas y Startups<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
+- [Introducción](#introducción)
+- [Consejos para crear tu empresa](#consejos-para-crear-tu-empresa)
+- [Estrategia de precios](#estrategia-de-precios)
+- [Crowdfunding](#crowdfunding)
+  - [Tipos de crowdfunding](#tipos-de-crowdfunding)
+  - [Recomendaciones antes de comenzar](#recomendaciones-antes-de-comenzar)
+- [Vender y conseguir clientes](#vender-y-conseguir-clientes)
+- [Métricas](#métricas)
+  - [Métricas de vida o muerte](#métricas-de-vida-o-muerte)
+  - [Métricas de crecimiento](#métricas-de-crecimiento)
+  - [Métricas de Performance](#métricas-de-performance)
+- [Comunicación y trabajo en equipo](#comunicación-y-trabajo-en-equipo)
+- [Soporte de usuarios](#soporte-de-usuarios)
+- [Hacer un pitch](#hacer-un-pitch)
+- [Organizar el cap table](#organizar-el-cap-table)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
 
