@@ -103,15 +103,11 @@ Las palabras **que**, **quien**, **como**, **cuando**, **cuanto** y **donde** ll
 
 ### Reglas de la R
 
-Tras las consonantes l-n-s y al principio de la palabra se escribe r aunque suene como rr:
-* Israel
-* Sonrisa
-* Honra
+Tras las consonantes l-n-s y al principio de la palabra se escribe r aunque suene como rr.  
+**Ejemplos**: Israel, Sonrisa, Honra
 
-Cuando se encuentra entre dos vocales se escribe rr
-* Arruyo
-* Corrillo
-* Cerro
+Cuando se encuentra entre dos vocales se escribe rr.  
+**Ejemplos**: Arruyo, Corrillo, Cerro
 
 ### Reglas de la B
 
