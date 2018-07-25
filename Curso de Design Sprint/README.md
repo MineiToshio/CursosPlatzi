@@ -18,9 +18,7 @@
   - [Decidir Solución](#decidir-solución)
   - [Crear Storyboard](#crear-storyboard)
 - [Día 4: Prototipar](#día-4-prototipar)
-  - [Formas de prototipar](#formas-de-prototipar)
   - [Pasos para prototipar](#pasos-para-prototipar)
-  - [Herramientas para prototipar](#herramientas-para-prototipar)
   - [Delegación de tareas (roles)](#delegación-de-tareas-roles)
   - [Tips al crear el prototipo](#tips-al-crear-el-prototipo)
 - [Día 5: Testear](#día-5-testear)
@@ -224,9 +222,9 @@ Las notas que tienen mas de 1 voto son aquellas en las cuales se debe de prestar
 
 Es una versión simplificada de la experiencia del usuario usando nuestro producto de inicio a fin.
 
-En la izquierda van todos aquellos que van a interactuar con el producto
-En el extremo derecho poner cual es el objetivo
-En el centro se pone cómo completar
+* En la izquierda van todos aquellos que van a interactuar con el producto
+* En el extremo derecho poner cual es el objetivo
+* En el centro se pone cómo completar
 
 <div align="center">
   <img src="img/design-sprint-map.jpg">
@@ -251,11 +249,9 @@ El día 2 está enfocado en crear soluciones.
 
 ### Buscar inspiración
 
-Demos rápidos o "lightning demos": Soluciones ya existentes en el mercado.
-
-Anotar en post-its lo que más llama la atención de las ideas.
-
-Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo el equipo.
+1. Demos rápidos o "lightning demos": Soluciones ya existentes en el mercado.
+2. Anotar en post-its lo que más llama la atención de las ideas.
+3. Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo el equipo.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -297,7 +293,7 @@ Cada persona presenta 1 o 2 casos que más le ha interesado y explicarla a todo 
 
 1. **Exhibición** (10-15 mins): Revisar la situación actual y hacer una observación de la ideas del día 2.
    
-2. **Mapa de Calor** (10-15 mins): Votar por una parte de la idea o la idea en general. esto se hace pegando un sticker. Si hay alguna duda se puede escribir en un postit y pegarlo junto a la solución.
+2. **Mapa de Calor** (10-15 mins): Votar por una parte de la idea o la idea en general. Esto se hace pegando un sticker. Si hay alguna duda se puede escribir en un postit y pegarlo junto a la solución.
    
 3. **Critica rápida** (5 mins por idea): Una persona se encarga de presentar las soluciones y concentrarse en las ideas o partes de la idea que más votos tienen. Si existen dudas cualquier miembro del equipo puede responderla según su criterio. Las dudas se despejan sin disponer de mucho tiempo para ello
    
@@ -344,11 +340,7 @@ El storyboard debe de ser claro y conciso.
 * Hacer solo lo suficiente
 * Experiencia realista
 
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
-
-### Formas de prototipar
+**Formas de prototipar**:
 * Interfaces digitales
 * producto físico
 * servicios
@@ -370,12 +362,8 @@ El prototipo debe de reflejar la esencia de lo que se va a hacer.
 2. Dividir las Tareas
 3. Juntar las Partes
 4. Hacer una Prueba
-   
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
-### Herramientas para prototipar
+**Herramientas para prototipar**
 
 * Sketch, Photoshop, Illustrator
 * InVision
@@ -415,7 +403,7 @@ El prototipo debe de reflejar la esencia de lo que se va a hacer.
 * Conseguir los testers
 * Cronograma
 
-Es bueno empezar a buscar testers desde el día 2.
+**Nota**: Es bueno empezar a buscar testers desde el día 2.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -447,6 +435,11 @@ Basta con 5 usuarios es para recibir feedback. A partir del 6to las sugerencias 
 
 Se dividen en 2 salas. 
 
+<div align="center">
+  <img src="img/set-up-sala-entrevistas.png">
+  <small><p>Set Up Sala de Entrevistas</p></small>
+</div>
+
 **Sala de entrevistas**:
 * Entrevistador
 * Entrevistado
@@ -458,7 +451,7 @@ La sala de entrevistas debe de ser una sala diferente a donde se hicieron los sp
 
 En la sala de feedback el resto del equipo está viendo una transmisión de la entrevista y está tomando notas. 
 
-Se debe de tener de antenado el prototipo listo en un equipo. No se instala recién.
+Se debe de tener de antenado el prototipo listo en un equipo. No se instala en el equipo del entrevistado.
 
 El equipo debe de ver la pantalla donde se están probando los prototipos y poder escuchar el audio de los entrevistados.
 
