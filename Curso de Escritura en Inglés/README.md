@@ -35,7 +35,7 @@
 * Most contents are written
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Effective and persuasive communication
@@ -48,7 +48,7 @@
 * Check punctuation and writting.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Linguistic elements
@@ -81,7 +81,7 @@
 * Use commas to separate elements, or to introduce an idea after a conjunction.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## El proceso de escritura
@@ -95,7 +95,7 @@
 7. **Publish**: can be in a Social Media, Magazine, Blog, News, etc.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Topic Sentence
@@ -121,7 +121,7 @@ For example:
 * Closure
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Outline
@@ -131,7 +131,7 @@ For example:
 * It helps us to accomplish the objectives.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### How to create an outline
@@ -144,7 +144,7 @@ Steps to create a good outline:
 5. Close the text.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Types of outlines
@@ -182,7 +182,7 @@ Phone number: 3000000
 Ext. 1200
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 #### Formal Letter Outline
@@ -230,7 +230,7 @@ May 7th, 202X
 >CEO at PaulEnglish
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 #### Cover Letter Outline
@@ -282,7 +282,7 @@ May 7th, 202X
 >Juan Pérez
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 #### Business Proposal Outline
@@ -306,7 +306,7 @@ Financial proposal:
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Planning one text using an outline
@@ -331,7 +331,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 * Reflection
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Netiquette
@@ -339,7 +339,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 **Netiquette** can be understood as a accepted online behavior. In a similar way, **online ethics** is defined as the correct use of assets in a online social setting. These two terms are constantly interchanged and used in a number of contexts to refer to the appropriate and responsible ways of behaving within an online social environment.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### The importance of netiquette
@@ -357,7 +357,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. It ha
 With this in mind, it is very important that as members of online communities we acknowledge the need of respecting rules, values and basic behavior patterns.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Writings different of types of texts
@@ -372,7 +372,7 @@ With this in mind, it is very important that as members of online communities we
 * Read sample emails from the countries you’re trying to contact people from
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Writing formal letters
@@ -387,7 +387,7 @@ Tips for writing formal letters:
 * Ending the letter
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Writing cover letters
@@ -403,7 +403,7 @@ Tips for writing cover letters:
 * Edit
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Writing resumes
@@ -425,7 +425,7 @@ Tips for writing cover letters:
 </div>
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Writing business proposals
@@ -452,7 +452,7 @@ Problem Solution
 Financial proposal
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ### Writing blogposts
@@ -484,7 +484,7 @@ Here I give you an outline that you can use to create your blobposts:
 * Finish the paragraph with an additional question or an anecdote.
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Complementary Resources
@@ -493,12 +493,12 @@ Here I give you an outline that you can use to create your blobposts:
 * [Structure of a General Expository Essay](docs/StructureofaGeneralExpositoryEssay.pdf)
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
 
 ## Links of Interest
 * https://platzi.com/clases/escritura-ingles/
 
 <div align="right">
-  <small><a href="#tabla-de-contenido">🡡 to top</a></small>
+  <small><a href="#table-of-contents">🡡 to top</a></small>
 </div>
