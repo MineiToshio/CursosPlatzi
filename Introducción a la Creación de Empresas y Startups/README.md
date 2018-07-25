@@ -30,6 +30,10 @@
 
 Una Startup NO es cuando empiezas un pequeño negocio que va a tener ciertos límites. Ejemplo, un pequeño café o un pequeño taller. NO es cuando piensas en un negocio para hacer consultorías o para tener alguna fórmula de autoempleo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Consejos para crear tu empresa
 
 * Hacer primero el acta de creación y otros temas legales.
@@ -37,10 +41,14 @@ Una Startup NO es cuando empiezas un pequeño negocio que va a tener ciertos lí
 * Es importante tener ayuda legal financiera y de otros founders.
 * Ser generosos cuando el negocio arranca.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Estrategia de precios
 
-* No existe una única fórmula para lograr un precio adecuado para tu producto o servicio.
-* El precio no es el único factor de la fórmula de ventas, es solamente una parte.
+* **No existe una única fórmula** para lograr un precio adecuado para tu producto o servicio.
+* **El precio no es el único factor** de la fórmula de ventas, es solamente una parte.
 * Hay que identificar bien la **percepción de valor** del producto o servicio.
 * Hay que conocer muy bien al **tipo de cliente** del producto o servicio.
 * Hay que conocer bien los **costos asociados** a la producción de los bienes o servicios.
@@ -54,6 +62,10 @@ Una Startup NO es cuando empiezas un pequeño negocio que va a tener ciertos lí
     2. Conocer bien lo que puede afectar los precios en el mercado.
 
 Hacer descuentos todo el tiempo es una mala estrategia de precios. Lo que efectivamente haces es diluir el valor percibido de tu producto y tus clientes nunca lo comprarán al precio real. Siempre esperarán al “descuento”. Esa es la vida de los zapatos, la ropa, ciertas comidas, etc.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Crowdfunding
 
@@ -80,6 +92,10 @@ Es una alternativa de financiación que permite que una persona o empresario que
 4. Se completa un monto de dinero que cubre el emprendimiento
 5. Se pone en acción el emprendimiento.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Tipos de crowdfunding
 
 * **Donaciones**. Es donde fundaciones, ONGs o causas sociales buscan recursos de la comunidad para poder completar el proyecto. 
@@ -90,8 +106,11 @@ Es una alternativa de financiación que permite que una persona o empresario que
 * **Inversión**. Expones tu idea a la comunidad y en lugar de dar una recompensa física se da una participación en las acciones del negocio. 
   Ejemplo: [Crowdfunder](https://www.crowdfunder.com/)
 * **Préstamo**. Recibes de la comunidad, de distintas personas montos pequeños de dinero que se tienen que devolver con una tasa de interés. 
-  Ejemplo: [LendingClub](https://www.lendingclub.com/
-)
+  Ejemplo: [LendingClub](https://www.lendingclub.com/)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Recomendaciones antes de comenzar
 
@@ -102,6 +121,10 @@ Es una alternativa de financiación que permite que una persona o empresario que
 * Comunicar el valor de la unidad de negocio de forma efectiva.
 * Ofrecer un modelo de recompensa sencillo.
 * Comunicar el progreso.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Vender y conseguir clientes
 
@@ -114,6 +137,10 @@ Las empresas que crecen son empresas que venden.
 * Utilizar herramientas de Inbound y Outbound de Marketing para conseguir leads que pueden ser clientes futuros.
 * Los fundadores van a ser vendedores naturales.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 **Existen dos tipos de ventas:**
 
 * **B2B**. Clientes corporativos, hacer negocio con otras empresas.
@@ -123,6 +150,10 @@ Las ventas son el financiamiento más sólido.
 
 Los fundadores deberían vender a los primeros mil clientes directamente. En especial el CEO. De otra manera ¿Cómo vasn a conocer a su audiencia?
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Métricas
 
 ### Métricas de vida o muerte
@@ -130,6 +161,10 @@ Los fundadores deberían vender a los primeros mil clientes directamente. En esp
 * **Customer Adquisition Cost**. Es la medida de cuánto nos está costando adquirir cada usuario que está llegando a nuestros producto o servicio.
 * **Expenses**. Gastos que se están teniendo en la empresa. Es muy importante medir no solamente la cantidad que se está gastando, sino en qué se está gastando para poder eliminar los gastos que son totalmente innecesarios.
 * **Burn Rate**. Porcentaje de dinero que estamos quemando al mes, el cual debería ser el mínimo posible.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Métricas de crecimiento
 
@@ -139,10 +174,18 @@ Los fundadores deberían vender a los primeros mil clientes directamente. En esp
 * **Runway**. Es una relación que nos va a decir cuánto dinero tenemos en el banco, cuántos son nuestros expenses y cuántos son nuestros ingresos, y con eso saber cuántos meses de vida le queda a nuestra empresa.
 * **Usuarios**. Este es el punto más importante, tenemos qué saber cuántos usuarios están usando nuestros producto o servicio.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Métricas de Performance
 
 * **KPI**. Miden el rendimiento del equipo, sus siglas significan Key Performance Indicator o en español Indicadores Clave de Desempeño.
 * **OKR**. Miden el crecimiento personal de cada uno de los integrantes del equipo. Sus siglas significan Objectives and Key Results o en español Objetivos y Resultados Clave.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Comunicación y trabajo en equipo
 
@@ -157,6 +200,10 @@ Cosas que debemos tener cuenta en la comunicación con nuestros equipos:
 * **Para los más comunicativos**: Escribir > Leer > Editar > Leer otra vez.
 * **Para los más callados**: Exagerar, comunicar todo lo que se pueda.
 * **Para los líderes**: Crear rutinas de comunicación.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Soporte de usuarios
 
@@ -181,6 +228,10 @@ Pasos importantes para entender mejor a tus usuarios:
 4. **Probar**
     * Asegurarse de que el proceso fue exitoso.
     * Involucrar al equipo de soporte y usuarios en los procesos de pruebas.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Hacer un pitch
 
@@ -239,6 +290,10 @@ Las disculpas son irrelevantes. Es por ego personal que normalmente nos disculpa
 **Investigar a la audiencia**  
 Investigar el perfil de las personas es muy importante para darle más personalidad a la presentación y conectar mejor.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Organizar el cap table
 
 **Cap Table** es la tabla donde se entiende quién es dueño de qué parte de la empresa.
@@ -252,6 +307,14 @@ Investigar el perfil de las personas es muy importante para darle más personali
 * Las acciones tienen dos valores fundamentales: El poder de voto y el poder financiero.
 * Los eventos de liquidez son momentos como cuando se levanta capital o se sale a la bolsa en los cuales pueden existir transacciones comerciales.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * [
 Introducción a la Creación de Empresas y Startups](https://platzi.com/clases/creacion-de-empresas/)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
