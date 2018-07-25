@@ -19,3 +19,6 @@ Guía de resumen de los cursos de Platzi
 
 ### Base de Datos
 1. [Curso de MongoDB y Redis](Curso%20de%20MongoDB%20y%20Redis/README.md#curso-de-mongodb-y-redis)
+
+### Crecimiento Profesional
+1. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
