@@ -26,7 +26,10 @@
 * `MongoDB` resuelve un problema de escalabilidad.
 * `Redis` nos resuelve el problema de guardar información con llave - valor.
 
-![nosql databases](img/no-sql-dbs.gif)
+<div align="center">
+  <img src="img/no-sql-dbs.gif">
+  <small><p>Bases de Datos NoSql</p></small>
+</div>
 
 Las **bases de datos relacionales** no fueron diseñadas para hacer frente a los desafíos de escala y agilidad que enfrentan las aplicaciones modernas, ni tampoco fueron construidas para aprovechar el poder de almacenamiento y procesamiento de productos disponibles en la actualidad.
 
@@ -100,12 +103,35 @@ Las **bases de datos relacionales** no fueron diseñadas para hacer frente a los
 
 ### Modelado de datos
 
-![Uno a Uno](img/uno-a-uno.png)
-![Uno a Muchos con Documento](img/uno-a-muchos-documento.png)
-![Uno a Muchos con Referencias](img/uno-a-muchos-referencias.png)
-![Uno a Muchos con Referencias](img/uno-a-muchos-referencias.png)
-![Referencia al Padre](img/referencia-padre.png)
-![Referencia a los hijos](img/referencia-hijos.png)
+<div align="center">
+  <img src="img/uno-a-uno.png">
+  <small><p>Uno a Uno</p></small>
+</div>
+
+<div align="center">
+  <img src="img/uno-a-muchos-documento.png">
+  <small><p>Uno a Muchos con Documento</p></small>
+</div>
+
+<div align="center">
+  <img src="img/uno-a-muchos-referencias.png">
+  <small><p>Uno a Muchos con Referencias</p></small>
+</div>
+
+<div align="center">
+  <img src="img/modelo-arbol.png">
+  <small><p>Modelo de Árbol</p></small>
+</div>
+
+<div align="center">
+  <img src="img/referencia-padre.png">
+  <small><p>Referencia al Padre</p></small>
+</div>
+
+<div align="center">
+  <img src="img/referencia-hijos.png">
+  <small><p>Referencia a los Hijos</p></small>
+</div>
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -229,8 +255,8 @@ Si tienes Windows 10, utilizar Linux for Windows:
 </div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/mongodb-redis/
-* https://github.com/MineiToshio/cryptongo
+* [Curso de MongoDB y Redis](https://platzi.com/clases/mongodb-redis/)
+* [Cryptongo](https://github.com/MineiToshio/cryptongo)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>

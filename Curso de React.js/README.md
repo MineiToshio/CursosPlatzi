@@ -1,14 +1,54 @@
-# Curso de React.js
+# Curso de React.js<!-- omit in toc -->
+
+## Tabla de Contenido<!-- omit in toc -->
+- [Introducción](#introducción)
+- [Instalación de React](#instalación-de-react)
+- [Bases de React](#bases-de-react)
+  - [React DOM](#react-dom)
+  - [Componentes](#componentes)
+  - [Estilos CSS](#estilos-css)
+  - [Propiedades](#propiedades)
+    - [Pasar propiedades a un componente](#pasar-propiedades-a-un-componente)
+    - [Validado de propiedades](#validado-de-propiedades)
+  - [Enlazando eventos del DOM](#enlazando-eventos-del-dom)
+  - [Estado de componentes](#estado-de-componentes)
+    - [Creación del estado](#creación-del-estado)
+    - [Modificar un estado](#modificar-un-estado)
+    - [Mostrar el valor del estado](#mostrar-el-valor-del-estado)
+  - [Ciclo de vida de los componentes](#ciclo-de-vida-de-los-componentes)
+    - [Métodos del ciclo de vida](#métodos-del-ciclo-de-vida)
+- [Trabajando con componentes](#trabajando-con-componentes)
+  - [Listas de React](#listas-de-react)
+  - [Componentes puros](#componentes-puros)
+  - [Componentes funcionales](#componentes-funcionales)
+  - [Metodología de Smart & Dumb Components](#metodología-de-smart--dumb-components)
+  - [props.chidren](#propschidren)
+  - [Portales](#portales)
+  - [Manejo de errores](#manejo-de-errores)
+  - [Referencias](#referencias)
+  - [Input en React](#input-en-react)
+- [Recursos Complementarios](#recursos-complementarios)
+- [Enlaces de Interés](#enlaces-de-interés)
+
+## Introducción
 
 React = Librería de JavaScript para construir interfaces de usuarios.
 
 Las necesidades del Frontend han ido en aumento a medida que han pasado los años. Todo el enfoque ha sido encaminado a mejorar todos los aspectos que hagan que la experiencia de usuario sea mucho mejor, esto le ha dado más responsabilidades al área de Frontend.
 
-![Evolución del frontend](img/resumen-react-ev.jpg)
+<div align="center">
+  <img src="img/resumen-react-ev.jpg">
+  <small><p>Evolución del Frontend</p></small>
+</div>
 
 **Particularidades de ReactJS**
 * Declarativo. Es muy sencillo escribir interfaces y poderlas leer.
-![Leguaje declarativo](img/declarativo.png)
+
+<div align="center">
+  <img src="img/declarativo.png">
+  <small><p>Lenguaje Declarativo</p></small>
+</div>
+
 * Basado en componentes. Crear aplicaciones con React es como jugar con Legos donde cada ficha es un componenete.
 * Aprende de una vez y escribe donde quieras.
 
@@ -18,6 +58,10 @@ Las necesidades del Frontend han ido en aumento a medida que han pasado los año
 * `Redux` Manejar el estado global de la aplicación.
 * `React Native` Interfaces de aplicaciones mobiles.
 * `Next.js` Framework en el servidor.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Instalación de React
 
@@ -248,9 +292,17 @@ Por último, parsa usar React se debe de instalar `react` y `react-dom`.
 npm install react react-dom
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Bases de React
 
 React sirve para crear componentes de la aplicación y dividirlo en bloques.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### React DOM
 
@@ -269,6 +321,10 @@ const holaMundo = <h1>hola mundo</h1>;
 
 ReactDOM.render(holaMundo, app);
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Componentes
 
@@ -310,6 +366,10 @@ import HolaMundo from "./src/js/components/HolaMundo.jsx";
 
 render(<HolaMundo/>, app);
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Estilos CSS
 
@@ -354,9 +414,17 @@ Para usarlos dentro de un elementos JSX se usa el atributos `className`.
 <div className="Media">
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Propiedades
 
 Lo que se conoce como `atributos` en HTML, se llama `propiedades` en JSX.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### Pasar propiedades a un componente
 
@@ -383,6 +451,10 @@ const {title} = this.props;
 ```jsx
 <h1>{title}</h1>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### Validado de propiedades
 
@@ -440,6 +512,10 @@ Cuando exista un error al pasar una propiedad se va a mostrar un warnning en la 
 Documentación completa de prop-types:
 https://reactjs.org/docs/typechecking-with-proptypes.html
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Enlazando eventos del DOM
 
 Para enlazar un evento al DOM se hace añadiendo un `on + Event` (ejemplo, onClick) y así asignarle el nombre de la función. Por convención, se asigna `handle + Event` (ejemplo, handleEvent)
@@ -474,9 +550,17 @@ handleClick = (event) => {
 Documentación completa del manejo de eventos:
 https://reactjs.org/docs/handling-events.html
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Estado de componentes
 
 Las propiedades son  inmutables. Estas no pueden cambiar. Si se desea hacer un cambio se usan los `states`. 
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### Creación del estado
 
@@ -503,6 +587,10 @@ state = {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### Modificar un estado
 
 Para modificar un estado se usa la función `setState`.
@@ -513,6 +601,10 @@ this.setState({
 })
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### Mostrar el valor del estado
 
 Para mostrar el valor de un elemento de estado se usa `this.state` seguido por el elemento que se desea usar.
@@ -521,6 +613,10 @@ Para mostrar el valor de un elemento de estado se usa `this.state` seguido por e
 <p>{this.state.author}</p>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Ciclo de vida de los componentes
 
 El ciclo de vida de un componente se divide en 4 etapas principales:
@@ -528,6 +624,10 @@ El ciclo de vida de un componente se divide en 4 etapas principales:
 * `Actualización` es cuando el componente recibe nuevos datos
 * `Desmontado` es cómo el componente se va de la escena.
 * `Manejo de errores` previene que la aplicación se ropa si el componente tiene algún problema (implementado desde React 16).
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### Métodos del ciclo de vida
 
@@ -579,6 +679,10 @@ Nota: Aquí el componente ya está en pantalla entonces se pueden hacer llamados
 
 `componentDidCatch()` método llamado cuando ocurre un error al renderizar el componente. El manejo de errores solamente ocurre en componentes hijos.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Trabajando con componentes
 
 ### Listas de React
@@ -600,6 +704,10 @@ render() {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Componentes puros
 
 `PureComponent` tiene el método `shouldComponentUpdate()` asignado por defecto. Si este componente no se le actualizan las propiedades, no tenemos que validar a mano con shouldComponentUpdate porque PureComponent lo hace por nosotros.
@@ -615,6 +723,10 @@ class Playlist extends PureComponent{
   }
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Componentes funcionales
 
@@ -632,6 +744,10 @@ function Playlist(props) {
   )
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Metodología de Smart & Dumb Components
 
@@ -659,6 +775,10 @@ function Playlist(props) {
 
 * Separación de responsabilidades (Se parece a MVC, V para dumbs y C para smarts)
 * Mejorar la capacidad de reutilizar componentes
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### props.chidren
 
@@ -701,6 +821,10 @@ Eso genera un HTLM como el siguiente:
 </svg>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Portales
 
 `Portales` es la manera en la que podemos renderizar componentes fuera del contenedor principal de la aplicación.
@@ -731,6 +855,10 @@ class ModalContainer extends Component {
 
 export default ModalContainer;
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Manejo de errores
 
@@ -785,6 +913,10 @@ render() {
 Se recomienda usar servicios como `Sentry` para gestionar los errores.
 https://sentry.io
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Referencias
 
 Las referencias nos permite alamacenar en react un elemento HTML.
@@ -808,6 +940,10 @@ render() {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Input en React
 
 Si se asigna el valor de `value` se define como un valor constanete, es decir, no va a poder ser modificado.
@@ -816,10 +952,22 @@ Si se desea asignar un valor inicial, pero que este pueda ser modificado, entonc
 
 Si se desea manipular el valor asignado a value se puede hacer con el método `onChange` del input.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Recursos Complementarios
 * [Diapositivas del curso](docs/bienvenido-desarrollador-react.pdf)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
-* https://platzi.com/clases/react/
-* https://github.com/LeonidasEsteban/platzi-video
-* https://github.com/facebook/create-react-app
+* [Curso de React.js](https://platzi.com/clases/react/)
+* [Github: Platzi Video](https://github.com/LeonidasEsteban/platzi-video)
+* [Github: Create React App](https://github.com/facebook/create-react-app)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>

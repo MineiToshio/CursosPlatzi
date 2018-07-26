@@ -1,5 +1,14 @@
 # Curso de JavaScript Full Stack con Sails.js<!-- omit in toc -->
 
+## Tabla de Contenido<!-- omit in toc -->
+- [Las tecnologías de Sails](#las-tecnologías-de-sails)
+- [Configuración de VS Code](#configuración-de-vs-code)
+- [Instalar Sails](#instalar-sails)
+- [Crear una aplicación con Sails](#crear-una-aplicación-con-sails)
+- [Arquitectura Backend](#arquitectura-backend)
+- [Comandos](#comandos)
+- [Enlaces de Interés](#enlaces-de-interés)
+
 ## Las tecnologías de Sails
 
 * [Javascript (ECMA Script 8)](https://developer.mozilla.org/bm/docs/Web/JavaScript) El lenguaje de la web.
@@ -95,6 +104,6 @@ Se van a mostrar 2 opciones:
 * `sails lift` levanta el servidor
 
 ## Enlaces de Interés
-* https://platzi.com/clases/javascript-pro/
-* https://ration.io/
-* https://github.com/mikermcneil/ration
+* [Curso de JavaScript Full Stack con Sails.js](https://platzi.com/clases/javascript-pro/)
+* [Ration](https://ration.io/)
+* [Github: Ration](https://github.com/mikermcneil/ration)

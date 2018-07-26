@@ -728,7 +728,7 @@ De este modo cuando ejecutamos `ejemplo.php` se ejecuta automáticamente y ya no
 </div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/terminal/
+* [Introducción a Terminal y Línea de Comandos](https://platzi.com/clases/terminal/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>

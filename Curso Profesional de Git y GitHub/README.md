@@ -33,15 +33,24 @@ Un sistema que registra los cambios realizados sobre un archivo o conjunto de ar
 
 `Local Computer` Solo vive en nuestro computador.
 
-![sistema de control local](img/local.png)
+<div align="center">
+  <img src="img/local.png">
+  <small><p>Sistema de Control Local</p></small>
+</div>
 
 `Centralizado` No depende únicamente de un computador en el que se trabaja, sino que depende del súper servidor en donde se almacena la información. El servidor provee las copias a sus hijos, pero solo guarda los cambios en un solo lugar.
 
-![sistema de control centralizado](img/centralizado.png)
+<div align="center">
+  <img src="img/centralizado.png">
+  <small><p>Sistema de Control Centralizado</p></small>
+</div>
 
 `Sistema de control distribuidos` Cada uno de los que participan en el proyecto, tienen copia del proyecto que se realiza, por eso no dependemos de un solo computador que almacene toda la información.
 
-![sistema de control distribuído](img/distribuido.png)
+<div align="center">
+  <img src="img/distribuido.png">
+  <small><p>Sistema de Control Distribuido</p></small>
+</div>
 
 Git es un Sistema de Control de Versiones Distribuido.
 
@@ -69,11 +78,15 @@ Git fue creado por Linus Torvals
 * Casi cualquier operación en Git es local. Se puede trabajar offline
 * Git tiene integridad. No puedes perder información durante su transmisión o sufrir corrupción de archivos sin que Git lo detecte
 
-![Almacenamiento de archivos en GIT](img/checkins-over-time-git.png)
-Almacenamiento de archivos en GIT
+<div align="center">
+  <img src="img/checkins-over-time-git.png">
+  <small><p>Almacenamiento de Archivos en GIT</p></small>
+</div>
 
-![Almacenamiento de archivos en subversion](img/checkins-over-time-subversion.png)
-Almacenamiento de archivos en subversion
+<div align="center">
+  <img src="img/checkins-over-time-subversion.png">
+  <small><p>Almacenamiento de Archivos en Subversion</p></small>
+</div>
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -85,7 +98,10 @@ Almacenamiento de archivos en subversion
 * `Staging Area` Es el área de preparación, se almacenan justo antes de hacer commit
 * `Git repository` El repositorio donde almacenaremos los cambios del proyecto
 
-![estados de Git](img/estados-git.png)
+<div align="center">
+  <img src="img/estados-git.png">
+  <small><p>Estados de Git</p></small>
+</div>
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -285,10 +301,10 @@ https://www.gitignore.io/
 </div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/git-github/
-* https://git-scm.com/book/es/v2
-* https://www.gitignore.io/
-* https://github.com/
+* [Curso Profesional de Git y GitHub](https://platzi.com/clases/git-github/)
+* [Git Book](https://git-scm.com/book/es/v2)
+* [Git Ignore](https://www.gitignore.io/)
+* [Github](https://github.com/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>

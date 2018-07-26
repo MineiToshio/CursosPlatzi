@@ -21,7 +21,9 @@
 * El diseño es un puente entre la funcionalidad y estética.
 * El diseño es la solución a un problema específico, representada de una manera gráfica.
 
-![Diseño Puente](img/diseno-puente.png)
+<div align="center">
+  <img src="img/diseno-puente.png">
+</div>
 
 Existen diferentes ramas del diseño:
 * Gráfico
@@ -207,16 +209,14 @@ En el concepto se tiene la posibilidad de crear cualquier cosa.
 
 ### Alineación
 
-La alineación crea un balance por peso natural, nos da la sensación de que hay equilibrio en el diseño.
-La alineación es para tener una mejor lectura y una mejor disposición en el espacio.
-Algo crucial en el diseño es la educación del ojo, debemos entrenarlo para poder observar los lineamientos que se necesitan o los que están de más.
-Sin alineacion:
+* La alineación crea un balance por peso natural, nos da la sensación de que hay equilibrio en el diseño.
+* La alineación es para tener una mejor lectura y una mejor disposición en el espacio.
+* Algo crucial en el diseño es la educación del ojo, debemos entrenarlo para poder observar los lineamientos que se necesitan o los que están de más.
 
-
-Con alineacion:
-
-
-Distribucion, balance:
+<div align="center">
+  <img src="img/logos-olimpiadas.png">
+  <small><p>El mismo logo se ha usado en todas las olimpiadas</p></small>
+</div>
 
 
 Pueden estar alineado con distintos objetos o formas:
@@ -304,6 +304,8 @@ La composición gráfica es la disposición de los elementos dentro de un format
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/fundamentos.pdf)
 * [Diapositivas del Curso 2](docs/fundamentos2.pdf)
+* [Ruta: Diseñador de Producto](docs/ruta-Carlos-Jimenez.jpg)
+* [Ruta: Diseñador de Marca](docs/ruta-Emiro-Arrieta.jpg)
 
 ## Enlaces de Interés
-* https://platzi.com/clases/fundamentos-diseno/
+* [Fundamentos de Diseño](https://platzi.com/clases/fundamentos-diseno/)

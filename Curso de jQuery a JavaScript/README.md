@@ -617,7 +617,7 @@ Si se desea volver a traer los datos se puede hacer lo siguiente:
 </div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/jquery-js
+* [Curso de jQuery a JavaScript](https://platzi.com/clases/jquery-js)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>

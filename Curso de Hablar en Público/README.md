@@ -1,4 +1,16 @@
-# Curso de Hablar en Público
+# Curso de Hablar en Público<!-- omit in toc -->
+
+## Tabla de Contenido<!-- omit in toc -->
+- [Cómo superar el miedo a hablar en público](#cómo-superar-el-miedo-a-hablar-en-público)
+- [NUNCA te disculpes de NADA](#nunca-te-disculpes-de-nada)
+- [El cerebro humano hablando a uno o a muchos](#el-cerebro-humano-hablando-a-uno-o-a-muchos)
+- [Reglas básicas para dar conferencias](#reglas-básicas-para-dar-conferencias)
+- [Cómo investigar y entender a tu audiencia](#cómo-investigar-y-entender-a-tu-audiencia)
+- [Estructura de un discurso exitoso](#estructura-de-un-discurso-exitoso)
+- [Cómo lograr que te escuchen y entiendan](#cómo-lograr-que-te-escuchen-y-entiendan)
+- [Diseño de Presentaciones](#diseño-de-presentaciones)
+  - [Qué no hacer](#qué-no-hacer)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## Cómo superar el miedo a hablar en público
 
@@ -149,7 +161,10 @@ Un buen discurso te cuenta un cuento y te deja una enseñanza y una acción.
 
 Los buenos mensajes van en grupos de a tres. Cuando hablas en grupos de tres la gente te pone más atención.
 
-![Estructura de un discurso](img/estructura-discurso.png)
+<div align="center">
+  <img src="img/estructura-discurso.png">
+  <small><p>Estructura de un discurso</p></small>
+</div>
 
 ## Cómo lograr que te escuchen y entiendan
 
@@ -163,43 +178,74 @@ Tip: Antes de dar una conferencia intenta hacerle saber a las personas que manej
 
 **1.** No utilices fondo negro y texto blanco. Esto es un problema porque los proyectores no siempre están bien calibrados, entonces es imposible de leer.
 
-![Slide: Fondo Negro](img/slide-fondo-negro.png)
+<div align="center">
+  <img src="img/slide-fondo-negro.png">
+  <small><p>Slide: Fondo Negro</p></small>
+</div>
 
 **2.** Evita utilizar más de una tipografía.
 
-![Slide: ](img/slide-mucha-tipografia.png)
+<div align="center">
+  <img src="img/slide-mucha-tipografia.png">
+  <small><p>Slide: Diferentes Tipografías</p></small>
+</div>
 
 **3.** Las listas o bullet points son un error. Recuerda dejar un solo mensaje por slide.
 
-![Slide: ](img/slide-muchos-bullets.png)
+<div align="center">
+  <img src="img/slide-muchos-bullets.png">
+  <small><p>Slide: Varios Bullets</p></small>
+</div>
 
 **4.** Utiliza los logos más actualizados de las empresas a las que te vas a referir.
 
-![Slide: ](img/slide-logo-pasado.png)
+<div align="center">
+  <img src="img/slide-logo-pasado.png">
+  <small><p>Slide: Logos Antiguos</p></small>
+</div>
 
 **5.** No coloques fotos pixeladas o de baja calidad. Busca una foto de alta definición.
 
-![Slide: ](img/slide-foto-pixeleada.png)
+<div align="center">
+  <img src="img/slide-foto-pixeleada.png">
+  <small><p>Slide: Foto Pixeleada</p></small>
+</div>
 
 **6.** El espacio no es limitado. Tu texto no debe ser pequeño.
 
-![Slide: ](img/slide-texto-chiquito.png)
+<div align="center">
+  <img src="img/slide-texto-chiquito.png">
+  <small><p>Slide: Texto Pequeño</p></small>
+</div>
 
 **7.** No utilices gifs ni memes. Si tu conferencia es profesional evita esto para darle seriedad a tu mensaje.
 
-![Slide: ](img/slide-meme.png)
+<div align="center">
+  <img src="img/slide-meme.png">
+  <small><p>Slide: Memes</p></small>
+</div>
 
 **8.** Revisa la tipografía que vas a usar, en general Times New Roman no funciona para presentaciones.
 
-![Slide: ](img/slide-times-new-roman.png)
+<div align="center">
+  <img src="img/slide-times-new-roman.png">
+  <small><p>Slide: Time News Roman</p></small>
+</div>
 
 **9.** Evita las fotos de bancos de imágenes, sobre todo si tienen las marcas de agua. Busca imágenes representativas de tu región o de tu audiencia.
 
-![Slide: ](img/slide-foto-stock.png)
+<div align="center">
+  <img src="img/slide-foto-stock.png">
+  <small><p>Slide: Foto Stock</p></small>
+</div>
 
 **10.** No des las gracias, no hace falta.
 
-![Slide: ](img/slide-gracias.png)
+<div align="center">
+  <img src="img/slide-gracias.png">
+  <small><p>Slide: Gracias</p></small>
+</div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/hablar-en-publico/
+* [Curso de Hablar en Público
+](https://platzi.com/clases/hablar-en-publico/)

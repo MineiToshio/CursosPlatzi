@@ -12,7 +12,10 @@ Node es muy útil para aplicaciones que tienen alta concurrencia. Utiliza JavaSc
 
 ## Arquitectura de Node.js
 
-![Screenshot](img/arquitectura.png)
+<div align="center">
+  <img src="img/arquitectura.png">
+  <small><p>Arquitectura de Node.JS</p></small>
+</div>
 
 Node existe gracias a un componente principal que se llama V8, que es el que nos permite utilizar JavaScript del lado del servidor.
 
@@ -69,4 +72,4 @@ Para que no es bueno
 * Aplicaciones de Sistemas y para manejar componentes nativas.
 
 ## Enlaces de Interés
-* https://platzi.com/clases/nodejs/
+* [Curso Avanzado de Node.js](https://platzi.com/clases/nodejs/)

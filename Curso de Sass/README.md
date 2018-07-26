@@ -331,7 +331,7 @@ $background-color: black;
 </div>
 
 ## Enlaces de Interés
-* https://platzi.com/clases/sass/
+* [Curso de Sass](https://platzi.com/clases/sass/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
