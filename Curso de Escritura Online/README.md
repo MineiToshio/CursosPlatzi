@@ -253,9 +253,13 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 ¿Cuáles son las fases que desarrollamos a la hora de escribir nuestros textos?
 
 * **Pre-escritura**, estrategias que nos permiten identificar las ideas que vamos a usar en el texto. Lluvia de ideas o mapa mental.
+
 * **Borrador**, es el primer intento de nuestro texto.
+
 * **Correcciones**, es importante leer y releer los textos para identificar falencias, errores de ortografía y repeticiones.
+
 * **Re-escritura**, evaluar nuevas fuentes y componentes para soportar nuestro texto.
+
 * **Publicación**, hacer público el contenido en algún medio o sitio web.
   
 **Estrategias de planeación de texto**:
