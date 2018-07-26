@@ -24,6 +24,14 @@
 - [Proceso y planeación de textos](#proceso-y-planeación-de-textos)
 - [Estructura general de un ensayo expositivo.](#estructura-general-de-un-ensayo-expositivo)
 - [La multimedialidad y la interactividad en la escritura online](#la-multimedialidad-y-la-interactividad-en-la-escritura-online)
+- [Conectores](#conectores)
+- [Hepertexto](#hepertexto)
+  - [Estructura del hipertexto](#estructura-del-hipertexto)
+  - [Elementos del hipertexto](#elementos-del-hipertexto)
+  - [Uso correcto del hipertexto](#uso-correcto-del-hipertexto)
+- [Uso de fuentes](#uso-de-fuentes)
+- [Tipos de citas y cómo construirlas](#tipos-de-citas-y-cómo-construirlas)
+- [Contenido relevante y de calidad](#contenido-relevante-y-de-calidad)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -294,9 +302,133 @@ A diferencia de la escritura tradicional, la escritura en internet cuenta con m�
 
 **Interactividad**: Uso de recursos que permiten que los lectores interactúen con el texto. Son la forma en que una persona y un objeto pueden relacionarse.
 
+## Conectores
+
+Al escribir un texto podemos usar conectores, los cuales son herramientas que unen o conectan de forma lógica las partes de un texto. El uso adecuado de los conectores depende de que logren expresar la relación que existe entre las diferentes partes del texto.
+
+Existen diversos tipos de conectores, aquí te presento algunos:
+
+**Para comenzar un texto podemos usar**:
+* El propósito de este texto…
+* En primer lugar
+* El tema a tratar
+
+**Para oponer argumentos**:
+* Por una parte… por otra…
+* Sin embargo
+* No obstante
+* Ahora bien
+* En contraste
+
+**Para añadir a lo que estamos discutiendo**:
+* Además
+* Asimismo
+* También
+* Igualmente
+* De igual modo
+
+**Para dar ejemplos**:
+Por ejemplo
+A modo de ejemplo
+La prueba es que
+
+**Para señalar dificultades**:
+A pesar de que
+Aunque
+Si bien
+
+## Hepertexto
+
+### Estructura del hipertexto
+
+* **Estructura lógica**: es la forma con la que organizamos la información. Es decir, cómo organizamos los archivos y documentos que tenemos dentro de un sitio.
+* **Estructura de la navegación**: la forma en la que el usuario puede navegar a través de nuestra información.
+* **Estructura funcional**: son todos los componentes y herramientas que hacen posible la nevagación y organización lógica. 
+
+### Elementos del hipertexto
+
+* **Los nodos**: son unidades de informacion que tenemos almacenada en algun sitio
+* **Los enlaces**:  son las direcciones que utilizamos para direccionar a ese sitio
+* **Los anclajes**: son las palabras o los elementos que utilizamos dentro de nuestro sitio para acceder a esa información
+
+### Uso correcto del hipertexto
+
+**Tips** para permitir saber cómo puedes utilizar estos anclajes y utilizarlos de manera especifica para que tus usuarios puedan navegar la informacion que le estas presentando.
+
+* Constratar los anclajes que vamos a utilizar en nuestros textos
+* Evitar referencias textuales
+* No saturar
+* Prescindir de enlaces innecesarios
+* Distinguir tipográficamente entre enlaces principales y secundarios
+* Usar un enlace solo una vez por pagina
+* Relacionar los anclajes con las referencias hipertextuales (que cuando usemos un anclaje especifico este este relacionado con el sitio de destino donde lleva)
+* Anclajes cortos
+* Usar anclajes textuales significativos
+* Remitir a páginas internas y no a páginas principales
+* Si usamos términos específicos debemos dar el link
+
+## Uso de fuentes
+
+* Libros
+* Artículos de revistas indexadas.
+* Artículos publicados en sitios web y que sean validados por una comunidad.
+* Autoridades en la industria específica.
+
+## Tipos de citas y cómo construirlas
+
+Hoy día una de las referencias más importantes en los procesos de citación y desarrollo de trabajos académicos es la American Psychology Association y sus normas APA. Estas reglas nos permiten hacer citas claras y fáciles de consultar para quien lee nuestro texto.
+
+Las **citas textuales** son aquellas que reproducen con completa fidelidad el contenido que estamos referenciando. En este caso se debe citar el autor, el año, el número de página. Estas citas deben ir entre comillas. Si la cita tiene más de 40 palabras esta debe estar escrita en un párrafo aparte.
+
+**Ejemplo**: De acuerdo con (Cortés, 2000) “todos los mecanismos usados en estos experimentos…” (p.9).
+
+La **citas indirectas** son aquellas que buscan parafrasear lo que el autor dijo utilizando otras palabras. En estas debemos citar el nombre del autor y el año en el que fue publicado el texto.
+
+**Ejemplo**: Cortés (2000) considera que los cambios en el comportamiento obedecen…
+
+Si citamos información encontrada en la web: Se cita al autor y el año de publicación.
+
+**Lista de referencias**:
+
+* **Libro**: 
+  
+  >Apellido, A. A. (Año). Título. Ciudad, País: Editorial
+
+* **Libro electrónico**: 
+  
+  > Apellido, A. A. (Año). Título. Recuperado de http://www…
+
+* **Capítulo de libro**: únicamente en los casos de libros compilatorios y antologías en los cuales cada capítulo tenga un autor diferente y un compilador o editor
+ 
+  > Apellido, A. A., y Apellido, B. B. (Año). Título del capítulo o la entrada. En A. A. Apellido. (Ed.), Título del libro (pp. xx-xx). Ciudad, País: Editorial.
+
+* **Publicaciones periódicas formato impreso**
+  
+  > Apellido, A. A., Apellido, B. B, y Apellido, C. C. (Fecha). Título del artículo. Nombre de la revista, volumen(número), pp-pp.
+
+* **Publicaciones periódicas online**
+  
+  > Apellido, A. A. (Año). Título del artículo. Nombre de la revista, volumen(número), pp-pp. Recuperado de http:/ /www…
+
+Si quieres aprender más sobre citación formal puedes consultar esta página: http://normasapa.net/2017-edicion-6/
+
+## Contenido relevante y de calidad
+
+¿Cómo crear contenido relevante y de calidad?
+
+* **Relevancia para la audiencia**: Que sepas a cual audiencia te estas dirigiendo, quienes son esas personas a las que les estas hablando. Diseña un buyer persona.
+
+* **Siempre enseñar algo**: Por muy grande o pequeño que se tu parte en lo compartes debes de mostrarlo a los demás.
+
+* **Utiliza fuentes relevantes**: Siempre busca la información de una fuente confiable, de una persona que tenga un reconocimiento en la web, tv, radio, prensa. No colocar cualquier cosa que conseguiste en cuentas de blogs de dudosa procedencia o paginas de contenido conducida por trolls de internet.
+
+* **Ten un estilo de escritura cuidadoso**: Siempre debes tener la atención a los detalles y a las cosas que estas escribiendo, recuerda que lo escribes puede ser usado en el futuro o para la posteridad.
+
+
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/curso-de-escritura-online.pdf)
 * [Estructura de un Ensayo Expositivo](docs/estructura-de-un-ensayo-expositivo.pdf)
+* [Resumen Analítico Especializado](docs/rae-resumen-analitico-especializado.pdf)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
