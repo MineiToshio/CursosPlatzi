@@ -32,6 +32,14 @@
 - [Uso de fuentes](#uso-de-fuentes)
 - [Tipos de citas y cómo construirlas](#tipos-de-citas-y-cómo-construirlas)
 - [Contenido relevante y de calidad](#contenido-relevante-y-de-calidad)
+- [Posicionamiento SEO](#posicionamiento-seo)
+  - [Palabras Clave](#palabras-clave)
+  - [Estrategias para definir palabras claves](#estrategias-para-definir-palabras-claves)
+  - [Títulos](#títulos)
+  - [Metadescripciones](#metadescripciones)
+  - [URLs](#urls)
+  - [Descripciones Alt](#descripciones-alt)
+- [Evaluar el readability](#evaluar-el-readability)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -253,13 +261,9 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 ¿Cuáles son las fases que desarrollamos a la hora de escribir nuestros textos?
 
 * **Pre-escritura**, estrategias que nos permiten identificar las ideas que vamos a usar en el texto. Lluvia de ideas o mapa mental.
-
 * **Borrador**, es el primer intento de nuestro texto.
-
 * **Correcciones**, es importante leer y releer los textos para identificar falencias, errores de ortografía y repeticiones.
-
 * **Re-escritura**, evaluar nuevas fuentes y componentes para soportar nuestro texto.
-
 * **Publicación**, hacer público el contenido en algún medio o sitio web.
   
 **Estrategias de planeación de texto**:
@@ -428,6 +432,90 @@ Si quieres aprender más sobre citación formal puedes consultar esta página: h
 
 * **Ten un estilo de escritura cuidadoso**: Siempre debes tener la atención a los detalles y a las cosas que estas escribiendo, recuerda que lo escribes puede ser usado en el futuro o para la posteridad.
 
+## Posicionamiento SEO
+
+### Palabras Clave
+
+Las palabras clave son aquellas que los usuarios utilizan para encontrar un contenido o concepto en particular. 
+
+Es importante tenerlas en cuenta porque permiten que aumentemos nuestro posicionamiento en el buscador.
+
+### Estrategias para definir palabras claves
+
+1. Define tu contenido: Cuales son esos temas y aéreas en los cuales nos vamos a enfocar.
+
+2. Pregunta a tus usuarios – Problemas: De qué manera se buscaría ese contenido, que temas quiere encontrar, que temas le surgen.
+
+3. Busca las palabras en tu área: Cuales son las mejores ranqueadas en el buscador usando: Google Trends, Google Adwords
+
+### Títulos
+
+La definición de los títulos es de las partes más importantes a tener en cuenta para el posicionamiento en SEO.
+
+**Recomendaciones**:
+* Definir palabras clave: la palabra clave debe de estar en el título.
+  
+* Utiliza la etiqueta H1 de HTML, esa etiqueta le da más relevancia al texto que estás mostrando
+
+* Es importante que uses títulos únicos. Ya que si está repetido los buscadores lo toman como contenido duplicado y lo penalizan.
+
+* Busca que los títulos tengan entre 40 y 70 caracteres
+
+### Metadescripciones
+
+**¿Cómo crear metadescripciones?**
+* Usa lenguaje atractivo
+* Yoast SEO
+* Máximo 160 caracteres
+* Incluye palabras clave
+* Anuncio
+
+**Recomendaciones**:
+* Evita el uso de mayúsculas sostenidas.
+* No uses comillas.
+* Procura no duplicar la información.
+
+### URLs 
+
+URLs son la forma en la que hacemos clara la IP de nuestro sitio para que los usuarios puedan acceder.
+
+<div align="center">
+  <img src="img/anatomia-url.png">
+  <small><p>Anatomía de una URL</p></small>
+</div>
+
+Recomendaciones:
+* Cortas
+* Palabra clave
+* Usar guiones
+* Evitar caracteres extraños
+
+### Descripciones Alt
+
+Las descripciones alt son, en realidad, la "única" forma que tienen los buscadores para posicionar tus imágenes. Los buscadores no son capaces de ver imágenes, pero si las descripciones lt, y ahí radica el punto de por qué describir la imagen, incluir la palabra clave, etc.
+
+Recomendaciones:
+* Cortas
+* Palabra clave
+* Describe la imagen
+* Logra que el tamaño sea pequeño
+
+## Evaluar el readability
+
+¿Qué es Readability? Es la legibilidad que tiene un texto para un usuario.
+
+Recuerda siempre que debes dar contenido de calidad a tus lectores. 
+
+* Es muy recomendable que uses sinónimos en el texto, de esta forma no repites la misma palabra clave.
+
+* Concéntrate en la experiencia del usuario, crea una buena interfaz gráfica, rápida, con textos claros y concisos.
+
+* Ten presente las búsquedas de voz, los usuarios aprovechan cada vez más estas opciones que ofrecen los dispositivos.
+
+**Recomendaciones**:
+* Longitud de las oraciones y párrafos.
+* Secciones y títulos.
+* Uso de imágenes.
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/curso-de-escritura-online.pdf)
