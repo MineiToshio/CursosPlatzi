@@ -23,6 +23,7 @@
 - [Estructura de un párrafo](#estructura-de-un-párrafo)
 - [Proceso y planeación de textos](#proceso-y-planeación-de-textos)
 - [Estructura general de un ensayo expositivo.](#estructura-general-de-un-ensayo-expositivo)
+- [La multimedialidad y la interactividad en la escritura online](#la-multimedialidad-y-la-interactividad-en-la-escritura-online)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -275,6 +276,23 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 1. Revisión de las ideas más importantes.
 2. Propuesta de solucion o pasos a seguir segun lo discutido.
 3. Preguntas que animen al lector a responder. 4. Invitar a complementar la exposición.
+
+## La multimedialidad y la interactividad en la escritura online
+
+A diferencia de la escritura tradicional, la escritura en internet cuenta con más elementos, por ejemplo el hypertexto y los recursos multimedia.
+
+<div align="center">
+  <img src="img/lectura-tradicional-vs-online.png">
+  <small><p>Lectura Tradicional vs Web</p></small>
+</div>
+
+**Hypertexto**: Lectura no lineal de un texto. Son enlaces que nos llevan a otros textos distintos. Es útil porque se acomoda mejor a las necesidades del lector y de acuerdo a sus temas preferidos.
+
+**Aprendizaje rizomático**: Aprender sin necesidad de seguir una secuencia en particular.
+
+**Multimedialidad**: Uso de diversos medios en un mismo discurso. Herramientas que nos permiten llevar sentido a través de otros medios.
+
+**Interactividad**: Uso de recursos que permiten que los lectores interactúen con el texto. Son la forma en que una persona y un objeto pueden relacionarse.
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/curso-de-escritura-online.pdf)
