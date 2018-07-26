@@ -10,6 +10,7 @@
 - [Cómo lograr que te escuchen y entiendan](#cómo-lograr-que-te-escuchen-y-entiendan)
 - [Diseño de Presentaciones](#diseño-de-presentaciones)
   - [Qué no hacer](#qué-no-hacer)
+  - [Preparación y diseño de slides](#preparación-y-diseño-de-slides)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Cómo superar el miedo a hablar en público
@@ -246,6 +247,98 @@ Tip: Antes de dar una conferencia intenta hacerle saber a las personas que manej
   <small><p>Slide: Gracias</p></small>
 </div>
 
+### Preparación y diseño de slides
+
+**1.** Asegúrate de saber cuál va a ser el estándar en el que necesitan tu presentación. (16:9 o 4:3)
+**2.** ¿Tus slides son de presentación o de información? Un slide de presentación sirve para acompañar tu discurso y lo que estás diciendo, y uno de información no necesita que estés ahí, pues habla por sí solo.
+
+Los slides de **presentación** son simples y son un apoyo a tu discurso. 
+
+<div align="center">
+  <img src="img/slide-presentacion.png">
+  <small><p>Slide: Presentación</p></small>
+</div>
+
+Los slides de **información** son llenos de información y no te necesitan a ti. Tiene información que no acompaña de forma perfecta el discurso. 
+
+<div align="center">
+  <img src="img/slide-informacion.png">
+  <small><p>Slide: Información</p></small>
+</div>
+
+En algunos casos el slide puede ser tanto de presentación como de información.
+
+<div align="center">
+  <img src="img/slide-informacion-presentacion.png">
+  <small><p>Slide: Información y Presentación</p></small>
+</div>
+
+**3.** Arranca con ¿quién eres? ¿por qué estás ahí? y ¿por qué esto es importante?
+
+<div align="center">
+  <img src="img/slide-presentandote.png">
+  <small><p>Slide: Preséntate</p></small>
+</div>
+
+**4.** Deja un mensaje por slide.
+
+**5.** Utiliza imágenes de alta calidad, sobre todo cuando uses logos.
+
+<div align="center">
+  <img src="img/slide-logo-calidad.png">
+  <small><p>Slide: Logos de Alta Calidad</p></small>
+</div>
+
+**6.** Ten una paleta de colores estable para causar impacto a nivel de diseño gráfico. La mayoría de presentaciones solo necesitan tres colores.
+
+<div align="center">
+  <img src="img/slide-paleta-color-estable.png">
+  <small><p>Ejemplo: Paleta de Colores</p></small>
+</div>
+
+<div align="center">
+  <img src="img/slide-uso-paleta.png">
+  <small><p>Slide: Paleta de Colores</p></small>
+</div>
+
+Este sitio puede ayudar a formar paleta de colores: http://www.paletton.com
+
+**7.** Tu marca es importante. Inclúyela en tus slides.
+
+**8.** Intenta utilizar solo un gráfico por slide.
+
+<div align="center">
+  <img src="img/slide-graficos.png">
+  <small><p>Slide: Gráfico</p></small>
+</div>
+
+**9.** Muestra datos sobre una foto con un degradado en la imagen.
+
+<div align="center">
+  <img src="img/slide-imagen.png">
+  <small><p>Slide: Imagen</p></small>
+</div>
+
+**10.**  Utiliza tipografías sin cerifas, como Open Sanz o Helvética.
+
+**11.** Termina tus presentaciones con la misión, un mensaje importante o dejando tu información de contacto.
+
+<div align="center">
+  <img src="img/slide-mision.png">
+  <small><p>Slide: Misión</p></small>
+</div>
+
+<div align="center">
+  <img src="img/slide-mensaje-importante.png">
+  <small><p>Slide: Mensaje Importante</p></small>
+</div>
+
+<div align="center">
+  <img src="img/slide-contacto.png">
+  <small><p>Slide: Contacto</p></small>
+</div>
+
 ## Enlaces de Interés
 * [Curso de Hablar en Público
 ](https://platzi.com/clases/hablar-en-publico/)
+* [Paletton](http://www.paletton.com)
