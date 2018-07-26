@@ -50,6 +50,10 @@
 * Una gran carta de presentación
 * Una habilidad muy demandada
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Técnicas Básicas de Redacción
 
 * **Crear un esquema**. Dar orden a las ideas y saber a dónde llevamos el texto. Veremos algunas técnicas para organizar tus ideas de acuerdo a tu estilo y el estilo del texto que estás escribiendo.
@@ -61,6 +65,10 @@
 * **Parafrasear**. Decir una idea de otra persona utilizando otras palabras, hay que tener en cuenta que hay que darles el crédito que se merecen por la idea sin dejar a lado nuestra esencia.
 * **Reducir gerundios** es una forma de hacer nuestro texto sea menos repetido en español
 * **Estilo** es algo que se desarrolla con la práctica, que dé como resultado esa voz o escancia que tenemos como autores. Esto es algo personal.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Reglas de Ortografía
 
@@ -97,11 +105,19 @@ Las palabras esdrújulas son las que llevan el acento en la antepenúltima síla
 
 **Ejemplos**: América, cuídate, hígado, ejército
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Reglas de acento: Sobresdrújulas
 
 Las palabras sobresdrújulas son aquellas que llevan el acento ortográfico en la sílaba anterior a la antepenúltima sílaba. Como las anteriores todas llevan tilde.
 
 **Ejemplos**: Cuéntamelo, éticamente, fácilmente, repítemelo
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Otras reglas de acento
 
@@ -115,6 +131,10 @@ Los monosílabos verbales **fue**, **fui**, **vio** y **dio** no llevan acento o
 
 Las palabras **que**, **quien**, **como**, **cuando**, **cuanto** y **donde** llevan acento siempre que sean usados de forma dubitativa, interrogativa o admirativa.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Has y haz son diferentes
 
 **Has** es el indicativo del verbo haber en segunda persona. Se usa en oraciones como:
@@ -125,6 +145,10 @@ Las palabras **que**, **quien**, **como**, **cuando**, **cuanto** y **donde** ll
 * ¡Haz el trabajo antes del último plazo!
 * Haz una pausa, luces cansado
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Reglas de la R
 
 Tras las consonantes l-n-s y al principio de la palabra se escribe r aunque suene como rr.  
@@ -132,6 +156,10 @@ Tras las consonantes l-n-s y al principio de la palabra se escribe r aunque suen
 
 Cuando se encuentra entre dos vocales se escribe rr.  
 **Ejemplos**: Arruyo, Corrillo, Cerro
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Reglas de la B
 
@@ -150,6 +178,10 @@ Las palabras que terminan en bundo-bunda.
 Las palabras que terminan en probar.  
 **Ejemplos**: Aprobar, reprobar
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Reglas de la V
 
 Las palabras que comienzan por ad.  
@@ -164,6 +196,10 @@ Las palabras que terminan en venir.
 Las palabras que terminan en tivo, tiva, tivamente.  
 **Ejemplos**: Positivo, caritativa, activamente
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Signos de puntuación
 
 ### El uso del punto
@@ -175,6 +211,10 @@ El **punto seguido** separa enunciados en un mismo párrafo y que comparten una 
 El **punto y aparte** separa párrafos completos. Al usar este signo de puntuación debemos comenzar con un nuevo párrafo.
 
 El **punto final** termina un texto completo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### El uso de la coma
 
@@ -214,6 +254,10 @@ Cuando utilizamos conectores como es decir, esto es, o sea, en fin, por último,
 Cuando los conectores van en medio de la oración.  
 **Ejemplo**: Los usuarios, es decir, todas las personas que se matriculan en un curso tienen derecho a tomar el examen.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### El uso del punto y coma
 
 El punto y coma es un signo de puntuación utilizado para marcar pausas más largas que las marcadas por la coma y más cortas que las marcadas por el punto. Es un signo de puntuación que tiene un alto grado de subjetividad en su uso. Sin embargo, aquí te muestro algunos de sus usos más comunes:
@@ -227,6 +271,10 @@ Para separar oraciones que tienen una estructura sintáctica diferente, pero que
 Se escribe punto y coma antes de conectores de sentido adversativo, concesivo o consecutivo, como pero, mas, aunque, sin embargo, por tanto, por consiguiente, etc.  
 **Ejemplo**: Durante la hackaton todos los equipos hicieron su mejor esfuerzo; sin embargo, solo podía haber un ganador.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Los dos puntos
 
 Los dos puntos se usan para llamar la atención sobre lo que sigue. Se pueden usar en los siguientes casos:
@@ -237,13 +285,25 @@ Después de anunciar una enumeración:
 También pueden ser utilizados al revés para terminar una enumeración.  
 **Ejemplo**: Marketing, negocios, desarrollo y diseño: esas son las áreas en las que nos especializamos.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Signos de admiración
 
 Son signos que se usan con el fin de mostrar énfasis en un enunciado. Lo más importante aquí es recordar que debemos usar un signo de apertura (¡) y uno de cierre (!).
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Signos de pregunta
 
 Estos son usados para denotar una expresión dubitativa o interrogativa. De la misma forma que los signos de admiración deben tener un signo de apertura (¿) y uno de cierre (?).
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Estructura de un párrafo
 
@@ -255,6 +315,10 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 * **Oración de transición**, lleva al lector al siguiente párrafo.
 
 >Maneja, organiza y comparte toda tu agenda y tus tareas en un solo lugar. PlatziAgenda es una aplicación que te permitirá administrar todas tus tareas. Podrás crear tareas nuevas, darles una prioridad específica, invitar a personas a que realicen la misma tarea e incluso hacer seguimiento al cumplimiento de la tarea. Además, podrás compartir tu calendario de tareas con otras personas dentro y fuera de tu equipo. La aplicación te permitirá evaluar tu productividad al final del día, semana o mes y te dará estadísticas sobre tu desempeño y efectividad. Descarga la aplicación y organiza tu vida en un cerrar de ojos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Proceso y planeación de textos
 
@@ -271,6 +335,10 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 * ¿Cuál es nuestra audiencia?
 * ¿Cuál es el tema?
 * ¿Qué tono piensas usar?
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Estructura general de un ensayo expositivo.
 
@@ -293,6 +361,10 @@ El párrafo se divide en cuatro secciones: idea principal, evidencia, análisis 
 2. Propuesta de solucion o pasos a seguir segun lo discutido.
 3. Preguntas que animen al lector a responder. 4. Invitar a complementar la exposición.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## La multimedialidad y la interactividad en la escritura online
 
 A diferencia de la escritura tradicional, la escritura en internet cuenta con más elementos, por ejemplo el hypertexto y los recursos multimedia.
@@ -309,6 +381,10 @@ A diferencia de la escritura tradicional, la escritura en internet cuenta con m�
 **Multimedialidad**: Uso de diversos medios en un mismo discurso. Herramientas que nos permiten llevar sentido a través de otros medios.
 
 **Interactividad**: Uso de recursos que permiten que los lectores interactúen con el texto. Son la forma en que una persona y un objeto pueden relacionarse.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Conectores
 
@@ -345,6 +421,10 @@ A pesar de que
 Aunque
 Si bien
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Hepertexto
 
 ### Estructura del hipertexto
@@ -353,11 +433,19 @@ Si bien
 * **Estructura de la navegación**: la forma en la que el usuario puede navegar a través de nuestra información.
 * **Estructura funcional**: son todos los componentes y herramientas que hacen posible la nevagación y organización lógica. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Elementos del hipertexto
 
 * **Los nodos**: son unidades de informacion que tenemos almacenada en algun sitio
 * **Los enlaces**:  son las direcciones que utilizamos para direccionar a ese sitio
 * **Los anclajes**: son las palabras o los elementos que utilizamos dentro de nuestro sitio para acceder a esa información
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Uso correcto del hipertexto
 
@@ -375,12 +463,20 @@ Si bien
 * Remitir a páginas internas y no a páginas principales
 * Si usamos términos específicos debemos dar el link
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Uso de fuentes
 
 * Libros
 * Artículos de revistas indexadas.
 * Artículos publicados en sitios web y que sean validados por una comunidad.
 * Autoridades en la industria específica.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Tipos de citas y cómo construirlas
 
@@ -420,6 +516,10 @@ Si citamos información encontrada en la web: Se cita al autor y el año de publ
 
 Si quieres aprender más sobre citación formal puedes consultar esta página: http://normasapa.net/2017-edicion-6/
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Contenido relevante y de calidad
 
 ¿Cómo crear contenido relevante y de calidad?
@@ -432,6 +532,10 @@ Si quieres aprender más sobre citación formal puedes consultar esta página: h
 
 * **Ten un estilo de escritura cuidadoso**: Siempre debes tener la atención a los detalles y a las cosas que estas escribiendo, recuerda que lo escribes puede ser usado en el futuro o para la posteridad.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Posicionamiento SEO
 
 ### Palabras Clave
@@ -440,6 +544,10 @@ Las palabras clave son aquellas que los usuarios utilizan para encontrar un cont
 
 Es importante tenerlas en cuenta porque permiten que aumentemos nuestro posicionamiento en el buscador.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Estrategias para definir palabras claves
 
 1. Define tu contenido: Cuales son esos temas y aéreas en los cuales nos vamos a enfocar.
@@ -447,6 +555,10 @@ Es importante tenerlas en cuenta porque permiten que aumentemos nuestro posicion
 2. Pregunta a tus usuarios – Problemas: De qué manera se buscaría ese contenido, que temas quiere encontrar, que temas le surgen.
 
 3. Busca las palabras en tu área: Cuales son las mejores ranqueadas en el buscador usando: Google Trends, Google Adwords
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Títulos
 
@@ -461,6 +573,10 @@ La definición de los títulos es de las partes más importantes a tener en cuen
 
 * Busca que los títulos tengan entre 40 y 70 caracteres
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Metadescripciones
 
 **¿Cómo crear metadescripciones?**
@@ -474,6 +590,10 @@ La definición de los títulos es de las partes más importantes a tener en cuen
 * Evita el uso de mayúsculas sostenidas.
 * No uses comillas.
 * Procura no duplicar la información.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### URLs 
 
@@ -490,6 +610,10 @@ Recomendaciones:
 * Usar guiones
 * Evitar caracteres extraños
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Descripciones Alt
 
 Las descripciones alt son, en realidad, la "única" forma que tienen los buscadores para posicionar tus imágenes. Los buscadores no son capaces de ver imágenes, pero si las descripciones lt, y ahí radica el punto de por qué describir la imagen, incluir la palabra clave, etc.
@@ -499,6 +623,10 @@ Recomendaciones:
 * Palabra clave
 * Describe la imagen
 * Logra que el tamaño sea pequeño
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Evaluar el readability
 
@@ -516,6 +644,10 @@ Recuerda siempre que debes dar contenido de calidad a tus lectores.
 * Longitud de las oraciones y párrafos.
 * Secciones y títulos.
 * Uso de imágenes.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/curso-de-escritura-online.pdf)
