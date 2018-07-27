@@ -11,6 +11,16 @@
 - [Diseño de Presentaciones](#diseño-de-presentaciones)
   - [Qué no hacer](#qué-no-hacer)
   - [Preparación y diseño de slides](#preparación-y-diseño-de-slides)
+- [Sincornización del tiempo](#sincornización-del-tiempo)
+- [Cómo practicar para hablar en público](#cómo-practicar-para-hablar-en-público)
+- [Improvisación](#improvisación)
+- [Manejo de escenarios y cámaras](#manejo-de-escenarios-y-cámaras)
+- [Aplausos](#aplausos)
+- [Hablar en Youtube](#hablar-en-youtube)
+- [Técnicas de interactividad en conferencias](#técnicas-de-interactividad-en-conferencias)
+- [Charlas en vivo vs. Charlas grabadas](#charlas-en-vivo-vs-charlas-grabadas)
+- [Cómo dar una charla en inglés](#cómo-dar-una-charla-en-inglés)
+- [Elimina tus muletillas y frases de apoyo repetitivas](#elimina-tus-muletillas-y-frases-de-apoyo-repetitivas)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Cómo superar el miedo a hablar en público
@@ -337,6 +347,137 @@ Este sitio puede ayudar a formar paleta de colores: http://www.paletton.com
   <img src="img/slide-contacto.png">
   <small><p>Slide: Contacto</p></small>
 </div>
+
+## Sincornización del tiempo
+
+El tiempo es uno de los factores más difíciles de controlar cuando estás en cámara o frente al público. Las charlas TED preparan mucho a sus conferencistas para que den las mejores charlas, que deben durar de 12 a 15 minutos.
+
+Los slides son una herramienta de disciplina mental que te ayuda a organizar tus ideas y saber cuánto tiempo te puedes tomar. Intenta no dedicarle a cada diapositiva más de un minuto.
+
+**Ejercicio**: La próxima vez que vayas a dar una charla intenta crear un ignite (una conferencia de 5 minutos, con 20 slides que corren automáticamente cada 15 segundos) incluso si no te lo pidieron. Esto te va ayudar a tener ideas más concretas y a dejar tus mensajes claros.
+
+## Cómo practicar para hablar en público
+
+* Practica de pie desde el comienzo, pues lo más probable es que tu conferencia sea **de pie**.
+
+* Recuerda que utilizas **diferentes lados del cerebro** dependiendo de si estás hablando ante un público o solo con una persona.
+
+* Otra técnica que puedes utilizar son los **enlaces mnemónicos**, que son imágenes que te ayudan a recordar lo que estás tratando de decir. Para esto los slides son nuevamente de gran ayuda.
+
+* Si tienes la oportunidad, **practica con algunas personas** que puedan darte feedback. Eso si, recuerda que todo el mundo tiene una opinión y no todas vale la pena considerarlas.
+
+* Finalmente, si hay una frase que te interesa mucho recalcar puedes intentar **cantarla**. Esto te ayuda a crear un enlace más en tu cerebro para interiorizar el mensaje.
+
+
+## Improvisación
+
+Parar el show es lo peor que puedes hacer, lo único que importa cuando estás frente al público es que "el show debe continuar".
+
+Si necesitas ganar tiempo puedes hacer esto:
+* Standup comedy
+* Regalar cosas
+* Hacer preguntas con regalos
+
+Si en algún momento te olvidas lo que vas a decir:
+* Haz que el público se estire
+* Toma una selfie
+
+Si hay algún problema técnico, no hay ningún problema en dar contexto y pedir ayuda para que tu charla salga lo mejor posible. Y si el problema es que olvidaste lo que tenías que decir haz una pausa callada e intenta simplemente recordar cuál es el núcleo del mensaje que quieres dar, solo eso te va a permitir recuperar el hilo conductor.
+
+## Manejo de escenarios y cámaras
+
+Es normal no estar acostumbrados a estar frente a una cámara. No importa en dónde estén ubicadas, siempre intenta identificarlas y tener un contacto directo con el lente.
+
+Un buen truco es que intentes mirar a un área vacía y no hacer contacto visual con una persona, pues las reacciones emocionales de tu audiencia pueden afectar tu energía en el escenario. Otra cosa que puedes hacer es ir cambiando entre las cámaras fijas que hayas identificado, solo no hagas esto con cámaras que se están moviendo.
+
+<div align="center">
+  <img src="img/escenario.png">
+  <small><p>Setup de un Escenario</p></small>
+</div>
+
+Es bueno moverse alrededor del auditorio. El público se aburre estando quieta y por lo menos debería de mover la cabeza. De este modo el público se va a enganchar más.
+
+El área por donde te mueves debería de ser limitada. Por ejemplo, el área roja de la foto.
+
+Muchos auditorios tienden a tener un podio en el que está el computador o algún control. Intenta no quedarte ahí si es posible.
+
+Si quieres que el público vea tus diapositivas, voltea y mira una de las pantallas que las está proyectando.
+
+## Aplausos
+
+Siempre que termines una charla te van a aplaudir. En Broadway a esto lo llaman "el botón", que es como el Call To Action. Este es el momento en el que se hace un resumen un poco más acelerado del mensaje más fuerte que quieres dejar y que hace que cierre, que la gente sepa que "aquí se acabó".
+
+Toma el mensaje más central de tu charla, cambia el tono, acelera el ritmo y agrega un punto final en tu forma de hablar para incitar a los aplausos.
+
+Hay una forma de crear un "botón en el intermedio". Esto tiene que ver más con reacciones emocionales que puedes generar en tu audiencia, y en el instante en el que detectes que alguien inicia un aplauso puedes detenerte y dejar que esto se extienda.
+
+## Hablar en Youtube
+
+Los videos de YouTube tienen algunas características representativas. Aquí te damos algunos consejos para lograr los mejores videos:
+
+* Haz un video corto, aproximadamente de 9 minutos. Una conferencia puede durar hasta 20 minutos, pero lo ideal es entre 12 y 15 minutos.
+
+* Habla rápido, sin pausas, pero vocalizando. Practica tu dicción y mira siempre al lente.
+
+* Crea thumbnails con títulos llamativos y de buena calidad para atraer más clicks. Agrega mayúsculas a las palabras clave que quieres resaltar.
+
+<div align="center">
+  <img src="img/thumbnails.png">
+  <small><p>Ejemplo de thumbnails</p></small>
+</div>
+
+* El título del video debería de estar optimizado para el SEO mientras que el título del thumbnail debería de ser más emocional.
+
+## Técnicas de interactividad en conferencias
+
+Pedirle a la audiencia que levante la mano para saber un poco más sobre ellos sirve mucho para iniciar una conferencia, pues así todos pueden ver qué tipo de personas están en el auditorio, identificarse con el resto y saber que depronto vas a interactuar con ellos.
+
+Es bueno reportar los resultados de las personas que levantan la mano.   
+**Ejemplo**: El 60% son programadores y el 40% son diseñadores.
+
+Hay veces que la gente no encaja en ninguja de las preguntas que haces. Entoneces se puede preguntar ¿quién no levantó la mano en ninguno de los casos anteriores? Luego se le puede preguntar a una de esas personas que levantaron la mano.  
+**Ejemplo**:  
+\- ¿quienes son programadores?  
+\- ¿quienes son diseñadores?  
+\- ¿quién no levantó la mano?  
+\- ¿a qué te dedicas?  
+
+Con las preguntas se puede dividir a la audiencia generando un sentido de competitividad.  
+**Ejemplo**:
+\- ¿A quién le gusta los tornillos?
+\- ¿A quién le gusta las tuercas?
+\- Esto es típico de los que le gustan los tornillos
+\- Claro, seguro tu votaste por las tuercas
+
+Cuando haces preguntas a la audiencia donde los fuerzas a cometer errores generas recordación de algún dato importante que querías dejar en tu charla. Haz preguntas sobre el contenido de tu conferencia y mantén la atención de las personas todo el tiempo.
+
+Se puede recompensar la interactividad. Por ejemplo, regalar algo a los que hacen una pregunta o a los que responden una pregunta.
+
+En charlas o conferencias online puedes tener interactividad con tus redes sociales, invitando a que te envíen preguntas o mensajes a una cuenta determinada o un hashtag.
+
+## Charlas en vivo vs. Charlas grabadas
+
+Hay una mentalidad diferente cuando estamos viendo en vivo versus cuando vemos algo grabado. En vivo vale la pena pausar e interactuar con la audiencia, pues probablemente llevan bastante tiempo ahí y quieren conectarse más con el conferencista. En charlas o versiones grabadas es importante editar estos componentes de interactividad, pues generan la sensación de que te perdiste algo que ya pasó.
+
+**Tip**: Cuando hagas charlas grabadas piensa en que le estás hablando a una, dos o pocas personas. Cuando hagas charlas en vivo habla como si estuvieras dirigiéndote a muchas personas.
+
+## Cómo dar una charla en inglés
+
+En Platzi hemos tenido que hacer diferentes presentaciones en inglés, tanto para reuniones o eventos presenciales como para contenido en video en YouTube.
+
+¿Por qué tenemos miedo de hablar en otro idioma? A veces nos sentimos inseguros, pues no estamos acostumbrados a hacerlo normalmente, y la realidad es que si no podemos hablar un idioma a pesar de que podamos leerlo, tenemos un nivel muy bajo en el manejo de dicho idioma. Recuerda que el acento no es tan importante como el mensaje que quieres dar, si estás preparado para compartir lo que sabes con seguridad, el resto no importa.
+
+Todo el mundo tiene un acento, incluso en su idioma nativo. Aunque existen formas de mejorar o cambiar tu acento, pero la verdad es que mientras te entiendan y lo que estés diciendo sea interesante todo estará bien. Sin embargo hay algo que puedes hacer siempre que vayas a dar una charla en un idioma que no es tu idioma nativo: habla lento, incluso al punto de sentirte incómodo.
+
+Crear un script (escribir lo que quieres decir) funciona si es la primera vez que vas a hablar en otro idioma, pero ten en cuenta que después no deberías usar el script para decir cada una de las palabras que anotaste, pues esto puede bloquearte. Solo necesitas el script como una guía mental para tener la estructura de tu discurso.
+
+## Elimina tus muletillas y frases de apoyo repetitivas
+
+Cuando empezamos a hablar en público es normal tener algunas muletillas, tics nerviosos o frases de apoyo repetitivas que son difíciles de quitar. Para combatir esto el primer paso es identificarlas. Mira tus conferencias, grábate y revisa, además pregúntale a personas cercanas que te puedan dar ese feedback.
+
+Luego de haber identificado tus muletillas puedes empezar a reemplazarlas con silencios. Esto también tiene efectos colaterales positivos, como darle más importancia a lo que acabas de decir, sonar más inteligente o generar más impacto, incluso si lo que pasó es que simplemente se te olvido lo que seguía.
+
+Si vas a leer un discurso o decir algo que sabes de memoria igual es importante ponerle intención y pensar realmente qué viene a continuación, así que las pausas pueden ser una herramienta muy valiosa que te ayudará a darle más fuerza a tu mensaje.
 
 ## Enlaces de Interés
 * [Curso de Hablar en Público
