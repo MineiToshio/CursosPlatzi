@@ -23,6 +23,10 @@ Guía de resumen de los cursos de Platzi
 ### Crecimiento Profesional
 1. [Curso de Escritura Online](Curso%20de%20Escritura%20Online/README.md#curso-de-escritura-online)
 2. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
+3. [Curso de Hablar en Público](Curso%20de%20Hablar%20en%20Público/README.md#curso-de-hablar-en-público)
 
 ### Diseño de Productos Digitales y UX
 1. [Curso de Design Sprint](Curso%20de%20Design%20Sprint/README.md#curso-de-design-sprint)
+
+### Creación de StartUps
+1. [Introducción a la Creación de Empresas y Startups](Introducción%20a%20la%20Creación%20de%20Empresas%20y%20Startups/README.md#introducción-a-la-creación-de-empresas-y-startups)
