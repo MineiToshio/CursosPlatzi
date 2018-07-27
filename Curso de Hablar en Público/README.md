@@ -11,7 +11,7 @@
 - [Diseño de Presentaciones](#diseño-de-presentaciones)
   - [Qué no hacer](#qué-no-hacer)
   - [Preparación y diseño de slides](#preparación-y-diseño-de-slides)
-- [Sincornización del tiempo](#sincornización-del-tiempo)
+- [Sincronización del tiempo](#sincronización-del-tiempo)
 - [Cómo practicar para hablar en público](#cómo-practicar-para-hablar-en-público)
 - [Improvisación](#improvisación)
 - [Manejo de escenarios y cámaras](#manejo-de-escenarios-y-cámaras)
@@ -42,6 +42,10 @@ La audiencia por defecto no le importa lo que tu estés pensando o sintiendo. A 
 
 Una vez te paras en el escenario y comienzas a hablar, el miedo pasa porque ya empiezas a hablar sobre lo que has preparado. Ese momento se llama "the flow" (el flujo).
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## NUNCA te disculpes de NADA
 
 ¿Por qué te disculpas cuando cometes un error?
@@ -55,6 +59,10 @@ Si sucede algo, uno puede hcer lo siguiente:
 * Si no rompe el flujo, continúa como si nada hubiese pasado. 
 * Si lo rompe, se puede usar el error como ejemplo. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## El cerebro humano hablando a uno o a muchos
 
 Tu cerebro usa lados distintos cuando hablas en público y en privado.
@@ -62,6 +70,10 @@ Tu cerebro usa lados distintos cuando hablas en público y en privado.
 Cuando hablamos con una persona, el cerebro se enfoca en las relaciones públicas mientras que cuando hablamos en público es muy dificil ver las reacciones de las personas. 
 
 Cuando practiques no lo hagas tu solo o imagina que estás frente a una audiencia.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Reglas básicas para dar conferencias
 
@@ -81,6 +93,10 @@ Cuando practiques no lo hagas tu solo o imagina que estás frente a una audienci
 14. Reitera tu "Call to Action"
 15. Da la milla extra
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Cómo investigar y entender a tu audiencia
 
 La diferencia entre un buen y un gran conferencista es la investigación de la audiencia, incluso si vas a dar la misma charla a grupos distintos. Aunque sea el mismo mensaje base puedes cambiar la forma en la que lo dices, para que todos se identifiquen con lo que dices.
@@ -99,6 +115,10 @@ Estas son las preguntas que puedes usar para entender a quién le vas a hablar:
 En canales como YouTube y Facebook puedes acceder a tu panel de administración y obtener datos mucho más específicos sobre el tipo de personas que consumen tu contenido. Utiliza esto a tu favor para reforzar las relaciones con la audiencia a la que estás llegando y para intentar hacer cambios y llegar a otro tipo de público.
 
 Recomendación: Usa Google Trends, busca blogs locales, investiga como el evento vendió tu ponencia, empatíza con tu audiencia y siempre crearás una gran charla que nadie olvidará.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Estructura de un discurso exitoso
 
@@ -177,11 +197,19 @@ Los buenos mensajes van en grupos de a tres. Cuando hablas en grupos de tres la 
   <small><p>Estructura de un discurso</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Cómo lograr que te escuchen y entiendan
 
 El micrófono de mano demuestra autoridad. Quizás es algo que tiene que ver con la puesta en escena, pues te permite modular mucho más. El uso del clicker también es algo importante que tienes que tener en cuenta, si vas a usar slides o algún tipo de apoyo gráfico, pues mover las manos mientras estás hablando es algo que se vuelve necesario.
 
 Tip: Antes de dar una conferencia intenta hacerle saber a las personas que manejan el audio si tu eres una persona que habla fuerte o suave. En caso de que quieras crear contenido para YouTube haz tu mejor esfuerzo por invertir en tener un buen audio. Asegúrate de que te escuchen bien.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Diseño de Presentaciones
 
@@ -255,6 +283,10 @@ Tip: Antes de dar una conferencia intenta hacerle saber a las personas que manej
 <div align="center">
   <img src="img/slide-gracias.png">
   <small><p>Slide: Gracias</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Preparación y diseño de slides
@@ -348,13 +380,21 @@ Este sitio puede ayudar a formar paleta de colores: http://www.paletton.com
   <small><p>Slide: Contacto</p></small>
 </div>
 
-## Sincornización del tiempo
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Sincronización del tiempo
 
 El tiempo es uno de los factores más difíciles de controlar cuando estás en cámara o frente al público. Las charlas TED preparan mucho a sus conferencistas para que den las mejores charlas, que deben durar de 12 a 15 minutos.
 
 Los slides son una herramienta de disciplina mental que te ayuda a organizar tus ideas y saber cuánto tiempo te puedes tomar. Intenta no dedicarle a cada diapositiva más de un minuto.
 
 **Ejercicio**: La próxima vez que vayas a dar una charla intenta crear un ignite (una conferencia de 5 minutos, con 20 slides que corren automáticamente cada 15 segundos) incluso si no te lo pidieron. Esto te va ayudar a tener ideas más concretas y a dejar tus mensajes claros.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Cómo practicar para hablar en público
 
@@ -368,6 +408,9 @@ Los slides son una herramienta de disciplina mental que te ayuda a organizar tus
 
 * Finalmente, si hay una frase que te interesa mucho recalcar puedes intentar **cantarla**. Esto te ayuda a crear un enlace más en tu cerebro para interiorizar el mensaje.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Improvisación
 
@@ -383,6 +426,10 @@ Si en algún momento te olvidas lo que vas a decir:
 * Toma una selfie
 
 Si hay algún problema técnico, no hay ningún problema en dar contexto y pedir ayuda para que tu charla salga lo mejor posible. Y si el problema es que olvidaste lo que tenías que decir haz una pausa callada e intenta simplemente recordar cuál es el núcleo del mensaje que quieres dar, solo eso te va a permitir recuperar el hilo conductor.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Manejo de escenarios y cámaras
 
@@ -403,6 +450,10 @@ Muchos auditorios tienden a tener un podio en el que está el computador o algú
 
 Si quieres que el público vea tus diapositivas, voltea y mira una de las pantallas que las está proyectando.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Aplausos
 
 Siempre que termines una charla te van a aplaudir. En Broadway a esto lo llaman "el botón", que es como el Call To Action. Este es el momento en el que se hace un resumen un poco más acelerado del mensaje más fuerte que quieres dejar y que hace que cierre, que la gente sepa que "aquí se acabó".
@@ -410,6 +461,10 @@ Siempre que termines una charla te van a aplaudir. En Broadway a esto lo llaman 
 Toma el mensaje más central de tu charla, cambia el tono, acelera el ritmo y agrega un punto final en tu forma de hablar para incitar a los aplausos.
 
 Hay una forma de crear un "botón en el intermedio". Esto tiene que ver más con reacciones emocionales que puedes generar en tu audiencia, y en el instante en el que detectes que alguien inicia un aplauso puedes detenerte y dejar que esto se extienda.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Hablar en Youtube
 
@@ -427,6 +482,10 @@ Los videos de YouTube tienen algunas características representativas. Aquí te 
 </div>
 
 * El título del video debería de estar optimizado para el SEO mientras que el título del thumbnail debería de ser más emocional.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Técnicas de interactividad en conferencias
 
@@ -455,11 +514,19 @@ Se puede recompensar la interactividad. Por ejemplo, regalar algo a los que hace
 
 En charlas o conferencias online puedes tener interactividad con tus redes sociales, invitando a que te envíen preguntas o mensajes a una cuenta determinada o un hashtag.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Charlas en vivo vs. Charlas grabadas
 
 Hay una mentalidad diferente cuando estamos viendo en vivo versus cuando vemos algo grabado. En vivo vale la pena pausar e interactuar con la audiencia, pues probablemente llevan bastante tiempo ahí y quieren conectarse más con el conferencista. En charlas o versiones grabadas es importante editar estos componentes de interactividad, pues generan la sensación de que te perdiste algo que ya pasó.
 
 **Tip**: Cuando hagas charlas grabadas piensa en que le estás hablando a una, dos o pocas personas. Cuando hagas charlas en vivo habla como si estuvieras dirigiéndote a muchas personas.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Cómo dar una charla en inglés
 
@@ -471,6 +538,10 @@ Todo el mundo tiene un acento, incluso en su idioma nativo. Aunque existen forma
 
 Crear un script (escribir lo que quieres decir) funciona si es la primera vez que vas a hablar en otro idioma, pero ten en cuenta que después no deberías usar el script para decir cada una de las palabras que anotaste, pues esto puede bloquearte. Solo necesitas el script como una guía mental para tener la estructura de tu discurso.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Elimina tus muletillas y frases de apoyo repetitivas
 
 Cuando empezamos a hablar en público es normal tener algunas muletillas, tics nerviosos o frases de apoyo repetitivas que son difíciles de quitar. Para combatir esto el primer paso es identificarlas. Mira tus conferencias, grábate y revisa, además pregúntale a personas cercanas que te puedan dar ese feedback.
@@ -479,7 +550,15 @@ Luego de haber identificado tus muletillas puedes empezar a reemplazarlas con si
 
 Si vas a leer un discurso o decir algo que sabes de memoria igual es importante ponerle intención y pensar realmente qué viene a continuación, así que las pausas pueden ser una herramienta muy valiosa que te ayudará a darle más fuerza a tu mensaje.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * [Curso de Hablar en Público
 ](https://platzi.com/clases/hablar-en-publico/)
 * [Paletton](http://www.paletton.com)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
