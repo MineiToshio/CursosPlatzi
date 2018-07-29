@@ -1,9 +1,24 @@
 <h1 align="center">
   <img src="logo.png">
   <br/>
-  Resumenes de Cursos Platzi
+  Resúmenes de Cursos Platzi
   <br>
 </h1>
+
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+  <a href="https://github.com/MineiToshio/CursosPlatzi">
+    <img src="	https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork" alt="CursosPlatzi followed">
+  </a>
+  <a href="https://github.com/MineiToshio/CursosPlatzi">
+    <img src="	https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="CursosPlatzi followed">
+  </a>
+  <a href="https://github.com/MineiToshio/CursosPlatzi">
+    <img src="	https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch" alt="CursosPlatzi followed">
+  </a>
+</p>
 
 ## Tabla de Contenido
 
