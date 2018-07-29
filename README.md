@@ -1,22 +1,24 @@
 <h1 align="center">
   <img src="logo.png">
   <br/>
-  Resúmenes de Cursos Platzi
+  Cursos Platzi
   <br>
 </h1>
+
+<h4 align="center">Lista de resúmenes de los cursos de <a href="https://platzi.com" target="_blank">Platzi</a>.</h4>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="	https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork" alt="CursosPlatzi followed">
+    <img src="https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork" alt="CursosPlatzi fork">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="	https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="CursosPlatzi followed">
+    <img src="https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="CursosPlatzi stars">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="	https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch" alt="CursosPlatzi followed">
+    <img src="https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch" alt="CursosPlatzi watch">
   </a>
 </p>
 
