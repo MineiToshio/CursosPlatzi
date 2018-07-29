@@ -12,13 +12,13 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork" alt="CursosPlatzi fork">
+    <img src="https://img.shields.io/github/forks/MineiToshio/CursosPlatzi.svg?style=social&label=Fork" alt="CursosPlatzi fork">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars" alt="CursosPlatzi stars">
+    <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=social&label=Stars" alt="CursosPlatzi stars">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi">
-    <img src="https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch" alt="CursosPlatzi watch">
+    <img src="https://img.shields.io/github/watchers/MineiToshio/CursosPlatzi.svg?style=social&label=Watch" alt="CursosPlatzi watch">
   </a>
 </p>
 
