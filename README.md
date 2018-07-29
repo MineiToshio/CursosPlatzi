@@ -1,5 +1,9 @@
-# Cursos Platzi
-Guía de resumen de los cursos de Platzi
+<h1 align="center">
+  <img src="logo.png">
+  <br/>
+  Resumenes de Cursos Platzi
+  <br>
+</h1>
 
 ## Tabla de Contenido
 
