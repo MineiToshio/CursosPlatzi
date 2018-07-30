@@ -273,6 +273,8 @@ Considerando quu se tiene la siguiente estructura como dato de entrada:
 }
 ```
 
+Proceso de normalización de datos:
+
 ```jsx
 import api from 'api.json';
 import { normalize, schema } from 'normalizr';
@@ -300,6 +302,33 @@ const normalizedData = normalize(api, categories);
 
 export default normalizedData;
 ```
+
+Output de los datos normalizados:
+
+```json
+{
+  entities: {
+    categories: {
+      1: {
+        description: "Lo mejor de la semana",
+        id: "1",
+        playlist: ["1", "2", "3", "4", "5"],
+        title: "Destacados"
+      }
+      2: {id: "2", description: "Lo mejor para concentrarte", title: "Para programar", playlist: Array(5)}
+      3: {id: "3", description: "Si no te queda de otra", title: "Regueton", playlist: Array(5)}
+    }
+    media: {1: {…}, 2: {…}, 3: {…}, 4: {…}, 5: {…}, 6: {…}, 7: {…}, 8: {…}, 9: {…}, 10: {…}, 11: {…}, 12: {…}, 13: {…}, 14: {…}, 15: {…}}
+  }
+  result: {
+    categories: ["1", "2", "3"]
+  }
+}
+```
+
+El output de datos normalizados contiene un objeto con 2 keys:
+* **entities**: contiene un objeto por cada entidad `schema.Entity()` definido. Dentro de la entidad se encuentran todos los objetos que contiene. 
+* **result**: son los schemas resultantes de la normalización.
 
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
