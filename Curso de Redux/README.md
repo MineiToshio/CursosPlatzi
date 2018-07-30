@@ -17,6 +17,7 @@
 - [Recursos Complementarios](#recursos-complementarios)
 - [Normalizando Datos](#normalizando-datos)
 - [Uso de datos normalizados](#uso-de-datos-normalizados)
+- [Múltiples Reducers](#múltiples-reducers)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -357,6 +358,61 @@ function mapStateToProps(state, props) {
 }
 
 export default connect(mapStateToProps)(MediaContainer);
+```
+
+## Múltiples Reducers
+
+Se debería de usar un reducer por cada key en el estado inicial.
+
+Asimismo, se recomienda iniciar el state en cada reducer. 
+
+Por ejemplo:
+```js
+const initialState = {
+  visibility: false,
+  mediaId: null
+}
+
+function modal(state = initialState, action) {
+  switch(action.type) {
+    case 'OPEN_MODAL':
+      return state;
+    case 'CLOSE_MODAL':
+      return state;
+    default:
+      return state;
+  }
+}
+
+export default modal;
+```
+
+Por último, se van a combiar todos los reducers en uno usando el método `combineReducers`.
+
+```js
+import data from './data.js'
+import modal from './modal.js'
+import { combineReducers } from 'redux'; 
+
+const rootReducer = combineReducers({
+  data, //primer reducer
+  modal //segundo reducer
+})
+
+export default rootReducer;
+```
+
+**Nota**: Los keys del `inicialState` son los mismos que se definen en combineReducers.
+
+En base a los ejemplos anteriores, el initialState generado por el reducer modal es el siguiente:
+
+```js
+const initialState = {
+  modal: {
+    visibility: false,
+    mediaId: null
+  }
+}
 ```
 
 ## Enlaces de Interés
