@@ -14,11 +14,11 @@
   <a href="https://github.com/MineiToshio/CursosPlatzi">
     <img src="https://img.shields.io/badge/Cursos-12-brightgreen.svg?style=flat-square" alt="CursosPlatzi watch">
   </a>
-  <a href="https://github.com/MineiToshio/CursosPlatzi/network/members">
-    <img src="https://img.shields.io/github/forks/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Fork" alt="CursosPlatzi fork">
-  </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
+  </a>
+  <a href="https://github.com/MineiToshio/CursosPlatzi/network/members">
+    <img src="https://img.shields.io/github/forks/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Fork" alt="CursosPlatzi fork">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/watchers">
     <img src="https://img.shields.io/github/watchers/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Watch&" alt="CursosPlatzi watch">
