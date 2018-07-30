@@ -18,6 +18,12 @@
 - [Normalizando Datos](#normalizando-datos)
 - [Uso de datos normalizados](#uso-de-datos-normalizados)
 - [Múltiples Reducers](#múltiples-reducers)
+- [Datos Inmutables](#datos-inmutables)
+  - [Instalación](#instalación)
+  - [Convirtiendo datos a inmutables](#convirtiendo-datos-a-inmutables)
+  - [Inmutar Reducers](#inmutar-reducers)
+  - [Obtener Datos Inmutables](#obtener-datos-inmutables)
+  - [Actualizar un dato Inmuetable](#actualizar-un-dato-inmuetable)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -415,11 +421,92 @@ const initialState = {
 }
 ```
 
+## Datos Inmutables
+
+Un objeto inmutable es básicamente aquel que luego de ser creado nunca cambia.
+
+Al convertir un dato a inmuetable:
+* Las **listas** representan a los arrays.
+* Los **mapas** representan a los objetos.
+
+### Instalación 
+
+Para obligar que un dato sea inmutable, se va a usar las librerías de [immutableJS](https://facebook.github.io/immutable-js/) y [redux-immutable](https://github.com/gajus/redux-immutable).
+
+```bash
+npm install immutable redux-immutable
+```
+
+### Convirtiendo datos a inmutables
+
+Lo primero que se debe de hacer es inmutar el estado inicial. Esto se hace con el método `fromJS`:
+
+```js
+import { fromJS } from 'immutable'; 
+
+const initialState = fromJS({
+  visibility: false,
+  mediaId: null
+})
+```
+
+### Inmutar Reducers
+
+También se debe de inmutar los reducers. Esto se va a lugar con la función `combineReducers` de `redux-immutable`.
+
+```js
+import data from './data.js'
+import modal from './modal.js'
+import { combineReducers } from 'redux-immutable'; 
+
+const rootReducer = combineReducers({
+  data, 
+  modal
+})
+
+export default rootReducer;
+```
+
+### Obtener Datos Inmutables
+
+Para obtener un dato inmueble, se va a usar la función `get()`.
+
+```js
+state.get('data').get('entities').get('media').get(props.id)
+```
+
+Para maps anidados podemos acceder a los datos con el método `getIn()` que recibe un array con los key de las propiedades a acceder.
+
+```js
+state.getIn(['data', 'entities', 'media', props.id])
+```
+
+### Actualizar un dato Inmuetable
+
+Una de las ventajas de trabajar con immutable JS es que aún cuando pareciera que estamos actuando sobre el estado con los métodos, get y set, en realidad estamos actuando sobre nuevos estados creados a partir del estado sobre el que estamos actuando, así:
+
+```js
+return state.set('search', query)
+```
+
+En lugar de retornar el estado state modificado con el método set (como pareciera ser lo obvio), en realidad estamos retornando un estado completamente diferente con los cambios aplicados.
+
+Si se desea actualizar más de una key, se utilizará el método merge.
+
+```js
+return state.merge({
+  visibility: true,
+  mediaId: id
+})
+```
+
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
 * [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 * [React Redux](http://github.com/reactjs/react-redux)
-* [normalizr](https://github.com/paularmstrong/normalizr)
+* [Normalizr](https://github.com/paularmstrong/normalizr)
+* [ImmutableJS](https://facebook.github.io/immutable-js/) 
+* [Redux-immmutable](https://github.com/gajus/redux-immutable)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
