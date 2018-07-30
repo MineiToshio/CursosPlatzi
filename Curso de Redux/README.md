@@ -8,9 +8,14 @@
   - [Reducers](#reducers)
 - [Flujo de eventos de Redux](#flujo-de-eventos-de-redux)
 - [3 Principios de Redux](#3-principios-de-redux)
-- [Instalando Redux](#instalando-redux)
 - [Funciones Puras](#funciones-puras)
+- [Instalando Redux](#instalando-redux)
+- [Redux en React](#redux-en-react)
+  - [Provider](#provider)
+  - [Connect](#connect)
+  - [Dispatch](#dispatch)
 - [Recursos Complementarios](#recursos-complementarios)
+- [Normalizando Datos](#normalizando-datos)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -134,16 +139,10 @@ El estado de toda tu aplicación esta almacenado en un árbol guardado en un ún
    Por cada aplicación (especialmente las de tipo single page), deberías tener un solo store, excepto si tienes múltiples páginas, donde cada página por conveniencia pudiera manejar su propia store.
 
 2. **Solo Lectura**:
-La única forma de modificar el estado es emitiendo una acción, un objeto que describe qué ocurrió.
+La única forma de modificar el estado es emitiendo una [acción](#actions), un objeto que describe qué ocurrió.
 
 3. **Los cambios se realizan con funciones puras**:
-Los reduces son funciones puras que toman el estado anterior y una acción, y devuelven un nuevo estado.
-
-## Instalando Redux
-
-```
-npm install --save redux
-```
+Los reduces son [funciones puras](#funciones-puras) que toman el estado anterior y una acción, y devuelven un nuevo estado.
 
 ## Funciones Puras
 
@@ -159,6 +158,69 @@ Las funciones puras son un concepto de programación funcional que hace que el c
 
 2. No debe tener objetos secundarios.
 
+## Instalando Redux
+
+```
+npm install redux
+```
+
+Para integrar **Redux** con **React** es necesario instalar **React-Redux**.
+
+```
+npm install react-redux
+```
+
+## Redux en React
+
+### Provider
+
+Provider es un **high order component** (hoc) que nos provee **react-redux** el cual nos sirve para heredar elementos a los componentes hijos.
+
+```js
+import { Provider } from "react-redux";
+```
+
+Y para usarlo
+
+```js
+<Provider store={store}>
+  <Componente />
+</Provider>
+```
+
+### Connect
+
+Para poder recibir los datos del store que se envían en el provider se va a usar `connect`.
+
+Para usar connect, primero se tiene que importar.
+
+```js
+import { connect } from "react-redux";
+```
+
+Luego se cambia el export del componente.
+
+```js
+function mapStateToProps(state, props) {
+  return {
+    categories: state.data.categories
+  }
+}
+
+export default connect(mapStateToProps)(Componente);
+```
+
+### Dispatch
+
+Al utilizar el método [connect](#connect) enviamos de forma automática dispatch para ser utilizado en el componente.
+
+```js
+this.props.dispatch({
+})
+```
+
+Solo los smartcomponents se deben conectar con redux
+
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/redux.pdf)
 
@@ -166,9 +228,84 @@ Las funciones puras son un concepto de programación funcional que hace que el c
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
+## Normalizando Datos
+
+La normalización tiene como objetivo evitar la redundancia de datos y haceer que acceder a esos datos sea más fácil.
+
+<div align="center">
+  <img src="img/normalizado-vs-no-normalizado.png">
+  <small><p>Datos Normalizados vs Datos no Normalizados</p></small>
+</div>
+
+La normalización permite que cada entidad esté separada de tal manera las iteraciones se realicen a nivel de entidad y no tener que estar revisando todas una entidad padre para realizar una operación en una entidad hijo.
+
+Por ejemplo, en el caso de la foto anterior, si se desea buscar un media en todas las *medias* de las *categories*, habría que iterar en cada *playlist* de cada *category* por lo cual habría que hacer una doble iteración.
+
+Con la normalización de datos, se formaría un array de *medias* y los *playlists* solo guardarían el id de cada *media* de tal manera que solo habría que realizar una iteración de querer realizar una operación en todos los *medias*.
+
+Para normalizar datos se va a usar [normalizr](https://github.com/paularmstrong/normalizr)
+
+```bash
+$ npm install normalizr
+```
+
+Considerando quu se tiene la siguiente estructura como dato de entrada:
+
+```json
+{
+  "categories": [
+    {
+      "id": "1",
+      "description": "Lo mejor de la semana",
+      "title": "Destacados",
+      "playlist": [
+        {
+          "title": "¿Qué es responsive Design?",
+          "author": "LeonidasEsteban",
+          "type": "video",
+          "cover": "./images/covers/responsive.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": "1"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```jsx
+import api from 'api.json';
+import { normalize, schema } from 'normalizr';
+
+// schema.Entity(key, definición de mi esquema, opciones);
+
+// Entidad hijo
+const media = new schema.Entity('media', {}, {
+  //se indica cuál es el atributo de id
+  idAttribute: 'id', 
+  //se asocia el id de la entidad padre
+  processStrategy: (value, parent, key) => ({...value, category: parent.id}) 
+});
+
+const category = new schema.Entity('categories', {
+  //se indica que playlist es una entidad de media
+  playlist: new schema.Array(media)
+});
+
+// Entidad principal
+const categories = { categories: new schema.Array(category) };
+
+//normalize(datos a normalizar, entidad principal)
+const normalizedData = normalize(api, categories);
+
+export default normalizedData;
+```
+
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
 * [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+* [React Redux](http://github.com/reactjs/react-redux)
+* [normalizr](https://github.com/paularmstrong/normalizr)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
