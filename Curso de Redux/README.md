@@ -16,6 +16,7 @@
   - [Dispatch](#dispatch)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Normalizando Datos](#normalizando-datos)
+- [Uso de datos normalizados](#uso-de-datos-normalizados)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -329,6 +330,34 @@ Output de los datos normalizados:
 El output de datos normalizados contiene un objeto con 2 keys:
 * **entities**: contiene un objeto por cada entidad `schema.Entity()` definido. Dentro de la entidad se encuentran todos los objetos que contiene. 
 * **result**: son los schemas resultantes de la normalización.
+
+## Uso de datos normalizados
+
+Dado que la normalización de datos hace que solo se hagan referencias a ids, la forma de mostrarlo  en la ui cambia un poco.
+
+Se va a crear un componente contenedor que reciba el id y por medio de `mapStateToProps` obtenga el objeto relacionado al id.
+
+A continuación, se muestra un ejemplo para una entidad llamada *Media*.
+
+```jsx
+import React, { Component } from 'react';
+import Media from '../components/media.jsx';
+import { connect } from 'react-redux';
+
+class MediaContainer extends Component {
+  render() {
+    return <Media {...this.props.data} />
+  }
+}
+
+function mapStateToProps(state, props) {
+  return {
+    data: state.data.entities.media[props.id]
+  }
+}
+
+export default connect(mapStateToProps)(MediaContainer);
+```
 
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
