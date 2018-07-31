@@ -28,6 +28,7 @@
 - [Action Types](#action-types)
 - [Middlewares](#middlewares)
   - [Múltiples Middlewares](#múltiples-middlewares)
+- [Acciones Asíncronas](#acciones-asíncronas)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -694,6 +695,39 @@ const store = createStore(
 );
 ```
 
+## Acciones Asíncronas
+
+[redux-thunk](https://github.com/reduxjs/redux-thunk) es un middleware que nos va permitir el uso de flujos asíncronos dentro de las acciones.
+
+```bash
+$ npm install redux-thunk
+```
+
+Para usarlo, se debe de agregar dentro de los enhancers de redux.
+
+```js
+import thunk from 'redux-thunk';
+
+const store = createStore(
+  reducer,
+  map(),
+  applyMiddleware(thunk)
+);
+```
+
+Para crear una acción asíncrona:
+
+```js
+export function searchAsyncEntities(query) {
+  return (dispatch) => {
+    fetch('url').then((res) => {
+      dispatch(searchEntities(query))
+    });
+  }
+}
+```
+
+
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/redux.pdf)
 
@@ -710,6 +744,7 @@ const store = createStore(
 * [Redux-immmutable](https://github.com/gajus/redux-immutable)
 * [Awesome Redux](https://github.com/xgrommx/awesome-redux)
 * [Redux Logger](https://github.com/evgenyrodionov/redux-logger)
+* [Redux-thunk](https://github.com/reduxjs/redux-thunk)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
