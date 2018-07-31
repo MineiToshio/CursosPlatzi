@@ -38,13 +38,15 @@ Redux fue creado por **Dan Abramov** para manipular los datos de una forma separ
 
 Redux es un contenedor del estado predecible para aplicaciones de JavaScript de frontend complejas.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Componentes en Redux:
 
-* **Store**: Es el centro y la verdad de todo, con métodos para actualizar, obtener y escuchar datos.
-* **Actions**: Son bloques de información que envian datos desde la aplicación hacia el store.
-* **Reducers**: Cambian el estado de la aplicación.
-
 ### Stores
+
+**Store**: Es el centro y la verdad de todo, con métodos para actualizar, obtener y escuchar datos.
 
 Datos importantes del Store:
 
@@ -79,7 +81,13 @@ Obtener el state:
 const state = store.getState();
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Actions
+
+**Actions**: Son bloques de información que envian datos desde la aplicación hacia el store.
 
 Datos importantes:
 
@@ -97,7 +105,13 @@ store.dispatch({
 * **type**: Nombre de la acción. Este dato es obligatorio.
 * **payload** (puede llamarse diferente): contiene la data de envío. Se recomienda siempre escribila como un objeto.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Reducers 
+
+**Reducers**: Cambian el estado de la aplicación.
 
 Datos importantes:
 
@@ -124,6 +138,10 @@ const reducer = function(state, action) {
 
 `store.subscribe()` es una función que sirve como un listener para saber cuándo el store cambio y saber cuándo hay que volver a renderizar las vistas.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Flujo de eventos de Redux
 
 <div align="center">
@@ -145,6 +163,10 @@ const reducer = function(state, action) {
   
 * Queda establecido el **nuevo estado** (state) y queda de nuevo atento el evento (listener) en la UI.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## 3 Principios de Redux
 
 1. **Única fuente de verdad**:
@@ -157,6 +179,10 @@ La única forma de modificar el estado es emitiendo una [acción](#actions), un 
 
 3. **Los cambios se realizan con funciones puras**:
 Los reduces son [funciones puras](#funciones-puras) que toman el estado anterior y una acción, y devuelven un nuevo estado.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Funciones Puras
 
@@ -172,6 +198,10 @@ Las funciones puras son un concepto de programación funcional que hace que el c
 
 2. No debe tener objetos secundarios.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Instalando Redux
 
 ```
@@ -183,6 +213,10 @@ Para integrar **Redux** con **React** es necesario instalar **React-Redux**.
 ```
 npm install react-redux
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Redux en React
 
@@ -201,6 +235,10 @@ Y para usarlo
   <Componente />
 </Provider>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Connect
 
@@ -224,6 +262,10 @@ function mapStateToProps(state, props) {
 export default connect(mapStateToProps)(Componente);
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Dispatch
 
 Al utilizar el método [connect](#connect) enviamos de forma automática dispatch para ser utilizado en el componente.
@@ -234,6 +276,10 @@ this.props.dispatch({
 ```
 
 Solo los smartcomponents se deben conectar con redux
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Normalizando Datos
 
@@ -337,6 +383,10 @@ El output de datos normalizados contiene un objeto con 2 keys:
 * **entities**: contiene un objeto por cada entidad `schema.Entity()` definido. Dentro de la entidad se encuentran todos los objetos que contiene. 
 * **result**: son los schemas resultantes de la normalización.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Uso de datos normalizados
 
 Dado que la normalización de datos hace que solo se hagan referencias a ids, la forma de mostrarlo  en la ui cambia un poco.
@@ -364,6 +414,10 @@ function mapStateToProps(state, props) {
 
 export default connect(mapStateToProps)(MediaContainer);
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Múltiples Reducers
 
@@ -420,6 +474,10 @@ const initialState = {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Datos Inmutables
 
 Un objeto inmutable es básicamente aquel que luego de ser creado nunca cambia.
@@ -428,6 +486,10 @@ Al convertir un dato a inmuetable:
 * Las **listas** representan a los arrays.
 * Los **mapas** representan a los objetos.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Instalación 
 
 Para obligar que un dato sea inmutable, se va a usar las librerías de [immutableJS](https://facebook.github.io/immutable-js/) y [redux-immutable](https://github.com/gajus/redux-immutable).
@@ -435,6 +497,10 @@ Para obligar que un dato sea inmutable, se va a usar las librerías de [immutabl
 ```bash
 npm install immutable redux-immutable
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Convirtiendo datos a inmutables
 
@@ -448,6 +514,10 @@ const initialState = fromJS({
   mediaId: null
 })
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Inmutar Reducers
 
@@ -466,6 +536,10 @@ const rootReducer = combineReducers({
 export default rootReducer;
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Obtener Datos Inmutables
 
 Para obtener un dato inmueble, se va a usar la función `get()`.
@@ -479,6 +553,10 @@ Para maps anidados podemos acceder a los datos con el método `getIn()` que reci
 ```js
 state.getIn(['data', 'entities', 'media', props.id])
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Actualizar un dato Inmuetable
 
@@ -498,6 +576,10 @@ return state.merge({
   mediaId: id
 })
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Creadores de Acciones
 
@@ -538,6 +620,10 @@ class Home extends Component {
   //aquí va más código
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Enlazando Creadores de Acciones
 
@@ -588,6 +674,10 @@ const mapDispatchToProps = {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Action Types
 
 Se puede crear una archivo cono todos los actions types con el fin de evitar errores.
@@ -613,6 +703,10 @@ export function openModal(mediaId) {
 }
 
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Middlewares
 
@@ -663,6 +757,10 @@ const store = createStore(
 );
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Múltiples Middlewares
 
 Para agrear múltiples middlewares se va a usar `composeWithDevTools` que es un método de [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension).
@@ -694,6 +792,10 @@ const store = createStore(
   )
 );
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Acciones Asíncronas
 
@@ -727,6 +829,9 @@ export function searchAsyncEntities(query) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/redux.pdf)
