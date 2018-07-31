@@ -161,7 +161,11 @@ Existen 3 tipos de escenarios que se deberían tomar en cuenta:
 * **Negativo**: este es en el que se va peor de lo planeado.
 
 ## Recursos Complementarios
-* [Diapositiva 1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
+* [Diapositiva 0.1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
+* [Diapositiva 0.2: ¿Por qué internacionalizar tu empresa?](docs/0-2-por-que-internacionalizar-tu-empresa.pdf)
+* [Diapositiva 1.1: ¿Cómo saber si es el momento de internacionalizar tu empresa?](docs/1-1-como-saber-si-es-momento-de-internacionalizar-tu-empresa.pdf)
+* [Diapositiva 1.2: Servicios vs Productos: Qué es lo más relevante a la hora de expandir cada uno](docs/1-2-servicios-vs-productos-que-es-lo-mas-relevante-a-la-hora-de-expandir-cada-uno.pdf)
+* [Diapositiva 1.3: Los 5 pilares de la expanción](docs/1-3-los-5-pilares-sobre-los-que-vas-a-crear-tu-expansion.pdf)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
