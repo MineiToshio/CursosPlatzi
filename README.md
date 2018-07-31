@@ -35,8 +35,8 @@
 1. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
 
 ### Desarrollo con Javascript
-1. [Curso Avanzado de Node.js](Curso%20Avanzado%20de%20Node.js/README.md#curso-avanzado-de-nodejs)
-2. [Curso de jQuery a JavaScript](Curso%20de%20jQuery%20a%20JavaScript/README.md#curso-de-jquery-a-javascript)
+<!-- 1. [Curso Avanzado de Node.js](Curso%20Avanzado%20de%20Node.js/README.md#curso-avanzado-de-nodejs) -->
+1. [Curso de jQuery a JavaScript](Curso%20de%20jQuery%20a%20JavaScript/README.md#curso-de-jquery-a-javascript)
 
 ### Desarrollo con React
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
