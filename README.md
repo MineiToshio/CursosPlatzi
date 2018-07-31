@@ -11,7 +11,7 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
-  <a href="https://github.com/MineiToshio/CursosPlatzi">
+  <a href="#tabla-de-contenido">
     <img src="https://img.shields.io/badge/Cursos-12-brightgreen.svg?style=flat-square" alt="CursosPlatzi watch">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
