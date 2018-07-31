@@ -214,88 +214,104 @@ En el concepto se tiene la posibilidad de crear cualquier cosa.
 * Algo crucial en el diseño es la educación del ojo, debemos entrenarlo para poder observar los lineamientos que se necesitan o los que están de más.
 
 <div align="center">
-  <img src="img/logos-olimpiadas.png">
-  <small><p>El mismo logo se ha usado en todas las olimpiadas</p></small>
+  <img src="img/sin-alineacion.png">
+  <small><p>Sin Alineación</p></small>
 </div>
 
+<div align="center">
+  <img src="img/con-alineacion.png">
+  <small><p>Con Alineación Horizontal</p></small>
+</div>
 
-Pueden estar alineado con distintos objetos o formas:
+<div align="center">
+  <img src="img/con-alineacion-vertical.png">
+  <small><p>Con Alineación Vertical</p></small>
+</div>
 
+<div align="center">
+  <img src="img/diferentes-tipos-de-alineacion.png">
+  <small><p>Diferentes Tipos de Alineación</p></small>
+</div>
 
+Este es un poster de Stranger Things en el cual se muestra un ejemplo de alineación.
 
-Educar el ojo, como algo fundamental, cuando algo no cumpla con alineacion:
-
-Mas notorio:
-
-
-La alineacion esta en todo:
-Hay un sentido de importancia:
+<div align="center">
+  <img src="img/poster-stranger-things.png">
+  <small><p>Ejemplo: Alineación</p></small>
+</div>
 
 ### Contraste
-Es la diferenciación visual de uno o varios elementos
 
-Tipos de contraste
+Es la diferenciación visual de uno o varios elementos. Una diferenciación muy marcada.
 
-A nivel de color: Es encontrar uno de esos puntos de diferenciación y se pueda hacer una composición en función de eso.
+**Tipos de contraste**:
 
+1. El contraste a nivel de color. Es encontrar uno de esos puntos de diferenciación y se pueda hacer una composición en función de eso.
 
-Por forma:
-Preferible que lo tengan claro en el boceto.
+<div align="center">
+  <img src="img/contraste-color.png">
+  <small><p>Ejemplo: Contraste de Color</p></small>
+</div>
 
-Por disposición: Colocar las formas y colores en lugares específicos pueden comunicar mucho mensaje.
+2. El contraste por forma.
 
+3. El contraste por disposición. Cómo es la interacción por disposición de las formas.
 
+<div align="center">
+  <img src="img/contraste-forma-disposicion.png">
+  <small><p>Ejemplo: Contraste por Forma y Dispocisión</p></small>
+</div>
 
 Ejemplo de combinación de constrastes
 
+<div align="center">
+  <img src="img/contraste.png">
+  <small><p>Ejemplo: Contraste</p></small>
+</div>
+
 ### Síntesis
-La síntesis no solamente se da en una representación gráfica.
-La síntesis abarca desde el concepto.
-El propósito de la síntesis es saber tomar los punto más precisos y poder simplificar todo en una idea muy clara.
-En la síntesis gráfica optimizamos tiempo de lectura y de comunicación.
-Es un buen recurso si no se domina la ilustración o fotografía.
-Sintesis: hay que tomar en cuenta varias cosas:
 
-El tiempo de lectura
-Donde va estar hubicado ese diseño
-Que funcion va a tener
-Que usuarios los van ver
-Que usuarios lo van a consumir
-Empezar a entender si esa informacion que voy a colocar es necesaria, no lo de informacion de texto. Me refiero a informacion visual.
-Ejemplo: textura, si va a ser algo con tejidos, vamos hablar de un festival, o de una exposicion, queremos representar la textura? esas preguntar hay que hacercelas?
+La síntesis es los puntos más precisos y conceptualizarlo en un idea.
 
-Sintesis de la sandia:
+La síntesis sirve para:
+1. Optimizar el tiempo de lectura y de comunicacion
+2. Es un buen recurso si no se domina la ilustración o fotografía.
 
+Notas importantes:
+* La síntesis no solamente se da en una representación gráfica.
+* La síntesis abarca desde el concepto.
+* El propósito de la síntesis es saber tomar los punto más precisos y poder simplificar todo en una idea muy clara.
+* En la síntesis gráfica optimizamos tiempo de lectura y de comunicación.
+* Es un buen recurso si no se domina la ilustración o fotografía.
 
-Tomar los puntos mas precisos y conceptualizarlo en un idea.
+<div align="center">
+  <img src="img/sintesis-sandia.png">
+  <small><p>Ejemplo: Síntesis de una Sandía</p></small>
+</div>
 
-Sintesis grafica hace una sustraccion de esos elementos importantes y los lleva a la parte visual:
+Sintesis grafica hace una sustraccion de esos elementos importantes y los lleva a la parte visual.
 
+<div align="center">
+  <img src="img/sintesis-grafica.png">
+  <small><p>Ejemplo: Síntesis Gráfica</p></small>
+</div>
 
-A nivel de ejecucion puede servir mucho, por ejemplo:
-En los iconos, esotipos, es usa mucho ya que debe ser un mensaje, que es contundente y debe tener una accion ya sea en fisico o la hora de imprimirlo, donde posiblemente alla reducciones, si hay mucho detalle se va a perder, resolusion, o el mensaje inicial.
+<div align="center">
+  <img src="img/sintesis-mancha.png">
+  <small><p>Ejemplo: Síntesis Mancha</p></small>
+</div>
 
-Sintesis de mancha: (son formas, solidos)
+<div align="center">
+  <img src="img/sintesis-linea.png">
+  <small><p>Ejemplo: Síntesis Línea</p></small>
+</div>
 
+La síntesis nos ayuda a comunicar con una lectura rápida: "pero bueno podiamos hacerle hecho la casita, las plantitas y quizas una ventanita y lo mejor los dedos le hacemos uñas". No es necesario. La sintesis grafica nos muestra que alli ya hay una casa tomada por unas manos. Ese es el concepto y no es el nivel de detalle que necesitamos.
 
-Sintesis por linea: (se usa en ilustracion, campañas de politicas)
-
-
-Sirve para:
-
-Los mas importante para comunicar, con lectura rapida. “pero bueno podiamos hacerle hecho la casita, las plantitas y quizas una ventanita y lo mejor los dedos le hacemos uñas”, no es necesario las sintesis grafica nos muestra que alli ya hay una casa tomada por unas manos… y ese es el concepto, y no es el nivel de detalle que necesitamos.
-
-
-
-Tomen la informacion necesaria, sepan cuando pueden sacar algo, como hacer algo que no va hacer necesario, al contrario le tomara mas trabajo, y puede desvirtuar la informacion, y asi optener una sintesis los mas garantizada posible para emviar mejor el mensaje.
-
-
-
-Resumen
-1. Optimiza el tiempo de lectura y de comunicación
-
-
-2. Buen recurso si no se domina la ilustración o fotografía.
+<div align="center">
+  <img src="img/sintesis-usos.png">
+  <small><p>Usos de Síntesis</p></small>
+</div>
 
 ## Composición
 
