@@ -14,7 +14,6 @@
   - [Provider](#provider)
   - [Connect](#connect)
   - [Dispatch](#dispatch)
-- [Recursos Complementarios](#recursos-complementarios)
 - [Normalizando Datos](#normalizando-datos)
 - [Uso de datos normalizados](#uso-de-datos-normalizados)
 - [Múltiples Reducers](#múltiples-reducers)
@@ -29,6 +28,7 @@
 - [Action Types](#action-types)
 - [Middlewares](#middlewares)
   - [Múltiples Middlewares](#múltiples-middlewares)
+- [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -233,13 +233,6 @@ this.props.dispatch({
 ```
 
 Solo los smartcomponents se deben conectar con redux
-
-## Recursos Complementarios
-* [Diapositivas del Curso](docs/redux.pdf)
-
-<div align="right">
-  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
 
 ## Normalizando Datos
 
@@ -700,6 +693,13 @@ const store = createStore(
   )
 );
 ```
+
+## Recursos Complementarios
+* [Diapositivas del Curso](docs/redux.pdf)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
