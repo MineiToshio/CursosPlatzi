@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 align="center">Lista de resúmenes de los cursos de <a href="https://platzi.com" target="_blank">Platzi</a>.</h4>
+<h4 align="center">Lista de resúmenes de los cursos de <a href="https://platzi.com/r/MineiToshio/" target="_blank">Platzi</a>.</h4>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -40,6 +40,7 @@
 
 ### Desarrollo con React
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
+2. [Curso de Redux](Curso%20de%20Redux/README.md#curso-de-redux)
 
 ### Base de Datos
 1. [Curso de MongoDB y Redis](Curso%20de%20MongoDB%20y%20Redis/README.md#curso-de-mongodb-y-redis)
@@ -54,3 +55,10 @@
 
 ### Creación de StartUps
 1. [Introducción a la Creación de Empresas y Startups](Introducción%20a%20la%20Creación%20de%20Empresas%20y%20Startups/README.md#introducción-a-la-creación-de-empresas-y-startups)
+
+## Quiero seguir aprendiendo
+
+[Platzi](https://platzi.com/r/MineiToshio/) cuenta con más de 120 cursos y 37 carreras.
+
+Suscríbete hoy y ¡nunca pares de aprender!  
+[Me quiero suscribir](https://platzi.com/r/MineiToshio/)
