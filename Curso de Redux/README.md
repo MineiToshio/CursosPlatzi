@@ -24,6 +24,11 @@
   - [Inmutar Reducers](#inmutar-reducers)
   - [Obtener Datos Inmutables](#obtener-datos-inmutables)
   - [Actualizar un dato Inmuetable](#actualizar-un-dato-inmuetable)
+- [Creadores de Acciones](#creadores-de-acciones)
+  - [Enlazando Creadores de Acciones](#enlazando-creadores-de-acciones)
+- [Action Types](#action-types)
+- [Middlewares](#middlewares)
+  - [Múltiples Middlewares](#múltiples-middlewares)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -500,13 +505,211 @@ return state.merge({
 })
 ```
 
+## Creadores de Acciones
+
+Son funciones que engloban acciones y retornan el texto de la acción.
+
+```js
+export function openModal(mediaId) {
+  return {
+    type: 'OPEN_MODAL',
+    payload: {
+      mediaId
+    }
+  }
+}
+
+export function closeModal() {
+  return {
+    type: 'CLOSE_MODAL'
+  }
+}
+```
+
+Uso:
+
+```js
+//otros imports
+import { openModal, closeModal } from './actions/index';
+
+class Home extends Component {
+  handleOpenModal = (id) => {
+    this.props.dispatch(openModal(id))
+  }
+
+  handleCloseModal = (event) => {
+    this.props.dispatch(closeModal())
+  }
+
+  //aquí va más código
+}
+```
+
+### Enlazando Creadores de Acciones
+
+Para enlazar un creador de acciones se va a usar el método `bindActionCreators`.
+
+Primero, se va a importar `bindActionCreators` de `react-redux` y los creadores de acciones.
+
+```js
+import * as actions from '../../actions/index';
+import { bindActionCreators } from 'redux';
+```
+
+Luego, se va a sociar las acciones al componente con el método [connect](#connect). 
+
+Se va a crear una función `mapDispatchToProps` la cuál va a ser pasada como segundo parámetro del método connect.
+
+```js
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  }
+}
+
+export default connect(null, mapDispatchToProps)(Home);
+```
+
+Finalmente, pasa llamar a la acción dentro del componente, se hará de la siguiente forma:
+
+```js
+class Home extends Component {
+
+  handleOpenModal = (id) => {
+    this.props.actions.openModal(id)
+  }
+
+  //más código
+}
+```
+
+Existe un shorthand donde no es necesario importar `bindActionCreators`. Consiste en que mapDispatchToProps sea un objeto en vez de una funcion y recibe las acciones como propiedades asi podran ser usadas directamente en los props del componente.
+
+```js
+import { openModal, closeModal } from'.../../actions/index';
+
+const mapDispatchToProps = {
+  openModal,
+  closeModal
+}
+```
+
+## Action Types
+
+Se puede crear una archivo cono todos los actions types con el fin de evitar errores.
+
+```js
+export const OPEN_MODAL = 'OPEN_MODAL'
+export const CLOSE_MODAL = 'CLOSE_MODAL'
+export const SEARCH_ENTITIES = 'SEARCH_ENTITIES'
+```
+
+Y para usarlos se haría de la siguiente manera:
+
+```js
+import { OPEN_MODAL } from '../action-types/index';
+
+export function openModal(mediaId) {
+  return {
+    type: OPEN_MODAL,
+    payload: {
+      mediaId
+    }
+  }
+}
+
+```
+
+## Middlewares
+
+Es una forma de poder interceptar lo que está sucediendo con redux para mejorarlo y/o modificarlo.
+
+Componentes del Middleware:
+
+* Recibe el dispatch y el getState como argumentos y retorna una función.
+
+* Esta función retornada recibe el método para despachar el siguiente middleware, y se espera que retorne una función que recibe action y llame a next(action).
+
+Ejemplo de un Middleware llamado logger:
+
+```js
+// versión pre-ES6
+function logger({ getState, dispatch }){
+  return ( next ) => {
+    return ( action ) => {
+      console.log( 'estado anterior:', getState().toJS() )
+      console.log( 'enviando acción:', action)
+      const rslt = next( action )
+      console.log( 'nuevo estado   :', getState().toJS() )
+      return rslt
+    }
+  }
+}
+```
+```js
+// versión ES6
+const logger = ({ getState, dispatch }) => next => action => {
+  console.log( 'estado anterior:', getState().toJS() )
+  console.log( 'enviando acción:', action)
+  const rslt = next( action )
+  console.log( 'nuevo estado   :', getState().toJS() )
+  return rslt
+}
+```
+
+Para convertir un **middleware** en un **enhancer** y poder usarlo en la aplicación, se va a usar `applyMiddleware`.
+
+```js
+import { createStore, applyMiddleware } from "redux";
+
+const store = createStore(
+  reducer,
+  map(),
+  applyMiddleware(logger)
+);
+```
+
+### Múltiples Middlewares
+
+Para agrear múltiples middlewares se va a usar `composeWithDevTools` que es un método de [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension).
+
+```bash
+$ npm install –save-dev redux-devtools-extension
+```
+
+[redux-logger](https://github.com/evgenyrodionov/redux-logger) es un middleware que permite mantener un log de los cambios realizados en una aplicación con Redux.
+
+```bash
+$ npm install --save redux-logger
+```
+
+Para integrar estos dos middlewares, se haría de la siguiente manera:
+
+```js
+import logger from 'redux-logger'
+import { composeWithDevTools } from 'redux-devtools-extension'
+
+const store = createStore(
+  reducer,
+  map(),
+  composeWithDevTools(
+    applyMiddleware(
+      logger
+      //, otro middleware
+    )
+  )
+);
+```
+
 ## Enlaces de Interés
 * [Curso de Redux](https://platzi.com/clases/redux/)
 * [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
-* [React Redux](http://github.com/reactjs/react-redux)
+* [React Redux](https://github.com/reactjs/react-redux)
 * [Normalizr](https://github.com/paularmstrong/normalizr)
 * [ImmutableJS](https://facebook.github.io/immutable-js/) 
 * [Redux-immmutable](https://github.com/gajus/redux-immutable)
+* [Awesome Redux](https://github.com/xgrommx/awesome-redux)
+* [Redux Logger](https://github.com/evgenyrodionov/redux-logger)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
