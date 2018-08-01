@@ -8,6 +8,11 @@
     - [Servicios](#servicios)
     - [Productos](#productos)
   - [Los Pilares de la Expansión](#los-pilares-de-la-expansión)
+- [Planeación de Estrategia](#planeación-de-estrategia)
+  - [Modelos de Expansión](#modelos-de-expansión)
+- [¿Cómo elijo el país correcto para vender mis proyectos?](#cómo-elijo-el-país-correcto-para-vender-mis-proyectos)
+  - [Planeando mi crecimiento internacional](#planeando-mi-crecimiento-internacional)
+  - [Creando una marca internacional](#creando-una-marca-internacional)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -132,7 +137,7 @@ Ejemplo de un objetivo SMART:
 
 El modelo es el camino para lograr el objetivo.
 
-Existen diferentes modelos de expansión internacional y se debe de escoger el más adecuado según el objetivo planteado.
+Existen [6 modelos](#modelos-de-expansión) de expansión internacional y se debe de escoger el más adecuado según el objetivo planteado.
 
 **Pilar 3**: Adaptación
 
@@ -160,12 +165,145 @@ Existen 3 tipos de escenarios que se deberían tomar en cuenta:
 * **Positivo**: este es en el que se va mejor de lo planeado.
 * **Negativo**: este es en el que se va peor de lo planeado.
 
+## Planeación de Estrategia
+
+### Modelos de Expansión
+
+**Centralizada**
+
+Tú tienes más del 80% de las operaciones en tt país y el 20% en el nuevo mercado.
+
+Ejemplo: Uno tiene un e-commerse y desde tú país manejas las ventas, la atención al cliente, el marketing, la gestión de la página web, etc. En el nuevo mercado solo se va a tener logística y distribución.
+
+**Desentralizada**
+
+Es el modelo opuesto al centralizado. Uno tiene el 20% de las operaciones en el país y el 80% en el nuevo mercado. 
+
+En estos casos uno generalmente tiene una unidad de negocio en el país, una oficina local y un equipo en ese muevo mercado. Este modelo es muy usado cuando se quiere crear empresa y constituirse el nuevo país y que este crezca de manera autónoma de la unidad central local.
+
+**Distrubuidores**
+
+En este modelo se realizan las operaciones en el país de origen, pero vas a conseguir a alguien que distribuya o venda por ti en el nuevo país.
+
+**Integradores**
+
+El integrador no distribuye por ti. El integrador se integra a tus operaciones. Por ejemplo, si tiene un equipo de finanzas, esta persona se integraría a este aquipo y apoyaría con las facturas de ese nuevo país.
+
+**Franquicia**
+
+Tu empaquetaste lo que haces. Vendes en el nuevo mercado la marca. Esta persona compra tu franqucia y es la encargada de operar, en el nuevo mercado, tu empresa. 
+
+**Adquisición**
+
+Adquieres en el otro mercado una cartera de clientes de otra persona o adquieres una empresa completa. 
+
+Funciona mucho cuando es una empresa grande y adquieres una startup en el nuevo mercado para agilizar la empresa.
+
+**Las claves para escoger el modelo**:
+* Que se ajuste al máximo con tu objetivo
+* Que permita minimizar los esfuerzos de operación y maximizar las ganancias.
+
+**Responder 3 preguntas**:
+* ¿Qué quieres mantener tú?
+* ¿Qué no quieres hacer tú?
+* ¿Cuál de estas cosas prefieres priorizar?
+  * Potenciar tu marca
+  * Aumentar tu rentabilidad o ROI
+  * Conseguir nuevos clientes
+
+## ¿Cómo elijo el país correcto para vender mis proyectos?
+
+Es importante hacerse la pregunta de **¿Adaptarse a dónde y a qué?**
+
+Para saber a qué país se puede ingresar se usará una matríz.
+
+<div align="center">
+  <img src="img/matriz-pais.png">
+  <small><p>Matriz de País</p></small>
+</div>
+
+* **Momentum**: ¿Hay una tendencia que está creciendo o no?
+* **Necesidad**: ¿Se conoce o no? ¿Hay demanda insatisfecha o no?
+* **Facilidad de ingresar**: ¿Cuántas barreras hay que superar para ingresar?
+
+**La matriz se realiza de la siguiente manera**:
+1. Listar los países.
+2. Dar una evaluación (de 1 a 5) por cada país en base a su categoría.
+3. Suma los puntajes de cada uno.
+4. Analiza resultados.
+
+Si se quiere trabajar con varios países, se recomienda **trabajar por clusters y agrupar por buyer persona**.
+
+Por ejemplo, en el caso anterior, se pone a una persona que pueda trabajar a Perú y Colombia porque son similares y a otra persona para USA. Como resultado, se mininizan los esfuerzos y los recursos.
+
+### Planeando mi crecimiento internacional
+
+Elementos para planear la expansión:
+
+**1.** Objetivos a lograr
+
+Los objetivos deben de ser SMART.
+
+**Ejemplo**: Me expandoi a Chile con el objetivo de obtener 3 nuevos clientes en el plazo de 1 año para diversificar en 10% mi cartera comercial.
+
+**2.** Milestones a alcanzar
+
+Un milestone o hito es un evento importante en la historia o el desarrollo de algo o alguien. Son los puntos para fijar el avance del proyecto.
+
+Un milestone NO es un entregable
+
+<div align="center">
+  <img src="img/ejemplo-milestone.png">
+  <small><p>Ejemplo: Milestones</p></small>
+</div>
+
+**Tip**: Piensa en esos 5 puntos importantes que quieres lograr y que te van a indicar que vas por buen camino.
+
+**3.** Roadmap en tiempos
+
+Un roadmap es ek camino o ruta que decides seguir para llegar al destino.
+
+<div align="center">
+  <img src="img/roadmap.png">
+  <small><p>Ejemplo: Roadmap</p></small>
+</div>
+
+Preguntas que debes hacer para tu planeación:
+* ¿Cuáles son los milestones que te van a indicar que vas por buen camino a cumplir el objetivo?
+* ¿Cómo vas a llegar al primer milestone?
+* De ahí en adelante ¿cómo continua el camino?
+
+### Creando una marca internacional
+
+La marca es como una reputación. Es la imagen que uno tiene de la empresa.
+
+* **Desdibuja tu lugar físico y crea un mundo virtual**. Cuando alguien piense en tu negocio no piense en un lugar físico sino en una plataforma virtual.
+
+* **Examina tu negocio y nombres de producto + logo**. Esto no solo es hacer una traducción literal de tu nombre sino que bebes de saber qué significa tu nombre, tu image, diseño en el contexto cultural del país donde piensas ir. 
+  * No te confies de traducciones automáticas.
+  * trabaja con alguien local que pueda ayudarte a comunicar lo que quieres.
+
+* **Diseña tu mensaje y la experiencia para evitar que tu cliente se sienta lejos de tu operación**. Tu cliente no debe de sentir que lo están atendiendo desde otro país.
+
+* **Los canales correctos y la forma correcta**. Dependiendo del país los canales varían. Por ejemplo, en algunos países no se usa mucho el correo pero si el teléfono. También hay que evaluar la forma de comunicar. Por ejemplo, hay países que son muy educados que si no les dices "por favor" se ofenden.
+
+* **Conoce el sistema y haz relaciones**. Esto te va a ayudar a conocer cómo va a funcionar tu marca de manera internacional.
+
+A tener en cuenta:
+* Las personas ayudan. Aprovechalas.
+* Empieza a conectarte estratégicamente y ten claro el modelo para ubicar esa estrategia.
+* Hay muchos eventos gratis virtuales y presenciales. Úsalos como un puente.
+
 ## Recursos Complementarios
 * [Diapositiva 0.1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
 * [Diapositiva 0.2: ¿Por qué internacionalizar tu empresa?](docs/0-2-por-que-internacionalizar-tu-empresa.pdf)
 * [Diapositiva 1.1: ¿Cómo saber si es el momento de internacionalizar tu empresa?](docs/1-1-como-saber-si-es-momento-de-internacionalizar-tu-empresa.pdf)
 * [Diapositiva 1.2: Servicios vs Productos: Qué es lo más relevante a la hora de expandir cada uno](docs/1-2-servicios-vs-productos-que-es-lo-mas-relevante-a-la-hora-de-expandir-cada-uno.pdf)
 * [Diapositiva 1.3: Los 5 pilares de la expanción](docs/1-3-los-5-pilares-sobre-los-que-vas-a-crear-tu-expansion.pdf)
+* [Diapositiva 2.1: Modelo de expansión](docs/2-1-modelo-de-expansion.pdf)
+* [Diapositiva 2.2: Cómo escoger el país correcto para vender mis proyectos](docs/2-2-como-escoger-pais-correcto-para-vender-mis-proyectos.pdf)
+* [Diapositiva 2.3: Planeando mi crecimiento internacional](docs/2-3-planeando-mi-crecimiento-internacional.pdf)
+* [Diapositiva 2.4: Creando una marca internacional](docs/2-4-creando-una-marca-internacional.pdf)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
