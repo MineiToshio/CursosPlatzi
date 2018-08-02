@@ -13,6 +13,10 @@
 - [¿Cómo elijo el país correcto para vender mis proyectos?](#cómo-elijo-el-país-correcto-para-vender-mis-proyectos)
   - [Planeando mi crecimiento internacional](#planeando-mi-crecimiento-internacional)
   - [Creando una marca internacional](#creando-una-marca-internacional)
+- [Explorar otros mercados](#explorar-otros-mercados)
+  - [Adaptación Comercial](#adaptación-comercial)
+  - [¿Cómo lograr ventas en el otro mercado?](#cómo-lograr-ventas-en-el-otro-mercado)
+- [Creando un Sistema Comercial](#creando-un-sistema-comercial)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -277,22 +281,152 @@ Preguntas que debes hacer para tu planeación:
 
 La marca es como una reputación. Es la imagen que uno tiene de la empresa.
 
-* **Desdibuja tu lugar físico y crea un mundo virtual**. Cuando alguien piense en tu negocio no piense en un lugar físico sino en una plataforma virtual.
+1. **Desdibuja tu lugar físico y crea un mundo virtual**. Cuando alguien piense en tu negocio no piense en un lugar físico sino en una plataforma virtual.
 
-* **Examina tu negocio y nombres de producto + logo**. Esto no solo es hacer una traducción literal de tu nombre sino que bebes de saber qué significa tu nombre, tu image, diseño en el contexto cultural del país donde piensas ir. 
-  * No te confies de traducciones automáticas.
-  * trabaja con alguien local que pueda ayudarte a comunicar lo que quieres.
+2. **Examina tu negocio y nombres de producto + logo**. Esto no solo es hacer una traducción literal de tu nombre sino que bebes de saber qué significa tu nombre, tu image, diseño en el contexto cultural del país donde piensas ir. 
+   * No te confies de traducciones automáticas.
+   * trabaja con alguien local que pueda ayudarte a comunicar lo que quieres.
 
-* **Diseña tu mensaje y la experiencia para evitar que tu cliente se sienta lejos de tu operación**. Tu cliente no debe de sentir que lo están atendiendo desde otro país.
+3. **Diseña tu mensaje y la experiencia para evitar que tu cliente se sienta lejos de tu operación**. Tu cliente no debe de sentir que lo están atendiendo desde otro país.
 
-* **Los canales correctos y la forma correcta**. Dependiendo del país los canales varían. Por ejemplo, en algunos países no se usa mucho el correo pero si el teléfono. También hay que evaluar la forma de comunicar. Por ejemplo, hay países que son muy educados que si no les dices "por favor" se ofenden.
+4. **Los canales correctos y la forma correcta**. Dependiendo del país los canales varían. Por ejemplo, en algunos países no se usa mucho el correo pero si el teléfono. También hay que evaluar la forma de comunicar. Por ejemplo, hay países que son muy educados que si no les dices "por favor" se ofenden.
 
-* **Conoce el sistema y haz relaciones**. Esto te va a ayudar a conocer cómo va a funcionar tu marca de manera internacional.
+5. **Conoce el sistema y haz relaciones**. Esto te va a ayudar a conocer cómo va a funcionar tu marca de manera internacional.
 
 A tener en cuenta:
 * Las personas ayudan. Aprovechalas.
 * Empieza a conectarte estratégicamente y ten claro el modelo para ubicar esa estrategia.
 * Hay muchos eventos gratis virtuales y presenciales. Úsalos como un puente.
+
+## Explorar otros mercados
+
+### Adaptación Comercial
+
+Se debe de trabajar en 4 ejes importantes:
+
+**1.** Las audiencias potenciales
+
+Son todas las posibles audiencias que pueden comprar tu producto.
+
+**¿Cómo sacarlas?**
+1. Olvídate de quién es tu comprador en tu mercado actual
+2. Haz una lista de al menos 5 audiencias que les pueda interesar tu servicio/producto.
+3. Habla con ellos. No les vendas. Conócelos.
+
+**2.** Puntos neurálgicos de dolor
+
+Por cada audiencia potencial se debe de obtener cuáles son los punto de dolor que tiene.
+
+**¿Cómo sacarlas?**
+1. Entrevista al menos 10 perfiles por audiencia.
+2. Identifica cómo hacen actualmente las cosas (respecto a tu solución).
+3. Identifica y anota (literal) todo lo que te digan.
+4. Establece una tendencia.
+
+**3.** Soluciones crujientes
+
+Esto es cómo adoptas tu solución al nuevo mercado. Cómo enfocas de otra manera lo que les quieres vender.
+
+Hacen crunch cuando el otro las escucha. Quedan en sus oídos. Son crujientes.
+
+**Ten en cuenta**
+* No les va a funcionar a todas las audiencias.
+* Elige un nicho con el que seas más afin.
+* Evalua si puede pagar tu precio.
+
+La gente compra aspirina y no vitamina.
+
+**4.** Puntos de pesca
+
+Identifica dónde se agrupan las personas para minimizar el esfuerzo y maximinar el retorno.
+
+Recapitulando:
+1. Enlista todos los sectores que creas que les puede funcionar tu producto/servicio.
+2. Averigua con cada uno qué les puede en el área de tu expertise.
+3. Establece una tendencia.
+4. Crea una solución crujiente y aspirina.
+5. Vende maximizando tu retorno y minimizando tu esfuerzo.
+
+### ¿Cómo lograr ventas en el otro mercado?
+
+Los pasos para el modelo de ventas son:
+
+**1.** Identificar el disparador
+
+* ¿Qué fue lo que cambió?
+* ¿Por qué ahora y no hace un mes?
+* ¿Qué es lo que necesitas en verdad?
+
+Esto va a ayudar a identificar una necesidad más profunda.
+
+**2.** Resaltar el problema
+
+Ustedes quieren una página web pero lo que en verdad están buscando es mejorar su plataforma comercial.
+
+**3.** Cuantificar el servicio
+
+* ¿Cuánto quieres ganar?
+* ¿Cuánto cobras actualmente por tu servicio?
+* ¿Cuánto quieres invertir?
+
+Cuando cuantificas lo que quiere ganar vs tu precio, ya no te están comparando con el resto de opciones en base a tu precio sino que está viendo que pueden generar $5000 en comparación de tu servicio de $500. 
+
+**4.** ¿Qué pasa si esto no se genera?
+
+* ¿Qué pasa si lo que quieres no sucede?
+* ¿Qué pasa si no logras tu página?
+
+**5.** Visión futura
+
+Empiezas a vender un futuro en el que eres parte.
+
+"Si empezamos a trabajar todos los meses vamos a poder lograr esto".
+
+Se debe contrastar el gasto por tu servicio con el retorno de la inversión.
+
+**6.** Agregas valor
+
+Tu le vas a agregar un valor superior a lo que vas a cobrar. 
+
+## Creando un Sistema Comercial
+
+Problemas con las Ventas:
+* Dependen de un vendedor estrella.
+* No hay un correcto seguimiento.
+* Se enamoran de un: "me dijo que le interesaba".
+
+<div align="center">
+  <img src="img/sistema-comercial.png">
+  <small><p>Sistema Comercial</p></small>
+</div>
+
+Un sistema comercial es una máquina bien aceitada por donde pasan cada una de las partes del proceso. Casa parte del proceso empiezan a ser desarrolladas (a veces) por diferentes personas. Esto permite que vaya funcionando y se vaya generando uno a la vez.
+
+<div align="center">
+  <img src="img/ejemplo-sistema-comercial-outbound-simple.png">
+  <small><p>Ejemplo: Sistema Comercial de Outbound Simple</p></small>
+</div>
+
+¿Por qué son importantes los sistemas comerciales?:
+* Mayor facilidad en la implementación de los equipos.
+* Track más efectivo (en caso de equipos).
+* Mayor eficiencia de trabajo (en casos individuales).
+* Disminuirán recuersos.
+* Trabajarán mejor las sinergias.
+* Va a ser más fácil poder objetivos a distancia.
+* En resumen: van a aumentar tus ventas.
+
+**¿Cómo crear el sistema?**
+
+<div align="center">
+  <img src="img/generar-sistema-comercial.png">
+  <small><p>¿Cómo crear un sistema comercial?</p></small>
+</div>
+
+**¿Qué hacer luego?**
+* ¿Quiénes son los responsables de la sinergia?
+* ¿Cuáles son los objetivos y KPI de esas personas?
+* ¿Cuáles van a ser sus tiempos y sus horarios?
 
 ## Recursos Complementarios
 * [Diapositiva 0.1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
@@ -304,6 +438,10 @@ A tener en cuenta:
 * [Diapositiva 2.2: Cómo escoger el país correcto para vender mis proyectos](docs/2-2-como-escoger-pais-correcto-para-vender-mis-proyectos.pdf)
 * [Diapositiva 2.3: Planeando mi crecimiento internacional](docs/2-3-planeando-mi-crecimiento-internacional.pdf)
 * [Diapositiva 2.4: Creando una marca internacional](docs/2-4-creando-una-marca-internacional.pdf)
+* [Diapositiva 3.1: Adaptación comercial: cómo adaptar tu propuesta de valor al nuevo mercado](docs/3-1-adaptacion-comercial_-como-adaptar-tu-propuesta-de-valor-al-nuevo-mercado.pdf)
+* [Diapositiva 3.2: Cómo lograr ventas en el otro mercado](docs/3-2-como-lograr-ventas-en-el-otro-mercado.pdf)
+* [Diapositiva 3.3: Creando un Sistema Comercial](docs/3-3-creando-un-sistema-comercial.pdf)
+* [Lista de Sectores Potenciales](docs/lista-sectores.pdf)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
