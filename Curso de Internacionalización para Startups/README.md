@@ -10,13 +10,13 @@
   - [Los Pilares de la Expansión](#los-pilares-de-la-expansión)
 - [Planeación de Estrategia](#planeación-de-estrategia)
   - [Modelos de Expansión](#modelos-de-expansión)
-- [¿Cómo elijo el país correcto para vender mis proyectos?](#cómo-elijo-el-país-correcto-para-vender-mis-proyectos)
+  - [¿Cómo elijo el país correcto para vender mis proyectos?](#cómo-elijo-el-país-correcto-para-vender-mis-proyectos)
   - [Planeando mi crecimiento internacional](#planeando-mi-crecimiento-internacional)
   - [Creando una marca internacional](#creando-una-marca-internacional)
 - [Explorar otros mercados](#explorar-otros-mercados)
   - [Adaptación Comercial](#adaptación-comercial)
   - [¿Cómo lograr ventas en el otro mercado?](#cómo-lograr-ventas-en-el-otro-mercado)
-- [Creando un Sistema Comercial](#creando-un-sistema-comercial)
+  - [Creando un Sistema Comercial](#creando-un-sistema-comercial)
 - [Estrategia financiera y legal](#estrategia-financiera-y-legal)
   - [Adaptando el precio al nuevo mercado](#adaptando-el-precio-al-nuevo-mercado)
   - [¿Se debe constituir una empresa en el otro mercado?](#se-debe-constituir-una-empresa-en-el-otro-mercado)
@@ -248,7 +248,7 @@ Funciona mucho cuando es una empresa grande y adquieres una startup en el nuevo 
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## ¿Cómo elijo el país correcto para vender mis proyectos?
+### ¿Cómo elijo el país correcto para vender mis proyectos?
 
 Es importante hacerse la pregunta de **¿Adaptarse a dónde y a qué?**
 
@@ -441,7 +441,7 @@ Tu le vas a agregar un valor superior a lo que vas a cobrar.
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## Creando un Sistema Comercial
+### Creando un Sistema Comercial
 
 Problemas con las Ventas:
 * Dependen de un vendedor estrella.
