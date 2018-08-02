@@ -44,6 +44,10 @@ La internacionalización significa abrir una unidad de negocio en un nuevo merca
 * **Invsersión**: adquirir inversionistas en otros países.
 * **Impacto social**: el impacto de tu empresa será global.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Introducción al mercado global
 
 ### ¿Es momento de internacionalizar tu empresa?
@@ -85,6 +89,10 @@ El break even nos permite saber si estamos en cero.
 
 Por ejemplo: yo invertí $1000 al inicio del año y a fin de año generé $1000.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Servicios vs. Productos
 
 #### Servicios
@@ -102,6 +110,10 @@ Por ejemplo: yo invertí $1000 al inicio del año y a fin de año generé $1000.
 * Dar charlas, brindar entrevistas, organizar eventos pequeños.
 * Trabajar gratis para una empresa muy relevante en el ecosistema y pedir que te refieran.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### Productos
 
 * Son tangibles.
@@ -112,6 +124,10 @@ Por ejemplo: yo invertí $1000 al inicio del año y a fin de año generé $1000.
 
 **¿Cómo lo puedo hacer?**  
 Escuchando a tu competencia y a sus clientes
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Los Pilares de la Expansión
 
@@ -178,6 +194,10 @@ Existen 3 tipos de escenarios que se deberían tomar en cuenta:
 * **Positivo**: este es en el que se va mejor de lo planeado.
 * **Negativo**: este es en el que se va peor de lo planeado.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Planeación de Estrategia
 
 ### Modelos de Expansión
@@ -224,6 +244,10 @@ Funciona mucho cuando es una empresa grande y adquieres una startup en el nuevo 
   * Aumentar tu rentabilidad o ROI
   * Conseguir nuevos clientes
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## ¿Cómo elijo el país correcto para vender mis proyectos?
 
 Es importante hacerse la pregunta de **¿Adaptarse a dónde y a qué?**
@@ -248,6 +272,10 @@ Para saber a qué país se puede ingresar se usará una matríz.
 Si se quiere trabajar con varios países, se recomienda **trabajar por clusters y agrupar por buyer persona**.
 
 Por ejemplo, en el caso anterior, se pone a una persona que pueda trabajar a Perú y Colombia porque son similares y a otra persona para USA. Como resultado, se mininizan los esfuerzos y los recursos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Planeando mi crecimiento internacional
 
@@ -286,6 +314,10 @@ Preguntas que debes hacer para tu planeación:
 * ¿Cómo vas a llegar al primer milestone?
 * De ahí en adelante ¿cómo continua el camino?
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Creando una marca internacional
 
 La marca es como una reputación. Es la imagen que uno tiene de la empresa.
@@ -306,6 +338,10 @@ A tener en cuenta:
 * Las personas ayudan. Aprovechalas.
 * Empieza a conectarte estratégicamente y ten claro el modelo para ubicar esa estrategia.
 * Hay muchos eventos gratis virtuales y presenciales. Úsalos como un puente.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Explorar otros mercados
 
@@ -356,6 +392,10 @@ Recapitulando:
 4. Crea una solución crujiente y aspirina.
 5. Vende maximizando tu retorno y minimizando tu esfuerzo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### ¿Cómo lograr ventas en el otro mercado?
 
 Los pasos para el modelo de ventas son:
@@ -397,6 +437,10 @@ Se debe contrastar el gasto por tu servicio con el retorno de la inversión.
 
 Tu le vas a agregar un valor superior a lo que vas a cobrar. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Creando un Sistema Comercial
 
 Problemas con las Ventas:
@@ -436,6 +480,10 @@ Un sistema comercial es una máquina bien aceitada por donde pasan cada una de l
 * ¿Quiénes son los responsables de la sinergia?
 * ¿Cuáles son los objetivos y KPI de esas personas?
 * ¿Cuáles van a ser sus tiempos y sus horarios?
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Estrategia financiera y legal
 
@@ -499,6 +547,10 @@ Existen 3 estrategias diferentes:
 * No pongas precios en USD para Latam.
 * Calcula todos los costos extra y ponlos en el precio o cóbralos por aparte.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### ¿Se debe constituir una empresa en el otro mercado?
 
 <div align="center">
@@ -514,6 +566,10 @@ Existen 3 estrategias diferentes:
 Tips:
 * Analiza muy bien el proceso de cada país. No solo lo que dice un abogado o página.
 * Evalúa tu objetivo a largo plazo: exit (que te compren) o franquicias o servicios esporáidos, etc.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos y Escenarios
 
@@ -544,6 +600,10 @@ Tips:
 5. Viajes, agendas, oficina local.
 6. Adaptación tecnológica (web, dominio, entre otros).
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Escenarios
 
 Se debe de generar 3 escenarios:
@@ -561,6 +621,10 @@ Preguntas a hacer:
 
 **Tip**: Un seguimiento de objetivos a tiempo es tu mejor plan B.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Tips & Tricks
 
 ### Latam
@@ -570,7 +634,6 @@ Preguntas a hacer:
 * La moneda afecta mucho. Se debe de ver cómo la moneda afecta el precio y costos de tu servicio/producto.
 * El nivel tecnológico de cada país es diferente. Unos van más adelante que otros.
 * Las constituciones en el país no es igual. Algunos son más burocráticos que otros.
-
 
 **Brasil**
 * Es un mundo en si. 
@@ -603,6 +666,10 @@ Preguntas a hacer:
 * Tiende a imitar el modelo económico de USA.
 * Tiene mucha burocrácia.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### USA y Europa
 
 * Revisar la natividad y entender la cultiura.
@@ -613,6 +680,10 @@ Preguntas a hacer:
 * Las relacioens son mucho en estos mercados.
 * En USA exagerar en las ventas no funciona y tiene un impacto muy negativo.
 * El diferenciador no necesariamente es el precio. Es mejor destacar lo la atención y darle lo que realmente quieren.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos Complementarios
 * [Diapositiva 0.1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
