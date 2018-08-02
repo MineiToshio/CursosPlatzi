@@ -17,6 +17,15 @@
   - [Adaptación Comercial](#adaptación-comercial)
   - [¿Cómo lograr ventas en el otro mercado?](#cómo-lograr-ventas-en-el-otro-mercado)
 - [Creando un Sistema Comercial](#creando-un-sistema-comercial)
+- [Estrategia financiera y legal](#estrategia-financiera-y-legal)
+  - [Adaptando el precio al nuevo mercado](#adaptando-el-precio-al-nuevo-mercado)
+  - [¿Se debe constituir una empresa en el otro mercado?](#se-debe-constituir-una-empresa-en-el-otro-mercado)
+- [Recursos y Escenarios](#recursos-y-escenarios)
+  - [Recursos](#recursos)
+  - [Escenarios](#escenarios)
+- [Tips & Tricks](#tips--tricks)
+  - [Latam](#latam)
+  - [USA y Europa](#usa-y-europa)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -428,6 +437,183 @@ Un sistema comercial es una máquina bien aceitada por donde pasan cada una de l
 * ¿Cuáles son los objetivos y KPI de esas personas?
 * ¿Cuáles van a ser sus tiempos y sus horarios?
 
+## Estrategia financiera y legal
+
+### Adaptando el precio al nuevo mercado
+
+**1.** Envío de Dinero
+
+* ¿Cómo voy a justificar el egreso ante impuestos?
+* ¿Por dónde me conviene enviar el dinero?
+* ¿Cuál es el costo de conversión + transferencia (6-10%)?
+* Comprobante de pago cuándo llega (garantía).
+
+**2.** Recibir dinero de la expansión
+
+* ¿Cómo voy a justificar el ingreso ante impuestos?
+* ¿Cómo se incorpora a la contabilidad de mi empresa local (en caso de tenerla)?
+* ¿Qué % dejas para mantener la operación local?
+
+**A tener en cuenta**:
+* Pregunta antes de usar las cuentas bancarias, ¿cuáles son los mínimo y los requisitos? (sobre todo cuando es una empresa la que transfiera a una persona natural)
+* Ten siempre 2 o 3 opciones de pago: paypal, payoneer, banco, etc. y explícalo a clientes y trabajadores antes de firmar contrato.
+
+**3.** Gestión de Cobros
+
+* Cobra 50%-50%
+* Trabaja con un contrato internacional de prestación de servicio.
+* En el contrato incluye los tiempos fijos de pago.
+
+**4.** La facturación
+
+* La facturación inicia desde la venta.
+* ¿Qué tipo de factura te aceptan? Invoice sencillo, exportación de servicios, facturación local, etc.
+* Ten en cuenta los gastos extras aparte de tu servicio: costos de IVA + otros localres + costos de transferencia + costo de extranción.
+* Lo que no está escrito no existe.
+
+**5.** Adaptación de Precios
+
+Existen 3 estrategias diferentes:
+* **Competencia**: Conviertes tu precio a la moneda local. Evalúa los precios de la competencia y qué alejado o cerca está el tuyo en comparación y si es similar al de tu mercado local.
+
+<div align="center">
+  <img src="img/precio-competencia.png">
+  <small><p>Ejemplo: precio por competencia</p></small>
+</div>
+
+* **Salario mínimo comparativo**: establece el precio de los productos en relación al salario mínimo. Cuántos salarios vale en el tuyo y si es accesible para el costo de vida del país.
+
+<div align="center">
+  <img src="img/precio-salario-minimo.png">
+  <small><p>Ejemplo: precio por salario mínimo</p></small>
+</div>
+
+* **Confusión** (Pricing confusión): conviertes con la estrategia de competencia, pero le agregas un elementos diferenciador que confunda al comprador o no le permita establecer una comparación válida.
+
+<div align="center">
+  <img src="img/precio-confusion.png">
+  <small><p>Ejemplo: precio por confusión</p></small>
+</div>
+
+**Importante**:
+* No pongas precios en USD para Latam.
+* Calcula todos los costos extra y ponlos en el precio o cóbralos por aparte.
+
+### ¿Se debe constituir una empresa en el otro mercado?
+
+<div align="center">
+  <img src="img/se-debe-constituir-empresa.png">
+  <small><p>Puntos a evaluar para constituir una empresa internacional</p></small>
+</div>
+
+**Lo más relevante**:
+* Antes de constituirte, evalúa cuánto te afecta al precio e incluye a largo plazo la proyección.
+* Cuántos clientes vas a tener recurrente y si vale la pena o no.
+* En caso de constituirte, evalúa qué pide tu buyer persona.
+
+Tips:
+* Analiza muy bien el proceso de cada país. No solo lo que dice un abogado o página.
+* Evalúa tu objetivo a largo plazo: exit (que te compren) o franquicias o servicios esporáidos, etc.
+
+## Recursos y Escenarios
+
+### Recursos
+
+**1.** Humano
+
+1. ¿Necesitas equipo en el otro mercado?
+2. ¿Para qué?
+3. ¿Cuál es el objetivo y qué esperas lograr?
+4. ¿Cómo vas a hacerle tracking e incorporarlo a tu equipo?
+5. ¿Todo lo vas a hacer distancia? Evalúa cómo afecta eso las negociaciones, delivery o atención al cliente.
+
+**2.** Tiempo
+
+1. Planea tu objetivo y en cuánto tiempo proyectas que se puede alcanzar o no.
+2. Evalúa tiempos de retraso y cuánto te puede costar y afectar.
+3. Ten en cuenta el tiempo tuyo, el de tu equipo y tiempos de adaptación.
+4. Evalúa un tiempo realista de éxito.
+5. Si en tu mercado te toma 3 meses, en el nuevo te toma 6.
+
+**3.** Dinero
+
+1. Constitución legal.
+2. Inversión para generar leads por cada fuente.
+3. ¿Cuánto espero ganar? ¿En cuánto tiempo?
+4. Recursos humanos.
+5. Viajes, agendas, oficina local.
+6. Adaptación tecnológica (web, dominio, entre otros).
+
+### Escenarios
+
+Se debe de generar 3 escenarios:
+* El neutrao o esperado.
+* Muy bueno
+* Muy malo
+
+Preguntas a hacer:
+* ¿Qué pasa si renuncia tu equipo remoto?
+* ¿Qué pasa si te piden cerrar la venta presencial?
+* Estás solo y no tienes tiempo para todo, ¿cómo vas a hacer cuando lleguen muchas ventas, seguimiento, etc.?
+* ¿Qué pasa si las ventas no están funcionando?
+* No te pueden pagar si no es con factura local ¿qué vas a hacer?
+* Se te acabó el dinero y no tienes más para la expansión ¿qué va a pasar?
+
+**Tip**: Un seguimiento de objetivos a tiempo es tu mejor plan B.
+
+## Tips & Tricks
+
+### Latam
+
+* Cada país es uno muy diferente. Cada uno debe de verse como un mundo aparte.
+* Las formas culturales cambian en cada país.
+* La moneda afecta mucho. Se debe de ver cómo la moneda afecta el precio y costos de tu servicio/producto.
+* El nivel tecnológico de cada país es diferente. Unos van más adelante que otros.
+* Las constituciones en el país no es igual. Algunos son más burocráticos que otros.
+
+
+**Brasil**
+* Es un mundo en si. 
+* Tiene un idioma diferente. 
+* Su ventaja es que tiene una población enorme. 
+* Se puede capitalizar mucho.
+* La adaptación remota cuesta más. 
+
+**Argentina**
+* Son directos y rápidos.
+* Históricamente hay una inestabilidad financiera. Hay periodos muy buenos y otros muy malos.
+
+**Chile**
+* Es el país más estable de Latinoamérica.
+* A nivel político, económico y social es muy estable.
+* Te va a permitir crear muy rápido en el mercado.
+* Tiene una moneda muy fuerte.
+* Está muy adelantado tecnológicamente.
+* Es el país #1 en startups de la región.
+* Tiene una barrera cultural muy alta: tienden a priorizar proveedores locales.
+
+**Colombia**
+* Hay una desconfianza en la negociación.
+* Se pide descuento en todo.
+* Desconfian hasta que no te vean presencialmente y sepan que estás contituído.
+* Está en pleno crecimiento.
+
+**México**
+* Es un tamaño enorme.
+* Tiende a imitar el modelo económico de USA.
+* Tiene mucha burocrácia.
+
+### USA y Europa
+
+* Revisar la natividad y entender la cultiura.
+* No es solo traducir las cosas y ya. Hay que entender qué es lo que se quiere decir.
+* Vas a necesitar un cashflow más fuerte puesto que el dolar y el euro con monedas fuertes.
+* Busca a un partner que facture en estos mercados.
+* Es importante tener presencia allá. Por lo menos tener una oficina chiquita de 2 personas.
+* Las relacioens son mucho en estos mercados.
+* En USA exagerar en las ventas no funciona y tiene un impacto muy negativo.
+* El diferenciador no necesariamente es el precio. Es mejor destacar lo la atención y darle lo que realmente quieren.
+
 ## Recursos Complementarios
 * [Diapositiva 0.1: Introducción y bienvenida](docs/0-1-introduccion-y-bienvenida.pdf)
 * [Diapositiva 0.2: ¿Por qué internacionalizar tu empresa?](docs/0-2-por-que-internacionalizar-tu-empresa.pdf)
@@ -441,7 +627,13 @@ Un sistema comercial es una máquina bien aceitada por donde pasan cada una de l
 * [Diapositiva 3.1: Adaptación comercial: cómo adaptar tu propuesta de valor al nuevo mercado](docs/3-1-adaptacion-comercial_-como-adaptar-tu-propuesta-de-valor-al-nuevo-mercado.pdf)
 * [Diapositiva 3.2: Cómo lograr ventas en el otro mercado](docs/3-2-como-lograr-ventas-en-el-otro-mercado.pdf)
 * [Diapositiva 3.3: Creando un Sistema Comercial](docs/3-3-creando-un-sistema-comercial.pdf)
+* [Diapositiva 4.1: Adaptación FyL: Adaptando el precio al nuevo mercado](docs/4-1-adaptacion-fyl_-adaptando-el-precio-al-nuevo-mercado.pdf)
+* [Diapositiva 4.2: ¿Se debe de construir una empresa en el otro mercado?](docs/4-2-se-debe-constituir-una-empresa-en-el-otro-mercado.pdf)
+* [Diapositiva 5: Recursos y Escenarios](docs/5-recursos-y-escenarios.pdf)
+* [Diapositiva 6.1: Tips & Tricks Latam](docs/6-1-tips-amp-tricks-latam.pdf)
+* [Diapositiva 6.2: Tips & Tricks USA y Europa](docs/6-2-tips-amp-tricks-usa-amp-europa.pdf)
 * [Lista de Sectores Potenciales](docs/lista-sectores.pdf)
+* [Contrato de Asesoría Legal](docs/contrato-asesoria-internacional-ag.doc)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
