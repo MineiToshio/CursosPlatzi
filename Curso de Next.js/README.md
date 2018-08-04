@@ -20,6 +20,9 @@
   - [Next Routes](#next-routes)
   - [Enlazando páginas con Next Routes](#enlazando-páginas-con-next-routes)
   - [Encode de textos para urls](#encode-de-textos-para-urls)
+- [State](#state)
+- [Loaders](#loaders)
+- [Despliegue con Now](#despliegue-con-now)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es Next.JS?
@@ -506,11 +509,74 @@ export default function slug(name) {
 }
 ```
 
+## State
+
+Estate se usa para definir el estado interno de un componente. A diferencia de los props, estate puede ser modificado.
+
+Para usar state, primero debe de inicializarse en un constructor:
+
+```js
+constructor(props) {
+  super(props);
+  this.state = { openPodcast: null }
+}
+```
+
+`this.setState()` cambia el estado interno de un componente. 
+
+```js
+this.setState({
+  openPodcast: podcast
+})
+```
+
+Para ontener un estado, se puede hacer de la siguiente manera:
+
+```js
+const { openPodcast } = this.state;
+```
+
+## Loaders
+
+Se va a usar **nprogress** para mostrar un loader al cargar las páginas.
+
+```bash
+$ npm add nprogress
+```
+
+Para usarlo, se debe agregar las siguientes líneas de código al inicio del componente princioan o Layout:
+
+```js
+import NProgress from 'nprogress';
+import Router from 'next/router';
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start()
+}
+Router.onRouteChangeComplete = () => NProgress.done()
+Router.onRouteChangeError = () => NProgress.done()
+```
+
+Además se debe de agregar la [hoja de estilos de nprogress](https://raw.githubusercontent.com/zeit/next.js/canary/examples/with-loading/static/nprogress.css) a los estilos globales del proyecto.
+
+## Despliegue con Now
+
+```bash
+$ npm install -g npw
+```
+
+Se puede hacer un deploy en el plan gratuito. El plan gratuito hace que el código fuente de tu aplicación sea libre.
+
+```bash
+$ now --public
+```
+
 ## Enlaces de Interés
 * [Curso de Next.js](https://platzi.com/clases/next-js/)
+* [Github: platzi-nextjs](https://github.com/Aerolab/platzi-nextjs)
 * [Next.js](https://github.com/zeit/next.js)
 * [Next Routes](https://github.com/fridays/next-routes)
-* [Github: platzi-nextjs](https://github.com/Aerolab/platzi-nextjs)
+* [NProgress.js](http://ricostacruz.com/nprogress/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
