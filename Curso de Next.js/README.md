@@ -17,7 +17,9 @@
 - [Personalizando Errores](#personalizando-errores)
 - [Personalizar Document](#personalizar-document)
 - [Diseñando Urls](#diseñando-urls)
-- [Next Routes](#next-routes)
+  - [Next Routes](#next-routes)
+  - [Enlazando páginas con Next Routes](#enlazando-páginas-con-next-routes)
+  - [Encode de textos para urls](#encode-de-textos-para-urls)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es Next.JS?
@@ -433,7 +435,7 @@ Una mejor propuesta sería:
 
 Con esta estructura, si se usa solo el primer fragmento de urls, `/posta`, se mostraría todos los podcast de la serie posta. Del mismo modo, si se ingresa a `/posta/un-buen-dia `, se estaría mostrando el podcast *un buen día* de la seria *posta*.
 
-## Next Routes
+### Next Routes
 
 Next Routes permite asignar un nombre a una url con Next.
 
@@ -468,6 +470,40 @@ module.exports = routes()
   .add('index')
   .add('channel', '/:slug.:id', 'channel')
   .add('podcast', '/:slugChannel.:id/:slung.:id', 'podcast')                  
+```
+
+### Enlazando páginas con Next Routes
+
+**Next Routes** usa otro tipo de componente `<Link>` para enlazar página.
+
+```js
+import {Link} from '../routes';
+
+<Link route='channel' params={{ 
+  slug: slug(channel.title), 
+  id: channel.id }}>
+  <a>Enlace</a>
+</Link>
+```
+* **route**: es el nombre del enlace definido en routes.js
+* **params**: son los parámetros definidos en routes.js. Nótese las doble `{{}}`.
+
+### Encode de textos para urls
+
+Para transformar un texto en un formato que sea compatible con las urls, por ejemplo, para transformar un título, se va a usar una librería llamada **slugify**.
+
+```bash
+$ npm install slugify
+```
+
+Luego, para usarlo, se puede realizar de la siguiente manera:
+
+```js
+import slugify from 'slugify';
+
+export default function slug(name) {
+  return slugify(name, { lower: true }).replace(/[^\w\-]+/g, '')
+}
 ```
 
 ## Enlaces de Interés
