@@ -645,8 +645,10 @@ Además se debe de agregar la [hoja de estilos de nprogress](https://raw.githubu
 
 ## Despliegue con Now
 
+Para desplegar la aplicación en [Now.sh](https://zeit.co/now) se va a instalar now de manera global.
+
 ```bash
-$ npm install -g npw
+$ npm install -g now
 ```
 
 Se puede hacer un deploy en el plan gratuito. El plan gratuito hace que el código fuente de tu aplicación sea libre.
