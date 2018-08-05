@@ -29,6 +29,10 @@
 
 Next.js es un framework para construir aplicaciones web modernas en React. Una de sus principales características es que pensado para tener una excelente experiencia como desarrollador.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Iniciar un proyecto con Next
 
 Instalar las dependencias:
@@ -81,6 +85,10 @@ export default class extends React.Component {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Style JSX
 
 **Styled JSX** que es el sistema de estilos que maneja Next.js.
@@ -121,7 +129,7 @@ Estos atributos se van a aplicar a toda la aplicación. No se recomienda usar at
 Este nos permite aplicar un atributo de css de manera global. 
 
 ```jsx
-<style jsx global>{`
+<style jsx>{`
   :global(p) {color: green}
 `}<style>
 ```
@@ -131,16 +139,24 @@ En el caso anterior, todas las etiquetas `p` van a tener el estilo `color:green`
 Si se quiere aplicar un estilo a todos los hijos de la aplicación, se puede hacer de la siguiente manera:
 
 ```jsx
-<style jsx global>{`
+<style jsx>{`
   div :global(p) {color: green}
 `}<style>
 ```
 
 En este caso, se aplica el `p{ color: green }` a todos los `p` que están dentro del componente. 
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Archivos Estáticos
 
 Next automáticamente rutea archivos estáticos en una carpeta llamada **static**.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Server Side Rendering
 
@@ -161,6 +177,10 @@ Con el **Server Side Rendering**, el servidor ya envía una HTML con CSS y, por 
 **¿Qué ventajas tiene?**
 * Mejor Performance.
 * Indexa en todos los servicios.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## getInitialProps
 
@@ -193,6 +213,10 @@ Para usarlo, solo debe de importarse.
 import 'isomorphic-fetch';
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Recibiendo Parámetros
 
 ```js
@@ -201,6 +225,10 @@ static async getInitialProps({query}) {
   let id = query.id;
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Performance
 
@@ -212,6 +240,10 @@ let [req1, req2] = await Promise.all([
   fetch('url2')
 ])
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlazando Páginas
 
@@ -239,6 +271,10 @@ import Link from 'next/link';
 * Carga todo el HTML, CSS y JS.
 * Crea una nueva sesión.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Prefetch
 
 Prefetch le indica a next que el Link es importante y que vaya precargando el contenido por adelantado y así se ahorra un poco de tiempo de carga.
@@ -255,6 +291,10 @@ Prefetch no precarga getInitialProps. Solo precarga HTML, CSS y JS.
 
 ¿Qué pasa si repito prefetch? Por ejemplo, si está dentro de un `map()`.  
 Cada página solo se precarga una vez. 
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Creando Componentes
 
@@ -282,6 +322,10 @@ export default class Layout extends React.Component {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Header
 
 Se va a usar un componente `<Head>` en el cual se va a agregar todos los elemenetos que tiene el elemento `<head>` de Html.
@@ -293,6 +337,10 @@ import Head from 'next/head';
   <title>Título</title>
 </Head>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Manejo de Errores
 
@@ -343,6 +391,10 @@ if(statusCode !== 200) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Personalizando Errores
 
 El componente error se puede modificar creando una página **_error.js**.
@@ -368,6 +420,10 @@ export default class Error extends React.Component {
   }
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Personalizar Document
 
@@ -408,6 +464,10 @@ export default class MyDocument extends Document {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Diseñando Urls
 
 Principios para crear Urls user friendly:
@@ -437,6 +497,10 @@ Una mejor propuesta sería:
 >/
 
 Con esta estructura, si se usa solo el primer fragmento de urls, `/posta`, se mostraría todos los podcast de la serie posta. Del mismo modo, si se ingresa a `/posta/un-buen-dia `, se estaría mostrando el podcast *un buen día* de la seria *posta*.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Next Routes
 
@@ -475,6 +539,10 @@ module.exports = routes()
   .add('podcast', '/:slugChannel.:id/:slung.:id', 'podcast')                  
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Enlazando páginas con Next Routes
 
 **Next Routes** usa otro tipo de componente `<Link>` para enlazar página.
@@ -490,6 +558,10 @@ import {Link} from '../routes';
 ```
 * **route**: es el nombre del enlace definido en routes.js
 * **params**: son los parámetros definidos en routes.js. Nótese las doble `{{}}`.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Encode de textos para urls
 
@@ -508,6 +580,10 @@ export default function slug(name) {
   return slugify(name, { lower: true }).replace(/[^\w\-]+/g, '')
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## State
 
@@ -536,6 +612,10 @@ Para ontener un estado, se puede hacer de la siguiente manera:
 const { openPodcast } = this.state;
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Loaders
 
 Se va a usar **nprogress** para mostrar un loader al cargar las páginas.
@@ -559,6 +639,10 @@ Router.onRouteChangeError = () => NProgress.done()
 
 Además se debe de agregar la [hoja de estilos de nprogress](https://raw.githubusercontent.com/zeit/next.js/canary/examples/with-loading/static/nprogress.css) a los estilos globales del proyecto.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Despliegue con Now
 
 ```bash
@@ -571,12 +655,17 @@ Se puede hacer un deploy en el plan gratuito. El plan gratuito hace que el códi
 $ now --public
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * [Curso de Next.js](https://platzi.com/clases/next-js/)
 * [Github: platzi-nextjs](https://github.com/Aerolab/platzi-nextjs)
 * [Next.js](https://github.com/zeit/next.js)
 * [Next Routes](https://github.com/fridays/next-routes)
 * [NProgress.js](http://ricostacruz.com/nprogress/)
+* [NProgress CSS](https://raw.githubusercontent.com/zeit/next.js/canary/examples/with-loading/static/nprogress.css)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
