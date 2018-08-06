@@ -62,7 +62,7 @@ Actualmente una aplicación "moderna" esta compuesta por varias partes (algunas 
 9. El usuario va a descargar los estáticos de frontend.
 10. El usuario recibe el css, js, imágenes, etc.
 11. Con el js descargado, el usuario puede iniciar una aplicación del lado de cliente.
-12. El js se puede conectar directamente con el backend API e interactuar directamente sin pasar por el backend for frontend..
+12. El js se puede conectar directamente con el backend API e interactuar directamente sin pasar por el backend for frontend.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -95,16 +95,16 @@ Control de la infraestructura se referiere a poder controlar cómo funciona la a
 
 ## ¿Por qué Zeit Now?
 
-Tipos de deploy:
+**Tipos de deploy**:
 * Aplicación de Node.js
 * Sitios estáticos
 * Contenedores de Docker
 
-Deploy fáciles:
+**Deploy fáciles**:
 * Con un comando: `now`
 * con un drag & drop con el cliente.
 
-Características:
+**Características**:
 * Es fácil. Todo se hace con un solo comando.
 * Escala automáticamente. Se crean instancias dependiendo del tráfico de la aplicación.
 * Deploy inmutable. Cada deploy genera una url única.
@@ -121,6 +121,15 @@ Características:
 </div>
 
 ## Aplicaciones monolíticas vs microservicios
+
+<div align="center">
+  <img src="img/monolithic-vs-microservices.png">
+  <small><p>Monolítico vs Microservicios</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Aplicaciones monolíticas
 
@@ -244,7 +253,7 @@ now alias URL_AUTOGENERADA alias.now.sh
 
 ## Deploy a Node.js
 
-Para hacer deploy a una aplicación en node.js, hay que crear un archivo now.json.
+Para hacer deploy a una aplicación en node.js, hay que crear un archivo **now.json**.
 
 En ese eschivo, escribir lo siguiente:
 
@@ -346,7 +355,7 @@ https://podcast-dadzjorpfe.now.sh/_src
 
 ## Definir Aliases
 
-Para definir un alias dentro de nuestro pyoyecto, lo podemos hacer desde nuestro archivo now.json:
+Para definir un alias dentro de nuestro pyoyecto, lo podemos hacer desde nuestro archivo **now.json**:
 
 ```json
 {
@@ -480,6 +489,8 @@ now [usuario]/[repositorio]
 
 ## Enlaces de Interés
 * [Curso de Deploy con Now.sh](https://platzi.com/clases/deploy-now)
+* [Platzi Now](https://platzi-now.now.sh/)
+* [Github: Platzi Now](https://github.com/platzi/now-course)
 * [Zeit Now](https://zeit.co/now)
 * [Zeit World](https://zeit.co/world)
 * [Zeit Docs](https://zeit.co/docs)
