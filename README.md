@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-17-brightgreen.svg?style=flat-square" alt="CursosPlatzi watch">
+    <img src="https://img.shields.io/badge/Cursos-17-brightgreen.svg?style=flat-square" alt="Cursos 17">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
