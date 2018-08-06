@@ -77,6 +77,19 @@ Los Nodos son servidores, un servidor es un computador que está de alguna maner
 * **Es inmutable**: Blockchain no permite que se elimine información. Todo lo que se haga va a quedar registrado.
 * **Sin intermediarios**: es sostenido por miles de computadores alrededor del mundo. No hay una empresa de por medio.
 
+## Blockchain 1.0, 2.0, 3.0
+
+<div align="center">
+  <img src="img/blockchain-1-2-3.jpg">
+  <small><p>Centralizado vs Descentralizado vs Distribuído</p></small>
+</div>
+
+La red Bitcoin es lo que se conoce como **Blockchain 1.0** usada principalmente para enviar y recibir transacciones de valor. Es capaz de procesar alrededor de 5 transacciones por minuto.
+
+Cuando nació la red Ethereum empezamos a hablar de un nuevo termino llamado **Blockchain 2.0** lo que incorpora la utilización de smart contracts, es una blockchain en la que se pueden hacer desarrollos DApps. Procesa cerca de 25 transacciones por minuto.
+
+Por su parte la **Blockchain 3.0** es un nuevo enfoque de criptomonedas cuya principal propuesta es mejorar la escalabilidad de sus aplicaciones, e incorporar nuevas características de utilización como apostilla de datos, sistemas de votaciones, etc. Es capaz de procesar entre 2000 y 4000 operaciones por minuto. [EOS](https://eos.io/), [ARK](https://ark.io/) y [NEM](https://nem.io/es/) son conocidas por estar creadas como Blockchain 3.0.
+
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzislides.pdf)
 
