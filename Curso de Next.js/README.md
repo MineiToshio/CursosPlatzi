@@ -19,7 +19,7 @@
 - [Diseñando Urls](#diseñando-urls)
   - [Next Routes](#next-routes)
   - [Enlazando páginas con Next Routes](#enlazando-páginas-con-next-routes)
-  - [Encode de textos para urls](#encode-de-textos-para-urls)
+  - [Transformación de textos para urls](#transformación-de-textos-para-urls)
 - [State](#state)
 - [Loaders](#loaders)
 - [Despliegue con Now](#despliegue-con-now)
@@ -563,7 +563,7 @@ import {Link} from '../routes';
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-### Encode de textos para urls
+### Transformación de textos para urls
 
 Para transformar un texto en un formato que sea compatible con las urls, por ejemplo, para transformar un título, se va a usar una librería llamada **slugify**.
 
@@ -606,7 +606,7 @@ this.setState({
 })
 ```
 
-Para ontener un estado, se puede hacer de la siguiente manera:
+Para obtener un estado, se puede hacer de la siguiente manera:
 
 ```js
 const { openPodcast } = this.state;
