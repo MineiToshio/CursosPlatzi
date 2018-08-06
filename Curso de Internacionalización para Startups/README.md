@@ -56,7 +56,9 @@ No existe el momento perfecto, pero sí el momento adecuado. Tener esto claro no
 
 Para comenzar debemos tener lo siguiente:
 
-**1.** Un buyer persona validado. El buyer persona es el cliente ideal que uno tiene. Con eso uno tiene a alguien en concreto y enfoca su esfuerzo hacia ahí.
+**1. Un buyer persona validado**
+
+El buyer persona es el cliente ideal que uno tiene. Con eso uno tiene a alguien en concreto y enfoca su esfuerzo hacia ahí.
 
 Preguntas para descubrir el buyer persona:
 * Si yo tengo que traer 10 personas a la puerta de tu negocio, ¿quiénes serían y por qué?
@@ -64,9 +66,9 @@ Preguntas para descubrir el buyer persona:
   * ¿por qué te compra?
   * en verdad ¿qué te compra?
 
-Por ejemplo, uno no compra un pase al gimnacio, uno compra el bajar de peso para verse mejor.
+**Ejemplo**: uno no compra un pase al gimnacio, uno compra el bajar de peso para verse mejor.
 
-**2.** Un vía por donde conseguir leads validado
+**2. Un vía por donde conseguir leads validado**
 
 Un lead es un usuario que ha entregado sus datos a una empresa y que, como consecuencia, pasa a ser un registro de su base de datos con el que la organización puede interactuar. Para ello también es necesario que esta persona haya aceptado la política de privacidad de la compañía.
 
@@ -76,18 +78,18 @@ Las fuentes de leads tienen 3 cosas importantes a medir:
 * CPL (Costo Por Lead): cuánto me cuesta conseguir 1 lead.
 * CPA (Costo Por Adquisición): cuánto esfuerzo tengo para conseguir un cliente.
 
-**Por ejemplo**: yo se que de cada 10 interesados (leads) obtengo un cliente. Además, tengo una persona encargada del área comercial que se encarga de cerrar el trato. Entonces, si mi costo por lead es 100, mi costo por adquisición sería:  
+**Ejemplo**: yo se que de cada 10 interesados (leads) obtengo un cliente. Además, tengo una persona encargada del área comercial que se encarga de cerrar el trato. Entonces, si mi costo por lead es 100, mi costo por adquisición sería:  
 (10 leads) * (100 CPL) + (500 comercial) = 1500 USD
 
 * ROI Positivo
 
 Es la diferencia entre lo que yo invierto y lo que me genera de ganancia.
 
-**3.** Break Even - Punto de equilibrio
+**3. Break Even - Punto de equilibrio**
 
 El break even nos permite saber si estamos en cero. 
 
-Por ejemplo: yo invertí $1000 al inicio del año y a fin de año generé $1000.
+**Ejemplo**: yo invertí $1000 al inicio del año y a fin de año generé $1000.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -136,7 +138,7 @@ Escuchando a tu competencia y a sus clientes
   <small><p>Los Pilares de la Internacionalización</p></small>
 </div>
 
-**Pilar 1**: Lo primero cuál es el objetivo
+**PILAR 1**: Lo primero cuál es el objetivo
 
 ¿Cuál es el objetivo de internacionalizarse?
 * Otra empresa los compre
@@ -160,7 +162,7 @@ En base al objetivo se plantea la ruta más adecuada que se va a seguir.
 Ejemplo de un objetivo SMART:  
 > Realizar la venta de **2 servicios de suscripción** en Colombia durante el **primer semestre** del 2018.
 
-**Pilar 2**: Definir el modelo
+**PILAR 2**: Definir el modelo
 
 ¿Cuál es el modelo que elijo para lograr el objetivo?
 
@@ -168,7 +170,7 @@ El modelo es el camino para lograr el objetivo.
 
 Existen [6 modelos](#modelos-de-expansión) de expansión internacional y se debe de escoger el más adecuado según el objetivo planteado.
 
-**Pilar 3**: Adaptación
+**PILAR 3**: Adaptación
 
 ¿Qué adaptaciones tengo que hacer para lograr el objetivo?
 
@@ -178,7 +180,7 @@ Existen [6 modelos](#modelos-de-expansión) de expansión internacional y se deb
 * **Finanzas y Legal**: ¿tengo que constituirme o no? ¿cómo adapto los precios?
 * **Partners**: proveedores, aliados 
 
-**Pilar 4**: Recursos
+**PILAR 4**: Recursos
 
 ¿Qué recursos debería de invertir?
 
@@ -187,7 +189,7 @@ Hay 3 tipos de recursos importantes:
 * **Tiempo**: ¿en cuánto tiempo se va a lograr? ¿cómo se va a aprovechar al máximo?
 * **Humanos**: ¿qué personas van a trabajar conmnigo? ¿qué calidad de personas son las que quiero que trabajen en mi empresa?
 
-**Pilar 5**: Escenarios de la expansión
+**PILAR 5**: Escenarios de la expansión
 
 Existen 3 tipos de escenarios que se deberían tomar en cuenta:
 * **Neutral**: este es el que generalmente se planea.
@@ -281,13 +283,13 @@ Por ejemplo, en el caso anterior, se pone a una persona que pueda trabajar a Per
 
 Elementos para planear la expansión:
 
-**1.** Objetivos a lograr
+**1. Objetivos a lograr**
 
 Los objetivos deben de ser SMART.
 
 **Ejemplo**: Me expandoi a Chile con el objetivo de obtener 3 nuevos clientes en el plazo de 1 año para diversificar en 10% mi cartera comercial.
 
-**2.** Milestones a alcanzar
+**2. Milestones a alcanzar**
 
 Un milestone o hito es un evento importante en la historia o el desarrollo de algo o alguien. Son los puntos para fijar el avance del proyecto.
 
@@ -300,7 +302,7 @@ Un milestone NO es un entregable
 
 **Tip**: Piensa en esos 5 puntos importantes que quieres lograr y que te van a indicar que vas por buen camino.
 
-**3.** Roadmap en tiempos
+**3. Roadmap en tiempos**
 
 Un roadmap es ek camino o ruta que decides seguir para llegar al destino.
 
@@ -349,7 +351,7 @@ A tener en cuenta:
 
 Se debe de trabajar en 4 ejes importantes:
 
-**1.** Las audiencias potenciales
+**1. Las audiencias potenciales**
 
 Son todas las posibles audiencias que pueden comprar tu producto.
 
@@ -358,7 +360,7 @@ Son todas las posibles audiencias que pueden comprar tu producto.
 2. Haz una lista de al menos 5 audiencias que les pueda interesar tu servicio/producto.
 3. Habla con ellos. No les vendas. Conócelos.
 
-**2.** Puntos neurálgicos de dolor
+**2. Puntos neurálgicos de dolor**
 
 Por cada audiencia potencial se debe de obtener cuáles son los punto de dolor que tiene.
 
@@ -368,7 +370,7 @@ Por cada audiencia potencial se debe de obtener cuáles son los punto de dolor q
 3. Identifica y anota (literal) todo lo que te digan.
 4. Establece una tendencia.
 
-**3.** Soluciones crujientes
+**3. Soluciones crujientes**
 
 Esto es cómo adoptas tu solución al nuevo mercado. Cómo enfocas de otra manera lo que les quieres vender.
 
@@ -381,11 +383,11 @@ Hacen crunch cuando el otro las escucha. Quedan en sus oídos. Son crujientes.
 
 La gente compra aspirina y no vitamina.
 
-**4.** Puntos de pesca
+**4. Puntos de pesca**
 
 Identifica dónde se agrupan las personas para minimizar el esfuerzo y maximinar el retorno.
 
-Recapitulando:
+**Recapitulando**:
 1. Enlista todos los sectores que creas que les puede funcionar tu producto/servicio.
 2. Averigua con cada uno qué les puede en el área de tu expertise.
 3. Establece una tendencia.
@@ -400,7 +402,7 @@ Recapitulando:
 
 Los pasos para el modelo de ventas son:
 
-**1.** Identificar el disparador
+**1. Identificar el disparador**
 
 * ¿Qué fue lo que cambió?
 * ¿Por qué ahora y no hace un mes?
@@ -408,11 +410,11 @@ Los pasos para el modelo de ventas son:
 
 Esto va a ayudar a identificar una necesidad más profunda.
 
-**2.** Resaltar el problema
+**2. Resaltar el problema**
 
 Ustedes quieren una página web pero lo que en verdad están buscando es mejorar su plataforma comercial.
 
-**3.** Cuantificar el servicio
+**3. Cuantificar el servicio**
 
 * ¿Cuánto quieres ganar?
 * ¿Cuánto cobras actualmente por tu servicio?
@@ -420,12 +422,12 @@ Ustedes quieren una página web pero lo que en verdad están buscando es mejorar
 
 Cuando cuantificas lo que quiere ganar vs tu precio, ya no te están comparando con el resto de opciones en base a tu precio sino que está viendo que pueden generar $5000 en comparación de tu servicio de $500. 
 
-**4.** ¿Qué pasa si esto no se genera?
+**4. ¿Qué pasa si esto no se genera?**
 
 * ¿Qué pasa si lo que quieres no sucede?
 * ¿Qué pasa si no logras tu página?
 
-**5.** Visión futura
+**5. Visión futura**
 
 Empiezas a vender un futuro en el que eres parte.
 
@@ -433,7 +435,7 @@ Empiezas a vender un futuro en el que eres parte.
 
 Se debe contrastar el gasto por tu servicio con el retorno de la inversión.
 
-**6.** Agregas valor
+**6. Agregas valor**
 
 Tu le vas a agregar un valor superior a lo que vas a cobrar. 
 
@@ -489,14 +491,14 @@ Un sistema comercial es una máquina bien aceitada por donde pasan cada una de l
 
 ### Adaptando el precio al nuevo mercado
 
-**1.** Envío de Dinero
+**1. Envío de Dinero**
 
 * ¿Cómo voy a justificar el egreso ante impuestos?
 * ¿Por dónde me conviene enviar el dinero?
 * ¿Cuál es el costo de conversión + transferencia (6-10%)?
 * Comprobante de pago cuándo llega (garantía).
 
-**2.** Recibir dinero de la expansión
+**2. Recibir dinero de la expansión**
 
 * ¿Cómo voy a justificar el ingreso ante impuestos?
 * ¿Cómo se incorpora a la contabilidad de mi empresa local (en caso de tenerla)?
@@ -506,20 +508,20 @@ Un sistema comercial es una máquina bien aceitada por donde pasan cada una de l
 * Pregunta antes de usar las cuentas bancarias, ¿cuáles son los mínimo y los requisitos? (sobre todo cuando es una empresa la que transfiera a una persona natural)
 * Ten siempre 2 o 3 opciones de pago: paypal, payoneer, banco, etc. y explícalo a clientes y trabajadores antes de firmar contrato.
 
-**3.** Gestión de Cobros
+**3. Gestión de Cobros**
 
 * Cobra 50%-50%
 * Trabaja con un contrato internacional de prestación de servicio.
 * En el contrato incluye los tiempos fijos de pago.
 
-**4.** La facturación
+**4. La facturación**
 
 * La facturación inicia desde la venta.
 * ¿Qué tipo de factura te aceptan? Invoice sencillo, exportación de servicios, facturación local, etc.
 * Ten en cuenta los gastos extras aparte de tu servicio: costos de IVA + otros localres + costos de transferencia + costo de extranción.
 * Lo que no está escrito no existe.
 
-**5.** Adaptación de Precios
+**5. Adaptación de Precios**
 
 Existen 3 estrategias diferentes:
 * **Competencia**: Conviertes tu precio a la moneda local. Evalúa los precios de la competencia y qué alejado o cerca está el tuyo en comparación y si es similar al de tu mercado local.
