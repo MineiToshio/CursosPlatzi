@@ -9,16 +9,28 @@
   - [Tipos de Redes de Blockchain](#tipos-de-redes-de-blockchain)
 - [Comprar Bitcoin](#comprar-bitcoin)
 - [Categorias de Criptoactivos](#categorias-de-criptoactivos)
-- [ICOs](#icos)
 - [Criptografía](#criptografía)
 - [Funciones Hash](#funciones-hash)
 - [Criptomoneda vs Token](#criptomoneda-vs-token)
 - [Minería](#minería)
-- [Proof of Work](#proof-of-work)
-- [Poorf of Stake](#poorf-of-stake)
-- [Pools de Minería](#pools-de-minería)
-- [Masternodos](#masternodos)
+  - [Proof of Work](#proof-of-work)
+  - [Proof of Stake](#proof-of-stake)
+  - [Pools de Minería](#pools-de-minería)
+  - [Masternodos](#masternodos)
 - [Dapp](#dapp)
+- [Portafolios de Inversión](#portafolios-de-inversión)
+- [ICOs](#icos)
+  - [Encontrando ICO](#encontrando-ico)
+- [Coinmarketcap](#coinmarketcap)
+- [Telegram](#telegram)
+- [Airdrops y Bounties](#airdrops-y-bounties)
+- [Hardforks](#hardforks)
+- [Estafas, pirámides y esquemas Ponzi](#estafas-pirámides-y-esquemas-ponzi)
+- [Trading](#trading)
+- [Exchanges](#exchanges)
+- [Órdenes de compra y venta](#Órdenes-de-compra-y-venta)
+- [Análisis Técnico](#análisis-técnico)
+- [Análisis Técnico](#análisis-técnico-1)
   - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -160,16 +172,6 @@ Algunos tipos de criptoactivos:
 * **Internet of Things**: están pensadas para facilitar transacciones de intercambio entre dispositivos que funcionan con tecnología IoT.  
 **Ejemplo**: IOTA e IOT Chain.
 
-## ICOs
-
-**ICO** del inglés Initial Coin Offering (oferta inicial de dinero), es un modelo de recaudación de dinero, en el que un grupo de personas que inician un proyecto buscan financiamiento mediante la generación y venta de una criptomoneda particular. Cualquier persona alrededor del mundo puede crear y/o participar en ICOs.
-
-**ITOs** (Initial Token Offering) es un modelo de recaudación igual al anterior pero en lugar de enfocarlo en la creación de criptomonedas, se basa en tokens, que no están pensados para su uso como dinero.
-
-**DAICO** (Decentralized Autonomous Initial Coin Offering), es un modelo de inversión creado por Vitalik Buterin en el que un grupo de accionistas que adquieren tokens o criptomonedas para financiar a un grupo de proyecto, tienen derecho a voto y participación en la toma de deciciones sobre la operación del proyecto.
-
-Compañías como [Self Sell](https://selfsell.com/) te ayudan a incubar proyectos y a lanzar ICOs. Otras páginas como [Launch my ICO](https://launchmyico.com/), te ayudan a lanzar tu ICO o ITO. Otras compañias como [ICO Box](https://icobox.io/) o [Kickico](https://www.kickico.com/es/) también te ayudan a lanzar tu proyecto.
-
 ## Criptografía
 
 La criptografía es el proceso de ocultar información.
@@ -250,13 +252,13 @@ Un **nodo** es un servidor que tiene una copia completa de toda la blockchain. E
 
 Un nodo completo es el que yo puedo descargar en cualquier computador. Con eso ya se están verificando operaciones de Bitcoin. Solo los mineros (los sistemas de cómputo especializados) son los que reciben la recompensa.
 
-## Proof of Work
+### Proof of Work
 
 Es una piedra en el camino que permite verificar que no haya un bot por detrás. Un ejemplo de esto son los captchas.
 
 En la minería PoW se compite por una recompensa mediante el uso del poder de cómputo (generalmente medidos en THS o GHS) para validar bloques en la cadena blockchain.
 
-## Poorf of Stake
+### Proof of Stake
 
 **Proof of Stake** (PoS) es un sistema de consenso o una forma de minería basada en Prueba de Participación. PoS es mucho más sencilla de llevar a cabo y la rentabilidad puede ser también muy buena. El objetivo principal de este tipo de minería es que sea menos costosa y que consuma muchos menos recursos de electricidad, espacio físico, refrigeración, etc.
 
@@ -273,7 +275,7 @@ En el PoS, lo que determina la capacidad necesaria para validar los bloques de l
 
 **TIP**: Si se desea invertir en criptomonedas, se pueden dejar como PoS de tal manera que no solo se gane por la capitalización sino que también estas mismas monedas vayan minando más monedas.
 
-## Pools de Minería
+### Pools de Minería
 
 Las **Pools de minería** son grupos de personas que se unen o se asocian usando su(s) equipo(s) de minería individual(es) con el propósito de formar granjas virtuales de minería, y así tener mayor poder de procesamiento en conjunto que pueda competir con otras granjas o equipos mineros muy potentes por la recompensa en el procesamiento de transacciones de una blockchain.
 
@@ -286,7 +288,7 @@ Si llegara a darse el caso de que una Pool de minería tenga en su conjunto 51% 
 
 [Método de Pago de Pools de Minería](http://lascriptomonedas.com/recursos/preguntas-frecuentes/item/59-metodos-de-pago-de-las-piscinas-de-minado)
 
-## Masternodos
+### Masternodos
 
 Los **masternodos** son una manera más rentable que la minería PoS tradicional. A diferencia del PoS, la minería de masternodos te pide un mínimo de monedas a poner en garantía y un mínimo de tiempo en los cuales vas a dejar tus criptomonedas.
 
@@ -316,6 +318,203 @@ Puedes comprar tokens de Civic y Status.
 
 [Subtratum](https://substratum.net/) es un token de Ethereum y busca ser el internet descentralizado.
 
+## Portafolios de Inversión
+
+Según Forbes, si Bitcoin fuera una empresa, de acuerdo a su capitalización actual de mercado, sería más grande que empresas como Walt Disney, Mc Donalds, General Electric, Procter & Gamble y Visa, entre otros. De hecho Bitcoin creció tanto en 2017, que su capitalización fue mayor que el PIB de muchos países de latinoamérica como: Chile, Venezuela, Perú, Costa Rica y Panamá, entre otros.
+
+En este momento ya hay un capital importante dentro de las criptomonedas. Hay mucha gente invirtiendo, hay mucha gente capacitándose, creando portafolios de inversión de altísimo rendimiento incluso famosos como: Bill Gates, Richard Branson, Lionel Messi, James Rodriguez, Mike Tyson y otros, ya conocen sobre criptomonedas y están haciendo sus inversiones.
+
+En 2017 el crecimiento de Bitcoin fue de más de 1000%, y no fue la de mayor rentabilidad, criptomonedas como Ripple, NEM y Stellar tuvieron rendimientos de entre 25 mil y 40 mil %, la de mayor crecimiento fue una criptomoneda hasta entonces desconocida, llamada Verge con un cambio de más de 800mil%. Esto no es un juego, estos numeros son públicos y puedes consultarlos en Google.
+
+En promedio, el retorno por la inversión en ICOs está al rededor de 1,320%.
+
+Puedes crear un **Portafolio de Inversión** de la siguiente manera:
+* 40% en criptomonedas de bajo riesgo
+* 20% en criptomonedas de mediano riesgo
+* 20% en criptomonedas de alto riesgo
+* 20% en ICOs.
+
+## ICOs
+
+**ICO** del inglés Initial Coin Offering (oferta inicial de dinero), es un modelo de recaudación de dinero, en el que un grupo de personas que inician un proyecto buscan financiamiento mediante la generación y venta de una criptomoneda particular. Cualquier persona alrededor del mundo puede crear y/o participar en ICOs.
+
+**ITOs** (Initial Token Offering) es un modelo de recaudación igual al anterior pero en lugar de enfocarlo en la creación de criptomonedas, se basa en tokens, que no están pensados para su uso como dinero.
+
+**DAICO** (Decentralized Autonomous Initial Coin Offering), es un modelo de inversión creado por Vitalik Buterin en el que un grupo de accionistas que adquieren tokens o criptomonedas para financiar a un grupo de proyecto, tienen derecho a voto y participación en la toma de deciciones sobre la operación del proyecto.
+
+Compañías como [Self Sell](https://selfsell.com/) te ayudan a incubar proyectos y a lanzar ICOs. Otras páginas como [Launch my ICO](https://launchmyico.com/), te ayudan a lanzar tu ICO o ITO. Otras compañias como [ICO Box](https://icobox.io/) o [Kickico](https://www.kickico.com/es/) también te ayudan a lanzar tu proyecto.
+
+### Encontrando ICO
+
+Vamos a ver un par de pàginas para encontrar buenos proyectos y evaluar proyectos pasados.
+
+* [Token Data](https://www.tokendata.io/) vamos a revisar esta website que nos muestra ICOs y ITOs y su recaudación y retorno.
+
+* [ICO Alert](https://www.icoalert.com/) aquí puedes revisar las próximas ICOs que están por salir.
+  
+* [ICO Rating](https://icorating.com/) muestra proyectos ya evaluados por un algoritmo de ellos o personas de ellos.
+
+Antes de invertir en un ICO se debe **evaluar**:
+* El equipo
+* El proyecto
+* El whitepaper
+* El perfil de los fundaderos y CEO
+
+## Coinmarketcap
+
+[Coinmarketcap](https://coinmarketcap.com/) es la página mas popular que te muestra el movimiento de las monedas en diferentes exchanges 
+
+La información que ofrece CoinMarketCap incluye lo siguiente:
+* Número de criptomonedas registradas en la plataforma
+* Cantidad de exchanges / markets
+* Capitalización actual de todo el mercado
+* Dominancia de Bitcoin con respecto a todo el mercado.
+* Y una la lista de las más de 1500 criptomonedas / tokens registradas con datos como:
+  * Nombre
+  * Posición
+  * Capitalización de Mercado
+  * Precio
+  * Volumen (24h)
+  * Cantidad de monedas circulando
+  * Variación
+  * Gráfico del Precio (7d)
+
+## Telegram
+
+Telegram es una aplicación para estar en contacto con grupos y personas que conocen mucho sobre el mundo Cripto. Descarga Telegram para estar en contacto con canales y personas en todo el mundo relacionados al Criptomundo: https://telegram.org
+
+**Únete a estos canales**:
+* [Cointelegraph](https://t.me/CoinTelegraph)
+* [Criptonoticias](https://t.me/Criptonoticias)
+* [Earn As Learn](https://t.me/EarnAsLearnOfficial777)
+* [ICO Investors Spanish](https://t.me/ICOSpanish)
+* [Substratum](https://t.me/SubstratumCommunity)
+* [Cryptobirds](https://t.me/CryptoBirds)
+
+Grupo para enviar información sobre proyecto y resolver preguntas de los alumnos: https://t.me/inversionencriptocurso
+
+## Airdrops y Bounties
+
+**Airdrop**: Son pequeñas cantidades de Tokens o Criptomonedas que te regalan, usualmente los tokens los envían a tu dirección de Ethereum o saldos por ser tenedor de alguna otra criptomoneda. Esta es una forma de marketing para impulsar su proyeto y su usabilidad. Puedes reclamarlos de manera gratuita dando tu dirección pública.
+
+Páginas para buscar airdrops:
+* [Aridrop Addict](http://airdropaddict.com/)
+* [Airdrop Alert](https://airdropalert.com/)
+
+**Bounties**: También es un sistema de publicidad en donde te regalan tokens o criptomonedas por compartir en redes sociales (Twitter, Facebook, LinkedIn) o vota por mi moneda en determinado exchange, o únete a mi grupo de Telegram. Igualmente tienes que evaluar el proyecto, es gratuito, pero muchas pueden ser basura.
+
+**OJO**: Nunca dar la llave privada
+
+## Hardforks
+
+**Hardfork**: Es el momento en que se bifurca la red porque se crea otra moneda que no es compatible con las reglas anteriores. Por ejemplo, alguien puede crear una red Blockchain con un nuevo Bitcoin pero pone como límite no 21millones sino 80millones, esto posible, solo que ahora no va ser parte de la red original de Bitcoin porque no cumple con las reglas originales ni la van a sostener esos mineros. Es otra Blockchain completamente distinta.
+
+**SoftFork**: Es cuando una red Blockchain o en el ejemplo de Bitcoin recibe una actualización pero NO necesariamente se crea otra moneda y continua siendo compatible con versiones anteriores.
+
+**Fork** o Bifuración: Esla moneda es resultado de un hardfork
+
+**Snapshot**: Es el momento en el que se hace esa copia o división de la red, guardando toda la información de las transacciones y saldos hasta ese momento de la blockchain.
+
+**Ethereum Classic**: es un fork(bifuración) de Ethereum
+
+Encuentra lista de forks: https://forks.net/list
+
+**OJO**: La llave privada es el acceso a mis Bitcoin, asi que si vas a reclamar un Fork ten mucho cuidado a qué moneda se los vas a dar porque puede robarte tu saldo.
+
+La recomendación es que muevas los fondos a otra dirección unas vez ya se hizo el snapshot.
+
+## Estafas, pirámides y esquemas Ponzi
+
+Debes tener cuidado con las estafas que se pueden encontrar en mundo Cripto. Ten cuidado con los sistemas de referidos, ya que con el tiempo no son sostenibles. La minería en la nube también es peligrosa, engañandote con el alquiler de equipos en un país lejano.
+
+Trata de usar Exchanges que sean conocidos.
+
+Los esquemas Ponzi son muy parecidos a las organizaciones multinivel.
+
+<div align="center">
+  <img src="img/esquema-ponzi.png">
+  <small><p>Esquema Ponzi</p></small>
+</div>
+
+## Trading
+
+El **trading** es el intercambio de criptoactivos sobre la base de un precio fijado por el mercado (oferta y demanda), comprar barato para vender caro, con el objeto de lograr un beneficio en determinado tiempo sobre la variación en el precio de un activo.
+
+Cuando se especula sobre cuál podría ser el comportamiento de la tendencia en el precio de una criptomoneda, se hace sobre la base de un análisis fundamental y un análisis técnico.
+
+El análisis fundamental se basa en noticias, reportes de lo que puede llegar a pasar con determinada criptomoneda y que vaya a impulsar su precio.
+
+El análisis técnico se basa en analizar la gráfica de comportamiento para deducir o estimar hacia donde se dirige el precio, y así decidir si vender o comprar.
+
+## Exchanges
+
+**Exchanges** o casas de cambio son lugares en las que se pueden cambiar bitcoin por otras criptomonedas. La información de los precios en los diferentes exchanges está expresada en base a pares de monedas (o criptomonedas) como: BTC/USD, BTC/EUR, ADA/BTC, XRP/BTC, BTC/USDT, etc. Que representan cuál es el precio de una con respecto al precio de la otra. En binance se maneja el USDT es un token que se llama un Tether, un dolar virtual. Bitfinex si te permite manejar dólares directamente.
+
+Generalmente las exchanges muestran un gráfico del comportamiento del precio de las criptomonedas acompañado de los registros en un libro de órdenes, donde se muestran las ofertas de Bitcoin y los precios en los que los vendedores esperan vender y los precios que los compradores están dispuestos a pagar.
+
+**Estos son algunos exchanges**:
+* https://poloniex.com
+* https://bittrex.com
+* https://www.kucoin.com/#/?r=21Q3b
+* https://www.huobi.br.com/es-es/
+* https://www.bitmex.com/
+* https://bitfinex.com
+* https://www.binance.com
+
+Como siempre, hay que tener mucho cuidado y prestar atención a las urls, que sean las correctas porque hay muchas que pudieran parecerse, pero son estafas y buscan robar tus datos de acceso mediante phishing. Mucha precaución.
+
+<div align="center">
+  <img src="img/exchange.png">
+  <small><p>Ventana de un Exchange</p></small>
+</div>
+
+* **Gráfico de Velas**: Muestra el movimiento del mercado.
+* **Libro de Órdenes**: Operaciones que están en cola.
+* **Pares**: Comparación del Bitcoin vs otras monedas.
+* **Operaciones por segundo**: Historial de las últimas operaciones realizadas.
+
+## Órdenes de compra y venta
+
+Al colocar una Orden de Venta, estamos creamos en el libro de órdenes de la plataforma, un registro que indica que estamos dispuestos a vender una cantidad determinada de bitcoins. Mientras que al colocar una Orden de Compra le estaremos indicando que estamos dispuesto a comprar una cantidad determinada de bitcoins.
+
+El precio de la operación estará determinado por el momento del mercado en el que se ejecute la orden; ya sea Limit, Market o Stop Limit.
+
+* **Limit**: fija el precio de la orden en función a un monto fijo indicado por mí.
+* **Market**: se tomará el precio de mercado definido por la última transacción registrada en el libro.
+* **Stop-Limit**: define un rango de precio mínimo y máximo con respecto al valor de mercado para colocar la orden. Es una manera de medir y controlar el riesgo de la operación.
+
+## Análisis Técnico
+
+El análisis técnico consiste en evaluar gráficos y tendencias en relación al comportamiento del precio de un activo.
+
+Las Velas Japonesas son elementos visuales que representan en el gráfico, el comportamiento en la cotización del activo en un marco de tiempo determinado, ya sea de una día, una hora, media hora, cinco minutos, etc.
+
+<div align="center">
+  <img src="img/velas-japonesas.png">
+  <small><p>Velas Japonesas</p></small>
+</div>
+
+Pueden ser velas rojas o verdes. Una vela roja significa que la cotización cerró en un precio más bajo que el precio de la cotización inicial. Una vela verde significa que la cotización cerró en un precio más alto que el precio de la cotización inicial. Las líneas delagadas que sobresalen por arriba y abajo del cuerpo de la vela se llaman mechas y representan las cotizaciones máximas y mínimas del precio durante el marco de tiempo definido.
+
+Para ver, seguir y analizar algunos gráficos publicados por varias personas que operan con trading de criptoactivos, podemos usar [Trading View](https://tradingview.com) que es como una red social de trading.
+
+## Análisis Técnico
+
+Tips para analizar y estimar el comportamiento del mercado:
+
+* Las **resistencias**, también llamadas techo, son las lineas que determinan un punto en el precio del criptoactivo que ha sido dificil o no ha logrado superar durante un período de tiempo. Generalmente el precio tiende a bajar una vez alcanzada la linea de resistencia.
+* Los **soportes**, también llamados piso, son las lineas que determinan un punto en el precio del criptoactivo del que ha sido dificil o no ha bajado más durante un período de tiempo. Generalmente el precio tiende a subir o rebotar una vez alcanzada la linea de soporte.
+
+Generalmente cuando el precio del activo atravieza varias veces una línea de soporte, ésta pasa a convertirse en una resistencia. Lo mismo pero de forma inversa sucede con las resistencias, cuando el precio finalmente las rompe, pasan a ser soportes.
+
+Para ver más información acerca de resistencias y soportes se puede hacer desde aquí: https://www.ig.com/es/soportes-y-resistencias
+
+* **Las Lineas de Tendencia**: Determinan la pendiente que sigue el comportamiento del precio de un criptoactivo, ascendente, descendente o de lateralización.
+
+* **Canal**: Es el espacio formado por dos líneas de tendencia paralelas, dentro de las cuales se ha movido el comportamiento del precio durante un período determinado.
+
+* **Pullback y Throwback**: Es el comportamiento representado por un intento de cambio en la tendencia del precio que se ve interrumpido por el rebote en una resistencia o un soporte para luego continuar con la tendencia anterior.
+
 ### Recursos Complementarios
 * [Diapositivas del Curso](docs/platzislides.pdf)
 
@@ -327,6 +526,7 @@ Puedes comprar tokens de Civic y Status.
 * [Curso de Inversión en Criptomonedas](https://platzi.com/clases/inversion-criptomonedas)
 * [Paper de Bitcoin](https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf)
 * [Estadísticas de los Masternodos](https://masternodes.pro/statistics)
+* [Coin Market Cap](ttps://coinmarketcap.com/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
