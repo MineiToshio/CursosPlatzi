@@ -10,6 +10,15 @@
 - [Comprar Bitcoin](#comprar-bitcoin)
 - [Categorias de Criptoactivos](#categorias-de-criptoactivos)
 - [ICOs](#icos)
+- [Criptografía](#criptografía)
+- [Funciones Hash](#funciones-hash)
+- [Criptomoneda vs Token](#criptomoneda-vs-token)
+- [Minería](#minería)
+- [Proof of Work](#proof-of-work)
+- [Poorf of Stake](#poorf-of-stake)
+- [Pools de Minería](#pools-de-minería)
+- [Masternodos](#masternodos)
+- [Dapp](#dapp)
   - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -82,7 +91,7 @@ Los Nodos son servidores, un servidor es un computador que está de alguna maner
 * **Es un sistema de consenso**: todos tenemos toda la información y todos nos estamos haciendo auditoría.
 * **Es global**: basta con tener acceso a Internet para poder ver toda la información.
 * **Es veloz**: Puedo hacer transacciones internacionales que duran minutos.
-* **Funciona a base de criptografía**: en la arquitectura de Blockchain, la criptografía y el uso de sistemas simétricos y asimétricos es fundamental.
+* **Funciona a base de criptografía**: en la arquitectura de Blockchain, la [criptografía](#Criptografía) y el uso de sistemas simétricos y asimétricos es fundamental.
 * **Es transparente**: Blockchain es un libro contable público distribuido. Nada de información está oculto.
 * **Es inmutable**: Blockchain no permite que se elimine información. Todo lo que se haga va a quedar registrado.
 * **Sin intermediarios**: es sostenido por miles de computadores alrededor del mundo. No hay una empresa de por medio.
@@ -96,7 +105,7 @@ Los Nodos son servidores, un servidor es un computador que está de alguna maner
 
 La red Bitcoin es lo que se conoce como **Blockchain 1.0** usada principalmente para enviar y recibir transacciones de valor. Es capaz de procesar alrededor de 5 transacciones por minuto.
 
-Cuando nació la red Ethereum empezamos a hablar de un nuevo termino llamado **Blockchain 2.0** lo que incorpora la utilización de smart contracts, es una blockchain en la que se pueden hacer desarrollos DApps. Procesa cerca de 25 transacciones por minuto.
+Cuando nació la red Ethereum empezamos a hablar de un nuevo termino llamado **Blockchain 2.0** lo que incorpora la utilización de smart contracts, es una blockchain en la que se pueden hacer desarrollos [DApps](#Dapp). Procesa cerca de 25 transacciones por minuto.
 
 Por su parte la **Blockchain 3.0** es un nuevo enfoque de criptomonedas cuya principal propuesta es mejorar la escalabilidad de sus aplicaciones, e incorporar nuevas características de utilización como apostilla de datos, sistemas de votaciones, etc. Es capaz de procesar entre 2000 y 4000 operaciones por minuto. [EOS](https://eos.io/), [ARK](https://ark.io/) y [NEM](https://nem.io/es/) son conocidas por estar creadas como Blockchain 3.0.
 
@@ -104,7 +113,7 @@ Por su parte la **Blockchain 3.0** es un nuevo enfoque de criptomonedas cuya pri
 
 <div align="center">
   <img src="img/tipos-blockchain.png">
-  <small><p>Centralizado vs Descentralizado vs Distribuído</p></small>
+  <small><p>Tipo de Redes de Blockchain</p></small>
 </div>
 
 **Tipos de Redes de Blockchain**:
@@ -155,10 +164,157 @@ Algunos tipos de criptoactivos:
 
 **ICO** del inglés Initial Coin Offering (oferta inicial de dinero), es un modelo de recaudación de dinero, en el que un grupo de personas que inician un proyecto buscan financiamiento mediante la generación y venta de una criptomoneda particular. Cualquier persona alrededor del mundo puede crear y/o participar en ICOs.
 
-**ITOs** del inglés Initial Token Offering, es un modelo de recaudación igual al anterior pero en lugar de enfocarlo en la creación de criptomonedas, se basa en tokens, que no están pensados para su uso como dinero.
+**ITOs** (Initial Token Offering) es un modelo de recaudación igual al anterior pero en lugar de enfocarlo en la creación de criptomonedas, se basa en tokens, que no están pensados para su uso como dinero.
 
-**DAICO**, es un modelo de inversión creado por Vitalik Buterin en el que un grup de accionistas que adquieren tokens o criptomonedas para financiar a un grupo de proyecto, tienen derecho a voto y participación en la toma de deciciones sobre la operación del proyecto.
+**DAICO** (Decentralized Autonomous Initial Coin Offering), es un modelo de inversión creado por Vitalik Buterin en el que un grupo de accionistas que adquieren tokens o criptomonedas para financiar a un grupo de proyecto, tienen derecho a voto y participación en la toma de deciciones sobre la operación del proyecto.
 
+Compañías como [Self Sell](https://selfsell.com/) te ayudan a incubar proyectos y a lanzar ICOs. Otras páginas como [Launch my ICO](https://launchmyico.com/), te ayudan a lanzar tu ICO o ITO. Otras compañias como [ICO Box](https://icobox.io/) o [Kickico](https://www.kickico.com/es/) también te ayudan a lanzar tu proyecto.
+
+## Criptografía
+
+La criptografía es el proceso de ocultar información.
+
+**Tipos de criptografía**:
+
+**Criptografía simétrica ó cifrado simétrico**: Es ocultar cualquier dato dentro de un algoritmo cifrado con el cual el emisor puede enviar el mensaje oculto, la parte receptora tiene que tener el mismo algoritmo de cifrado y utilizarlo a la inversa. SI alguien en medio logra tener acceso a ese algoritmo criptográfico puede desencriptarlo sin problema.
+
+<div align="center">
+  <img src="img/cifrado-simetrico.png">
+  <small><p>Cifrado Simétrico</p></small>
+</div>
+
+**Criptografía asimétrica**: Por lo anterior nace la criptografía asimétrica. Se crean simultáneamente dos llaves, una será pública y otra privada. La pública la puedo compartir con cualquier persona para que a través de ella me pueda mandarme información cifrada y solo yo con el otro par, mi llave privada, pueda descifrarlo.
+
+<div align="center">
+  <img src="img/cifrado-asimetrico.png">
+  <small><p>Cifrado Asimétrico</p></small>
+</div>
+
+**IMPORTANTE**: La llave privada no se debe compartir.
+
+Las **criptomonedas utilizan este sistema de cifrado asimétrico**, te generan una dirección que puedes compartir con todo el mundo y una llave privada con la que tienes acceso a tus fondos y debes cuidar muy bien. Algunas wallet te pueden generar algo que se conoce como “seed” o “semilla” y te generan 12 o 24 palabras, esto es para que no tengas que anotar la llave privada en su estado puro sino un poco más amigable y así la puedas resguardar mejor con menos probabilidad de equivocarte.
+
+<div align="center">
+  <img src="img/bitcoin-llave-publica-privada.png">
+  <small><p>Bitcoin: Dirección Pública y Llave Privada</p></small>
+</div>
+
+## Funciones Hash
+
+<div align="center">
+  <img src="img/hash.png">
+  <small><p>Ejemplo de Hash</p></small>
+</div>
+
+Una función hash es la generación de una huella digital única de cualquier dato de información. A partir del resultado de un hash no puedo determinar cómo fue creado. 
+
+El algoritmo que usa Bitcon para hacer el hash es SHA256.
+
+**Algoritmos de Hash**:
+* **SHA256**: Bitcoin, BCash, Digibyte
+* **Scrypt**: Litecoin, Verge, Digibyte
+* **ETHash**: Ethereum, EClassic
+* **Equihash**: Zcash, Zencash, Bgold
+
+
+## Criptomoneda vs Token
+
+**Criptomoneda**:
+* Una criptomoneda tiene su propia blockchain.
+* Tienen su propio sistema de minería
+* Tienen una función específica.
+
+**Token**:
+* Es cualquier activo digitalizado.
+* Es un Smart Contract.
+* Funciona sobre una Blockchain.
+* Los token no se pueden minar, a diferencia de las criptomonedas.
+
+Un token globalmente es la digitalización de cualquier activo. El ERC20 es un smartcontract basado en Ethereum y es el token más popular entre las ICOs o representaciones de acciones de un proyecto.
+
+Un token es un Smart Contract que funciona sobre una Blockchain ya existente de una criptomoneda.
+
+Normalmente se usan en el mundo cripto cuando uno hace una recaudación (por ejemplo, en una ICO) y quiero utilizarlo como "acciones" de mi empresa.
+
+## Minería
+
+El concepto de **minería** viene de su similitud con la minería tradicional, de la extracción de minerales o metales preciosos y del esfuerzo que ello requiere, y la necesidad de usar maquinaria especializada. Así funcionan los computadores especializados llamados mineros.
+
+**Puntos importantes**:
+* Se encarga de mantener la red segura.
+* Validan todas las transacciones.
+* Los mineros son como notarios. Verifican y validan todas las transacciones del Blockchain.
+* Es una red de nodos y mineros.
+
+Un **nodo** es un servidor que tiene una copia completa de toda la blockchain. En un sistema de minería los nodos no se conocen haciendo la red más segura. También se encarga de validar las transacciones. Los mineros son personas o dispositivos que hacen las veces de notarios o validadores.
+
+Un nodo completo es el que yo puedo descargar en cualquier computador. Con eso ya se están verificando operaciones de Bitcoin. Solo los mineros (los sistemas de cómputo especializados) son los que reciben la recompensa.
+
+## Proof of Work
+
+Es una piedra en el camino que permite verificar que no haya un bot por detrás. Un ejemplo de esto son los captchas.
+
+En la minería PoW se compite por una recompensa mediante el uso del poder de cómputo (generalmente medidos en THS o GHS) para validar bloques en la cadena blockchain.
+
+## Poorf of Stake
+
+**Proof of Stake** (PoS) es un sistema de consenso o una forma de minería basada en Prueba de Participación. PoS es mucho más sencilla de llevar a cabo y la rentabilidad puede ser también muy buena. El objetivo principal de este tipo de minería es que sea menos costosa y que consuma muchos menos recursos de electricidad, espacio físico, refrigeración, etc.
+
+En el PoS, lo que determina la capacidad necesaria para validar los bloques de la red, es la cantidad de criptoactivos ó criptomonedas que se poseen, que se tienen acumulados, así pues, el minero que tiene más monedas acumuladas y que pueda dejarlas retenidas en garantía para la validación de bloques, tiene mayor probabilidad de recibir recompensa.
+
+**Tipos de minería Proof of Stake**:
+
+* **PoS** (estándard): en el que cada minero deja en garantía una cantidad de monedas para facilitar la validación de bloques.  
+**Ejemplo**: NEO, NEXT, PVIX.
+* **Delegate Proof of Stake** (DPoS): además de la acumulación de monedas, requiere que un grupo de nodos, mediante sistema de votación, se eligen los nodos que validarán los bloques.  
+**Ejemplo**: EOS, ARK y Lisk.
+* **Proof of Importance** (PoI): es el sistema de consenso empleado por la red NEM, y se basa en la reputación o historial de transacciones realizadas por cada nodo sobre la blockchain. A mejor reputación, mayor probabilidad para validar bloques.
+* **Casper**: es un sistema híbrido de Ethereum que mezcla PoW con PoS y para poder ser un nodo de esta red se requiere una cantidad importante de dinero puesta en garantía para aspirar a la validación de bloqures.
+
+**TIP**: Si se desea invertir en criptomonedas, se pueden dejar como PoS de tal manera que no solo se gane por la capitalización sino que también estas mismas monedas vayan minando más monedas.
+
+## Pools de Minería
+
+Las **Pools de minería** son grupos de personas que se unen o se asocian usando su(s) equipo(s) de minería individual(es) con el propósito de formar granjas virtuales de minería, y así tener mayor poder de procesamiento en conjunto que pueda competir con otras granjas o equipos mineros muy potentes por la recompensa en el procesamiento de transacciones de una blockchain.
+
+<div align="center">
+  <img src="img/pools-minado.png">
+  <small><p>Pools de Minado</p></small>
+</div>
+
+Si llegara a darse el caso de que una Pool de minería tenga en su conjunto 51% o más del poder de procesamiento de toda la red blockchain en la que se encuentra, se correría el riesgo de lo que se conoce como un **Ataque del 51%**, en el que los administradores de esta pool tendrían el poder de manipular las transacciones a su antojo, pudiendo generar dobles gastos, invalidando y aprobando confirmaciones de bloques, entre otros.
+
+[Método de Pago de Pools de Minería](http://lascriptomonedas.com/recursos/preguntas-frecuentes/item/59-metodos-de-pago-de-las-piscinas-de-minado)
+
+## Masternodos
+
+Los **masternodos** son una manera más rentable que la minería PoS tradicional. A diferencia del PoS, la minería de masternodos te pide un mínimo de monedas a poner en garantía y un mínimo de tiempo en los cuales vas a dejar tus criptomonedas.
+
+Los masternodos se han popularizado por el tema de estafa. Debes asegurarte de que tus monedas sean serias y no caigas en estafas. El 90% de los masternodos son estafa y pueden ser esquemas piramidales. Estos usualmente prometen una rentabilidad gigantesca.
+
+Páginas para evaluar masternodes:
+https://masternodes.pro/statistics
+https://masternodes.online/
+
+## Dapp
+
+Una Decentralized Application (Dapp) es cualquier programa que está desarrollado sobre Blockchain.
+
+**Ejemplos de Dapps**:
+
+Los [CryptoKitties](https://www.cryptokitties.co/) son mascotas virtuales que se deben alimentar. Estas son smart contracts que funcionan sobre la blockchain de Ethereum. Cada gatito es único, y puede llegar a ser muy costoso.
+
+[Fishbank](https://fishbank.io) es un juego de unos peces que se alimentan y juegan por el mar. Este también funciona sobre la blockchain de Ethereum como un smart contract.
+
+[Civic](https://www.civic.com/) es como un documento de identidad del futuro. Funciona sobre la blockchain de Ethereum y es un token. Quiere protegerte contra el robo de identidad.
+
+[Status](https://status.im/) es un token sobre la blockchain de ethereum, un conjunto de smartcontracts y es como un whatsapp. Te permite hacer pagos a través de un chat.
+
+Puedes comprar tokens de Civic y Status.
+
+[Golem](https://golem.network/) es un token de Ethereum. Busca que al ser parte de un nodo, puedas alquilar poder de cómputo. Puedes alquilar capacidad de RAM, de almacenamiento, entre otros.
+
+[Subtratum](https://substratum.net/) es un token de Ethereum y busca ser el internet descentralizado.
 
 ### Recursos Complementarios
 * [Diapositivas del Curso](docs/platzislides.pdf)
@@ -170,6 +326,7 @@ Algunos tipos de criptoactivos:
 ## Enlaces de Interés
 * [Curso de Inversión en Criptomonedas](https://platzi.com/clases/inversion-criptomonedas)
 * [Paper de Bitcoin](https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf)
+* [Estadísticas de los Masternodos](https://masternodes.pro/statistics)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
