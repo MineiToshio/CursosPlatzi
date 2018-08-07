@@ -561,7 +561,7 @@ Generalmente las exchanges muestran un gráfico del comportamiento del precio de
 **Estos son algunos exchanges**:
 * https://poloniex.com
 * https://bittrex.com
-* https://www.kucoin.com/#/?r=21Q3b
+* https://www.kucoin.com
 * https://www.huobi.br.com/es-es/
 * https://www.bitmex.com/
 * https://bitfinex.com
