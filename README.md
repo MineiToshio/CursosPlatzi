@@ -55,7 +55,7 @@
 1. [Curso de Design Sprint](Curso%20de%20Design%20Sprint/README.md#curso-de-design-sprint)
 
 ### Blockchain y Criptomonedas
-1. [Curso de Bitcoin y Blockchain](CCurso%20de%20Bitcoin%20y%20Blockchain/README.md#curso-de-bitcoin-y-blockchain)
+1. [Curso de Bitcoin y Blockchain](Curso%20de%20Bitcoin%20y%20Blockchain/README.md#curso-de-bitcoin-y-blockchain)
 2. [Curso de Inversión en Criptomonedas](Curso%20de%20Inversión%20en%20Criptomonedas/README.md#curso-de-inversión-en-criptomonedas)
 
 ### Creación de StartUps
