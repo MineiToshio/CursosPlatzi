@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-19-brightgreen.svg?style=flat-square" alt="Cursos 19">
+    <img src="https://img.shields.io/badge/Cursos-20-brightgreen.svg?style=flat-square" alt="Cursos 20">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -58,6 +58,9 @@
 1. [Curso de Bitcoin y Blockchain](Curso%20de%20Bitcoin%20y%20Blockchain/README.md#curso-de-bitcoin-y-blockchain)
 2. [Curso de Inversión en Criptomonedas](Curso%20de%20Inversión%20en%20Criptomonedas/README.md#curso-de-inversión-en-criptomonedas)
 
+### Negocios Online
+1. [Fundamentos de la Gestión de Proyectos](Fundamentos%20de%20la%20Gestión%20de%20Proyectos/README.md#fundamentos-de-la-gestión-de-proyectos)
+
 ### Creación de StartUps
 1. [Introducción a la Creación de Empresas y Startups](Introducción%20a%20la%20Creación%20de%20Empresas%20y%20Startups/README.md#introducción-a-la-creación-de-empresas-y-startups)
 2. [Curso de Internacionalización para Startups](Curso%20de%20Internacionalización%20para%20Startups/README.md#curso-de-internacionalización-para-startups)
@@ -69,7 +72,7 @@
 
 ## Quiero seguir aprendiendo
 
-[Platzi](https://platzi.com/r/MineiToshio/) cuenta con más de 120 cursos y 37 carreras.
+[Platzi](https://platzi.com/r/MineiToshio/) cuenta con más de 190 cursos y 39 carreras.
 
 Suscríbete hoy y ¡nunca pares de aprender!  
 [Me quiero suscribir](https://platzi.com/r/MineiToshio/)
