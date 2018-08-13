@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-20-brightgreen.svg?style=flat-square" alt="Cursos 20">
+    <img src="https://img.shields.io/badge/Cursos-21-brightgreen.svg?style=flat-square" alt="Cursos 21">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -60,6 +60,7 @@
 
 ### Negocios Online
 1. [Fundamentos de la Gestión de Proyectos](Fundamentos%20de%20la%20Gestión%20de%20Proyectos/README.md#fundamentos-de-la-gestión-de-proyectos)
+2. [Curso de Atención al Cliente y Soporte a Usuarios](Curso%20de%20Atención%20al%20Cliente%20y%20Soporte%20a%20Usuarios/README.md#curso-de-atención-al-cliente-y-soporte-a-usuarios)
 
 ### Creación de StartUps
 1. [Introducción a la Creación de Empresas y Startups](Introducción%20a%20la%20Creación%20de%20Empresas%20y%20Startups/README.md#introducción-a-la-creación-de-empresas-y-startups)
