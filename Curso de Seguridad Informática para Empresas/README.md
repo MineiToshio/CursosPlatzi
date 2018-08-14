@@ -1,13 +1,13 @@
 # Curso de Seguridad Informática para Empresas<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
-- [Visión general de la Seguridad Informática](#visión-general-de-la-seguridad-informática)
+- [Visión General de la Seguridad Informática](#visión-general-de-la-seguridad-informática)
 - [Diferentes Tipos de Ataques y las Técnicas Modernas](#diferentes-tipos-de-ataques-y-las-técnicas-modernas)
-- [Más allá de ataques informáticos](#más-allá-de-ataques-informáticos)
-- [El usuario en la estrategia de seguridad](#el-usuario-en-la-estrategia-de-seguridad)
+- [Más Allá de Ataques Informáticos](#más-allá-de-ataques-informáticos)
+- [El Usuario en la Estrategia de Seguridad](#el-usuario-en-la-estrategia-de-seguridad)
 - [Enlaces de Interés](#enlaces-de-interés)
 
-## Visión general de la Seguridad Informática
+## Visión General de la Seguridad Informática
 
 ¿Cuánto le cuestan los ataques de seguridad informática a las organizaciones? Existen muchos ejemplos que han dado mucho de que hablar y que han afectado fuertemente a las organizaciones que fueron objetivo de estos ataques incluso algunos de ellos han afectado a nivel mundial.
 
@@ -43,7 +43,7 @@ Veamos algunos de los diferentes tipos de ataques mas usados.
 
 * **Ingeniería Social**, es la forma como los atacantes pueden manipularnos y generar confianza para obtener información que unicamente nosotros conocemos. "
 
-## Más allá de ataques informáticos
+## Más Allá de Ataques Informáticos
 
 Acabamos de ver cuáles son los diferentes tipos de ataques mas usados y cuáles son las técnicas mas modernas, pero la seguridad va mas allá de los ataques informáticos.
 
@@ -63,7 +63,7 @@ Si estoy seguro de que estoy aplicando todos los procedimientos y lo hago de for
 
 Verificar estos procesos de seguramiento de la información debe convertirse en un hábito.
 
-## El usuario en la estrategia de seguridad
+## El Usuario en la Estrategia de Seguridad
 
 La seguridad está mucho más allá de las instalaciones físicas de la empresa.
 
