@@ -225,7 +225,7 @@ Tu objetivo debería ser continuamente salir con estos anuncios generando cobert
 
 <div align="center">
   <img src="img/anuncios-liderazgo.png">
-  <small><p>Evolución del Frontend</p></small>
+  <small><p>Ciclo de Relaciones Públicas</p></small>
 </div>
 
 Si has agotado las opciones de anuncios y artículos de liderazgo y tienes tiempo libre, se puede optar por las siguientes opciones:
