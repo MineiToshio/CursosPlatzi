@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-22-brightgreen.svg?style=flat-square" alt="Cursos 22">
+    <img src="https://img.shields.io/badge/Cursos-23-brightgreen.svg?style=flat-square" alt="Cursos 23">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -34,7 +34,8 @@
 
 ### Arquitectura Frontend
 1. [Curso de Animaciones para la Web](Curso%20de%20Animaciones%20para%20la%20Web/README.md#curso-de-animaciones-para-la-web)
-2. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
+2. [Curso de CSS Grid Layout](Curso%20de%20CSS%20Grid%20Layout/README.md#curso-de-css-grid-layout)
+3. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
 
 ### Desarrollo con Javascript
 <!-- 1. [Curso Avanzado de Node.js](Curso%20Avanzado%20de%20Node.js/README.md#curso-avanzado-de-nodejs) -->
