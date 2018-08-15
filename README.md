@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-23-brightgreen.svg?style=flat-square" alt="Cursos 23">
+    <img src="https://img.shields.io/badge/Cursos-24-brightgreen.svg?style=flat-square" alt="Cursos 24">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -58,6 +58,9 @@
 ### Blockchain y Criptomonedas
 1. [Curso de Bitcoin y Blockchain](Curso%20de%20Bitcoin%20y%20Blockchain/README.md#curso-de-bitcoin-y-blockchain)
 2. [Curso de Inversión en Criptomonedas](Curso%20de%20Inversión%20en%20Criptomonedas/README.md#curso-de-inversión-en-criptomonedas)
+
+### Outbound Marketing
+1. [Curso de Relaciones Públicas y Prensa](Curso%20de%20Relaciones%20Públicas%20y%20Prensa/README.md#fcurso-de-relaciones-públicas-y-prensa)
 
 ### Negocios Online
 1. [Fundamentos de la Gestión de Proyectos](Fundamentos%20de%20la%20Gestión%20de%20Proyectos/README.md#fundamentos-de-la-gestión-de-proyectos)
