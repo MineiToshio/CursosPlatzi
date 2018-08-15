@@ -245,7 +245,7 @@ De corto plazo:
 
 De largo plazo:
 * SEO
-* Te puedes convertie en un líder de pensamiento en un área específica.
+* Te puedes convertir en un líder de pensamiento en un área específica.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
