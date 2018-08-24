@@ -12,28 +12,16 @@
 ## ¿Qué es MEAN?
 
 MEAN es uno de los Stacks tecnológicos más utilizados para crear Single Page Applications:
-**MongoDb** para la base de datos.
 
-**Express** como framework backend corriendo en Node.js.
-
-Y **Angular** para el frontend.
+* **MongoDb** para la base de datos.
+* **Express** como framework backend corriendo en Node.js.
+* **Angular** para el frontend.
+* **Node.js** es nuestro servidor web, encargado de escuchar las peticiones de los usuarios y responderle con los datos que requieran.
+  * Configurar sus rutas
+  * Proteger los recursos
+  * Servir archivos estáticos
 
 Estas tecnologías son muy sencillas de combinar: todo está escrito en JavaScript, incluso la base de datos guarda colecciones con objetos en JSON.
-
-**Node.js** es nuestro servidor web, encargado de escuchar las peticiones de los usuarios y responderle con los datos que requieran.
-
-* Configurar sus rutas
-* Proteger los recursos
-* Servir archivos estáticos
-
-Express es el micro-framework que nos hará la vida mucho más fácil permitiéndonos ahorrar tiempo y líneas de código. A su vez nos brinda la libertad para que organicemos los archivos y usemos los módulos que necesitamos para nuestro proyecto.
-
-En este punto es importante que hablemos de persistencia de datos. MongoDb es una de las bases de datos NoSQL más utilizadas hoy en día. Nos permite almacenar objetos en formato JSON sin un esquema de datos rígido, como en las de datos relacionales.
-Desde Express le pediremos datos a la base de datos, quien nos responderá a nuestras consultas.
-
-Pero todo esto no tiene sentido si los usuarios no pueden acceder a nuestra aplicación visualmente: Angular es la herramienta de nuestra caja que completa el stack. Es uno de los frameworks más populares, cuenta con una de las comunidades más grandes y activas en el desarrollo frontend.
-
-Con Angular podemos crear componentes visuales y reutilizables en todo nuestro proyecto o incluso en otros proyectos. Desarrollar servicios inyectables en estos componentes para comunicarnos con el backend haciendo solicitudes de datos y recibiendo las respuestas.
 
 <div align="center">
   <img src="img/mean-stack.jpg">
