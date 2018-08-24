@@ -36,7 +36,7 @@ Pero todo esto no tiene sentido si los usuarios no pueden acceder a nuestra apli
 Con Angular podemos crear componentes visuales y reutilizables en todo nuestro proyecto o incluso en otros proyectos. Desarrollar servicios inyectables en estos componentes para comunicarnos con el backend haciendo solicitudes de datos y recibiendo las respuestas.
 
 <div align="center">
-  <img src="img/mean-stack.png">
+  <img src="img/mean-stack.jpg">
   <small><p>Stack de MEAN</p></small>
 </div>
 
