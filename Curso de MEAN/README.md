@@ -7,6 +7,8 @@
   - [Developer Experience de Angular:](#developer-experience-de-angular)
   - [Instalación y Configuración de Entorno](#instalación-y-configuración-de-entorno)
   - [Angular Material](#angular-material)
+  - [Estructura de los Archivos](#estructura-de-los-archivos)
+  - [Componentes](#componentes)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es MEAN?
@@ -168,6 +170,56 @@ Para usar los íconos de Material Design, se debe de agregar la fuente de el **i
 
 ```html
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+### Estructura de los Archivos
+
+Existen dos maneras de organizar la estructura de los archivos dentro de nuestro proyecto:
+
+1. Siguiendo la funcionalidad de cada uno de los archivos.
+2. Tenemos ciertos modelos, ciertas pantallas, ciertos componentes o ciertos servicios. Podemos ir almacenando todo en una carpeta según el tipo.
+
+### Componentes
+
+Para crear un componente, se va a crear un archivo con la siguiente nomenclatura: **mi-componente.component.ts**.
+
+```js
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-mi-componente',
+  templateUrl: './mi-componente.component.html'
+})
+
+export class MiComponenteComponent {}
+```
+
+El html del componente se va a escribir en `mi-componente.component.html`.
+
+```html
+<div>hola mundo</div>
+```
+
+Para usar el componente, se debe de importar dentro del componente principal.
+
+```js
+import { MiComponenteComponent } from './mi-componente.component';
+
+@NgModule({
+  //...
+  declarations: [
+    MiComponenteComponent
+  ]
+  //...
+})
+
+export class AppModule { }
+```
+
+Luego se puede usar en el html de la siguiente manera:
+
+```js
+<app-mi-componente></app-mi-componente>
 ```
 
 ## Enlaces de Interés
