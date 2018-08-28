@@ -9,6 +9,8 @@
   - [Angular Material](#angular-material)
   - [Estructura de los Archivos](#estructura-de-los-archivos)
   - [Componentes](#componentes)
+  - [Modelos](#modelos)
+  - [Angular Moment](#angular-moment)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es MEAN?
@@ -222,10 +224,93 @@ Luego se puede usar en el html de la siguiente manera:
 <app-mi-componente></app-mi-componente>
 ```
 
+### Modelos
+
+Los modelos se van a escribir en un archivo aparte. Por ejemplo: **question.model.ts**.
+
+```js
+export class Question {
+  title: string;
+  description: string;
+  createdAt?: Date;
+  icon?: string;
+
+  constructor(
+    title: string,
+    description: string,
+    createdAt?: Date,
+    icon?: string
+  ) {
+    this.title = title;
+    this.description = description;
+    this.createdAt = createdAt;
+    this.icon = icon;
+  }
+}
+```
+
+Para consumir el modelo dentro del componente, hacerlo de la siguiente manera:
+
+```js
+import { Question } from './question.model';
+
+//...
+
+export class QuestionDetailComponent {
+  question: Question = new Question(
+    'Esta es una nueva pregunta sobre Android',
+    'Miren, tengo una dura con una aplicación que estoy escribiendo para Android',
+    new Date,
+    'devicon-android-plain'
+  );
+}
+```
+
+### Angular Moment
+
+**ngx-moment** es una librería que nos permite saber la temporalidad de las acciones en las aplicaciones.
+
+```bash
+$ npm i moment ngx-moment
+```
+
+Luego de instalarlo, se debe de impotar en el módulo de la aplicación:
+
+```js
+import { MomentModule } from 'ngx-moment';
+
+@NgModule({
+  imports: [
+    MomentModule
+  ]
+})
+```
+
+Se usa en el html por medio de los pipes:
+
+```html
+ <div>{{question.createdAt | amTimeAgo}}</div>
+```
+
+Si se quiere cambiar el idioma a español, primero se debe de importar el idioma en el app component.
+
+```js
+import 'moment/locale/es';
+```
+
+Y para consumirlo se hace de la siguiente forma:
+
+```html
+ <small>{{question.createdAt | amLocale:'es' | amTimeAgo}}</small>
+```
+
+
 ## Enlaces de Interés
 * [Curso de MEAN](https://platzi.com/clases/mean/)
 * [Angular](https://angular.io/)
 * [Angular Material](https://material.angular.io/)
+* [Dev Icon](http://konpa.github.io/devicon/)
+* [Ngx Moment](https://github.com/urish/ngx-moment)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
