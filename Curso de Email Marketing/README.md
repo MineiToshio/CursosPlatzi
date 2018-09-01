@@ -14,6 +14,13 @@
   - [Segmentación](#segmentación)
   - [Dónde almacenar la base de datos](#dónde-almacenar-la-base-de-datos)
   - [Limpieza](#limpieza)
+- [Plataformas de Email Marketing](#plataformas-de-email-marketing)
+  - [Mailchimp](#mailchimp)
+  - [Doppler](#doppler)
+  - [Google Analytics](#google-analytics)
+- [Tipos de emails/campañas](#tipos-de-emailscampañas)
+  - [Emails de activación](#emails-de-activación)
+  - [Email de promoción](#email-de-promoción)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -340,6 +347,156 @@ Tipos de email a eliminar:
 * Cuentas con inactividad por más de 6 meses
 * Cuentas mal redactadas (ej.: daniela@gmial.com)
 
+## Plataformas de Email Marketing
+
+<div align="center">
+  <img src="img/email-marketing-scape-fluent.jpg">
+  <small><p>Email Marketing Landscape</p></small>
+</div>
+
+### Mailchimp
+
+* Cuenta gratuita de por vida (hasta 2.000 
+suscriptores, hasta 12.000 emails por mes)
+* Sencillo y fácil de utilizar, súper intuitivo
+* Lleva más tiempo en el mercado 
+* Ofrece integraciones con otras
+plataformas 
+* Plantillas pre-diseñadas
+* Medición instantánea de resultados
+* Fácil organización de listas de usuarios
+
+### Doppler
+
+* Prueba gratuita con hasta 500 suscriptores.
+* Campañas automatizadas
+* Disponible en español
+* Blog constantemente actualizado
+* Medición instantánea de resultados
+* Simple de utilizar
+
+### Google Analytics
+
+* Herramienta de analítica de sitios web
+* Gratuita
+* Herramienta complementaria para el
+análisis de la campaña de email marketing
+* Sirve para analizar las actividades
+realizadas por el usuario en el sitio web,
+una vez que arribó al mismo desde una
+campaña de email marketing
+
+##  Tipos de emails/campañas
+
+### Emails de activación
+
+Los utilizamos siempre que hay un usuario con una nueva suscripción, en este email podemos poner la información de bienvenida, explicar el servicio y/o producto y tal vez algún regalo de bienvenida.
+
+<div align="center">
+  <img src="img/email-bienvenida.jpg">
+  <small><p>Ejemplo: Activa tu cuenta</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida2.jpg">
+  <small><p>Ejemplo: Ventajas comparativas y beneficios</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida3.jpg">
+  <small><p>Ejemplo: Agradecer por el registro y dar ebook</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida4.jpg">
+  <small><p>Ejemplo: Comunicar los productos</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida5.jpg">
+  <small><p>Ejemplo: Motivar a comprar por medio de descuentos</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida6.jpg">
+  <small><p>Ejemplo: Describir las funcionalidades</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida7.jpg">
+  <small><p>Ejemplo: Vínculo emocional</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-bienvenida8.jpg">
+  <small><p>Ejemplo: Cómo funciona el servicio</p></small>
+</div>
+
+### Email de promoción
+
+En este tipo de piezas el objetivo es que los usuarios realicen una compra de un producto o una reserva de un servicio a partir del email que enviamos.
+
+<div align="center">
+  <img src="img/email-promocion.jpg">
+  <small><p>Ejemplo: Listado de productos y servicios</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion2.jpg">
+  <small><p>Ejemplo: Eventos particulares</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion3.jpg">
+  <small><p>Ejemplo: Ofertas</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion4.jpg">
+  <small><p>Ejemplo: Beneficio Vip con tiempo límite</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion5.jpg">
+  <small><p>Ejemplo: Categorías con descuentos exclusivos</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion6.jpg">
+  <small><p>Ejemplo: Descuento a través de cupón</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion7.jpg">
+  <small><p>Ejemplo: Descuento exclusivo</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion8.jpg">
+  <small><p>Ejemplo: Reservar curso</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion9.jpg">
+  <small><p>Ejemplo: Comunicar los eventos y shows</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion10.jpg">
+  <small><p>Ejemplo: Envío gratuito</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion11.jpg">
+  <small><p>Ejemplo: Ventajas del producto</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-promocion12.jpg">
+  <small><p>Ejemplo: ONG</p></small>
+</div>
+
+
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
 * [El foda](docs/foda.pdf)
@@ -350,6 +507,9 @@ Tipos de email a eliminar:
 
 ## Enlaces de Interés
 * [Curso de Email Marketing](https://platzi.com/clases/email-marketing/)
+* [Mailchimp](https://mailchimp.com/)
+* [Doppler](https://www.fromdoppler.com/)
+* [Google Analytics](https://analytics.google.com)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
