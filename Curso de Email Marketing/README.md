@@ -1,6 +1,15 @@
 # Curso de Email Marketing<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
+- [¿Qué es el Email Marketing?](#qué-es-el-email-marketing)
+- [¿Por qué hacer Email Marketing?](#por-qué-hacer-email-marketing)
+- [FODA](#foda)
+- [Ventajas Comparativas](#ventajas-comparativas)
+- [Objetivos](#objetivos)
+- [Planificación de Estrategia](#planificación-de-estrategia)
+- [Público Objetivo (Buyer Persona)](#público-objetivo-buyer-persona)
+- [Recursos Complementarios](#recursos-complementarios)
+- [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es el Email Marketing?
 
