@@ -497,7 +497,7 @@ Here I give you an outline that you can use to create your blobposts:
 </div>
 
 ## Links of Interest
-* https://platzi.com/clases/escritura-ingles/
+* [Curso de Escritura en Inglés](https://platzi.com/clases/escritura-ingles/)
 
 <div align="right">
   <small><a href="#table-of-contents">🡡 to top</a></small>
