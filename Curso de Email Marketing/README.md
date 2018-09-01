@@ -8,6 +8,12 @@
 - [Objetivos](#objetivos)
 - [Planificación de Estrategia](#planificación-de-estrategia)
 - [Público Objetivo (Buyer Persona)](#público-objetivo-buyer-persona)
+- [Competencia](#competencia)
+- [La base de datos](#la-base-de-datos)
+  - [Cómo hacer crecer tu base de datos](#cómo-hacer-crecer-tu-base-de-datos)
+  - [Segmentación](#segmentación)
+  - [Dónde almacenar la base de datos](#dónde-almacenar-la-base-de-datos)
+  - [Limpieza](#limpieza)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -166,7 +172,173 @@ hijos, marido y un perro.
 * Intereses: comida sana, psicología y 
 bienestar, animales.
 
-Nota: Las empresas siempre van a tener más de un úblico objetivo al que le van a hablar.
+**Nota**: Las empresas siempre van a tener más de un público objetivo al que le van a hablar.
+
+## Competencia
+
+Existen dos tipos de competencia:
+
+* **Directa**: Esto implica que las características del producto o servicio son las mismas, la forma de empaque es el mismo, el precio es similar, los lugares de acceso son el mismo, y el tipo de usuarios es el mismo.
+  
+<div align="center">
+  <img src="img/competencia-directa.png">
+  <small><p>Ejemplo: Competencia Directa</p></small>
+</div>
+
+* **Indirecta**: Comparten solamente unas cuantas características, puede ser elegido por los usuarios en lugar del nuestro aunque no son iguales.
+
+<div align="center">
+  <img src="img/competencia-indirecta.png">
+  <small><p>Ejemplo: Competencia Indirecta</p></small>
+</div>
+
+## La base de datos
+
+Dentro del email marketing, hay una herramienta central sin la cual, no podríamos hacer ningún tipo de campaña. ¿Cuál es? La base de datos.
+
+**¿Qué es una base de datos?** Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. Una biblioteca con libros o cds, puede considerarse una base de datos.
+
+Las base de datos deben crearse desde el inicio de un negocio, empresa o marca, obteniendo el email de clientes o posibles clientes en forma genuina (los usuarios tuvieron que haber aceptado, en alguna instancia, brindarte su email y recibir campañas de parte de la empresa).
+
+Gracias al avance de la tecnología, contamos con bases de datos almacenados en medios digitales.
+
+En el caso del email marketing, las bases de datos contendrán información de nuestros usuarios (entre ellos, su cuenta de email, un punto fundamental).
+
+**¿Dónde se almacenan las bases de datos?**
+
+En caso de que cuentes con un sitio web propio, se utiliza el SQL (Structured Query Language), que es un lenguaje utilizado para acceder al sistema de gestión de la base de datos de tu sitio web.
+
+También puedes almacenar estos datos en una plantilla tipo Microsoft Excel, Hoja de cálculo de Google Drive, Microsoft Access o, inclusive, en un bloc de notas (aunque esta última herramienta no es recomendada, ya que no permite ordenar los datos).
+
+Es súper importante que esta información esté clasificada y organizada según distintas variables, tales como email, nombre, ciudad, edad, intereses de los usuarios, fecha de última compra, género o tipos de clientes.
+
+**Es fundamental evitar comprar bases de datos. ¿Por qué?**
+
+Antes que nada, por un aspecto legal: cuando compramos una base de datos los destinatarios de la misma (en la mayoría de los casos) no han dado su consentimiento para que les enviemos información.
+
+Muchas veces, estas bases de emails están compuestas por emails que han sido recopilados de manera poco éticas y/o fraudulentas.
+
+Al comprar bases de datos, se incrementan muchísimo los chances de que tu email caiga en SPAM (o sea, que los usuarios no solo no vean tu mensaje, si no que sospechen acerca de tu reputación como empresa).
+
+En paralelo, si la plataforma que utilizas para envío de emails (Mailchimp, Benchmark, etc.) detecta que usas bases de datos compradas y tus emails caen en SPAM, puede llegar a dar de baja tu cuenta y tu reputación como remitente, se verá afectada.
+
+**Recuerda**:
+Las bases de datos para campañas de email marketing deben armarse a lo largo del tiempo.
+El usuario tuvo que haber dado su consentimiento para recibir un email de tu marca/empresa.
+El objetivo del email marketing es generar vínculos a largo plazo con los usuarios y que confíen en nuestra marca/empresa.
+
+### Cómo hacer crecer tu base de datos
+
+* **Formulario de contacto** con suscripción al mailing. Se recomienda dar algo a cambio de la suscripción, por ejemplo, vales de descuentos o ofertas especiales.
+
+<div align="center">
+  <img src="img/formulario-contacto.jpg">
+  <small><p>Ejemplo: Formulario de Contacto</p></small>
+</div>
+
+* **Lead Magnet**, ofrecer un regalo a cambio de los datos del usuarios. Por ejemplo, un ebook, un gráfico, un reporte, pdf, etc.
+
+<div align="center">
+  <img src="img/lead-magnet.jpg">
+  <small><p>Ejemplo: Lead Magnet</p></small>
+</div>
+
+* **Landing Page** donde el call to actión es dejar tu correo.
+
+<div align="center">
+  <img src="img/landing-page.jpg">
+  <small><p>Ejemplo: Landing Page</p></small>
+</div>
+
+* **Welcome mat**, es un popup que aparce al entrar a una página y ocupa toda la pantalla y se le invita al usuario a dejar su email a cambio de novedades y descuentos.
+
+<div align="center">
+  <img src="img/welcome-mat.jpg">
+  <small><p>Ejemplo: Welcome Mat</p></small>
+</div>
+
+* **Smart bar** es una parra laterial o en la parte superior de la web en donde se invita al usuario a dejar su correo.
+
+<div align="center">
+  <img src="img/smart-bar.jpg">
+  <small><p>Ejemplo: Smart Bar</p></small>
+</div>
+
+* **Login con redes sociales**. Con las redes sociales facilitamos su resgistro y obtenemos su email.
+
+<div align="center">
+  <img src="img/login-facebook.jpg">
+  <small><p>Ejemplo: Login con Facebook</p></small>
+</div>
+
+* **Hacer concursos** por redes sociales.
+
+<div align="center">
+  <img src="img/concursos-redes.jpg">
+  <small><p>Ejemplo: Concurso por Facebook</p></small>
+</div>
+
+* **Facebook Ads** permite hacer campañas en donde se ofrece al usuario dejar su email.
+
+<div align="center">
+  <img src="img/facebook-ads.jpg">
+  <small><p>Ejemplo: Facebook Ads</p></small>
+</div>
+
+* **Entregando formularios de contacto físicos** en ferias, eventos, locales del negocio, etc.
+
+  **Ejemplo**:
+  * ¿Cómo calificarías la atención recibida?
+  * ¿Qué nos recomendarías para mejorar nuestro servicio en nuestros restaurantes?
+  * ¿Cuál es tu opinión sobre nuestra oferta gastronómica?
+  * Déjanos tu email para recibir novedades y descuentos exclusivos en todas nuestras
+  sucursales
+
+### Segmentación
+
+**Segmentar** = Agrupar a los usuarios según ciertos criterios o ciertas variables.
+
+**Puntos importantes**:
+* Es importante que para comenzar la segmentación se tenga bien definido a los Buyer-Persona.
+* La segmentación se va a reflejar parcialmente en cómo se va a estructurar el formulario de contacto que se tenga en el sitio web.
+* Hay que evaluar cuáles son los criterios que queremos utilizar para segmentar.
+
+**¿Qué criterios utilizar?**
+* Puedes utilizar infinita cantidad de criterios y variables
+para segmentar tu base de datos.
+* Veamos algunas opciones:
+* Sexo/género
+* Edad
+* Fecha de última compra en tu sitio web
+* Productos/servicios comprados
+* Ubicación geográfica
+* Industria/profesión
+* Datos sobre mascota
+* Tipo de cliente (consumidor final, mayorista, empresa)
+* Intereses
+
+### Dónde almacenar la base de datos
+
+* Las bases de datos se pueden alojar en:
+* Planilla de cálculos (Excel, Hoja de 
+cálculo de Drive)
+* Notepad / Bloc de notas
+* Access (programa de Microsoft Office)
+* Servidores de base de datos vinculados 
+a sitios web (SQL, MySQL, etc.)
+
+### Limpieza 
+
+**¿Por qué es importante?**
+* Nos aseguramos de trabajar con usuarios cuyas cuentas de email se encuentren activas.
+* Evitamos penalizaciones por parte de la plataforma de email marketing que utilicemos para
+envío de campañas.
+* Reducimos las posibilidades de caer en SPAM.
+
+Tipos de email a eliminar:
+* Cuentas inexistentes
+* Cuentas con inactividad por más de 6 meses
+* Cuentas mal redactadas (ej.: daniela@gmial.com)
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
