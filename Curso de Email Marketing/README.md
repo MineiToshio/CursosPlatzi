@@ -41,6 +41,10 @@
 
 El Email Marketing es una herramienta digital de tipo directo. Se utiliza como contacto entre una marca y su público objetivo a través de correo electrónico.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## ¿Por qué hacer email marketing?
 
 El email marketing es una herramienta que proporciona una gran cantidad de ventajas, entre ellas:
@@ -52,6 +56,10 @@ El email marketing es una herramienta que proporciona una gran cantidad de venta
 * **Medición inmediata de resultados y optimización**
 * **Gran complemento de la estrategia omnicanal**
 * **A/B Testing**
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## FODA
 
@@ -75,6 +83,10 @@ Todo esto frente a las cuales se encuentra una marca, un producto o un servicio.
   <small><p>Ejemplo: Foda Restaurante</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Ventajas comparativas
 
 Las Ventajas Comparativas son aquellos puntos que distinguen una marca/producto/servicio de otros que son competencia y que proporcionan un panorama para poder comunicar lo adecuado en una campaña de Email Marketing.
@@ -88,6 +100,10 @@ Las Ventajas Comparativas son aquellos puntos que distinguen una marca/producto/
 * Posibilidad de estudiar online cuándo quieras y dónde quieras.
 * Mentoría permanente.
 * App y contenido online.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Objetivos
 
@@ -152,6 +168,10 @@ Los objetivos deben tener una características en especial, es una regla mnemot�
   <small><p>Ejemplo: Descargar Archivos</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Planificación de estrategia
 
 **¿Cómo hago para llegar a los objetivos?**
@@ -160,6 +180,10 @@ Los objetivos deben tener una características en especial, es una regla mnemot�
 * Público objetivo
 * Tipo de contenido que voy a ofrecer en las 
 campañas de email marketing (descuentos, links a artículos de interés, descarga de catálogos online, etc.).
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Público objetivo (buyer persona)
 
@@ -194,6 +218,10 @@ bienestar, animales.
 
 **Nota**: Las empresas siempre van a tener más de un público objetivo al que le van a hablar.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Competencia
 
 Existen dos tipos de competencia:
@@ -210,6 +238,10 @@ Existen dos tipos de competencia:
 <div align="center">
   <img src="img/competencia-indirecta.png">
   <small><p>Ejemplo: Competencia Indirecta</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ## La base de datos
@@ -246,6 +278,10 @@ En paralelo, si la plataforma que utilizas para envío de emails (Mailchimp, Ben
 Las bases de datos para campañas de email marketing deben armarse a lo largo del tiempo.
 El usuario tuvo que haber dado su consentimiento para recibir un email de tu marca/empresa.
 El objetivo del email marketing es generar vínculos a largo plazo con los usuarios y que confíen en nuestra marca/empresa.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Cómo hacer crecer tu base de datos
 
@@ -314,6 +350,10 @@ El objetivo del email marketing es generar vínculos a largo plazo con los usuar
   * Déjanos tu email para recibir novedades y descuentos exclusivos en todas nuestras
   sucursales
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Segmentación
 
 **Segmentar** = Agrupar a los usuarios según ciertos criterios o ciertas variables.
@@ -337,6 +377,10 @@ para segmentar tu base de datos.
 * Tipo de cliente (consumidor final, mayorista, empresa)
 * Intereses
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Dónde almacenar la base de datos
 
 * Las bases de datos se pueden alojar en:
@@ -346,6 +390,10 @@ cálculo de Drive)
 * Access (programa de Microsoft Office)
 * Servidores de base de datos vinculados 
 a sitios web (SQL, MySQL, etc.)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Limpieza 
 
@@ -360,11 +408,19 @@ Tipos de email a eliminar:
 * Cuentas con inactividad por más de 6 meses
 * Cuentas mal redactadas (ej.: daniela@gmial.com)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Plataformas de email marketing
 
 <div align="center">
   <img src="img/email-marketing-scape-fluent.jpg">
   <small><p>Email Marketing Landscape</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Mailchimp
@@ -379,6 +435,10 @@ plataformas
 * Medición instantánea de resultados
 * Fácil organización de listas de usuarios
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Doppler
 
 * Prueba gratuita con hasta 500 suscriptores.
@@ -387,6 +447,10 @@ plataformas
 * Blog constantemente actualizado
 * Medición instantánea de resultados
 * Simple de utilizar
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Google Analytics
 
@@ -398,6 +462,10 @@ análisis de la campaña de email marketing
 realizadas por el usuario en el sitio web,
 una vez que arribó al mismo desde una
 campaña de email marketing
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ##  Tipos de emails/campañas
 
@@ -443,6 +511,10 @@ Los utilizamos siempre que hay un usuario con una nueva suscripción, en este em
 <div align="center">
   <img src="img/email-bienvenida8.jpg">
   <small><p>Ejemplo: Cómo funciona el servicio</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Email de promoción
@@ -509,6 +581,10 @@ En este tipo de piezas el objetivo es que los usuarios realicen una compra de un
   <small><p>Ejemplo: ONG</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Email de contenido
 
 Tiene como objetivo vincularnos con el usuario en el mediano y largo plazo.
@@ -545,6 +621,10 @@ Estos emails no tienen como objetivo la venta inmediata o directa. Es simplement
   <small><p>Ejemplo: Platzi live</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Emails de reactivación o seguimiento
 
 Se utilizan por lo general para llamar la atención de los usuarios que hace tiempo no entran a nuestro sitio o que no ha ido a nuestro local físico o para los usuarios que no completaron la conversión en nuestro sitio.
@@ -562,6 +642,10 @@ Se utilizan por lo general para llamar la atención de los usuarios que hace tie
 <div align="center">
   <img src="img/email-reactivacion3.jpg">
   <small><p>Ejemplo: Termina tu compra</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Emails institucionales
@@ -588,6 +672,10 @@ Son utilizados para comunicar novedades puntuales sobre la institución o la mar
   <small><p>Ejemplo: Logros de la empresa</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Frecuencia recomendada para campañas
 
 * No saturar a los usuarios con tantas piezas de comunicación.
@@ -599,6 +687,10 @@ Son utilizados para comunicar novedades puntuales sobre la institución o la mar
 **Preguntas a hacerse**: 
 * ¿Ha bajado mi tasa de apertura?
 * ¿Se han desuscrito gran cantidad de usuarios?
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Subject lines
 
@@ -630,11 +722,19 @@ Es una de las primeras variables que ven los usuarios cuando reciben la campaña
   * No te pierdas las últimas horas con ofertas
 * Emojis: ayudan a destacar tu email
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Palabras sensibles a spam
 
 <div align="center">
   <img src="img/palabras-spam.jpg">
   <small><p>Palabras sensibles a spam</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ## Anatomía de un mensaje efectivo
@@ -675,6 +775,10 @@ Elementos que forman la anatomía de un mensaje efectivo:
   <small><p>Ejemplo: Descargafr paquete</p></small>
 </div>
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Estructura estándar de una pieza de email marketing
 
 <div align="center">
@@ -690,6 +794,10 @@ Elementos que forman la anatomía de un mensaje efectivo:
 * Link al sitio web y/o redes sociales
 * Pie de pieza: Descripción, información y contacto de la empresa
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Recomendaciones para estructurar emails
 
 * Gran carga visual, poco texto (relación 70/30) Mantener diseño e imagen de marca a lo largo de todas las campañas (no utilizar más de 3 plantillas de diseño).
@@ -697,6 +805,10 @@ Elementos que forman la anatomía de un mensaje efectivo:
 * Si ubicas el logo de la marca en el header/encabezado, que ocupe hasta un 10% del total de la pieza.
 * Si hay texto, utilizar negrita para destacar palabras importantes. Frases cortas.
 * Footer/pie del email: incluir datos de contacto de la empresa, links a sitios web, redes sociales y opción de desuscripción.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Testeo de campañas
 
@@ -713,6 +825,10 @@ Previo a hacer el lanzamiento de la campaña de Email Marketing hay que probar q
 * Chequear que la pieza sea de fácil lectura y visualización en dispositivos móviles.
 * Corroborar que los links de los call-to-action redirijan al enlace correcto.
 * El footer debe tener opción de opt-out y datos de contacto de la empresa.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Estadísticas y análisis de campañas
 
@@ -734,6 +850,10 @@ Las métricas se utilizan con el objetivo de saber qué funcionó y se puede rep
 | :-----------: |:---------:| :-------:|
 | %100 - %98    | %15 - %30 | %3 - %10 |
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Test A/B
 
 * Testeo de una variable, que cobra dos valores
@@ -753,6 +873,10 @@ Las métricas se utilizan con el objetivo de saber qué funcionó y se puede rep
 * Analizar resultados
 * El email con mejores resultados (A o B), será utilizado para el 90% del segmento restante
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Tips Finales
 
 * Considerar por qué motivos envías el email.
@@ -764,6 +888,10 @@ analice previo al envío.
 Posteriores al lanzamiento de la campaña), y tomar
 decisiones para futuras campañas.
 * Realizar test A/B, siempre que haya tiempo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
