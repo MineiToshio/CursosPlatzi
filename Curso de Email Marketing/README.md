@@ -21,6 +21,15 @@
 - [Tipos de emails/campañas](#tipos-de-emailscampañas)
   - [Emails de activación](#emails-de-activación)
   - [Email de promoción](#email-de-promoción)
+  - [Email de contenido](#email-de-contenido)
+  - [Emails de reactivación o seguimiento](#emails-de-reactivación-o-seguimiento)
+  - [Emails institucionales](#emails-institucionales)
+- [Frecuencia recomendada para campañas](#frecuencia-recomendada-para-campañas)
+- [Subject Lines](#subject-lines)
+- [Palabras sensibles a spam](#palabras-sensibles-a-spam)
+- [Anatomía de un mensaje efectivo](#anatomía-de-un-mensaje-efectivo)
+  - [Estructura estándar de una pieza de Email Marketing](#estructura-estándar-de-una-pieza-de-email-marketing)
+  - [Recomendaciones](#recomendaciones)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -496,6 +505,194 @@ En este tipo de piezas el objetivo es que los usuarios realicen una compra de un
   <small><p>Ejemplo: ONG</p></small>
 </div>
 
+### Email de contenido
+
+Tiene como objetivo vincularnos con el usuario en el mediano y largo plazo.
+
+Estos emails no tienen como objetivo la venta inmediata o directa. Es simplemente el dar a los usuarios datos de interés que estén vinculados con lo que a ellos les interesa.
+
+<div align="center">
+  <img src="img/email-contenido.jpg">
+  <small><p>Ejemplo: Recetas de comida</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-contenido2.jpg">
+  <small><p>Ejemplo: Artículos de interés</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-contenido3.jpg">
+  <small><p>Ejemplo: Noticias sobre gastronomía</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-contenido4.jpg">
+  <small><p>Ejemplo: Tips de gráficos</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-contenido5.jpg">
+  <small><p>Ejemplo: Novedades y artículos de comercio</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-contenido6.jpg">
+  <small><p>Ejemplo: Platzi live</p></small>
+</div>
+
+### Emails de reactivación o seguimiento
+
+Se utilizan por lo general para llamar la atención de los usuarios que hace tiempo no entran a nuestro sitio o que no ha ido a nuestro local físico o para los usuarios que no completaron la conversión en nuestro sitio.
+
+<div align="center">
+  <img src="img/email-reactivacion.jpg">
+  <small><p>Ejemplo: Descuento poara que vuelvan</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-reactivacion2.jpg">
+  <small><p>Ejemplo: Te extrañamos</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-reactivacion3.jpg">
+  <small><p>Ejemplo: Termina tu compra</p></small>
+</div>
+
+### Emails institucionales
+
+Son utilizados para comunicar novedades puntuales sobre la institución o la marca en la cual trabajas.
+
+<div align="center">
+  <img src="img/email-institucional.jpg">
+  <small><p>Ejemplo: Novedades legislativas</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-institucional2.jpg">
+  <small><p>Ejemplo: Cómo ellos protegen la privacidad</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-institucional3.jpg">
+  <small><p>Ejemplo: Novedades de la institución</p></small>
+</div>
+
+<div align="center">
+  <img src="img/email-institucional4.jpg">
+  <small><p>Ejemplo: Logros de la empresa</p></small>
+</div>
+
+## Frecuencia recomendada para campañas
+
+* No saturar a los usuarios con tantas piezas de comunicación.
+* La frecuencia mensual se puede convertir en un estándar de comunicación con nuestros usuarios.
+* La frecuencia del envío de campañas va a depender del rubro en el cual estés trabajando y cómo funciona tu público objetivo.
+* La frecuencia también va a estar sujeta a lo que se tienes para comunicar a los usuarios.
+* Hay que estar pendiente de las métricas de las campañas, porque nos indicarán qué tan frecuentemente podemos hacer los envíos.
+
+**Preguntas a hacerse**: 
+* ¿Ha bajado mi tasa de apertura?
+* ¿Se han desuscrito gran cantidad de usuarios?
+
+## Subject Lines
+
+El subject line es también conocido como el asunto. Es una línea de texto que va a definir si el usuario abre nuestro email o no.
+
+Es una de las primeras variables que ven los usuarios cuando reciben la campaña.
+
+**¿Qué debemos tomar en cuenta a la hora de hacer un subject?**
+
+* **Llamativo**. Tiene que captar la atención de nuestros usuarios.
+* **Apelar a lo emocional**
+* **Usar el rango de caracteres recomendado**. El máximo recomendado son 50 caracteres, pero es mejor usar menos, hasta 35 ya que en este tiempo es muy común el uso de dispositivos móviles para la lectura de emails y en este caso, es más reducido el espacio que se muestra en las aplicaciones.
+* **No abusar de los signos de interrogación y exclamación**. Se corre el riesgo que los servicios de correo electrónico en sus filtros nos manden a spam con el abuso de signos.
+* **Optimizar el nombre del remitente**. Muchos no identifican a la empresa que está enviando el correo. Por eso es mejor dar una identificación clara. Ejemplo: 
+* **No abusar de las mayúsculas**
+
+**Algunos subject lines efectivos**:
+* Preguntas o desafios
+  * ¿Estudiamos juntos?
+  * ¿Qué esperas para arrancar?
+* Call to action (llamada a la acción)
+  * ¡Aprovecha el 3x2 en hamburguesas!
+  * ¡No te pierdas tus últimas horas exclusivas!
+  * ¡Disfruta con estos descuentos!
+* Imperativos
+* Sensación de urgencia
+  * 2x1 solo por hoy!
+  * Último día con 2x1
+  * No te pierdas las últimas horas con ofertas
+* Emojis: ayudan a destacar tu email
+
+## Palabras sensibles a spam
+
+<div align="center">
+  <img src="img/palabras-spam.jpg">
+  <small><p>Palabras sensibles a spam</p></small>
+</div>
+
+## Anatomía de un mensaje efectivo
+
+Elementos que forman la anatomía de un mensaje efectivo:
+
+* **Responsive Design**. Que la pieza de email se adapte a cualquier dispositivo en el que los usuarios abran nuestro email.
+
+* **Call to action**. Es un botón que va a estar en la mayoría de los emails. Este botón debería corresponder con los objetivos de la campaña y debe ser contrastar con el diseño que se está utilizando, llamando la atención.
+
+<div align="center">
+  <img src="img/call-to-action.jpg">
+  <small><p>Ejemplo: Llévate todo</p></small>
+</div>
+
+<div align="center">
+  <img src="img/call-to-action2.jpg">
+  <small><p>Ejemplo: Compra</p></small>
+</div>
+
+<div align="center">
+  <img src="img/call-to-action3.jpg">
+  <small><p>Ejemplo: Encuentra tickets</p></small>
+</div>
+
+<div align="center">
+  <img src="img/call-to-action4.jpg">
+  <small><p>Ejemplo: Meses gratis</p></small>
+</div>
+
+<div align="center">
+  <img src="img/call-to-action5.jpg">
+  <small><p>Ejemplo: Ver rebajas</p></small>
+</div>
+
+<div align="center">
+  <img src="img/call-to-action6.jpg">
+  <small><p>Ejemplo: Descargafr paquete</p></small>
+</div>
+
+### Estructura estándar de una pieza de Email Marketing
+
+<div align="center">
+  <img src="img/estructura-mensaje.png">
+  <small><p>Estructura estándar de un email</p></small>
+</div>
+
+* Subject line y remitente
+* Logo de la marca o empresa
+* Imagen principal
+* Call to action
+* Bloques de contenido adicional
+* Link al sitio web y/o redes sociales
+* Pie de pieza: Descripción, información y contacto de la empresa
+
+### Recomendaciones
+
+* Gran carga visual, poco texto (relación 70/30) Mantener diseño e imagen de marca a lo largo de todas las campañas (no utilizar más de 3 plantillas de diseño).
+* Hasta 3 fuentes distintas, hasta 3 o 4 colores (tomados de paleta de colores de la marca).
+* Si ubicas el logo de la marca en el header/encabezado, que ocupe hasta un 10% del total de la pieza.
+* Si hay texto, utilizar negrita para destacar palabras importantes. Frases cortas.
+* Footer/pie del email: incluir datos de contacto de la empresa, links a sitios web, redes sociales y opción de desuscripción.
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
