@@ -30,6 +30,7 @@
 - [Anatomía de un mensaje efectivo](#anatomía-de-un-mensaje-efectivo)
   - [Estructura estándar de una pieza de Email Marketing](#estructura-estándar-de-una-pieza-de-email-marketing)
   - [Recomendaciones](#recomendaciones)
+- [Testeo de campañas](#testeo-de-campañas)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -693,6 +694,22 @@ Elementos que forman la anatomía de un mensaje efectivo:
 * Si ubicas el logo de la marca en el header/encabezado, que ocupe hasta un 10% del total de la pieza.
 * Si hay texto, utilizar negrita para destacar palabras importantes. Frases cortas.
 * Footer/pie del email: incluir datos de contacto de la empresa, links a sitios web, redes sociales y opción de desuscripción.
+
+## Testeo de campañas
+
+Previo a hacer el lanzamiento de la campaña de Email Marketing hay que probar que la pieza funciona bien. 
+
+**Antes del envío de testeo**:
+* Revisar que no haya errores de ortografía
+* Asegurarse que un tercero (persona ajena a la marca, que no está viciada por los contenidos de la misma) observe la pieza y nos brinde su feedback
+
+**Envío de pieza para testeo**:
+* Enviar la campaña de prueba.
+* Testear la campaña en distintos dispositivos y servidores de email
+* Corroborar que el subject line sea legible en celulares (que no se corte).
+* Chequear que la pieza sea de fácil lectura y visualización en dispositivos móviles.
+* Corroborar que los links de los call-to-action redirijan al enlace correcto.
+* El footer debe tener opción de opt-out y datos de contacto de la empresa.
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
