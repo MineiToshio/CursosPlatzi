@@ -31,6 +31,7 @@
   - [Estructura estándar de una pieza de Email Marketing](#estructura-estándar-de-una-pieza-de-email-marketing)
   - [Recomendaciones](#recomendaciones)
 - [Testeo de campañas](#testeo-de-campañas)
+- [Estadísticas y análisis de campañas](#estadísticas-y-análisis-de-campañas)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -710,6 +711,28 @@ Previo a hacer el lanzamiento de la campaña de Email Marketing hay que probar q
 * Chequear que la pieza sea de fácil lectura y visualización en dispositivos móviles.
 * Corroborar que los links de los call-to-action redirijan al enlace correcto.
 * El footer debe tener opción de opt-out y datos de contacto de la empresa.
+
+## Estadísticas y análisis de campañas
+
+Las métricas se utilizan con el objetivo de saber qué funcionó y se puede replicar en futuras campañas y qué fue lo que no funcionó y se tendría que modificar en el futuro.
+
+**Variables que se analizan en las métricas**:
+
+* **Enviados**. Cantidad de emails enviados.
+* **Delivery**. Cuántas cuentas de email realmente recibieron la campaña.
+* **Tasa de entrega (delivery rate)**. (Emails entregados/Emails a los que se envió)*100
+* **Apertura**. La cantidad de usuarios que abrieron el email.
+* **Tasa de apertura (open rate)**. (Emails abiertos/Emails entregados)100
+* **Clicks**. La interacción que los usuarios tuvieron con el contenido del email.
+* **Tasa de click (click-through rate)**. (Clicks/Emails entregados)*100
+
+**Métricas promedio de email marketing**
+
+| DELIVERY RATE | OPEN RATE |    CTR   |
+| :-----------: |:---------:| :-------:|
+| %100 - %98    | %15 - %30 | %3 - %10 |
+
+
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
