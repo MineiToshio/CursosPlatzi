@@ -1,20 +1,20 @@
 # Curso de Email Marketing<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
-- [¿Qué es el Email Marketing?](#qué-es-el-email-marketing)
-- [¿Por qué hacer Email Marketing?](#por-qué-hacer-email-marketing)
+- [¿Qué es el email marketing?](#qué-es-el-email-marketing)
+- [¿Por qué hacer email marketing?](#por-qué-hacer-email-marketing)
 - [FODA](#foda)
-- [Ventajas Comparativas](#ventajas-comparativas)
+- [Ventajas comparativas](#ventajas-comparativas)
 - [Objetivos](#objetivos)
-- [Planificación de Estrategia](#planificación-de-estrategia)
-- [Público Objetivo (Buyer Persona)](#público-objetivo-buyer-persona)
+- [Planificación de estrategia](#planificación-de-estrategia)
+- [Público objetivo (buyer persona)](#público-objetivo-buyer-persona)
 - [Competencia](#competencia)
 - [La base de datos](#la-base-de-datos)
   - [Cómo hacer crecer tu base de datos](#cómo-hacer-crecer-tu-base-de-datos)
   - [Segmentación](#segmentación)
   - [Dónde almacenar la base de datos](#dónde-almacenar-la-base-de-datos)
   - [Limpieza](#limpieza)
-- [Plataformas de Email Marketing](#plataformas-de-email-marketing)
+- [Plataformas de email marketing](#plataformas-de-email-marketing)
   - [Mailchimp](#mailchimp)
   - [Doppler](#doppler)
   - [Google Analytics](#google-analytics)
@@ -25,21 +25,23 @@
   - [Emails de reactivación o seguimiento](#emails-de-reactivación-o-seguimiento)
   - [Emails institucionales](#emails-institucionales)
 - [Frecuencia recomendada para campañas](#frecuencia-recomendada-para-campañas)
-- [Subject Lines](#subject-lines)
+- [Subject lines](#subject-lines)
 - [Palabras sensibles a spam](#palabras-sensibles-a-spam)
 - [Anatomía de un mensaje efectivo](#anatomía-de-un-mensaje-efectivo)
-  - [Estructura estándar de una pieza de Email Marketing](#estructura-estándar-de-una-pieza-de-email-marketing)
-  - [Recomendaciones](#recomendaciones)
+  - [Estructura estándar de una pieza de email marketing](#estructura-estándar-de-una-pieza-de-email-marketing)
+  - [Recomendaciones para estructurar emails](#recomendaciones-para-estructurar-emails)
 - [Testeo de campañas](#testeo-de-campañas)
 - [Estadísticas y análisis de campañas](#estadísticas-y-análisis-de-campañas)
+- [Test A/B](#test-ab)
+- [Tips Finales](#tips-finales)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
-## ¿Qué es el Email Marketing?
+## ¿Qué es el email marketing?
 
 El Email Marketing es una herramienta digital de tipo directo. Se utiliza como contacto entre una marca y su público objetivo a través de correo electrónico.
 
-## ¿Por qué hacer Email Marketing?
+## ¿Por qué hacer email marketing?
 
 El email marketing es una herramienta que proporciona una gran cantidad de ventajas, entre ellas:
 
@@ -73,7 +75,7 @@ Todo esto frente a las cuales se encuentra una marca, un producto o un servicio.
   <small><p>Ejemplo: Foda Restaurante</p></small>
 </div>
 
-## Ventajas Comparativas
+## Ventajas comparativas
 
 Las Ventajas Comparativas son aquellos puntos que distinguen una marca/producto/servicio de otros que son competencia y que proporcionan un panorama para poder comunicar lo adecuado en una campaña de Email Marketing.
 
@@ -150,7 +152,7 @@ Los objetivos deben tener una características en especial, es una regla mnemot�
   <small><p>Ejemplo: Descargar Archivos</p></small>
 </div>
 
-## Planificación de Estrategia
+## Planificación de estrategia
 
 **¿Cómo hago para llegar a los objetivos?**
 * Considerar ventajas comparativas
@@ -159,7 +161,7 @@ Los objetivos deben tener una características en especial, es una regla mnemot�
 * Tipo de contenido que voy a ofrecer en las 
 campañas de email marketing (descuentos, links a artículos de interés, descarga de catálogos online, etc.).
 
-## Público Objetivo (Buyer Persona)
+## Público objetivo (buyer persona)
 
 Target, Público Objetivo y Buyer-Persona son tres formas distintas de referirse al público al que va a ir dirigido las campañas de email marketing.
 
@@ -358,7 +360,7 @@ Tipos de email a eliminar:
 * Cuentas con inactividad por más de 6 meses
 * Cuentas mal redactadas (ej.: daniela@gmial.com)
 
-## Plataformas de Email Marketing
+## Plataformas de email marketing
 
 <div align="center">
   <img src="img/email-marketing-scape-fluent.jpg">
@@ -598,7 +600,7 @@ Son utilizados para comunicar novedades puntuales sobre la institución o la mar
 * ¿Ha bajado mi tasa de apertura?
 * ¿Se han desuscrito gran cantidad de usuarios?
 
-## Subject Lines
+## Subject lines
 
 El subject line es también conocido como el asunto. Es una línea de texto que va a definir si el usuario abre nuestro email o no.
 
@@ -673,7 +675,7 @@ Elementos que forman la anatomía de un mensaje efectivo:
   <small><p>Ejemplo: Descargafr paquete</p></small>
 </div>
 
-### Estructura estándar de una pieza de Email Marketing
+### Estructura estándar de una pieza de email marketing
 
 <div align="center">
   <img src="img/estructura-mensaje.png">
@@ -688,7 +690,7 @@ Elementos que forman la anatomía de un mensaje efectivo:
 * Link al sitio web y/o redes sociales
 * Pie de pieza: Descripción, información y contacto de la empresa
 
-### Recomendaciones
+### Recomendaciones para estructurar emails
 
 * Gran carga visual, poco texto (relación 70/30) Mantener diseño e imagen de marca a lo largo de todas las campañas (no utilizar más de 3 plantillas de diseño).
 * Hasta 3 fuentes distintas, hasta 3 o 4 colores (tomados de paleta de colores de la marca).
@@ -732,11 +734,41 @@ Las métricas se utilizan con el objetivo de saber qué funcionó y se puede rep
 | :-----------: |:---------:| :-------:|
 | %100 - %98    | %15 - %30 | %3 - %10 |
 
+## Test A/B
 
+* Testeo de una variable, que cobra dos valores
+* Corroborar qué opción funciona mejor en nuestra base de datos
+
+**¿Qué se puede testear?**
+* Subject line
+* Hora y día de envío
+* Diseño del email
+* Call-to-action
+
+**Proceso**
+* Seleccionar un 10% del segmento de la base de datos a utilizar
+* Ese 10%, dividirlo en dos partes
+* A una parte, se le enviará el email tipo A
+* A la otra parte, se le enviará el email tipo B
+* Analizar resultados
+* El email con mejores resultados (A o B), será utilizado para el 90% del segmento restante
+
+## Tips Finales
+
+* Considerar por qué motivos envías el email.
+* Pensar en un contenido que sea relevante para el grupo de usuarios al que quieres llegar.
+* Recuerda que el diseño sea atractivo, y que un tercero lo 
+analice previo al envío.
+* Realizar testeo de pieza final, previo al envío de la campaña.
+* Analizar resultados/métricas (aguardar hasta 48 / 72 hs. 
+Posteriores al lanzamiento de la campaña), y tomar
+decisiones para futuras campañas.
+* Realizar test A/B, siempre que haya tiempo.
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/platzi-email-marketing-course.pdf)
 * [El foda](docs/foda.pdf)
+* [Checklist](docs/checklist.xlsx)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
