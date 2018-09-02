@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-24-brightgreen.svg?style=flat-square" alt="Cursos 24">
+    <img src="https://img.shields.io/badge/Cursos-25-brightgreen.svg?style=flat-square" alt="Cursos 25">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -60,7 +60,10 @@
 2. [Curso de Inversión en Criptomonedas](Curso%20de%20Inversión%20en%20Criptomonedas/README.md#curso-de-inversión-en-criptomonedas)
 
 ### Outbound Marketing
-1. [Curso de Relaciones Públicas y Prensa](Curso%20de%20Relaciones%20Públicas%20y%20Prensa/README.md#fcurso-de-relaciones-públicas-y-prensa)
+1. [Curso de Relaciones Públicas y Prensa](Curso%20de%20Relaciones%20Públicas%20y%20Prensa/README.md#curso-de-relaciones-públicas-y-prensa)
+
+### Email Marketing
+1. [Curso de Email Marketing](Curso%20de%20Email%20Marketing/README.md#curso-de-email-marketing)
 
 ### Negocios Online
 1. [Fundamentos de la Gestión de Proyectos](Fundamentos%20de%20la%20Gestión%20de%20Proyectos/README.md#fundamentos-de-la-gestión-de-proyectos)
