@@ -11,6 +11,10 @@
   - [Componentes](#componentes)
   - [Modelos](#modelos)
   - [Angular Moment](#angular-moment)
+  - [Formularios en Angular](#formularios-en-angular)
+  - [Ocultar Elementos (ngIf)](#ocultar-elementos-ngif)
+  - [Repetir Elementos (ngFor)](#repetir-elementos-ngfor)
+  - [Pasar datos a un componente](#pasar-datos-a-un-componente)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es MEAN?
@@ -228,6 +232,8 @@ Luego se puede usar en el html de la siguiente manera:
 
 Los modelos se van a escribir en un archivo aparte. Por ejemplo: **question.model.ts**.
 
+El caracter **?** va a indicar que un atributo puede ser nulo.
+
 ```js
 export class Question {
   title: string;
@@ -246,6 +252,17 @@ export class Question {
     this.createdAt = createdAt;
     this.icon = icon;
   }
+}
+```
+
+Otra forma de hacer modelos es directamente desde el constructor:
+
+```js
+export class User {
+  constructor(
+    public firstName: string,
+    public lastName: string
+  ) {}
 }
 ```
 
@@ -304,6 +321,91 @@ Y para consumirlo se hace de la siguiente forma:
  <small>{{question.createdAt | amLocale:'es' | amTimeAgo}}</small>
 ```
 
+### Formularios en Angular
+
+Para usar formularios en Angular, va a usar `@angular/forms`.
+
+```js
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-answer-form',
+  templateUrl: './answer-form.component.html'
+})
+
+export class AnswerFormComponent {
+  onSubmit(form: NgForm) {
+    console.log(form.value.description);
+  }
+}
+```
+
+En el html, se debe indicar que cuando se haga submit al formulario, se llame a la función onSubmit. Esto se hace poniendo `(ngSubmit)="onSubmit(f)" #f="ngForm"` en el `<form>`. 
+
+```html
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <mat-form-field>
+    <textarea matInput placeholder="Respuesta" name="description" ngModel></textarea>
+  </mat-form-field>
+  <button type="submit" mat-raised-button color="accent">Responder</button>
+</form>
+```
+
+### Ocultar Elementos (ngIf)
+
+Para ocultar elementos HTML, se va a usar `*ngIf`. Si se cumple la condición, se muestra el elemento, de lo contrario se oculta.
+
+```html
+<p *ngIf="answers.length === 0">Hola Mundo</p>
+```
+
+### Repetir Elementos (ngFor)
+
+Para repetir varias veces un elemento en el HTML, se puede usar `*ngFor`.
+
+```html
+<li *ngFor="let answer of answers">
+  <h5>
+    {{ answer.user.firstName }} {{ answer.user.lastName }}
+    <small>{{answer.createdAt | amLocale:'es' | amTimeAgo}}</small>
+  </h5>
+  <p class="description">
+    {{ answer.description }}
+  </p>
+</li>
+```
+
+### Pasar datos a un componente
+
+Para recibir datos en un componente, se va a usar `@Input()`.
+
+```js
+import { Component, Input } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { Answer, User } from './answer.model';
+import { Question } from '../question/question.model';
+
+@Component({
+  selector: 'app-answer-form',
+  templateUrl: './answer-form.component.html'
+})
+
+export class AnswerFormComponent {
+  @Input() question: Question;
+
+  onSubmit(form: NgForm) {
+    const answer = new Answer("Es una pregunta");
+    this.question.answers.unshift(answer);
+  }
+}
+```
+
+Para enviar el dato desde el html, se agrega con `[input]="data"`.
+
+```html
+<app-answer-form [question]="question" class="answer-form"></app-answer-form>
+```
 
 ## Enlaces de Interés
 * [Curso de MEAN](https://platzi.com/clases/mean/)
