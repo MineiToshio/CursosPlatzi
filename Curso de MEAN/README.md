@@ -15,6 +15,11 @@
   - [Ocultar Elementos (ngIf)](#ocultar-elementos-ngif)
   - [Repetir Elementos (ngFor)](#repetir-elementos-ngfor)
   - [Pasar datos a un componente](#pasar-datos-a-un-componente)
+  - [Routing](#routing)
+  - [Child Routing](#child-routing)
+- [NodeJS](#nodejs)
+  - [Express](#express)
+- [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es MEAN?
@@ -323,6 +328,10 @@ Y para consumirlo se hace de la siguiente forma:
 
 ### Formularios en Angular
 
+Existen 2 formas de crear formularios en Angular:
+
+**Template-Driven Form**
+
 Para usar formularios en Angular, va a usar `@angular/forms`.
 
 ```js
@@ -343,12 +352,67 @@ export class AnswerFormComponent {
 
 En el html, se debe indicar que cuando se haga submit al formulario, se llame a la función onSubmit. Esto se hace poniendo `(ngSubmit)="onSubmit(f)" #f="ngForm"` en el `<form>`. 
 
+Asimismo, en los diferentes campos, es importante poner un `ngModel` para poder acceder al valor desde el component y un `name`.
+
 ```html
 <form (ngSubmit)="onSubmit(f)" #f="ngForm">
   <mat-form-field>
     <textarea matInput placeholder="Respuesta" name="description" ngModel></textarea>
   </mat-form-field>
   <button type="submit" mat-raised-button color="accent">Responder</button>
+</form>
+```
+
+**Reactive Forms**
+
+Es una filosfia más "Angular" de crear formularios. Se comienza definiendo el formulario desde la clase del componente. 
+
+Una ventaja de este tipo de formularios es la facilidad al momento de validar los campos.
+
+```js
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { User } from './user.model';
+
+@Component({
+  selector: 'app-signin-screen',
+  templateUrl: 'signin-screen-component.html'
+})
+
+export class SigninScreenComponent implements OnInit {
+  signinForm: FormGroup;
+
+  ngOnInit() {
+    this.signinForm = new FormGroup({
+      email: new FormControl(null, [
+        Validators.required,
+        Validators.pattern(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
+      ]),
+      password: new FormControl(null, Validators.required)
+    });
+  }
+
+  onSubmit() {
+    if(this.signinForm.valid) {
+      const { email, password } = this.signinForm.value;
+      const user = new User(email, password);
+      console.log(user)
+    }
+  }
+}
+```
+
+En el HTML, hay que hacer el binding del formularios (formGroup) y del evento (onSubmit). Asimismo, para poder acceder a los campos del formulario (input, textare, etc), se va a definir una propiedad `formControlName`-
+
+```html
+<form [formGroup]="signinForm" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+    <input matInput placeholder="Correo electrónico" formControlName="email" id="email">
+  </mat-form-field>
+  <mat-form-field>
+    <input type="password" matInput placeholder="Contraseña" formControlName="password" id="password">
+  </mat-form-field>
+  <button type="submit" mat-raised-button color="accent">Iniciar sesión</button>
 </form>
 ```
 
@@ -407,12 +471,146 @@ Para enviar el dato desde el html, se agrega con `[input]="data"`.
 <app-answer-form [question]="question" class="answer-form"></app-answer-form>
 ```
 
+### Routing
+
+Lo primero que se debe de hacer para definir rutas es agregar el Routing en el app.module.
+
+```js
+import { Routing } from './app.routing';
+
+@NgModule({
+  //...
+  imports: [
+    Routing
+  ]
+  //...
+})
+export class AppModule { }
+``` 
+
+Luego, para definir rutas dentro de Angular, se va a crear el archivo **app.routing.ts**.
+
+En ese archivo, se va a importar **Routes** y **RouterModule** y se van a definir las rutas con sus respectivos componentes.
+
+```js
+import { Routes, RouterModule } from '@angular/router';
+import { QuestionListComponent } from './question/question-list.component';
+import { SigninScreenComponent } from './auth/signin-screen-component';
+import { SignupScreenComponent } from './auth/signup-screen.component';
+
+const APP_Routes: Routes = [
+  { path: '', component: QuestionListComponent, pathMatch: 'full' },
+  { path: 'signin', component: SigninScreenComponent },
+  { path: 'signun', component: SignupScreenComponent }
+];
+
+export const Routing = RouterModule.forRoot(APP_Routes);
+```
+
+Para usar las rutas en el HTML, se hace de la siguiente manera:
+* `router-outlet`: Define el lugar en donde se va a cargar el componente definido en **app.routing.ts** dependiendo de la url.
+* `routerLink`: define a dónde va redirigir al hacer click.
+
+```html
+<mat-toolbar color="primary">
+  <span [routerLink]="['/']">PlatziOverflow</span>
+  <span class="space"></span>
+  <mat-icon [routerLink]="['/signin']">account_circle</mat-icon>
+</mat-toolbar>
+<router-outlet></router-outlet>
+```
+
+### Child Routing
+
+Child routex se usa para definir una ruta con múltiples opciones. Por ejemplo, /question y /question/1265.
+
+Para definir un child route, primero se va a crear un nuevo archivo en donde se van a definir las rutas correspondientes.
+
+```js
+//question.routing.ts
+import { QuestionListComponent } from './question-list.component';
+import { QuestionDetailComponent } from './question-detail.component';
+
+export const QUESTION_ROUTES = [
+  { path: '', component: QuestionListComponent },
+  { path: ':id', component: QuestionDetailComponent }
+];
+```
+
+Luego, en el archivo de rutas principal, se va a definir la ruta de la siguiente manera:
+
+```js
+import { Routes, RouterModule } from '@angular/router';
+import { QUESTION_ROUTES } from './question/question.routing';
+
+const APP_Routes: Routes = [
+  { path: 'questions', children: QUESTION_ROUTES }
+];
+
+export const Routing = RouterModule.forRoot(APP_Routes);
+```
+
+## NodeJS
+
+NodeJS es un entorno donde se puede correr JavaScript a través de un motor llamado V8 que Google desarrolló. Este motor permite correr JS en el servidor.
+
+La principal diferencia entre Node y otros lengiajes de backend es que con el primero se programa también el servidor web. No solamente cierta lógica.
+
+Node tiene un único thread en toda la aplicación. Hay un solo proceso que corre y atiende todos los pedidos y este único proceso corre el event loop.
+
+<div align="center">
+  <img src="img/node-web-server.png">
+  <small><p>NodeJS Web Server</p></small>
+</div>
+
+¿Qué puedo construir con NodeJS?
+* Servidores web/Web APIs
+* Herramientas utilitarias
+
+### Express
+
+Express es un framework de NodeJS. Con Express puedo:
+1. Crear servidores web.
+2. Hacer API.
+
+Características:
+1. **Rápido**: brinda código y funcionalidades que se usan comunmente sin que decaiga el performance del servidor web.
+2. **Sin opiniones** (opinionated): da la posibilidad de hacer las cosas como uno quiere.
+3. **Minimalista**: entrega solo lo justo y necesario.
+
+Express funciona por medio de middlewares. Un middleware es como un tubo donde vamos conectando un tubo al lado del otro.
+
+<div align="center">
+  <img src="img/middlewares.png">
+  <small><p>Ejemplo de middleware</p></small>
+</div>
+
+Los middlewares son funciones de javascript. Estas funciones reciben 3 parámetros como máximo:
+1. Request
+2. Response
+3. Apuntador al siguiente middleware
+
+La idea de los middlewares es que sean reutilizables y que cumplan con una tarea específica. 
+
+Alternativas a Express:
+1. NodeJs puro
+2. Koa
+
+## Recursos Complementarios
+* [Diapositivas de Express](docs/Express.pdf)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Enlaces de Interés
 * [Curso de MEAN](https://platzi.com/clases/mean/)
+* [Github del Curso](https://github.com/platzi/Platzi-overflow)
 * [Angular](https://angular.io/)
 * [Angular Material](https://material.angular.io/)
 * [Dev Icon](http://konpa.github.io/devicon/)
 * [Ngx Moment](https://github.com/urish/ngx-moment)
+* [Npm](https://npmjs.com)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
