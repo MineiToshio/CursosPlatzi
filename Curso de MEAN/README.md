@@ -19,6 +19,10 @@
   - [Child Routing](#child-routing)
 - [NodeJS](#nodejs)
   - [Express](#express)
+  - [Instalación y configuración del entorno](#instalación-y-configuración-del-entorno)
+    - [Configuración del Servidor](#configuración-del-servidor)
+    - [Babel](#babel)
+    - [Debug](#debug)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -596,6 +600,81 @@ Alternativas a Express:
 1. NodeJs puro
 2. Koa
 
+### Instalación y configuración del entorno
+
+#### Configuración del Servidor
+
+Lo primero que se debe de usar para usar node, es configurar el servidor. Para esto, se va a crear un archivo **server/index.js**.
+
+```js
+import http from 'http'
+import Debug from 'debug'
+
+const PORT = 3000
+
+const app = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' })
+  res.end()
+})
+
+app.listen(PORT, () => {
+  console.log(`Server running at port ${PORT}`)
+})
+```
+
+#### Babel
+
+Babel permite traspilar código moderno de Javascript en uno que entiendan los diferentes navegadores.
+
+```bash
+$ npm i babel-cli babel-preset-es2015
+```
+
+Para usar babel, se tiene que definir un archivo de configuración llamado **.babelrc**.
+
+```json
+{
+  "presets": ["es2015"]
+}
+
+```
+
+Finalmente se crea un script en package.json en donde se usa babel.
+
+```json
+"scripts": {
+  "start:server": "babel-node server/index.js"
+}
+```
+
+#### Debug
+
+Debug permite mostrar mensajes de debugging en la consola.
+
+```bash
+$ npm i debug
+```
+
+Para usarlo, se puede hacer de la siguiente forma:
+
+```js
+import Debug from 'debug'
+
+const debug = new Debug('platzi-overflow:root')
+
+const app = http.createServer((req, res) => {
+  debug('new request')
+})
+```
+
+Finalmente, para poder ejecutar el debug, se va a correr el siguiente script:
+
+```js
+"scripts": {
+    "start:server": "set DEBUG=platzi-overflow* & babel-node server/index.js"
+  }
+```
+
 ## Recursos Complementarios
 * [Diapositivas de Express](docs/Express.pdf)
 
@@ -611,6 +690,7 @@ Alternativas a Express:
 * [Dev Icon](http://konpa.github.io/devicon/)
 * [Ngx Moment](https://github.com/urish/ngx-moment)
 * [Npm](https://npmjs.com)
+* [Babel](https://babelks.io)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
