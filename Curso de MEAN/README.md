@@ -20,9 +20,13 @@
 - [NodeJS](#nodejs)
   - [Express](#express)
   - [Instalación y configuración del entorno](#instalación-y-configuración-del-entorno)
-    - [Configuración del Servidor](#configuración-del-servidor)
+    - [Configuración del Servidor con Nodejs](#configuración-del-servidor-con-nodejs)
     - [Babel](#babel)
     - [Debug](#debug)
+    - [Nodemon](#nodemon)
+    - [Concurrently](#concurrently)
+    - [Express](#express-1)
+  - [Routes](#routes)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -602,7 +606,7 @@ Alternativas a Express:
 
 ### Instalación y configuración del entorno
 
-#### Configuración del Servidor
+#### Configuración del Servidor con Nodejs
 
 Lo primero que se debe de usar para usar node, es configurar el servidor. Para esto, se va a crear un archivo **server/index.js**.
 
@@ -673,6 +677,124 @@ Finalmente, para poder ejecutar el debug, se va a correr el siguiente script:
 "scripts": {
     "start:server": "set DEBUG=platzi-overflow* & babel-node server/index.js"
   }
+```
+
+#### Nodemon
+
+Nodemon permite que el servidor se reinicie cada vez que hay un cambio.
+
+```bash
+$ npm i nodemon
+```
+
+Para usar nodemon, configurarlo en los scripts de package.json.
+
+```json
+"scripts": {
+  "start:server": "nodemon server/index.js --exec babel-node"
+}
+```
+
+#### Concurrently
+
+Concurrently permite correr procesos en paralelo con un solo comando. Esto va a ayudar a levantar el servidor de backend y el de Angular al mismo tiempo.
+
+```bash
+$ npm i concurrently
+```
+
+Para usarlo, en **scripts** del **package.json**, usamos el comando `concurrently` y entre comillas los scripts que queremos que se ejecuten en simultaneo.
+
+```js
+"scripts": {
+    "start": "concurrently -r \"npm run start:server\" \"npm run start:client\" ",
+    "start:server": "set DEBUG=platzi-overflow* & nodemon server/index.js --exec babel-node",
+    "start:client": "ng serve"
+  }
+```
+
+#### Express
+
+Express es un microframework de nodejs.
+
+```bash
+$ npm i express
+```
+
+**Configurar el servidor con Express**
+
+Crear un archivo en server/app.js
+
+```js
+import express from 'express'
+
+const app = express() //express devuelve en una variable el servidor
+
+app.get('/', (req, res) => res.send('Hola desde express'))
+
+export default app
+
+```
+
+Y en server/index.js hacer un listen de server/app.js
+
+```js
+import http from 'http'
+import Debug from 'debug'
+import app from './app'
+
+const PORT = 3000
+
+app.listen(PORT, () => {
+  console.log(`Server running at port ${PORT}`)
+})
+
+```
+
+### Routes
+
+Las rutas se van a definir en una carpeta **routes**.
+
+Dentro de esta carpeta, se va a crear un archivo por cada modelo de ruta. Por ejemplo, **question.js**:
+
+```js
+import express from 'express'
+
+const app = express.Router()
+
+const question = {
+  _id: 1,
+  title: '¿Cómo utilizo un componente en Android?',
+}
+
+const questions = new Array(10).fill(question)
+
+// /api/questions
+app.get('/', (req, res) => res.status(200).json(questions))
+
+// /api/questions/:id
+app.get('/:id', (req, res) => res.status(200).json(question))
+
+export default app
+```
+
+También se va a tener un archivo **routes/index.js** en donde se van a listar todas las rutas:
+
+```js
+export { default as question } from './question'
+```
+
+Finalmente, las rutas se van a consumir en el archivo app.js:
+
+```js
+import express from 'express'
+import { question } from './routes'
+
+const app = express()
+
+app.use('/api/questions', question)
+
+export default app
 ```
 
 ## Recursos Complementarios
