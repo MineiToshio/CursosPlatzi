@@ -17,6 +17,9 @@
   - [Pasar datos a un componente](#pasar-datos-a-un-componente)
   - [Routing](#routing)
   - [Child Routing](#child-routing)
+  - [Services](#services)
+    - [Consumir Services](#consumir-services)
+    - [Obtener parámetros de la url](#obtener-parámetros-de-la-url)
 - [NodeJS](#nodejs)
   - [Express](#express)
   - [Instalación y configuración del entorno](#instalación-y-configuración-del-entorno)
@@ -27,6 +30,15 @@
     - [Concurrently](#concurrently)
     - [Express](#express-1)
   - [Routes](#routes)
+  - [Permisos de acceso](#permisos-de-acceso)
+  - [Leer diferentes formatos](#leer-diferentes-formatos)
+- [Deploy](#deploy)
+  - [Heroku](#heroku)
+    - [Conexión con Mongo](#conexión-con-mongo)
+    - [Variables de entorno](#variables-de-entorno)
+  - [Build del cliente](#build-del-cliente)
+  - [Build del servidor](#build-del-servidor)
+  - [Pasos finales](#pasos-finales)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -558,6 +570,100 @@ const APP_Routes: Routes = [
 export const Routing = RouterModule.forRoot(APP_Routes);
 ```
 
+### Services
+
+Los servicios permiten consumir API dentro de una aplicación de Angular. 
+
+Los servicios usan el módulo Http de Angular por lo que también hay que incluirlo dentro de **app.module.ts**.
+
+Un ejemplo de cómo hacer servicios es el siguiente:
+
+```js
+//question.service.ts
+import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+import { Question } from './question.model';
+import { environment } from '../../environments/environment';
+import urljoin from 'url-join';
+
+@Injectable()
+export class QuestionService {
+  private questionsUrl: string;
+
+  constructor(private http: Http) {
+    this.questionsUrl = urljoin(environment.apiUrl, 'questions');
+  }
+
+  getQuestions(): Promise<void | Question[]> {
+    return this.http.get(this.questionsUrl)
+      .toPromise()
+      .then(response => response.json() as Question[])
+      .catch(this.handleError);
+  }
+
+  getQuestion(id): Promise<void | Question> {
+    const url = urljoin(this.questionsUrl, id);
+    return this.http.get(url)
+      .toPromise()
+      .then(response => response.json() as Question)
+      .catch(this.handleError);
+  }
+
+  handleError(error: any) {
+    const errMsg = error.message ? error.message :
+      error.status ? `${error.status} - ${error.statusText}` : 'Server error';
+    console.log(errMsg);
+  }
+}
+```
+
+La url base de donde se van a consumir la api se va a definir en **environments/environments.ts**.
+
+```js
+export const environment = {
+  apiUrl: 'http://localhost:3000/api'
+};
+```
+
+También se va a usar una librería llamada **url-join** la cual servirá para juntar elementos y crear urls.
+
+```bash
+$ npm i url-join
+```
+
+#### Consumir Services
+
+Los servicios se consumen desde el componente. Todo servicio que se vaya a usar se debe de declarar en la sección de providers.
+
+```js
+import { Component, OnInit } from '@angular/core';
+import { Question } from './question.model';
+import { QuestionService } from './question.service';
+
+@Component({
+  selector: 'app-question-list',
+  templateUrl: 'question-list.component.html',
+  providers: [QuestionService]
+})
+
+export class QuestionListComponent implements OnInit {
+  constructor(private questionService: QuestionService) {}
+
+  questions: Question[];
+
+  ngOnInit() {
+    this.questionService.getQuestions()
+      .then((questions: Question[]) => {
+        this.questions = questions;
+      });
+  }
+}
+```
+
+#### Obtener parámetros de la url
+
+
+
 ## NodeJS
 
 NodeJS es un entorno donde se puede correr JavaScript a través de un motor llamado V8 que Google desarrolló. Este motor permite correr JS en el servidor.
@@ -797,6 +903,192 @@ app.use('/api/questions', question)
 export default app
 ```
 
+### Permisos de acceso 
+
+Por motivos de seguridad, los navegadores no permite el acceso a una API desde una url diferente. 
+
+Para permitir el acceso a API en un ambiente de desarrollo, hacer lo siguiente.
+
+```js
+if (process.env.NODE_ENV === 'development') {
+  app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Request-With, Content-Type, Accept')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PATCH, DELETE, OPTIONS')
+    next()
+  })
+}
+```
+
+Además, hay que setear el NODE_ENV en el **package.json**.
+
+```js
+"scripts": {
+    "start:server": "set NODE_ENV=development& set DEBUG=platzi-overflow* & nodemon server/index.js --exec babel-node"
+  }
+```
+
+### Leer diferentes formatos
+
+Para leer los formatos json y utf-8 en el servidor, se va a usar una librería llamada **body-parser**.
+
+```bash
+$ npm i body-parser
+```
+
+El siguiente paso es agregar las siguientes líneas en el archivo **server/app.js.**
+
+```js
+import express from 'express'
+import bodyParser from 'body-parser'
+
+const app = express()
+
+app.use(bodyParser.json()) //poder leer todo lo que viene en formato json del cliente
+app.use(bodyParser.urlencoded({ extended: true })) //poder leer todo lo que viene en formato utf-8
+```
+
+## Deploy
+
+### Heroku
+
+Para crear una aplicacion de Heroku, ir al directorio del archivo y escribir:
+
+```bash
+$ heroku create
+```
+
+Esto va a crear una url en donde se va a encontrar la aplicación. También anañe al git un acceso remoto llamado Heroku.
+
+Para ingresar a la url:
+
+```bash
+$ heroku open
+```
+
+#### Conexión con Mongo
+
+Se va a usar el addon [mLab MongoDB](https://elements.heroku.com/addons/mongolab) de Heroku para conectarse a una bd de Mongo. 
+
+```bash
+$ heroku addons:create mongolab:sandbox
+```
+
+Se va a crear la base de datos y se va a guardar la url de mongo como una variable de entorno.
+
+#### Variables de entorno
+
+Heroku permite almacenar variables de entorno las cuales van a ser accesibles solo desde el servidor.
+
+Para setear variables de entorno:
+
+```bash
+$ heroku config:set VARIABLE=miVariableDeEntorno
+```
+
+Para ver el listado de las variables:
+
+```bash
+$ heroku config
+```
+
+### Build del cliente
+
+Para poder crear un build del cliente, se va a crear un nuevo **script** en **package.json**:
+
+```json
+"scripts": {
+  "build:client": "ng build --configuration=production"
+}
+```
+
+Asimismo, para poder ejecutar el comando en Heroku, es importante pasar algunas **devDependencies** a **Dependencies**.
+
+```json
+"dependencies": {
+  "@angular/cli": "~6.1.5",
+  "@angular/compiler-cli": "^6.1.0",
+  "babel-plugin-transform-async-to-generator": "^6.24.1",
+  "babel-polyfill": "^6.26.0",
+  "babel-preset-es2015": "^6.24.1",
+  "babel-preset-stage-0": "^6.24.1",
+  "typescript": "~2.7.2"
+}
+```
+
+Si se quiere generar el build, se puede ejecutar el siguiente comando:
+
+```bash
+$ npm run build:client
+```
+
+### Build del servidor
+
+Se va a instalar [babel-plugin-transform-async-to-generator](https://www.npmjs.com/package/babel-plugin-transform-async-to-generator) el cual va a permitir transformar las funciones que tienen async en generadores de ES2015 que entiende node.
+
+```bash
+$ npm i babel-plugin-transform-async-to-generator
+```
+
+Luego, se va a agregar babel-plugin-transform-async-to-generator a la lista de plugins de **.babelrc**.
+
+```json
+{
+  "presets": ["es2015", "stage-0"],
+  "plugins": ["transform-async-to-generator"]
+}
+
+```
+
+Otra cosa que hay que hacer el instalar el [polyfill de Babel](https://babeljs.io/docs/en/babel-polyfill). El polyfill va a permitir correr las funciones generator dentro de nuestro entorno.
+
+```bash
+$ npm i babel-polyfill
+```
+
+Tambien se debe de crear un archivo llamado server.js en la raiz del proyecto. Este va a ser el archivo que el servidor de Heroku va a correr con el comando de node.
+
+```js
+require('babel-polyfill')
+require('./dist/server')
+```
+
+Finalmente, agregar el siguiente script para hacer build al servidor:
+
+```json
+"scripts": {
+  "build:server": "babel server --out-dir dist/server"
+}
+```
+
+### Pasos finales
+
+Agregar los siguientes scripts en el package.json:
+
+```json
+"scripts": {
+    "start-prod": "NODE_ENV=production node server.js",
+    "build": "npm run build:client && npm run build:server",
+    "postinstall": "npm run build"
+  }
+```
+
+* **start-prod**: va a iniciar el servidor.
+* **build**: hace un build del cliente y del servidor.
+* **postinstall**: se ejecuta al finalizar de instalar todas las dependencias en Heroku.
+
+Además de esto, se va a crear un archivo **Procfile** en la raiz del proyecto:
+
+```
+web: npm run start-prod
+```
+
+Finalmente, para subir la aplicación a producción, hacer un push a Heroku:
+
+```bash
+$ git push heroku origin
+```
+
 ## Recursos Complementarios
 * [Diapositivas de Express](docs/Express.pdf)
 
@@ -813,6 +1105,8 @@ export default app
 * [Ngx Moment](https://github.com/urish/ngx-moment)
 * [Npm](https://npmjs.com)
 * [Babel](https://babelks.io)
+* [Mongoose](https://mongoosejs.com)
+* [Heroku](https://heroku.com)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
