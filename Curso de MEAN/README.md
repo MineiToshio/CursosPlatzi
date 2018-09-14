@@ -19,7 +19,7 @@
   - [Child Routing](#child-routing)
   - [Services](#services)
     - [Consumir Services](#consumir-services)
-    - [Obtener parámetros de la url](#obtener-parámetros-de-la-url)
+  - [Obtener parámetros de la url](#obtener-parámetros-de-la-url)
 - [NodeJS](#nodejs)
   - [Express](#express)
   - [Instalación y configuración del entorno](#instalación-y-configuración-del-entorno)
@@ -635,6 +635,8 @@ $ npm i url-join
 
 Los servicios se consumen desde el componente. Todo servicio que se vaya a usar se debe de declarar en la sección de providers.
 
+Asimismo, el servicio debe de injectarse en el constructor de la clase.
+
 ```js
 import { Component, OnInit } from '@angular/core';
 import { Question } from './question.model';
@@ -660,9 +662,36 @@ export class QuestionListComponent implements OnInit {
 }
 ```
 
-#### Obtener parámetros de la url
+### Obtener parámetros de la url
 
+Para poder obtener un parámetro de la url dentro del componente, se va a usar **ActivatedRoute**.
 
+```js
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
+@Component({
+  //...
+})
+
+export class Component implements OnInit, OnDestroy {
+  sub: any;
+
+  constructor(
+    private route: ActivatedRoute
+  ) {}
+
+  ngOnInit() {
+    this.sub = this.route.params.subscribe(params => {
+      console.log(params.id)
+    });
+  }
+
+  ngOnDestroy() {
+    this.sub.unsubscribe();
+  }
+}
+```
 
 ## NodeJS
 
