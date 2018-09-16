@@ -43,6 +43,11 @@
   - [Herencia](#herencia)
 - [Interfaces](#interfaces)
 - [Namespaces](#namespaces)
+- [PSR y PHPFIG](#psr-y-phpfig)
+- [Composer](#composer)
+- [Base de Datos](#base-de-datos)
+- [ORM](#orm)
+- [Formularios](#formularios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es PHP?
@@ -809,10 +814,96 @@ Otra forma de hacerlo es al siguiente:
 $project = new Lib\Project();
 ```
 
+## PSR y PHPFIG
+
+Varios programadores se unieron para crear un grupo llamado [PHP-FIG](https://www.php-fig.org/) con el objetivo de avanzar en la interoperabilidad de librerías en PHP.
+
+Este grupo creo el [PSR](https://www.php-fig.org/psr/) que son recomendaciones y estándares para tu código de PHP.
+
+## Composer
+
+[Composer](https://getcomposer.org/) es un manejador de dependencias de PHP que no solo nos ayudara a traer librerías de tercero al proyecto, sino que además va a implementar el estándar PSR4 que nos va a permitir tener el cargado de archivos automático.
+
+[composer.phar](https://getcomposer.org/composer.phar) será un documento que nos servirá para manejar las dependencias en PHP, esta va muy de la mano con otro archivo llamado composer.json.
+
+El composer.phar se va a descargar y pegar en el directorio del proyecto mientras que composer.json sigue la siguiente estructura: 
+
+```json
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {}
+}
+```
+
+Dentro de psr-4 se van a agregar los namespaces que se van a manejar dentro de la aplicación.
+
+Luego de tener los dos archivos, ir al directorio del proyecto en la terminal y escribir:
+
+```bash
+$ php composer.phar install
+```
+
+Al hacer esto se va a crear una carpeta vendor. En esta carpeta se van a agregar los namespaces definidos en composer.json.
+
+Luego de hacer esto, hay que hacer un require_once al archivo **vendor/autoload.php** y con esto ya se va a activar el autoload.
+
+```php
+require_once('vendor/autoload.php');
+```
+
+Esta funcionalidad va a ser que ya no sea necesario hacer un require de los archivos que se encuentren en los namespaces definidos en composer.json.
+
+## Base de Datos
+
+Las bases de datos son colecciones de datos que podemos usar para consultarla almacenarla, ejecutar filtros, etc.
+
+Cuando hablamos de aplicaciones web trabajaremos con sistemas manejadores de bases de datos, o también conocidos como bases de datos relacionales.
+
+XAMPP viene con una herramienta llamada phpMyAdmin que es un cliente el cual se conecta a una base de datos, en este caso se conecta a MariaDB.
+
+## ORM
+
+Un ORM, que significa Object Relational Mapping, es un concepto en el cual vamos a crear dentro de nuestro código algunos modelos basados en las tablas de nuestra base de datos.
+
+Una principal característica de un ORM es que hace más transparente las conexiones a PostgreSQL y MySQL, además nos protege de algunas vulnerabilidades de SQL y facilita algunas validaciones a la información.
+
+## Formularios
+
+Podemos enviar información desde un formulario a través de diferentes métodos, GET o POST. Para acceder a esta información desde PHP llamaremos a **$_GET** y **$_POST**, estas son variables super globales.
+
+```php
+<?php 
+  //Muestra los datos enviados si el método del formularios es GET
+  var_dump($_GET);
+  //Muestra los datos enviados si el método del formularios es POST
+  var_dump($_POST);
+?>
+
+<form action="index.php" method="post">
+  <h1>Add Job</h1>
+  <label for="title">Title</label>
+  <input type="text" name="title" id="">
+  <br>
+  <label for="description">Description</label>
+  <input type="text" name="description" id="">
+  <br>
+  <button type="submit">Save</button>
+</form>
+```
+
 ## Enlaces de Interés
 * [Curso de Introducción a PHP](https://platzi.com/clases/php)
-* [Github del Curso](https://github.com/hectorbenitez/curso-introduccion-php)
+* [Github del Template CV](https://github.com/hectorbenitez/curso-introduccion-php)
+* [Github del Template ToDo](https://github.com/hectorbenitez/php-database-crud)
 * [XAMPP](https://www.apachefriends.org)
+* [PHP-FIG](https://www.php-fig.org/)
+* [PSR](https://www.php-fig.org/psr/)
+* [Composer](https://getcomposer.org/)
+* [Packagist](https://packagist.org/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
