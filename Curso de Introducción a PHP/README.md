@@ -48,6 +48,24 @@
 - [Base de Datos](#base-de-datos)
 - [ORM](#orm)
 - [Formularios](#formularios)
+- [Eloquent](#eloquent)
+  - [Configurar Eloquent](#configurar-eloquent)
+  - [Modelo de datos](#modelo-de-datos)
+  - [Insertar un dato](#insertar-un-dato)
+  - [Listar registros](#listar-registros)
+- [Front Controller](#front-controller)
+- [Request](#request)
+- [Router](#router)
+- [MVC](#mvc)
+  - [Vistas](#vistas)
+  - [Controladores](#controladores)
+  - [Rutas](#rutas)
+  - [Formularios](#formularios-1)
+- [Template engines](#template-engines)
+  - [Twig](#twig)
+  - [Mostrar data dinámica](#mostrar-data-dinámica)
+  - [Repetir código HTML (for)](#repetir-código-html-for)
+  - [Layouts](#layouts)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es PHP?
@@ -884,26 +902,390 @@ Podemos enviar información desde un formulario a través de diferentes métodos
 ?>
 
 <form action="index.php" method="post">
-  <h1>Add Job</h1>
-  <label for="title">Title</label>
-  <input type="text" name="title" id="">
-  <br>
-  <label for="description">Description</label>
-  <input type="text" name="description" id="">
-  <br>
+  <input type="text" name="title">
+  <input type="text" name="description">
+  <br/>
   <button type="submit">Save</button>
 </form>
 ```
 
+## Eloquent
+
+[Packagist](https://packagist.org/) es un sitio donde encontraras múltiples librerías de terceros que puedes integrar a tus proyectos mediante composer, de aquí añadiremos nuestra herramienta para la conexión a base de datos.
+
+Realizamos la conexión con la base de datos y usaremos [Eloquent](https://packagist.org/packages/illuminate/database) como nuestro ORM. Para que funcionen los modelos debemos hacer una clase que herede de Model.
+
+Para instalar Eloquent se va a usar el siguiente comando:
+
+```bash
+$ php composer.phar require illuminate/database
+```
+
+Este comando agrega illuminate/database a la lista de require del composer.json.
+
+Asimismo, se crea un arechivo **composer.lock** en donde se almacenan todas las dependencias de illuminate/database.
+
+Una vez estén listos los modelos, usando la variable super global $_POST conectaremos la información del formulario con nuestro modelo para añadirla información a la base de datos.
+
+### Configurar Eloquent
+
+Para configurar la conexión a la base de datos, se va a hacer de la siguiente forma:
+
+```php
+use Illuminate\Database\Capsule\Manager as Capsule;
+
+$capsule = new Capsule;
+
+$capsule->addConnection([
+  'driver'    => 'mysql',
+  'host'      => 'localhost',
+  'database'  => 'cursophp',
+  'username'  => 'root',
+  'password'  => 'root',
+  'charset'   => 'utf8',
+  'collation' => 'utf8_unicode_ci',
+  'prefix'    => '',
+]);
+
+$capsule->setAsGlobal();
+$capsule->bootEloquent();
+```
+
+### Modelo de datos
+
+Para conectar una clase con una tabla de base de datos, se debe de hacer 2 cosas:
+* Un use a Illuminate\Database\Eloquent\Model.
+* Setear la variable $table con el nombre de la tabla de base de datos.
+
+```php
+use Illuminate\Database\Eloquent\Model;
+
+class Job extends Model {
+  protected $table = 'jobs';
+}
+```
+
+### Insertar un dato
+
+El siguiente es un ejemplo de cómo agregar datos en una base de datos.
+
+```php
+$job = new Job();
+$job->title = $_POST['title'];
+$job->description = $_POST['description'];
+$job->save();
+```
+
+### Listar registros
+
+```php
+$jobs = Job::all();
+```
+
+## Front Controller
+
+Front Controller es un patrón de diseño que nos dará una solución a la redundancia del código en las múltiples entradas a la aplicación. Este tendrá el control de todas las entradas además de las inicializaciones de base de datos etc.
+
+El front controller se pondrá en el archivo public/index.php.
+
+En este archivo se pondrán todas las funcionalidades que necesitan todos los archivos de php:
+* Control de errores
+* Autoloader
+* Acceso a la base de datos
+
+Al final del front controller, se va a hacer un require de la página a mostrar en base el router.
+
+```php
+$route = $_GET['route'] ?? '/';
+
+if($route == '/')
+  require('../index.php');
+elseif ($route == 'addJob')
+  require('../addJob.php');
+```
+
+## Request
+
+PSR7 es un estandar que nos permite normalizar un request y un response en PHP.
+
+En este enlace encontrarás la documentación de PSR7: https://www.php-fig.org/psr/psr-7/
+
+Aquí encontrarás cómo implementarlo: https://zendframework.github.io/zend-diactoros/usage/
+
+Los request se van a manejar con una librería llamada diactoros.
+
+```bash
+$ php composer.phar require zendframework/zend-diactoros
+```
+
+Luego de esto, se va a agregar la siguiente línea de código:
+
+```php
+$request = Zend\Diactoros\ServerRequestFactory::fromGlobals(
+  $_SERVER,
+  $_GET,
+  $_POST,
+  $_COOKIE,
+  $_FILES
+);
+```
+
+Luego de esto, para manejar los request, se va a crear un archivo **.htaccess** en la raiz del proyecto.
+
+```
+RewriteEngine On
+# Evitar ciclos
+RewriteCond %{THE_REQUEST} /platziphp/public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!platziphp/public/).*)$ platziphp/public/$1 [L,NC]
+```
+
+Asimismo, se va a escribir otro archivo **.htaccess** en la carpeta public.
+
+```
+RewriteEngine On
+#Verificar si es directorio
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+```
+
+## Router
+
+[aura/router](https://github.com/auraphp/Aura.Router/blob/HEAD/docs/index.md) es un paquete que nos ayudará para manejar las rutas en nuestro proyecto.
+
+Para instalarlo solo hay que escribir el siguiente comando en la terminal:
+
+```bash
+$ php composer.phar require aura/router
+```
+
+Luego de eso escribir las siguientes líneas de código:
+
+```php
+$routerContainer = new RouterContainer();
+
+//Setear las rutas
+$map = $routerContainer->getMap();
+$map->get('index', '/', '../index.php');
+$map->get('addJobs', '/jobs/add', '../addJob.php');
+
+$matcher = $routerContainer->getMatcher();
+$route = $matcher->match($request);
+if (!$route) {
+  echo 'No route';
+} else {
+  require $route->handler;
+}
+```
+
+## MVC
+
+MVC es un patrón de diseño que divide nuestra aplicación en tres partes fundamentales:
+
+* Model
+* View
+* Controller
+
+Un proyecto en MVC se organiza en carpetas con estos nombres.
+
+### Vistas
+
+En las vistas se encuentra el código HTML. La vista debe de encontrarse sin nungún tipo de lógica de negocio.
+
+### Controladores
+
+Los controladores unen el modelo con las vistas.
+
+```php
+use App\Models\Job;
+
+class IndexController {
+  public function indexAction() {
+    $jobs = Job::all();
+    include '../views/index.php';
+  }
+}
+```
+
+### Rutas
+
+En MVC, se va a cambiar un poco la forma en la cual se usan las rutas. Ahora las rutas, en vez de redirigir a un archivo, van a redirigir a una acción dentro de un controlador.
+
+```php
+$routerContainer = new RouterContainer();
+$map = $routerContainer->getMap();
+
+$map->get('index', '/', [
+  'controller' => 'App\Controllers\IndexController',
+  'action' => 'indexAction'
+]);
+
+$map->post('saveJobs', '/jobs/add', [
+  'controller' => 'App\Controllers\JobsController',
+  'action' => 'getAddJobAction'
+]);
+
+$matcher = $routerContainer->getMatcher();
+$route = $matcher->match($request);
+
+if (!$route) {
+    echo 'No route';
+} else {
+  $handlerData = $route->handler;
+  $controllerName = $handlerData['controller'];
+  $actionName = $handlerData['action'];
+
+  $controller = new $controllerName;
+  $controller->$actionName($request);
+}
+```
+
+### Formularios
+
+```php
+class JobsController {
+  public function getAddJobAction($request) {
+    if(!empty($request->getMethod() == 'POST')) {
+      $postData = $request->getParsedBody();
+      $job = new Job();
+      $job->title = $postData['title'];
+      $job->description = $postData['description'];
+      $job->save();
+    }
+
+    include('../views/addJob.php');
+  }
+}
+```
+
+## Template engines
+
+Son motores que sirven para renderear el código html y sustituir las partes de código con los datos que se tienen que imprimir.
+
+PHP, a pesar de que fue pensado para ser un template engine, se ha enfocado más en la programación, por eso tenemos librerías que se concentran totalmente en esto.
+
+### Twig
+
+[Twig](https://twig.symfony.com/) es un Template Engine que nos ayudará a manejar la seguridad en los elementos de entrada de la aplicación.
+
+Para instalar Twig, se hace de la siguiente forma:
+
+```bash
+$ php composer.phar require twig/twig
+```
+
+Para poder cargar los templates, se va a crear un controlador base:
+
+```php
+namespace App\Controllers;
+
+class BaseController {
+  protected $templateEngine;
+
+  public function __construct() {
+    //declarar la carpeta en donde se encuentran los templates
+    $loader = new \Twig_Loader_Filesystem('../views');
+    $this->templateEngine = new \Twig_Environment($loader, array(
+      'debug' => true,
+      'cache' => false,
+    ));
+  }
+
+  public function renderHTML($fileName, $data = []) {
+    return new HtmlResponse($this->templateEngine->render($fileName, $data));
+  }
+} 
+```
+
+Luego, para cargar una plantilla, se hace de la siguiente forma:
+
+```php
+class IndexController extends BaseController{
+  public function indexAction() {
+    return $this->renderHTML('index.twig');
+  }
+}
+```
+
+Además, cabe resaltar que la plantilla a cargar debe de tener la extensión **.twig**.
+
+### Mostrar data dinámica
+
+Twig no permite código PHP en sus plantillas. Para agregar data dinamica, se va a usar `{{ }}`.
+
+```html
+<h1>{{ name }}</h1>
+```
+
+Luego, el valor de las variables se pasan desde el controlador:
+
+```php
+class IndexController extends BaseController {
+  public function indexAction() {
+    $jobs = Job::all();
+    return $this->renderHTML('index.twig', [
+      'name' => 'Sergio'
+    ]);
+  }
+}
+```
+
+### Repetir código HTML (for)
+
+Se va a usar `{% for item in items %}{% endfor %}` para declarar cuándp una parte del código HTML se va a reperir.
+
+```twig
+{% for job in jobs %}
+  <h5>{{ job.title }}</h5>
+{% endfor %}
+```
+
+### Layouts
+
+Al declarar un layout, se va a usar `{% block content %}{% endblock %}` para indicar en qué parte del layout se va a mostrar el contenido de los HTML hijos.
+
+```twig
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Resume</title>
+</head>
+
+<body>
+  <div class="container">
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+</html>
+```
+
+Para usar el layout, se tiene que hacer lo siguiente:
+* Declarar el layout con usando `extends`.
+* Indicar el código HTML sue se va a mostrar con `block content`.
+
+```twig
+{% extends "layout.twig" %}
+
+{% block content %}
+  <p>Estoy usando un layout</p>
+{% endblock %}
+```
+
 ## Enlaces de Interés
 * [Curso de Introducción a PHP](https://platzi.com/clases/php)
-* [Github del Template CV](https://github.com/hectorbenitez/curso-introduccion-php)
-* [Github del Template ToDo](https://github.com/hectorbenitez/php-database-crud)
+* [Github del CV](https://github.com/hectorbenitez/curso-introduccion-php)
+* [Github del ToDo](https://github.com/hectorbenitez/php-database-crud)
 * [XAMPP](https://www.apachefriends.org)
 * [PHP-FIG](https://www.php-fig.org/)
 * [PSR](https://www.php-fig.org/psr/)
 * [Composer](https://getcomposer.org/)
 * [Packagist](https://packagist.org/)
+* [Eloquent](https://packagist.org/packages/illuminate/database)
+* [Diactoros](https://zendframework.github.io/zend-diactoros/usage/)
+* [Aura/Router](https://github.com/auraphp/Aura.Router/blob/HEAD/docs/index.md)
+* [Twig](https://twig.symfony.com/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
