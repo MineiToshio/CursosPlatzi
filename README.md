@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-26-brightgreen.svg?style=flat-square" alt="Cursos 26">
+    <img src="https://img.shields.io/badge/Cursos-27-brightgreen.svg?style=flat-square" alt="Cursos 27">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -46,6 +46,9 @@
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
 2. [Curso de Redux](Curso%20de%20Redux/README.md#curso-de-redux)
 3. [Curso de Next.js](Curso%20de%20Next.js/README.md#curso-de-nextjs)
+
+### Desarrollo Backend con PHP
+1. [Curso de Introducción a PHP](Curso%20de%20Introducción%20a%20PHP/README.md#curso-de-introducción-a-php)
 
 ### Base de Datos
 1. [Curso de MongoDB y Redis](Curso%20de%20MongoDB%20y%20Redis/README.md#curso-de-mongodb-y-redis)
