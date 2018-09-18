@@ -74,6 +74,7 @@
 - [Sesiones](#sesiones)
 - [Restringir acceso a usuarios autenticados](#restringir-acceso-a-usuarios-autenticados)
 - [Variables de Entorno](#variables-de-entorno)
+- [Deploy](#deploy)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es PHP?
@@ -1507,6 +1508,43 @@ Para obtener los datos de las variables, se usa `getenv`:
 ```php
 $host = getenv('DB_HOST');
 $database = getenv('DB_DATABASE');
+```
+
+## Deploy
+
+Para poder desplegar en Heroku se tiene que hacer lo siguiente:
+
+1. Crear una nueva app desde el hashboard de Heroku.
+
+2. Linkear al repositorio remoto de Heroku a la app.
+
+3. Hacer un push de la aplicación al repositorio remoto de Heroku.
+
+```bash
+$ git push heroku master
+```
+
+4. Instalar Heroku Posgress:
+https://elements.heroku.com/addons/heroku-postgresql
+
+5. Luego, te vas a la sección de **resources** de tu app en Heroku y entras a 
+**Heroku Postgres :: Database**
+
+6. Te vas a la pestaña **Settings** y ahí te deberían de aparecer los datos de conexión a la DB de Posgress
+
+7. Vuelves a la vista de tu app en Heroku y vas a la pestaña **Settings**.
+
+8. Haces click en **Reveal Config Vars**.
+
+9. Agregas las variables de entorno con los datos de conexión a la base de datos. Estas variables son las mismas que has agrega en el archivo .env solo que contienen la data de conexión a la base de datos de postgress.
+
+```
+BD_HOST
+DB_NAME
+DB_USER
+DB_PASS
+DB_DRIVER
+DB_PORT
 ```
 
 ## Enlaces de Interés
