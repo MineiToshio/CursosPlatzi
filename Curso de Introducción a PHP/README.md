@@ -92,6 +92,10 @@ PHP es un lenguaje de programación de propósito general de alto nivel que fue 
 * No esta diseñado para realizar aplicaciones de escritorio.
 * Para trabajar con PHP instalaremos un entorno de desarrollo llamado XAMPP, no es un entorno pensado para producción.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## XAMPP
 
 Es un entorno para poder desarrollar en PHP.
@@ -111,6 +115,10 @@ Si al iniciar el servidor de Apache sale un error por que el **puerto está sien
 3. Cambiar Listen 80
 4. Cambiar ServerName localhost:80
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Sintaxsis de PHP
 
 Siempre que usemos PHP usaremos lo siguiente: 
@@ -126,6 +134,10 @@ Todo lo que pongamos dentro de esto será lo que el servidor va a interpretar co
 Si queremos escribir código php en nuestra vista HTML tendremos que cambiarle la extensión al archivo por **.php** porque nuestro servidor esta configurado a solo interpretar archivos PHP. Solo las partes dentro de `<?php ?>` van a ser interpretadas y su código fuente no será visible desde el navegador.
 
 Todas las sentencias de código se separarán con un `;` (punto y coma).
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Variables
 
@@ -166,9 +178,17 @@ En PHP tenemos dos tipos de cadenas, las que son con **comillas simples** y las 
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Tipos de datos
 
 PHP cuenta con muchos tipos de datos, sin embargo, en este momento nos vamos a enfocar en los más importantes y utilizados que son boolean, integer, float, string, array y NULL.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tipos escalares
 
@@ -187,6 +207,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### Integer
 
 Representa un número entero positivo, negativo o 0. 
@@ -201,6 +225,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### float o double
 
 Representa un número de punto flotante, existen problemas de precisión con los números flotantes debido a la naturaleza binaria de las computadoras.
@@ -214,6 +242,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
   $c = 7E-10;
 ?> 
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### string
 
@@ -234,6 +266,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
   $b = 'Mundo'; 
 ?>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tipos compuestos
 
@@ -264,6 +300,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### object
 
 Representa una instancia de una clase. Este tema lo veremos más a fondo en la clase de Programación Orientada a Objetos.
@@ -282,6 +322,10 @@ Representa una instancia de una clase. Este tema lo veremos más a fondo en la c
   $myCar->move();
 ?>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 #### callable
 
@@ -303,6 +347,10 @@ Es un tipo de dato especial que representa a algo que puede ser “llamado”, p
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### iterable
 
 A partir de PHP 7.1 iterable es un pseudo tipo de datos que puede ser recorrido.
@@ -317,6 +365,10 @@ A partir de PHP 7.1 iterable es un pseudo tipo de datos que puede ser recorrido.
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Tipos especiales
 
 #### resource
@@ -329,6 +381,10 @@ Es un tipo de dato especial que representa un recurso externo, por ejemplo un ar
 ?>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 #### NULL
 
 Es un valor especial que se usa para representar una variable sin valor. 
@@ -340,6 +396,10 @@ Si quieres conocer más de este tipo de dato da click [aquí](http://php.net/man
   $a = null; 
 ?>
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Arreglos
 
@@ -387,6 +447,10 @@ La estructura de arreglos en PHP es conocida como mapa, lo que quiere decir que 
 
 Algo que debes saber es que en PHP podrás almacenar diferentes tipos de datos en un mismo arreglo.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Condicionales
 
 Las condiciones nos permiten tomar decisiones en el código, si se cumple la condición entonces se ejecutarán ciertas instrucciones sino se cumple se ejecutarán otras. Estas se denotan por la instrucción **if else**.
@@ -402,9 +466,17 @@ else {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Ciclos
 
 Los ciclos o bucles son de total importancia cuando desarrollamos software pues nos permiten repetir un bloque de acciones y en consecuencia re-utilizar mejor nuestro código.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Do while
 
@@ -416,7 +488,11 @@ do {
 } while($idx < 3);
 ```
 
- El ciclo do while garantiza que el código interno se ejecutará al menos 1 vez.
+El ciclo do while garantiza que el código interno se ejecutará al menos 1 vez.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
  ### While
 
@@ -428,7 +504,11 @@ do {
 }
  ```
 
- En el ciclo while si la condición es falsa desde un inicio, es posible que el ciclo nunca se ejecute.
+En el ciclo while si la condición es falsa desde un inicio, es posible que el ciclo nunca se ejecute.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### For
 
@@ -437,6 +517,10 @@ for($idx = 0; $idx < 3; $idx++) {
   echo $idx;
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Foreach
 
@@ -465,6 +549,10 @@ foreach ($array as $llave => $valor) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Operadores
 
 ### Operadores aritméticos
@@ -474,6 +562,10 @@ Funcionan para realizar operaciones aritméticas.
 <div align="center">
   <img src="img/operadores-aritmeticos.jpg">
   <small><p>Operadores Aritméticos</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Operadores de asignación
@@ -508,6 +600,10 @@ $a .= $b
 $a = $a . $b
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Operadores de comparación
 
 Nos permiten comparar valores.
@@ -515,6 +611,10 @@ Nos permiten comparar valores.
 <div align="center">
   <img src="img/operadores-comparacion.jpg">
   <small><p>Operadores de Comparación</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Operadores de incremento/decremento
@@ -545,6 +645,10 @@ imprime:
 3
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Operadores lógicos
 
 Nos permiten combinar resultados de comparaciones.
@@ -552,6 +656,10 @@ Nos permiten combinar resultados de comparaciones.
 <div align="center">
   <img src="img/operadores-logicos.jpg">
   <small><p>Operadores Lógicos</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ### Operadores para strings
@@ -570,11 +678,19 @@ imprime
 Hola php!!!
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Operadores para arrays
 
 <div align="center">
   <img src="img/operadores-arrays.jpg">
   <small><p>Operadores Arrays</p></small>
+</div>
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
 ## Continue
@@ -593,6 +709,10 @@ Si se ejecuta **continue**, entonces se pasa a la siguiente iteración del for.
 
 Y la sentencia break que hará que el ciclo se termine.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Break
 
 La sentencia **break** hace que el ciclo se termine.
@@ -607,6 +727,10 @@ for($idx = 0; $idx < 10; $idx++) {
 
 Si se actiba el break, entonces se termina el ciclo for.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Funciones
 
 Las funciones en PHP se denotan por la palabra reservada function seguida por el nombre de la **función**, las funciones nos servirán para llamar y reutilizar código en nuestros proyectos.
@@ -620,6 +744,10 @@ function printJob() {
   //Contenido de la función
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Agregando archivos externos
 
@@ -658,6 +786,10 @@ Es como require, pero solo agrega el archivo una sola vez independiente de las v
 ```php
 require_once('jobs.php');
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Programación Orientada a Objetos
 
@@ -700,6 +832,10 @@ $job1->visible = true;
 $job1->months = 16;
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Constructor
 
 El método constructor es una clase que se llama al instanciar una clase. 
@@ -717,6 +853,10 @@ class Job {
 
 $job = new Job('título', 'descripcion');
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Herencia
 
@@ -772,6 +912,10 @@ public function __construct($title, $description) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Interfaces
 
 Las interfaces se pueden ver como un contrato o un acuerdo en el que se pueden estandarizar ciertas cosas.
@@ -805,6 +949,10 @@ function printDescription(Printable $job) {
 ```
 
 En el caso de las interfaces, sí podemos implementar varias al mismo tiempo.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Namespaces
 
@@ -841,11 +989,19 @@ Otra forma de hacerlo es al siguiente:
 $project = new Lib\Project();
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## PSR y PHPFIG
 
 Varios programadores se unieron para crear un grupo llamado [PHP-FIG](https://www.php-fig.org/) con el objetivo de avanzar en la interoperabilidad de librerías en PHP.
 
 Este grupo creo el [PSR](https://www.php-fig.org/psr/) que son recomendaciones y estándares para tu código de PHP.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Composer
 
@@ -884,6 +1040,10 @@ require_once('vendor/autoload.php');
 
 Esta funcionalidad va a ser que ya no sea necesario hacer un require de los archivos que se encuentren en los namespaces definidos en composer.json.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Base de Datos
 
 Las bases de datos son colecciones de datos que podemos usar para consultarla almacenarla, ejecutar filtros, etc.
@@ -892,11 +1052,19 @@ Cuando hablamos de aplicaciones web trabajaremos con sistemas manejadores de bas
 
 XAMPP viene con una herramienta llamada phpMyAdmin que es un cliente el cual se conecta a una base de datos, en este caso se conecta a MariaDB.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## ORM
 
 Un ORM, que significa Object Relational Mapping, es un concepto en el cual vamos a crear dentro de nuestro código algunos modelos basados en las tablas de nuestra base de datos.
 
 Una principal característica de un ORM es que hace más transparente las conexiones a PostgreSQL y MySQL, además nos protege de algunas vulnerabilidades de SQL y facilita algunas validaciones a la información.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Formularios
 
@@ -918,6 +1086,10 @@ Podemos enviar información desde un formulario a través de diferentes métodos
 </form>
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Eloquent
 
 [Packagist](https://packagist.org/) es un sitio donde encontraras múltiples librerías de terceros que puedes integrar a tus proyectos mediante composer, de aquí añadiremos nuestra herramienta para la conexión a base de datos.
@@ -935,6 +1107,10 @@ Este comando agrega illuminate/database a la lista de require del composer.json.
 Asimismo, se crea un arechivo **composer.lock** en donde se almacenan todas las dependencias de illuminate/database.
 
 Una vez estén listos los modelos, usando la variable super global $_POST conectaremos la información del formulario con nuestro modelo para añadirla información a la base de datos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Configurar Eloquent
 
@@ -960,6 +1136,10 @@ $capsule->setAsGlobal();
 $capsule->bootEloquent();
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Modelo de datos
 
 Para conectar una clase con una tabla de base de datos, se debe de hacer 2 cosas:
@@ -974,6 +1154,10 @@ class Job extends Model {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Insertar un dato
 
 El siguiente es un ejemplo de cómo agregar datos en una base de datos.
@@ -985,11 +1169,19 @@ $job->description = $_POST['description'];
 $job->save();
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Listar registros
 
 ```php
 $jobs = Job::all();
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Front Controller
 
@@ -1012,6 +1204,10 @@ if($route == '/')
 elseif ($route == 'addJob')
   require('../addJob.php');
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Request
 
@@ -1059,6 +1255,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Router
 
 [aura/router](https://github.com/auraphp/Aura.Router/blob/HEAD/docs/index.md) es un paquete que nos ayudará para manejar las rutas en nuestro proyecto.
@@ -1088,6 +1288,10 @@ if (!$route) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## MVC
 
 MVC es un patrón de diseño que divide nuestra aplicación en tres partes fundamentales:
@@ -1098,9 +1302,17 @@ MVC es un patrón de diseño que divide nuestra aplicación en tres partes funda
 
 Un proyecto en MVC se organiza en carpetas con estos nombres.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Vistas
 
 En las vistas se encuentra el código HTML. La vista debe de encontrarse sin nungún tipo de lógica de negocio.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Controladores
 
@@ -1116,6 +1328,10 @@ class IndexController {
   }
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Rutas
 
@@ -1150,6 +1366,10 @@ if (!$route) {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Formularios
 
 ```php
@@ -1168,11 +1388,19 @@ class JobsController {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Template engines
 
 Son motores que sirven para renderear el código html y sustituir las partes de código con los datos que se tienen que imprimir.
 
 PHP, a pesar de que fue pensado para ser un template engine, se ha enfocado más en la programación, por eso tenemos librerías que se concentran totalmente en esto.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Twig
 
@@ -1219,6 +1447,10 @@ class IndexController extends BaseController{
 
 Además, cabe resaltar que la plantilla a cargar debe de tener la extensión **.twig**.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Mostrar data dinámica
 
 Twig no permite código PHP en sus plantillas. Para agregar data dinamica, se va a usar `{{ }}`.
@@ -1240,6 +1472,10 @@ class IndexController extends BaseController {
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ### Repetir código HTML (for)
 
 Se va a usar `{% for item in items %}{% endfor %}` para declarar cuándp una parte del código HTML se va a reperir.
@@ -1249,6 +1485,10 @@ Se va a usar `{% for item in items %}{% endfor %}` para declarar cuándp una par
   <h5>{{ job.title }}</h5>
 {% endfor %}
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Layouts
 
@@ -1282,6 +1522,10 @@ Para usar el layout, se tiene que hacer lo siguiente:
 {% endblock %}
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Subida de Archivos
 
 Para poder subir archivo, se debe de agregar `enctype="multipart/form-data"` en el formulario.
@@ -1310,6 +1554,10 @@ public function uploadFile($request) {
   }
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ### Tips de seguridad para subir archivos PHP
 
@@ -1349,6 +1597,10 @@ Lo ideal es implementar una seguridad tanto por el lado del cliente como por el 
 **No uses solo una medida de protección**
 
 Combina todas las que te sean posibles para tener mayor seguridad en tu app.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Validaciones
 
@@ -1392,6 +1644,10 @@ class JobsController extends BaseController{
 }
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Autenticar Usuarios
 
 Las validaciones de password las haremos con la función `password_verify()`.
@@ -1412,6 +1668,10 @@ else {
   echo 'Not found';
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Redirigir a otra página
 
@@ -1440,6 +1700,10 @@ http_response_code($response->getStatusCode());
 echo $response->getBody();
 ```
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Sesiones
 
 Para poder usar las sesiones, se debe de usar la sentencia `session_start`.
@@ -1459,6 +1723,10 @@ Para leer el valor de una sesión:
 ```php
 $userId = $_SESSION['userId'];
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Restringir acceso a usuarios autenticados
 
@@ -1483,6 +1751,10 @@ if($needsAuth && !$sessionUserId) {
   die;
 }
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Variables de Entorno
 
@@ -1509,6 +1781,10 @@ Para obtener los datos de las variables, se usa `getenv`:
 $host = getenv('DB_HOST');
 $database = getenv('DB_DATABASE');
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Deploy
 
@@ -1546,6 +1822,10 @@ DB_PASS
 DB_DRIVER
 DB_PORT
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlaces de Interés
 * [Curso de Introducción a PHP](https://platzi.com/clases/php)
