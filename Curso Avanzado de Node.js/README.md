@@ -23,6 +23,10 @@
 - [Debug de la Aplicación](#debug-de-la-aplicación)
 - [Advertencia sobre el borrado de base de datos](#advertencia-sobre-el-borrado-de-base-de-datos)
 - [Colores en la Terminal](#colores-en-la-terminal)
+- [Pruebas Unitarias](#pruebas-unitarias)
+- [Valores por Defecto](#valores-por-defecto)
+  - [Code Coverage](#code-coverage)
+  - [Stubs](#stubs)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -427,6 +431,97 @@ function handlefatalError (err) {
   console.error(`${chalk.red('[fatal error]')} ${err.message}`)
 }
 ```
+
+## Pruebas Unitarias
+
+Se va a usar ava.js para la implementación de pruebas unitarias.
+
+```bash
+npm i -D ava
+```
+
+Para usar ava, se va a hacer un script de pruebas unitarias:
+
+```js
+const test = require('ava')
+
+test('make it pass', t => {
+  t.pass()
+})
+```
+
+Para poder ejecutar el test, se tiene que agregar un script en el package.json
+
+```js
+"scripts": {
+  "test": "ava tests/ --verbose"
+}
+```
+
+## Valores por Defecto
+
+Una forma de setear valores por defecto es usando la librería defaults.
+
+```bash
+npm i defaults
+```
+
+```js
+const defaults = require('defaults')
+
+function prueba (config) {
+  config = defaults(config, {
+    dialect: 'sqlite',
+    query: {
+      raw: true
+    }
+  })
+}
+```
+
+Lo que va a hacer defaults es hacer un merge con el parámetro que se recibe y los valores por defecto. 
+
+### Code Coverage
+
+**Test coverage** es una técnica que permite ver si los tests que hemos creado están cubriendo el código de nuestra aplicación, y si están siendo considerados en las pruebas. El resultado será un porcentaje, que nos va a decir cuánto del código está siendo abarcado.
+
+Lo ideal es mantener el código al 100%.
+
+Para implementar code coverage, vamos a usar **nyc**.
+
+```node
+npm i -D nyc
+```
+
+Para usarlo, solo se debe de agregar el script en el package.json:
+
+```js
+"scripts": {
+  "test": "nyc ava tests/ --verbose"
+}
+```
+
+Si se desea que el reporte salga en un html aparte, agregar el siguiente script:
+
+```js
+"scripts": {
+  "test": "nyc --reporter=lcov ava tests/ --verbose"
+}
+```
+
+El html se va a crear en la carpeta **coverage**.
+
+### Stubs
+
+Los **stubs** son un objeto que es similar en su funcionalidad al objeto original (nuestro modelo), pero que la respuesta y los argumentos de entrada están previamente especificados con una librería o estrategia. Objetos falsos que se van a comportar de manera similar a los objetos reales.
+
+Para usar stubs se va a usar la librería **sinon**.
+
+```bash
+$ npm i -D sinon
+```
+
+$ npm i -D proxyquire
 
 ## Enlaces de Interés
 * [Curso Avanzado de Node.js](https://platzi.com/clases/nodejs/)
