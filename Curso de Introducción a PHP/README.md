@@ -66,6 +66,14 @@
   - [Mostrar data dinámica](#mostrar-data-dinámica)
   - [Repetir código HTML (for)](#repetir-código-html-for)
   - [Layouts](#layouts)
+- [Subida de Archivos](#subida-de-archivos)
+  - [Tips de seguridad para subir archivos PHP](#tips-de-seguridad-para-subir-archivos-php)
+- [Validaciones](#validaciones)
+- [Autenticar Usuarios](#autenticar-usuarios)
+- [Redirigir a otra página](#redirigir-a-otra-página)
+- [Sesiones](#sesiones)
+- [Restringir acceso a usuarios autenticados](#restringir-acceso-a-usuarios-autenticados)
+- [Variables de Entorno](#variables-de-entorno)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es PHP?
@@ -1273,6 +1281,234 @@ Para usar el layout, se tiene que hacer lo siguiente:
 {% endblock %}
 ```
 
+## Subida de Archivos
+
+Para poder subir archivo, se debe de agregar `enctype="multipart/form-data"` en el formulario.
+
+```html
+<form action="/jobs/add" method="post" enctype="multipart/form-data">
+  <input type="file" name="logo">
+  <button type="submit">Save</button>
+</form>
+```
+
+Luego, en el controlador, agregar las siguientes líneas de código:
+
+```php
+public function uploadFile($request) {
+  //Obtiene los archivos que se han subido
+  $files = $request->getUploadedFiles();
+  $logo = $files['logo'];
+
+  //Verifica que no hayan errores
+  if($logo->getError() == UPLOAD_ERR_OK) {
+    //Obtiene el nombre del archivo
+    $fileName = $logo->getClientFilename();
+    //Mueve el archivo a la carpeta seleccionada
+    $logo->moveTo("uploads/$fileName");
+  }
+}
+```
+
+### Tips de seguridad para subir archivos PHP
+
+Cuando permites subir archivos a tu servidor, estas exponiendote a posibles ataques o hackeos, por eso es muy importante tratar de tener cuidado con la forma en la que almacenamos los archivos.
+
+Existen muchas formas de protegernos, pero aun asi, aqui te dejo algunos tips para que tengas mas tranquilidad a la hora de permitir que usuarios suban archivos a tus aplicaciones:
+
+**De ser posible, almacena los archivos en un servicio externo a tu aplicación como Amazon S3**
+
+
+Un ataque muy común es tratar de subir un archivo que no es lo que nosotros esperamos, un atacante podría intentar subir un archivo PHP para que al mandarlo llamar el tenga acceso al servidor, pero si almacenamos los archivos en otro sitio él no tendrá acceso a nuestro servidor.
+
+**Cuida los permisos**
+
+Cuando subimos un archivo podemos usar la función chmod para cambiar los permisos e indicarle al sistema operativo que ese archivo no es ejecutable.
+
+**Verifica el tipo de archivo que están subiendo**
+
+Podemos verificar la extensión del archivo, el mime type y lo encabezados para validar que el archivo es del tipo que estamos pidiendo.
+
+**Limita el tamaño de los archivos permitidos**
+
+Dependiendo de tu aplicación, tu puedes saber qué tamaño de archivo es razonable, de ser así, limita el tamaño de la subida de archivos.
+
+**Si tu aplicación usa login**
+
+Solo permite que los usuarios registrados hagan la subida de archivos.
+
+**Genera un nombre de archivo aleatorio y añade la extensión previamente generada**
+
+Muchas veces los atacantes trataran de esconder sus archivos, tu puedes cambiar el nombre de un archivo y poner otro que para ti sea claro que es un archivo subido por un usuario.
+
+**No confíes sólo en una validación por el lado del cliente, no es suficiente**
+
+Lo ideal es implementar una seguridad tanto por el lado del cliente como por el lado del servidor. También podemos comenzar validaciones del lado del cliente usando javascript, sin duda son buenas, pero es relativamente sencillo sobrepasarse y enviar un archivo malicioso.
+
+**No uses solo una medida de protección**
+
+Combina todas las que te sean posibles para tener mayor seguridad en tu app.
+
+## Validaciones
+
+Las validaciones son importantes para proteger la integridad de la información que vamos a almacenar y mostrar.
+
+Una de las librerías que permiten el manejo de validaciones es [respect/validation](https://packagist.org/packages/respect/validation).
+
+```bash
+$ php composer.phar require respect/validation
+```
+
+```php
+use Respect\Validation\Validator as v;
+
+class JobsController extends BaseController{
+  public function getAddJobAction($request) {
+    $responseMessage = null;
+
+    if(!empty($request->getMethod() == 'POST')) {
+      //Setear reglas de validación
+      $jobValidator = v::key('title', v::stringType()->notEmpty())
+                       ->key('description', v::stringType()->notEmpty());
+      
+      try {
+        //Obtener la dada del request
+        $postData = $request->getParsedBody();
+        //Validar los datos
+        $jobValidator->assert($postData);
+
+        $responseMessage = 'Validado';
+      }
+      catch(\Exception $e) {
+        $responseMessage = $e->getMessage();
+      }
+    }
+
+    return $this->renderHTML('addJob.twig', [
+      'responseMessage' => $responseMessage
+    ]);
+  }
+}
+```
+
+## Autenticar Usuarios
+
+Las validaciones de password las haremos con la función `password_verify()`.
+
+```php
+//Verificar si el usuarios existe
+$user = User::where('email', $postData['email'])->first();
+
+if($user) {
+  //Verificar si coincide el usuari  y la contrasela
+  if(\password_verify($postData['password'], $user->password)) {
+    echo 'user authenticated';
+  }
+  else
+    echo 'wrong password'; 
+}
+else {
+  echo 'Not found';
+}
+```
+
+## Redirigir a otra página
+
+Para redrigir hay que agregar un use a `Zend\Diactoros\Response\RedirectResponse`.
+
+```php
+use Zend\Diactoros\Response\RedirectResponse;
+```
+
+Luego, la redirección se hace de la siguiente manera:
+
+```php
+return new RedirectResponse('/admin');
+```
+
+Además, para que las redirecciones funcionen, hay que agregar las cabeceras al response.
+
+```php
+foreach($response->getHeaders() as $name => $values) {
+  foreach($values as $value) {
+    header(sprintf('%s: %s', $name, $value), false);
+  }
+}
+http_response_code($response->getStatusCode());
+
+echo $response->getBody();
+```
+
+## Sesiones
+
+Para poder usar las sesiones, se debe de usar la sentencia `session_start`.
+
+```php
+session_start();
+```
+
+Para setear un valor en la sesión:
+
+```php
+$_SESSION['userId'] = $user->id;
+```
+
+Para leer el valor de una sesión:
+
+```php
+$userId = $_SESSION['userId'];
+```
+
+## Restringir acceso a usuarios autenticados
+
+Para restringir el acceso a ciertas rutas, se va a agregar un key al array de enrutamiento:
+
+```php
+$map->get('admin', '/admin', [
+  'controller' => 'IndexController',
+  'action' => 'getIndex',
+  'auth' => true
+]);
+```
+
+Luego, al momento de mostrar la respectiva plantilla para el ruteo, hacer hacer una verificación de la sesión en casi se requiera autenticación:
+
+```php
+$needsAuth = $handlerData['auth'] ?? false;
+
+$sessionUserId = $_SESSION['userId'] ?? null;
+if($needsAuth && !$sessionUserId) {
+  echo 'access denied';
+  die;
+}
+```
+
+## Variables de Entorno
+
+Los datos de configuración de la base de datos no deberían de encontrarse hardcodeados. Es una buena práctica usar variables de entorno para sacarlas de ahí.
+
+Utilizaremos [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv) para cargar las variables de entono en super variables.
+
+Se va a instalar de la siguiente manera:
+
+```bash
+$ php composer.phar require vlucas/phpdotenv
+```
+
+Para usarlo, se debe de crear un archivo **.env** en donde se van a almacenar las variables de entorno:
+
+```php
+BD_HOST=localhost
+DB_DATABASE=cursophp
+```
+
+Para obtener los datos de las variables, se usa `getenv`:
+
+```php
+$host = getenv('DB_HOST');
+$database = getenv('DB_DATABASE');
+```
+
 ## Enlaces de Interés
 * [Curso de Introducción a PHP](https://platzi.com/clases/php)
 * [Github del CV](https://github.com/hectorbenitez/curso-introduccion-php)
@@ -1286,6 +1522,8 @@ Para usar el layout, se tiene que hacer lo siguiente:
 * [Diactoros](https://zendframework.github.io/zend-diactoros/usage/)
 * [Aura/Router](https://github.com/auraphp/Aura.Router/blob/HEAD/docs/index.md)
 * [Twig](https://twig.symfony.com/)
+* [Respect/Validation](https://packagist.org/packages/respect/validation)
+* [vlucas/phpdotenv](https://packagist.org/packages/vlucas/phpdotenv)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
