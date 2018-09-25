@@ -23,6 +23,7 @@
 - [State](#state)
 - [Loaders](#loaders)
 - [Despliegue con Now](#despliegue-con-now)
+- [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## ¿Qué es Next.JS?
@@ -656,6 +657,13 @@ Se puede hacer un deploy en el plan gratuito. El plan gratuito hace que el códi
 ```bash
 $ now --public
 ```
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## Recursos Complementarios
+* [Diapositivas del Curso](docs/slides.pdf)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
