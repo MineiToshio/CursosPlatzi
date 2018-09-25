@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-29-brightgreen.svg?style=flat-square" alt="Cursos 29">
+    <img src="https://img.shields.io/badge/Cursos-30-brightgreen.svg?style=flat-square" alt="Cursos 30">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -48,6 +48,9 @@
 1. [Curso de React.js](Curso%20de%20React.js/README.md#curso-de-reactjs)
 2. [Curso de Redux](Curso%20de%20Redux/README.md#curso-de-redux)
 3. [Curso de Next.js](Curso%20de%20Next.js/README.md#curso-de-nextjs)
+
+### Desarrollo de Apps Multiplataforma
+1. [Curso de Progressive Web Apps con React.js](Curso%20de%20Progressive%20Web%20Apps%20con%20React.js/README.md#curso-de-progressive-web-apps-con-reactjs)
 
 ### Desarrollo Backend con PHP
 1. [Curso de Introducción a PHP](Curso%20de%20Introducción%20a%20PHP/README.md#curso-de-introducción-a-php)
