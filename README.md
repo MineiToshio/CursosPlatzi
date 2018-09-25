@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-28-brightgreen.svg?style=flat-square" alt="Cursos 28">
+    <img src="https://img.shields.io/badge/Cursos-29-brightgreen.svg?style=flat-square" alt="Cursos 29">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -33,11 +33,12 @@
 3. [Fundamentos de Arquitectura de Software](Fundamentos%20de%20Arquitectura%20de%20Software/README.md#fundamentos-de-arquitectura-de-software)
 
 ### Arquitectura Frontend
-1. [Curso de Animaciones para la Web](Curso%20de%20Animaciones%20para%20la%20Web/README.md#curso-de-animaciones-para-la-web)
-2. [Curso de CSS Grid Layout](Curso%20de%20CSS%20Grid%20Layout/README.md#curso-de-css-grid-layout)
-3. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
-4. [Curso de PostCSS](Curso%20de%20PostCSS/README.md#curso-de-postcss)
-5. [Curso de Bootstrap](Curso%20de%20Bootstrap/README.md#curso-de-bootstrap)
+1. [Curso de Responsive Design](Curso%20de%20Responsive%20Design/README.md#curso-de-responsive-design)
+2. [Curso de Animaciones para la Web](Curso%20de%20Animaciones%20para%20la%20Web/README.md#curso-de-animaciones-para-la-web)
+3. [Curso de CSS Grid Layout](Curso%20de%20CSS%20Grid%20Layout/README.md#curso-de-css-grid-layout)
+4. [Curso de Sass](Curso%20de%20Sass/README.md#curso-de-sass)
+5. [Curso de PostCSS](Curso%20de%20PostCSS/README.md#curso-de-postcss)
+6. [Curso de Bootstrap](Curso%20de%20Bootstrap/README.md#curso-de-bootstrap)
 
 ### Desarrollo con Javascript
 <!-- 1. [Curso Avanzado de Node.js](Curso%20Avanzado%20de%20Node.js/README.md#curso-avanzado-de-nodejs) -->
@@ -71,9 +72,11 @@
 1. [Curso de Email Marketing](Curso%20de%20Email%20Marketing/README.md#curso-de-email-marketing)
 
 ### Negocios Online
+1. [Curso de Atención al Cliente y Soporte a Usuarios](Curso%20de%20Atención%20al%20Cliente%20y%20Soporte%20a%20Usuarios/README.md#curso-de-atención-al-cliente-y-soporte-a-usuarios)
+2. [Curso de Seguridad Informática para Empresas](Curso%20de%20Seguridad%20Informática%20para%20Empresas/README.md#curso-de-seguridad-informática-para-empresas)
+
+### Gestión de Proyectos
 1. [Fundamentos de la Gestión de Proyectos](Fundamentos%20de%20la%20Gestión%20de%20Proyectos/README.md#fundamentos-de-la-gestión-de-proyectos)
-2. [Curso de Atención al Cliente y Soporte a Usuarios](Curso%20de%20Atención%20al%20Cliente%20y%20Soporte%20a%20Usuarios/README.md#curso-de-atención-al-cliente-y-soporte-a-usuarios)
-3. [Curso de Seguridad Informática para Empresas](Curso%20de%20Seguridad%20Informática%20para%20Empresas/README.md#curso-de-seguridad-informática-para-empresas)
 
 ### Creación de StartUps
 1. [Introducción a la Creación de Empresas y Startups](Introducción%20a%20la%20Creación%20de%20Empresas%20y%20Startups/README.md#introducción-a-la-creación-de-empresas-y-startups)
@@ -81,8 +84,10 @@
 
 ### Crecimiento Profesional
 1. [Curso de Escritura Online](Curso%20de%20Escritura%20Online/README.md#curso-de-escritura-online)
+2. [Curso de Hablar en Público](Curso%20de%20Hablar%20en%20Público/README.md#curso-de-hablar-en-público)
+
+### Inglés
 2. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
-3. [Curso de Hablar en Público](Curso%20de%20Hablar%20en%20Público/README.md#curso-de-hablar-en-público)
 
 ## Quiero seguir aprendiendo
 
