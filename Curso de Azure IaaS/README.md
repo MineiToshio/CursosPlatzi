@@ -13,6 +13,9 @@
 - [Instalar un Servidor Apache (Linux)](#instalar-un-servidor-apache-linux)
   - [Habilitar el acceso a Apache de forma remota](#habilitar-el-acceso-a-apache-de-forma-remota)
 - [Redes Virtuales](#redes-virtuales)
+  - [Crear una Red Virtual](#crear-una-red-virtual)
+- [Balanceo de Cargas](#balanceo-de-cargas)
+- [Resource Manager](#resource-manager)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Características del portal de Azure
@@ -192,6 +195,60 @@ Las Redes Virtuales garantizan que nadie más, dentro de los parámetros estable
 * Control empresarial e identificación de acceso.
 * Administración y monitoreo.
 * Requerimientos avanzados de conectividad.
+
+### Crear una Red Virtual
+
+1. Create Resource
+2. Networking
+3. Virtual Network
+
+Solo se pueden comunicar las redes virtuales que están dentro del mismo **resource group**. 
+
+## Balanceo de Cargas
+
+**Balanceo de cargas** = Es un equilibrador de carga de peticiones que distribuye el tráfico entrante entre las instancias.
+
+<div align="center">
+  <img src="img/balanceo-de-carga.jpg">
+  <small><p>Balanceo de Carga</p></small>
+</div>
+
+**¿Por qué implementar el balanceo de cargas?**
+
+Permite una alta disponibilidad de las aplicaciones. Es decir, tenemos la garantía de que un sitio web por medio de las Máquinas Virtuales tenga un 99% de posibilidades de estar disponible en todo momento.
+
+**Escenarios posibles para implementar el Balanceo de cargas**:
+
+* Trafico entrante entre Máquinas Virtuales.
+* Tráfico entre Máquinas Virtuales de una Red Virtual.
+* Reenviar el tráfico externo a una Máquina Virtual determinada.
+
+**3 opciones de balanceado en Azure**:
+
+1. Azure Load Balancer. Es el balanceo de cargas por defecto dentro de Azure.
+2. Application Gateway. 
+3. Trafic Manager. 
+
+## Resource Manager
+
+**Resource Manager** = Es una nueva forma de crear una Máquina Virtual dentro de un grupo de recursos en donde todo va a crearse de forma óptima para:
+
+**¿Cuáles so las ventajas de Resource Manager?**
+
+1. Aprovechar el hardware.
+2. Optimizar costos.
+3. Tener todo bajo un solo repositorio de datos.
+   
+**¿Qué tiene Resource Manager?**
+
+* Administración unificada de recursos.
+* Establece sub redes con IPs públicas o privadas.
+* Sirve para utilizar grupos de seguridad de red.
+
+**Despliegue clásico** = Es importante para cuando se trabaje con una Máquina Virtual que tengamos en nuestros equipos y lo llevemos a la nube.
+
+**Grupos de Recursos** = Son una forma muy cómoda de trabajar con los repositorios de información. Ayuda a mantener organizadas las distintas Máquinas Virtuales de cada usuario distinto.
+También nos pueden servir para mantener separados grupos de prueba y grupos de producción.
 
 ## Enlaces de Interés
 * [Curso de Azure IaaS](https://platzi.com/clases/azure/)
