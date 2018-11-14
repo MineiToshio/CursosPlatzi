@@ -1,13 +1,13 @@
 # Curso de Azure IaaS<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
-- [Características del portal de Azure](#características-del-portal-de-azure)
-- [Cálculo y monitoreo de costos en Azure](#cálculo-y-monitoreo-de-costos-en-azure)
+- [Características del portal de Azure](#caracter%C3%ADsticas-del-portal-de-azure)
+- [Cálculo y monitoreo de costos en Azure](#c%C3%A1lculo-y-monitoreo-de-costos-en-azure)
 - [IaaS](#iaas)
   - [Escenarios en los que podemos movernos con IaaS:](#escenarios-en-los-que-podemos-movernos-con-iaas)
   - [Ventajas de IaaS:](#ventajas-de-iaas)
 - [Maquinas Virtuales](#maquinas-virtuales)
-  - [Configuración básica para crear una Máquina Virtual](#configuración-básica-para-crear-una-máquina-virtual)
+  - [Configuración básica para crear una Máquina Virtual](#configuraci%C3%B3n-b%C3%A1sica-para-crear-una-m%C3%A1quina-virtual)
 - [Instalar un Servidor IIS (Windows)](#instalar-un-servidor-iis-windows)
   - [Habilitar el acceso a IIS de forma remota](#habilitar-el-acceso-a-iis-de-forma-remota)
 - [Instalar un Servidor Apache (Linux)](#instalar-un-servidor-apache-linux)
@@ -15,8 +15,17 @@
 - [Redes Virtuales](#redes-virtuales)
   - [Crear una Red Virtual](#crear-una-red-virtual)
 - [Balanceo de Cargas](#balanceo-de-cargas)
+  - [Crear un Balanceador de Cargas](#crear-un-balanceador-de-cargas)
+  - [Funcionamiento del Balanceador de Cargas](#funcionamiento-del-balanceador-de-cargas)
 - [Resource Manager](#resource-manager)
-- [Enlaces de Interés](#enlaces-de-interés)
+- [Administrar Máquinas Virtuales](#administrar-m%C3%A1quinas-virtuales)
+- [Linea de Comandos de Azure](#linea-de-comandos-de-azure)
+  - [Instalación](#instalaci%C3%B3n)
+  - [Ingresar a Azure](#ingresar-a-azure)
+  - [Comandos](#comandos)
+- [Virtualización](#virtualizaci%C3%B3n)
+- [Tienda de Aplicaciones para Máquinas Virtuales](#tienda-de-aplicaciones-para-m%C3%A1quinas-virtuales)
+- [Enlaces de Interés](#enlaces-de-inter%C3%A9s)
 
 ## Características del portal de Azure
 
@@ -204,6 +213,8 @@ Las Redes Virtuales garantizan que nadie más, dentro de los parámetros estable
 
 Solo se pueden comunicar las redes virtuales que están dentro del mismo **resource group**. 
 
+Se pueden crear una máquina virtual que no tenga ip pública (no se pueda acceder fuera de la red virtual) y para acceder a esta sería por el escritorio remoto de una máquina virtual de la misma red virtual.
+
 ## Balanceo de Cargas
 
 **Balanceo de cargas** = Es un equilibrador de carga de peticiones que distribuye el tráfico entrante entre las instancias.
@@ -229,6 +240,24 @@ Permite una alta disponibilidad de las aplicaciones. Es decir, tenemos la garant
 2. Application Gateway. 
 3. Trafic Manager. 
 
+### Crear un Balanceador de Cargas
+
+Estos son los pasos a seguir para tener un balanceador de cargas bien configurado:
+
+1. Crear un balanceador de cargas.
+2. Crear un conjunto de disponibilidad.
+3. Dos Máquinas Virtuales (o las que estemos trabajando).
+4. Configurar los servidores web.
+5. Configurar el balanceador de cargas.
+
+### Funcionamiento del Balanceador de Cargas
+
+**Datos para recordar**:
+
+1. La IP pública de los servidores es diferente a la IP del balanceador de carga.
+2. Se puede configurar el orden en el que el balanceador de carga muestra por defecto los servidores.
+3. Se pueden apagar los servidores para poder comprobar que el balanceador de carga está funcionando correctamente.
+
 ## Resource Manager
 
 **Resource Manager** = Es una nueva forma de crear una Máquina Virtual dentro de un grupo de recursos en donde todo va a crearse de forma óptima para:
@@ -250,10 +279,82 @@ Permite una alta disponibilidad de las aplicaciones. Es decir, tenemos la garant
 **Grupos de Recursos** = Son una forma muy cómoda de trabajar con los repositorios de información. Ayuda a mantener organizadas las distintas Máquinas Virtuales de cada usuario distinto.
 También nos pueden servir para mantener separados grupos de prueba y grupos de producción.
 
+## Administrar Máquinas Virtuales
+
+* La Interfaz de Red nos permite por medio de grupos de seguridad habilitar las posibilidades de entrada y de salida.
+* En una Máquina Virtual basada en Ubuntu por defecto el puerto de SSH es el que está habilitado.
+* Cuando una Máquina Virtual se redimensiona, no significa ninguna pérdida de datos. Lo único que hay que considerar es que al redimensionarse, va a reiniciarse. Aquí es donde entra el balanceador de cargas que permite que mientras una Máquina Virtual esté en mantenimiento, el tráfico de datos siga fluyendo.
+
+## Linea de Comandos de Azure
+
+### Instalación
+
+Se puede usar la Ubunto Bash para Windows 10.
+
+1. Agregar la lista repositorios en Ubuntu.
+
+`echo @deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ whezy main && sudo tee /atec/apt/sources.list.d/azure-cli.list`
+
+2. Verificar si el servicio está correctamente configurado y se está sumando a la lista correcta.
+
+`apt-key -keyserver packages.microsoft.com --recv-keys 417A0893`
+
+3. Establecer una lalve que garantice que la fuente es segura y puedo conectarme a ella.
+
+`apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893`
+
+4. Instalar apt-transport-https
+
+`apt-get install apt-transport-https`
+
+5. Actualizar los paquetes.
+
+`apt-get update`
+
+6. Instalar la línea de comandos de azure.
+
+`apt-get install azure-cli`
+
+### Ingresar a Azure
+
+1. En la terminal escribir `az login`
+2. Ingresar a https://aka.ms/devicelogin e ingresar el código de autenticación.
+3. Loguearse con la cuenta de Azure.
+
+### Comandos
+
+* `az vm list` lista las máquinas virtuales.
+* `az group create -n [nombre] -l [ubicacion]` crear un grupo de recursos.
+* `az vm create -n [nombre] -g [grupo de recursos] --image [imagen] --data-disk-sizes-gb [disco duro] --admin-username [usuario] --admin-password [password]` crear una máquina virtual.
+
+Para ver la lista de comandos se puede hacer en [Azure CLI](https://docs.microsoft.com/es-es/cli/azure/index?view=azure-cli-latest)
+
+## Virtualización
+
+Se puede crear una máquina virtual dentro de una máquina virtual (virtualización anidada).
+
+**¿Cómo funciona?**
+
+* Solo es válido en algunas regiones.
+* Solo ciertos niveles de máquinas.
+* Utilizan un script de automatización.
+* Debe de ser de versión 3 en adelante.
+
+## Tienda de Aplicaciones para Máquinas Virtuales
+
+Te permite utilizar una máquina preconfigurada con la cual se podrá hacer más rápido el despliegue a producción.
+
+**Ventajas**:
+* Ahorro de esfuerzo.
+* Ahorro de tiempo.
+* Evita que el equipo tenga que configurar los softwares.
+* Evita costos de hardware.
+
 ## Enlaces de Interés
 * [Curso de Azure IaaS](https://platzi.com/clases/azure/)
 * [Portal de Azure](https://portal.azure.com)
 * [Calculadora de Costos](https://azure.microsoft.com/en-us/pricing/calculator/)
+* [Azure CLI](https://docs.microsoft.com/es-es/cli/azure/index?view=azure-cli-latest)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
