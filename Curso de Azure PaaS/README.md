@@ -75,7 +75,63 @@ Tanto los contenedores como los archovos pueden ser públicos o privados.
 
 #### SDK de .Net para almacenamiento Blob
 
+Para poder usar el SDK de .Net, se debe de agregar el siguientes paquetes de Nuget:
+* WindowsAzure.Storage
+* Microsoft.WindowsAzure.ConfigurationManager
 
+Luego hay que congurirar al archivo de configuración:
+
+```xml
+<AppSettings>
+  <add key="StorageConnectionString" value="" />
+</AppSettings>
+```
+
+La llave de acceso se puede obtener desde el portal:
+1. Cuenta de Almacenamiento
+2. Claves de Acceso
+3. Conection String
+
+```c#
+using Microsoft.WindowsAzure;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.Azure;
+using System;
+
+namespace BlobExplorer
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      //Crea la conexión al sistema de archivos
+      CloudStorageAccount cuentaAlmacenamiento = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnectionString"));
+
+      //Crea un cliente Blob
+      CloudBlobClient clienteBlob = cuentaAlmacenamiento.CreateCloudBlobClient();
+
+      //Crea un contenedor
+      CloudBlobContainer contenedor = clienteBlob.GetContainerReference("contenedorcodigo");
+      contenedor.CreateIfNotExists();
+
+      //Da permisos al contenedor
+      contenedor.SetPermissions(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
+
+      //Setea el nombre del archivo a subir
+      CloudBlockBlob miBlob = contenedor.GetBlockBlobReference("foto.jpg");
+
+      //Sube archivo
+      using (var fileStream = System.IO.File.OpenRead(@"C:\\imagen.jpg")) {
+        miBlob.UploadFromStream(fileStream);
+      }
+
+      Console.WriteLine("Tu archivo está listo y creado");
+      Console.ReadLine();
+    }
+  }
+}
+```
 
 ## Azure Storage Explorer
 
@@ -97,6 +153,7 @@ Modificar propiedades de acceso:
 
 ## Enlaces de Interés
 * [Curso de Azure IaaS](https://platzi.com/clases/azure-paas/)
+* [Repositorio de Github](https://github.com/aminespinoza/CursoPaaSPlatzi)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
