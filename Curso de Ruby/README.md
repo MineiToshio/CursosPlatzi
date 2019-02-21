@@ -9,6 +9,7 @@
 - [Symbols](#symbols)
 - [Arrays](#arrays)
 - [Hashes](#hashes)
+- [Condicionales](#condicionales)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -165,6 +166,20 @@ capitales = { "Colombia" => "Bogotá", "Perú" => "Lima" }
 
 capitales["Mexico"] = "Ciudad de Mexico"
 ````
+
+## Condicionales
+
+```ruby
+role = :superadmin
+
+if role == :admin
+  puts "pantalla de admin"
+elsif role == :superadmin
+  puts "pantalla de superadmin"
+else
+  puts "pantalla de login"
+end
+```
 
 **Métodos**
 
