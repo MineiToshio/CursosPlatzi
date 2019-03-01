@@ -9,7 +9,12 @@
 - [Symbols](#symbols)
 - [Arrays](#arrays)
 - [Hashes](#hashes)
+- [Rangos](#rangos)
 - [Condicionales](#condicionales)
+- [Ciclos](#ciclos)
+- [Uso de regex](#uso-de-regex)
+- [Procs y lambdas](#procs-y-lambdas)
+- [Clases](#clases)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -167,6 +172,32 @@ capitales = { "Colombia" => "Bogotá", "Perú" => "Lima" }
 capitales["Mexico"] = "Ciudad de Mexico"
 ````
 
+**Métodos**
+
+* `hash.size` Retorna la cantidad de parejas guardadas en el hash
+* `hash.empty?` Indica si el hash está vacío
+* `hash.has_value? "Washington"` Verifica si el hash tiene el valor
+* `hash.has_key? "Washington"` Verifica si el hash tiene ese key
+* `hash.invert` Intercambia los valores por las llaves
+* `hash.merge({"Marte" => "Musk"})` Junta 2 hashes
+* `hash.transform_values { |x| x.downcase }` Transforma todos los valores en base a una regla determinada
+* `hash.map { |k,v| "La capital de #{k} es #{v}" }` Ejecuta un comando a todas los registros
+* `[["pepito", 13], ["sutanito", 14]].to_h` Convierte un arreglo a hash
+
+## Rangos
+
+El principal uso y quizás el más apropiado para los rangos, es expresar una secuencia: las secuencias tienen un punto inicial y un punto final, y una forma de producir los sucesivos valores entre ambos. En Ruby, esas secuencias son creadas usando los operandos ".." y "..."
+
+* ".." genera una secuencia donde los puntos límites están incluidos.
+
+#Equivale a 1, 2, 3
+`(1..3).to_a`
+
+* "..." genera una secuencia en la que no está incluida el límite superior.
+
+#Equivale a 1, 2, 3, 4
+`(1...5).to_a`
+ 
 ## Condicionales
 
 ```ruby
@@ -181,17 +212,94 @@ else
 end
 ```
 
-**Métodos**
+## Ciclos
 
-* `hash.size` Retorna la cantidad de parejas guardadas en el hash
-* `hash.empty?` Indica si el hash está vacío
-* `hash.has_value? "Washington"` Verifica si el hash tiene el valor
-* `hash.has_key? "Washington"` Verifica si el hash tiene ese key
-* `hash.invert` Intercambia los valores por las llaves
-* `hash.merge({"Marte" => "Musk"})` Junta 2 hashes
-* `hash.transform_values { |x| x.downcase }` Transforma todos los valores en base a una regla determinada
-* `hash.map { |k,v| "La capital de #{k} es #{v}" }` Ejecuta un comando a todas los registros
-* `[["pepito", 13], ["sutanito", 14]].to_h` Convierte un arreglo a hash
+```ruby
+while condicion do
+  puts "hola"
+end
+
+#Loop es infinito. Si se quiere salir se usa u break.
+loop do
+  puts "hola"
+  break if condicion
+end
+
+for i in i..10 do
+  puts "hola"
+end
+
+[1,2,3,4].each { |x| puts "hola" }
+
+#El rimer número es el límite. En este ejemplo iría de 0 a 3.
+4.times { |x| puts "hola" }
+```
+
+## Uso de regex
+
+Para declarar un regex, se utiliza el "/" , ejemplo:
+
+`is_gmail_regex = /\w+@gmail.com/`
+
+## Procs y lambdas
+
+```ruby
+saludar = Proc.new { |nombre| puts "Hola #{nombre}" }
+```
+
+## Clases
+
+```ruby
+class Persona
+  #Método
+  def self.suggested_named
+    ["Pepe", "Pepito", "Pepon"]
+  end
+
+  #Constructor
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  #Getter
+  def name
+    @name
+  end
+
+  #Setter
+  def name=(name)
+    @name = name
+  end
+end
+
+#Instanciar clase
+persona = Persona.new("Pepe", 14)
+puts persona.Name
+
+#User métodos
+Persona.suggested_named
+```
+
+Otra forma de crear clases:
+
+```ruby
+class Persona
+  attr_accessor(:name, :age)  # Genera getter y setter
+
+  def initialize(name)
+    @name = name
+  end
+end
+```
+
+Método de crear clases con struct
+
+```ruby
+#Struct declara el constructor, getters y setters
+class Persona < Struct.new(:name, :age) 
+end
+```
 
 ## Enlaces de Interés
 * [Curso de Ruby](https://platzi.com/clases/ruby/)
