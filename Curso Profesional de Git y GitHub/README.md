@@ -294,6 +294,7 @@ https://www.gitignore.io/
 </div>
 
 ### Issues y Milestones
+
 Issues:
 Es una categoría en la que podemos reportar fallas, o mejoras a un repo determinado, al mismo le podemos asignar etiquetas, personas que lo pueden observar, entre otras cosas, que emulan la interactividad de las redes sociales (bueno github es una red social)
 Milestones:
@@ -302,7 +303,9 @@ Cuando un proyecto es demasiado complejo y hay demasiadas cosas que reportar, pr
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
+
 ### Hosting Gratuito de archivos en GitHub
+
 GitHub nos permite publicar nuestros proyectos a tráves de GitHub Pages.
 Los GitHubs pages almacenan código estático.
 
@@ -311,7 +314,8 @@ Para hacer esto es necesario:
   -Elegir GitHub Pages
   -Escribir a rama que sera el GitHub Page.
 
-###Dominios personalizados en GitHub
+### Dominios personalizados en GitHub
+
 Github permite personalizar la URL de nuestros proyectos desde Github Pages, para ello hay que comprar un dominio por ejemplo en namecheap namecheap.com.
 
 Name cheap= nombre barato
@@ -363,6 +367,7 @@ Confirmamos los cambios dando clic en el chulito o tilde (save changes) ylisto t
 </div>
 
 ### GitHub Desktop, todo lo que necesitas de Git en una sola herramienta gráfica
+
 Interfaz de escritorio en desktop.github.com para que puedas trabajar gráficamente desde tu PC. Desarrollada en Electron. Lo primero que debes hacer es iniciar sesión, luego clonar el proyecto.
 
 -Puedes ver todo el historial de tu proyecto de una manera muy amigable.
