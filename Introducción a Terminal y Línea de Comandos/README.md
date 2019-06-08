@@ -657,9 +657,11 @@ Tipos de permisos:
 * `rwx` permiso de lectura, escritura y ejecución
 
 Los permisos tiene valores numéricos: 
-* r = 4
-* w = 2
-* x = 1
+* r-- = 4
+* -w- = 2
+* --x = 1
+* --- = 0
+
 
 Para otorgar permisos debemos darle un número que sea la suma de cada una de estas tres letras:
 
