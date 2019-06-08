@@ -666,7 +666,7 @@ Para otorgar permisos debemos darle un número que sea la suma de cada una de es
 ```
 ---: 0
 --x: 1
--r-: 2
+-w-: 2
 -wx: 3
 r--: 4
 r-x: 5
