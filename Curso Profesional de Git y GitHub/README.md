@@ -216,8 +216,8 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * `git merge [branch]` mezcla el branch [branch] con el branch actual
 * `git rebase [branch]` mezcla el branch con el brach actual. Es como el merge pero sin crear bifurcaciones
 * **git stash** : Guarda el trabajo actual de manera temporal. (Archivos modificados o eliminados)*
-* **git stash -u **: Crea un stash con todos los archivos. (Añadiendo los creados Untracked)
-* **git stash save “mensaje” :** Crea un stash con el mensaje especificado.
+* **git stash -u ** : Crea un stash con todos los archivos. (Añadiendo los creados Untracked)
+* **git stash save “mensaje”** : Crea un stash con el mensaje especificado.
 * **git stash list** :Permite visualizar todos los stash existentes.
 * **git stash clear** : Elimina todos los stash existentes.
 * **git stash drop ** : Elimina el stash más reciente. El que tiene num_stash=0.
@@ -229,6 +229,32 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * **git stash branch nombre_de_rama** : Crea una rama y aplica el stash mas reciente.
 * **git stash branch nombre_de_rama stash@{num_stash}** : Crea una rama y aplica el stash especificado.
 * `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual
+* **`git clean --dry-run`**: Para saber qué archivos vamos a borrar cuando estan repetidos o no son de nuestro proyecto
+* **`git clean -f`**: Para borrar todos los archivos listados (que no son carpetas y lo que esta en .gitignore)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+## Recuperar ramas borradas (Git)
+* **`git reflog`**: Para recuperar una rama que haya sido eliminada necesitamos el hash ultimo commit hecho en dicha rama. Para eso   usamos git reflog. Buscamos el hash y lo copiamos. ej: git checkout -b cabecera hash_del_utlimo_commit_de_cabecera
+Ya habiendo obtenido el hash lo que hacemos sera volver a crear la rama pero le agregamos el hash al final.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+## comandos especiales (Git)
+* **`git shortlog`**: Ver cuantos commits a hecho los miembros del equipo
+* **`git shortlog -sn`**: Las personas que han hecho ciertos commits
+* **`git shortlog -sn --all`**: Todos los commits (también los borrados)
+* **`git shortlog -sn --all --no-merges`**: muestra las estadisticas de los comigs del repositorio donde estoy
+* **`git config --global alias.stats “shortlog -sn --all --no-merges”`**: configura el comando “shortlog -sn --all --no-merges” en un Alias en las configuraciones globales de git del pc
+* **`git blame -c blogpost.html`**: Muestra quien ha hecho cambios en dicho archivo identado
+* **`git blame --help`**: Muestra en el navegador el uso del comando
+* **`git blame archivo -L 35, 60 -c`**: Muestra quien escribio el codigo con informacion de la linea 35 a la 60, EJ: `git blame css/estilos.css -L 35, 60 -c`
+* **`git branch -r`**: Muestra las Ramas remotas de GitHub
+* **`git branch -a`**: Muestra todas las Ramas del repo y remotas de GitHub 
+
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
