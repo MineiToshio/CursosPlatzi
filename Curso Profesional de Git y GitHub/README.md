@@ -215,19 +215,19 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * `git checkout -- [archivo]` descarta todos los cambios del archivo
 * `git merge [branch]` mezcla el branch [branch] con el branch actual
 * `git rebase [branch]` mezcla el branch con el brach actual. Es como el merge pero sin crear bifurcaciones
-**git stash** :* Guarda el trabajo actual de manera temporal. (Archivos modificados o eliminados)*
-**git stash -u **: Crea un stash con todos los archivos. (Añadiendo los creados Untracked)
-**git stash save “mensaje” :** Crea un stash con el mensaje especificado.
-**git stash list :** Permite visualizar todos los stash existentes.
-**git stash clear** : Elimina todos los stash existentes.
-**git stash drop **: Elimina el stash más reciente. El que tiene num_stash=0.
-**git stash drop stash@{num_stash}** : Elimina un stash específico.
-**git stash apply** : Aplica el stash más reciente. El que tiene num_stash=0.
-**git stash apply stash@{num_stash}** : Aplica los cambios de un stash específico.
-**git stash pop** : Aplica el stash más reciente y lo elimina. El que tiene num_stash=0.
-**git stash pop stash@{num_stash}** : Aplica los cambios de un stash específico y elimina lo stash.
-**git stash branch nombre_de_rama** : Crea una rama y aplica el stash mas reciente.
-**git stash branch nombre_de_rama stash@{num_stash}** : Crea una rama y aplica el stash especificado.
+* **git stash** :* Guarda el trabajo actual de manera temporal. (Archivos modificados o eliminados)*
+* **git stash -u **: Crea un stash con todos los archivos. (Añadiendo los creados Untracked)
+* **git stash save “mensaje” :** Crea un stash con el mensaje especificado.
+* **git stash list :** Permite visualizar todos los stash existentes.
+* **git stash clear** : Elimina todos los stash existentes.
+* **git stash drop **: Elimina el stash más reciente. El que tiene num_stash=0.
+* **git stash drop stash@{num_stash}** : Elimina un stash específico.
+* **git stash apply** : Aplica el stash más reciente. El que tiene num_stash=0.
+* **git stash apply stash@{num_stash}** : Aplica los cambios de un stash específico.
+* **git stash pop** : Aplica el stash más reciente y lo elimina. El que tiene num_stash=0.
+* **git stash pop stash@{num_stash}** : Aplica los cambios de un stash específico y elimina lo stash.
+* **git stash branch nombre_de_rama** : Crea una rama y aplica el stash mas reciente.
+* **git stash branch nombre_de_rama stash@{num_stash}** : Crea una rama y aplica el stash especificado.
 * `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual
 
 <div align="right">
