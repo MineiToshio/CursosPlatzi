@@ -31,6 +31,7 @@
 1. [Curso Profesional de Git y GitHub](Curso%20Profesional%20de%20Git%20y%20GitHub/README.md#curso-profesional-de-git-y-github)
 2. [Introducción a Terminal y Línea de Comandos](Introducción%20a%20Terminal%20y%20Línea%20de%20Comandos/README.md#introducción-a-terminal-y-línea-de-comandos)
 3. [Fundamentos de Arquitectura de Software](Fundamentos%20de%20Arquitectura%20de%20Software/README.md#fundamentos-de-arquitectura-de-software)
+4. [Curso de Expresiones Regulares] (Curso%20de%20Expresiones%20Regulares/README.md#Expresiones regulares)
 
 ### Arquitectura Frontend
 1. [Curso de Responsive Design](Curso%20de%20Responsive%20Design/README.md#curso-de-responsive-design)
