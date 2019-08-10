@@ -13,7 +13,7 @@
       - A Ruby regular expression editor
   - [Introducción al lenguaje de expresiones regulares](#Introducción-al-lenguaje-de-expresiones-regulares)
     - [enlace de interes](#enlace-de-interes)
-      - [App-REGEX-en-linea](#App-REGEX-en-linea)
+      - App-REGEX-en-linea
   - El caracter (.)
   - [Las clases predefinidas y construídas](#Las-clases-predefinidas-y-construídas)
   - [Resumen definitivo](#Resumen-definitivo)
