@@ -1,14 +1,43 @@
 # Expresiones regulares
 
-
-
-**Contenido**
-
-[TOC]
+**Tabla De Contenido**
 
 - **[Expresiónes Regulares](#Expresiones-regulares)**
   - [Temario](#Temario)
   - [Introducción](#Introducción)
+- **[Regex](#Regex)**
+  - [Presentación](#Presentación)
+  - [¿Qué son las expresiones regulares?](#¿Qué son las expresiones regulares?)
+  - [Aplicaciones de las expresiones regulares](Aplicaciones de las expresiones regulares)
+    - [Enlaces de interes](#Aplicaciones de las expresiones regulares)
+      - [A Ruby regular expression editor](#A Ruby regular expression editor)
+  - [Introducción al lenguaje de expresiones regulares](Introducción al lenguaje de expresiones regulares)
+    - [enlace de interes](#enlace de interes)
+      - [App REGEX en linea](#App REGEX en linea)
+  - [El caracter (.)](#El caracter (.))
+  - [Las clases predefinidas y construídas](#Las clases predefinidas y construídas)
+  - [Resumen definitivo](#Resumen definitivo)
+  - [Los delimitadores: +, *, ?](#Los delimitadores: +, *, ?)
+    - [Tipos básicos de conteo: que exista, que no exista.](#Tipos básicos de conteo: que exista, que no exista.)
+  - [Los contadores {1,4}](#Los contadores {1,4})
+  - [El caso de (?) como delimitador](#El caso de (?) como delimitador)
+  - [Not (^), su uso y sus peligros](#Not (^), su uso y sus peligros)
+    - [Reto: Filtrando letras en números telefónicos utilizando negaciones](#Reto: Filtrando letras en números telefónicos utilizando negaciones)
+    - [Ejercicio - reto personal](#Ejercicio - reto personal)
+    - [resolucion reto personal](#resolucion reto personal)
+  - [Principio (^) y final de linea ($)](#Principio (^) y final de linea ($))
+  - [Locaciones](#Locaciones)
+    - [enlaces de interes](#enlaces de interes)
+  - [Logs](#Logs)
+  - [URLs](#URLs)
+  - [Mails](#Mails)
+  - [Búsqueda y reemplazo](#Búsqueda y reemplazo)
+  - [Uso de REGEX para descomponer querys GET](#Uso de REGEX para descomponer querys GET)
+  - [Explicación del Proyecto finalx](#Explicación del Proyecto final)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Temario
 
@@ -38,6 +67,10 @@
 23. Python
 24. Perl (aunque se burlen)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Introducción
 
 Este curso te va a enseñar qué son las expresiones regulares y cómo utilizarlas.
@@ -58,6 +91,10 @@ Tratar, por ejemplo un archivo de más de 2 millones de líneas y 120 megas en m
 
 No sólo es copiar y pegar lo que parecen ser puntos, líneas, asteriscos, signos de interrogación que parecen tener ningún sentido de stack overflow, sino entender exactamente qué hace cada uno y crear los tuyos.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 
 Regex
 =====
@@ -68,6 +105,10 @@ Las Expresiones Regulares son una herramienta de búsqueda y manipulación de ca
 
 Algunos puntos de este temario asumen un uso intermedio de la CLI, por lo que se recomienda el curso de "Línea de Comandos".
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## ¿Qué son las expresiones regulares?
 
 Las expresiones regulares son patrones de caracteres que te permite ir seleccionando o descartando datos en un archivo de texto como por ejemplo csv, o en una línea o un input, según coincidan o nó con este patrón.
@@ -77,6 +118,10 @@ Prácticamente todos los lenguajes de programación tienen librerías o módulos
 Las expresiones regulares pueden ser muy complejas pero no son nada difíciles de entender.
 
 A través de este curso, sin tecnicismos y con ejemplos puntuales, vamos a aprender a utilizarlas para que sean esa herramienta que siempre nos ayude, y sea la primera para solucionar problemas de grandes cantidades de datos en string.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Aplicaciones de las expresiones regulares
 
@@ -89,7 +134,11 @@ En esta clase aprenderás, para qué te puede servir el saber usar bien las Expr
 
 ### Enlaces de interes
 
-#### a Ruby regular expression editor:  [https://rubular.com/](https://rubular.com/)
+#### A Ruby regular expression editor:  [https://rubular.com/](https://rubular.com/)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Introducción al lenguaje de expresiones regulares
 
@@ -102,6 +151,10 @@ Esto mismo sucede con números de tarjetas de crédito, códigos postales, direc
 
 #### App REGEX en linea:  [https://regex101.com/](https://regex101.com/)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## El caracter (.)
 
 ¿Qué es un archivo de texto, por ejemplo un CSV?
@@ -112,9 +165,17 @@ Cada espacio en una cadena de texto se llena con un caracter, esto lo necesitamo
 
 Abriremos nuestro editor qué en este curso recomendamos ATOM y vamos a presionar CTRL + F y podemos buscar por match idénticos.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Las clases predefinidas y construídas
 
 Las búsquedas en las expresiones regulares funcionan en múltiplos de la cantidad de caracteres que explícitamente indicamos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Resumen definitivo
 
@@ -136,13 +197,23 @@ Utilizamos “” , no usen el slash común(/) por que no les andará la búsque
 
 {} =Esta expresión le dice al motor de búsqueda que encuentre dos dígitos contiguos. Utilizando esta fórmula podríamos convertir el ejemplo “^\d\d/\d\d/\d\d\d\d$” que servía para validar un formato de fecha en “^\d{2}/\d{2}/\d{4}$” para una mayor claridad en la lectura de la expresión.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Los delimitadores: +, *, ?
 
 ### Tipos básicos de conteo: que exista, que no exista.
 
 - ( * ) Todo.
+
 - ( + ) 1 o más.
+
 - ( ? ) Cero o uno.
+
+- <div align="right">
+    <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+  </div>
 
 ## Los contadores {1,4}
 
@@ -150,9 +221,17 @@ Lo que vamos a aprender en esta clase es comenzar a generalizar nuestras búsque
 
 		\d{7,7}
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## El caso de (?) como delimitador
 
 El ? indica al patrón que encuentre las coincidencias de manera rápida (o greedy); es decir, devolviendo el resultado más pequeño que haga match hasta donde se encuentra el delimitador, y esto lo haga tantas veces como sea posible dentro de la cadena.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Not (^), su uso y sus peligros
 
@@ -196,6 +275,10 @@ El archivo se encuentra en [file](file/)
 
 *Existen muchas mas formas de resolverlo. ¡No dejes de intentarlo!*
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Principio (^) y final de linea ($)
 
 Estos dos caracteres indican en qué posición de la línea debe hacerse la búsqueda:
@@ -204,6 +287,10 @@ el ^ se utiliza para indicar el principio de línea
 el $ se utiliza para indicar final de línea
 
 ^ ------------- $
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Locaciones
 
@@ -216,13 +303,25 @@ Esta clase nos va a servir para ver unos tips comunes de qué hacer y sobre todo
 
 Geolocalizacion con tres palabras: [what three words](https://what3words.com/)
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Logs
 
 Las expresiones regulares son muy útiles para encontrar líneas específicas que nos dicen algo muy puntual dentro de los archivos de logs que pueden llegar a tener millones de líneas.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## URLs
 
 Una de las cosas que más vamos a usar en la vida, seamos frontend o backend, serán directamente dominios o direcciones de internet; ya sea direcciones completas de archivo (una url) o puntualmente dominios para ver si es correcto un mail o no.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Mails
 
@@ -230,16 +329,28 @@ Quedamos en que ya podemos definir URLs, y dentro de las URLs están los dominio
 
 Practicaremos a fondo en la seccion del proyecto final.
 
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
 ## Búsqueda y reemplazo
 
 Al igual que una navaja suiza, las expresiones regulares son una herramienta increíblemente útil pero tienes que darle la importancia y las responsabilidades adecuadas a cada una, ya que no son la panacea, no solucionan todos los problemas.
 El uso más conveniente de las expresiones regulares es buscar coincidencias o matches de cadenas en un texto, y si es necesario, reemplazarlas con un texto diferente.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Uso de REGEX para descomponer querys GET
 
 Al hacer consultas a sitios web mediante el método GET se envían todas las variables al servidor a través de la misma URL.
 
 La parte de esta url que viene luego del signo de interrogación ? se le llama query del request que es: variable1=valor1&variable2=valor2&... y así tantas veces como se necesite. Es importante practicar como extraer estas variables usando expresiones regulares.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Explicación del Proyecto final
 
@@ -253,3 +364,7 @@ Python
 Javascript
 
 Los archivos del proyecto final en sus diferentes soluciones los puedes encontrar en [proyecto_final](/proyecto_final)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
