@@ -7,25 +7,25 @@
   - [Introducción](#Introducción)
 - **[Regex](#Regex)**
   - [Presentación](#Presentación)
-  - [¿Qué son las expresiones regulares?](#¿Qué-son-las-expresiones-regulares?)
-  - [Aplicaciones de las expresiones regulares](Aplicaciones-de-las-expresiones-regulares)
-    - [Enlaces de interes](#Enlaces-de-interes)
-      - [A Ruby regular expression editor](#A-Ruby-regular-expression-editor)
-  - [Introducción al lenguaje de expresiones regulares](Introducción-al-lenguaje-de-expresiones-regulares)
+  - ¿Qué son las expresiones regulares?
+  - Aplicaciones de las expresiones regulares
+    - Enlaces de interes
+      - A Ruby regular expression editor
+  - [Introducción al lenguaje de expresiones regulares](#Introducción-al-lenguaje-de-expresiones-regulares)
     - [enlace de interes](#enlace-de-interes)
       - [App-REGEX-en-linea](#App-REGEX-en-linea)
-  - [El caracter (.)](#El-caracter-(.))
+  - El caracter (.)
   - [Las clases predefinidas y construídas](#Las-clases-predefinidas-y-construídas)
   - [Resumen definitivo](#Resumen-definitivo)
-  - [Los delimitadores: +, *, ?](#Los-delimitadores)
-    - [Tipos básicos de conteo: que exista, que no exista.](#Tipos-básicos-de-conteo)
-  - [Los contadores {1,4}](#Los-contadores-{1,4})
-  - [El caso de (?) como delimitador](#El-caso-de-(?)-como-delimitador)
-  - [Not (^), su uso y sus peligros](#Not-(^),-su-uso-y-sus-peligros)
-    - [Reto: Filtrando letras en números telefónicos utilizando negaciones](#Filtrando-letras-en-números-telefónicos-utilizando-negaciones)
+  - Los delimitadores: +, *, ?
+    - Tipos básicos de conteo: que exista, que no exista.
+  - Los contadores {1,4}
+  - El caso de (?) como delimitador
+  - Not (^), su uso y sus peligros
+    - Reto: Filtrando letras en números telefónicos utilizando negaciones
     - [Ejercicio - reto personal](#Ejercicio---reto-personal)
     - [resolucion reto personal](#resolucion-reto-personal)
-  - [Principio (^) y final de linea ($)](#Principio-(^)-y-final-de-linea-($))
+  - Principio (^) y final de linea ($)
   - [Locaciones](#Locaciones)
     - [enlaces de interes](#enlaces-de-interes)
   - [Logs](#Logs)
@@ -363,7 +363,7 @@ PHP
 Python
 Javascript
 
-Los archivos del proyecto final en sus diferentes soluciones los puedes encontrar en [proyecto_final](/proyecto_final)
+Los archivos del proyecto final en sus diferentes soluciones los puedes encontrar en [proyecto_final](proyecto_final/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
