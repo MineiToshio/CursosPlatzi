@@ -12,7 +12,8 @@
 - [Atributos HTML](#Atributos-HTML)
 - [Formularios HTML](#Formularios-HTML)
 - [Formas de agregar estilos a HTML](#Formas-de-agregar-estilos-a-HTML)
-
+- [Flex Box](#Flex-Box)
+- [Alineando elementos de forma horizontal](#Alineando-elementos-de-forma-horizontal)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción al desarrollo web
@@ -205,7 +206,24 @@ A **CSS**, se le llama **hojas de estilos en cascada** porque los estilos que se
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
+## Flex Box
 
+El archivo de ejemplo se encuentra en el siguiente enlace: [Uso del FlexBox](Uso-del-FlexBox/)
+
+### Alineando elementos de forma horizontal
+
+La propiedad de css que nos permite definir la forma en que se alinearán o distribuirán los hijos de un elemento al que se le ha asignado un *display flex* es: **justify-content**. Y puede tomar entre otros valores, los siguientes:
+
+- **flex-start**: para alinear todos los elementos hacia el inicio del espacio disponible.
+- **flex-end**: para alinear todos los elementos hacia el final, a la derecha.
+- **center**: para alinear todos los elementos al centro del espacio disponible.
+- **space-between**: para distribuir los elementos con un espacio proporcional e igual entre ellos.
+- **space-evenly**: para distribuir los elementos con un espacio proporcional e igual entre ellos (incluyendo el primer y último elementos con respecto a los extremos del espacio disponible).
+- **space-around**: similar a *space-evenly* pero tanto en el primero como en el último elemento, el espacio hacia los extremos es la mitad del espacio usado entre los elementos.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
 
 ## Enlaces de Interés
 
