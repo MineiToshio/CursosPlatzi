@@ -1,0 +1,20 @@
+.flex-box{
+    display: flex;
+    align-items: center;
+    /*flex-direction: column;/*
+    /*justify-content: center; /*para alinear todos los elementos al centro del espacio disponible.*/
+    /*justify-content: space-between; /*para distribuir los elementos con un espacio proporcional e igual entre ellos.*/
+    /*justify-content: space-around; */
+    /*justify-content: space-evenly; /*para distribuir los elementos con un espacio proporcional e igual entre ellos (incluyendo el primer y último elementos con respecto a los extremos del espacio disponible).*/
+    /*flex-wrap: wrap;*/
+    height: 100px;
+}
+
+.flex {
+width: 30px;
+margin: 10px;
+height: 50px;
+border: solid;
+border-color: red;
+border-width: 1px;
+}
