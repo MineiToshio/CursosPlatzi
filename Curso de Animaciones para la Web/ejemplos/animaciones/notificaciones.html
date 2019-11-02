@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notificacion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <style>
+        body {
+            background: url('platzi.png');
+            background-size: 100%;
+            height: 200vh;
+            margin: 0px;
+        }
+        
+        .notification {
+            color: white;
+            width: 50px;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .notification:before {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f0f3";
+            display: block;
+            transform-origin: center top;
+        }
+        
+        .notification.notify:before {
+            animation-name: bell;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes bell {
+            0% {
+                transform: rotate(35deg);
+            }
+            12.5% {
+                transform: rotate(-30deg);
+            }
+            25% {
+                transform: rotate(25deg);
+            }
+            37.5% {
+                transform: rotate(-20deg);
+            }
+            50% {
+                transform: rotate(15deg);
+            }
+            62.5 {
+                transform: rotate(10deg);
+            }
+            75% {
+                transform: rotate(-10deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        
+        .notification:after {
+            font-family: Arial, Helvetica, sans-serif;
+            content: attr(data-count);
+            font-size: 11px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 14px;
+            height: 14px;
+            background: #ff4600;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            opacity: 0;
+            transition: .3s;
+            transform: scale(.5);
+            will-change: opacity, transform;
+        }
+        
+        .notification.show-count:after {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        .header {
+            background-color: #1d3644;
+            display: flex;
+            height: 52px;
+            justify-content: flex-end;
+            padding-right: 200px;
+        }
+        
+        .btn {
+            text-align: center;
+            padding: .6em .8em .8em;
+            border: none;
+            color: white;
+            background: lightgray;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0, .2);
+            outline: 0;
+            transition: .2s;
+            will-change: transform;
+        }
+        
+        .btn.primary {
+            background: #7dc800;
+        }
+        
+        .btn.warning {
+            background: #ff463b;
+        }
+        
+        .btn:active {
+            transform: scale(.9);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <button class="btn primary" id="button">enviar notificacion</button>
+        <div class="notification" id="notification" data-count=""></div>
+    </header>
+    <script>
+        const $button = document.getElementById('button')
+        const $bell = document.getElementById('notification')
+        $button.addEventListener('click', () => {
+            const count = Number($bell.getAttribute('data-count')) || 0;
+            $bell.setAttribute('data-count', count + 1)
+            $bell.classList.add('show-count');
+            $bell.classList.add('notify');
+        });
+
+        $bell.addEventListener('animationend', () => {
+            $bell.classList.remove('notify');
+        })
+    </script>
+</body>
+
+</html>
