@@ -267,7 +267,7 @@ import Link from 'next/link';
 * Carga sólo lo que falta de esa página.
 * Cambia la ruta en el browser.
 
-**Si abrimos un nuebo tab**:
+**Si abrimos un nuevo tab**:
 * Server Side Rendering.
 * Carga todo el HTML, CSS y JS.
 * Crea una nueva sesión.
