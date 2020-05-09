@@ -363,7 +363,7 @@ static async getInitialProps({ query }) {
 
     if(req.status >= 400) {
       res.statusCode = req.status;
-      return { tatusCode: req.status }
+      return { statusCode: req.status }
     }
 
     //más código
