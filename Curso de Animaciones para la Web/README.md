@@ -241,8 +241,8 @@ $cuadrado.addEventListener('animationend', (event) => {
 });
 ```
 
-* `animationend`: se ejecuta al inicio de una animación.
-* `animationstart`: se ejecuta al final de una animación.
+* `animationstart`: se ejecuta al inicio de una animación.
+* `animationend`: se ejecuta al final de una animación.
 * `animationiteration`: se ejecuta en cada iteración de una animación.
 
 <div align="right">
