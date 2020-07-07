@@ -99,7 +99,7 @@
 1. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
 
 ### Ventas
-1. [Curso de Ventas Práctico](Curso%20de%Ventas%20Práctico/README.md#curso-de-ventas-práctico)
+1. [Curso de Ventas Práctico](Curso%20de%20Ventas%20Práctico/README.md#curso-de-ventas-práctico)
 
 ## Quiero seguir aprendiendo
 
