@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
   <a href="#tabla-de-contenido">
-    <img src="https://img.shields.io/badge/Cursos-31-brightgreen.svg?style=flat-square" alt="Cursos 31">
+    <img src="https://img.shields.io/badge/Cursos-31-brightgreen.svg?style=flat-square" alt="Cursos 32">
   </a>
   <a href="https://github.com/MineiToshio/CursosPlatzi/stargazers">
     <img src="https://img.shields.io/github/stars/MineiToshio/CursosPlatzi.svg?style=flat-square&label=Stars" alt="CursosPlatzi stars">
@@ -95,7 +95,10 @@
 2. [Curso de Hablar en Público](Curso%20de%20Hablar%20en%20Público/README.md#curso-de-hablar-en-público)
 
 ### Inglés
-2. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
+1. [Curso de Escritura en Inglés](Curso%20de%20Escritura%20en%20Inglés/README.md#curso-de-escritura-en-inglés)
+
+### Ventas
+1. [Curso de Ventas Práctico](Curso%20de%Ventas%20Práctico/README.md#curso-de-ventas-práctico)
 
 ## Quiero seguir aprendiendo
 
