@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transformacion translación</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            font-family: Arial;
+            perspective: 200px;
+            perspective-origin: center;
+            /*perspective-origin: x y;*/
+            /*perspective-origin: top;*/
+            /*perspective-origin: bottom;*/
+            /*perspective-origin: left;*/
+            /*perspective-origin: right;*/
+            /*perspective-origin: top right;*/
+            /*perspective-origin: top left;*/
+            /*perspective-origin: bottom left;*/
+            /*perspective-origin: bottom right;*/
+        }
+        
+        .container {
+            border: 1px solid red;
+        }
+        /*.cuadrado:hover {*/
+        
+        .container:hover .cuadrado {
+            /*transform: translate(x);*/
+            /*transform: translate(-100px);*/
+            /*transform: translate(x, y);*/
+            /*transform: translate(100px, 100px);*/
+            /*transform: translate(-100px, -100px);*/
+            /*transform: translateX(100px);*/
+            /*transform: translateY(100px);*/
+            /*transform: translateZ(100px);*/
+            /*transform: translate3d(x, y, z);*/
+            /*transform: translate3d(100px, 100px, 100px);*/
+            transform: translate3d(-100px, -100px, -100px);
+        }
+        
+        .cuadrado {
+            width: 200px;
+            height: 200px;
+            background: #7dc900;
+            margin: 20px;
+            transition: .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cuadrado">
+            Hola mundo!
+        </div>
+    </div>
+</body>
+
+</html>

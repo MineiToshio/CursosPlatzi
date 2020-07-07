@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://static.platzi.com/media/public/uploads/index_e57e5770-457f-47d2-a5e0-9a15fb5ed2b2.html -->
+<html lang="en" nighteye="active" style="background-image: none !important;" ne="0.9609861026869229" data-lt-installed="true" class="gr__static_platzi_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>a {                            color:rgb(140,140,250);                        }                        *::-webkit-scrollbar-track-piece {                            background-color:rgba(255, 255, 255, 0.2) !important;                        }                        *::-webkit-scrollbar-track {                            background-color:rgba(255, 255, 255, 0.3) !important;                        }                        *::-webkit-scrollbar-thumb {                            background-color:rgba(255, 255, 255, 0.5) !important;                        }                        embed[type="application/pdf"] {                            filter:invert(1);                        }</style><style id="nighteyedefaultcss">html {                            color:#000;                            background-image:none !important;                            background:#fff !important;                        }                        body {                            background-color:#fff;                            background-image:none !important;                        }                        input, select, textarea, button {                            color:#000;                            background-color:#fff;                        }                        font {                            color:#000;                        }</style><style>html {                            filter: contrast(100%) brightness(100%) saturate(100%);                        }                        .NIGHTEYE_Filter {                            width:100%; height:100%;                            position:fixed;                            left:0; top:0;                            pointer-events:none;                            z-index:4000000000;                        }                        .NIGHTEYE_YellowFilter {                            background:rgba(255, 255, 0, 0.15);                            opacity:0;                        }                        .NIGHTEYE_BlueFilter {                            background:rgba(0, 0, 255, 0.15);                            opacity:0;                        }                        .NIGHTEYE_DimFilter {                            background:rgba(0, 0, 0, 0.5);                            opacity:0;                        }                        .NIGHTEYE_TransformZ {                            transform:translateZ(0);                        }</style>
+  
+  <title>Gap</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+    .container {
+      display: grid;
+      /*grid-template-columns: 25% 200px 25%;*/
+      /*grid-template-rows: 300px 150px;*/
+      /*grid-template: filas / columnas ;*/
+      grid-template: 300px 100px 100px / 50% 200px 100px;
+      grid-column-gap: 30px;
+      grid-row-gap: 50px;
+      /*grid-gap: filas columnas;*/
+      grid-gap: 10px 100px;
+    }
+    .item {
+      background: lightblue;
+      padding: 10px;
+      border: 1px solid red;
+      /*margin-right: 10px;*/
+      /*margin-bottom: 10px;*/
+    }
+    .item:nth-of-type(4) {
+      background: blue;
+      overflow: auto;
+      /*display: subgrid;*/
+      /*display: inline-grid;*/
+      display: grid;
+      grid-template: 50px 50px 50px / 200px 200px 200px;
+    }
+    .item .item {
+      background: yellow;
+    }
+  </style>
+<link rel="stylesheet" href="chrome-extension://alncdjedloppbablonallfbkeiknmkdi/css/custom-styles.css"><link rel="stylesheet" href="chrome-extension://alncdjedloppbablonallfbkeiknmkdi/css/scroll.css"></head>
+<body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+  <section class="container">
+    <div class="item">contenido #1</div>
+    <div class="item">contenido #2</div>
+    <div class="item">contenido #3</div>
+    <div class="item">
+      <div class="item">subitem #1</div>
+      <div class="item">subitem #2</div>
+      <div class="item">subitem #3</div>
+      <div class="item">subitem #4</div>
+      <div class="item">subitem #5</div>
+    </div>
+    <div class="item">contenido #5</div>
+    <div class="item">contenido #6</div>
+    <div class="item">contenido #7</div>
+    <div class="item">contenido #8</div>
+    <div class="item">contenido #9</div>
+    <div class="item">contenido #10</div>
+    <div class="item">contenido #11</div>
+    <div class="item">contenido #12</div>
+  </section>
+
+
+<div class="NIGHTEYE_BlueFilter NIGHTEYE_Filter"></div><div class="NIGHTEYE_YellowFilter NIGHTEYE_Filter"></div><div class="NIGHTEYE_DimFilter NIGHTEYE_Filter"></div></body></html>

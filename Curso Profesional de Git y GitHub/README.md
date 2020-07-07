@@ -135,7 +135,7 @@ git config --global color.ui true
 Configurar el editor de texto de git
 
 ```bash
-git config --global core.editor ["editor --wait"] 
+git config --global core.editor ["editor --wait"]
 ```
 
 Ver la lista de configuraciones
@@ -194,7 +194,7 @@ git config --list
 * `git reset`
   * `--soft [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al staging area.
   * `--mixed [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al working directory
-  * `--hard [sha1]` elimina todos los cambios incluso del working directory. 
+  * `--hard [sha1]` elimina todos los cambios incluso del working directory.
 
 Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .git
 
@@ -202,7 +202,7 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-### Múltiples entornos de trabajo 
+### Múltiples entornos de trabajo
 
 * `git branch [nombre]` crear la rama [nombre]
 * `git branch -l` lista las ramas
@@ -217,7 +217,7 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 * `git rebase [branch]` mezcla el branch con el brach actual. Es como el merge pero sin crear bifurcaciones
 * `git stash` es un limbo como el staging area. Te permite cambiar de branch sin hacer commit
 * `git stash list` ver la lista de los stash
-* `git stash drop stash@{numero}` elimina el stash 
+* `git stash drop stash@{numero}` elimina el stash
 * `git stash apply stash@{numero}` aplica el stash
 * `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual
 
@@ -273,7 +273,7 @@ Settings
 
 ### Plantillas
 
-Es una buena práctica generar archivos de plantilla para que los usuarios o desarrolladores puedan notificar un issue o pullrequest. 
+Es una buena práctica generar archivos de plantilla para que los usuarios o desarrolladores puedan notificar un issue o pullrequest.
 
 * `issue_template.md` template para un issue
 * `pull_request_template.md` template para el pull request
@@ -282,7 +282,7 @@ Es una buena práctica generar archivos de plantilla para que los usuarios o des
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## Ignorar archivos
+### Ignorar archivos
 
 Para ignorar archivos o carpetas de los commits se crea un archivo que se llame `.gitignore`.
 
@@ -292,6 +292,89 @@ https://www.gitignore.io/
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
+
+### Issues y Milestones
+
+Issues:
+Es una categoría en la que podemos reportar fallas, o mejoras a un repo determinado, al mismo le podemos asignar etiquetas, personas que lo pueden observar, entre otras cosas, que emulan la interactividad de las redes sociales (bueno github es una red social)
+Milestones:
+Cuando un proyecto es demasiado complejo y hay demasiadas cosas que reportar, problemas que resolver, es allí dónde entra en juego los Milestones que no es más que una manera de agrupar issues o pull request, que tienen una o muchas características en común; siendo la analogía que más se corresponde a su caso la manera en que se organizan los libros en una biblioteca, la organización por cotas ( de hecho milestones quiere decir cotas, al traducirlo al español), en la que podemos encontrar libros de una temática en particular, gracias a una nomenclatura especifica, que hace que la búsqueda bibliográfica sea más optima, debido a la gran cantidad de libros que existe en una biblioteca.
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+### Hosting Gratuito de archivos en GitHub
+
+GitHub nos permite publicar nuestros proyectos a tráves de GitHub Pages.
+Los GitHubs pages almacenan código estático.
+
+Para hacer esto es necesario:
+  -Ir a setting
+  -Elegir GitHub Pages
+  -Escribir a rama que sera el GitHub Page.
+
+### Dominios personalizados en GitHub
+
+Github permite personalizar la URL de nuestros proyectos desde Github Pages, para ello hay que comprar un dominio por ejemplo en namecheap namecheap.com.
+
+Name cheap= nombre barato
+Namecheap es una buena opción, tiene buen soporte.
+
+Iniciamos el proceso buscando la disponibilidad del dominio:
+En caso de gustar de alguno, simplemente se sigue un proceso de compra, creando previamente una cuenta disponer de la tarjeta de crédito (es un proceso normal como cualquier otro de compra por internet).
+
+Vamos al dashboard (tablero), donde entre otras cosas se puede ver una lista de los dominios que poseemos.
+Le damos clic a manage al que queremos administrar o configurar.
+Aquí lo que necesitamos es enlazar nuestro poryecto con Github a través de la opción de configuración de los DNS (Advanced DNS).
+
+No vamos a nuestro repositorio en Github y en la opción de setting:
+Bajamos hasta Github Pages
+Y cambiamos el nombre de la URL colocándole un Domain Custom, el cual es el que acabamos de crear en namecheap, lo especificamos y salvamos.
+Nos avisa que no se puede hacer un CNAME porque la rama está protegida.
+Para ello debemos crear un archivo que se llama CNAME y ubicarlo en master en la rama que queremos como nuestro github pages.
+
+Ingresamos en nuestro repositorio en este caso invie-github y vamos a crear un pull request (solicitud), clic en invie-github
+Clic en créate new file
+Y le damos un nombre y editamos su contenido especificándole el nombre de nuestro dominio de namecheap.
+Clic en commit new file.
+Lo que da paso a dar los detalles de nuestro Pull Request.
+En este caso le escribimos “Pesonalizando el dominio” y clic en Create Pull Request.
+Le agregamos colaboradores para que lo revisen y lo mezclen
+Nos vamos a revisar el pull request.
+Le añadimos un review y lo aprobamos clic en Approve y luego en submit review.
+Luego clic en Mege pull request para mezclarlo.
+Confirmamos la mezcla (clic en confirm merge).
+Y listo al ver el estatus Merged, hemos terminado
+
+Regresamos a setting y efectivamente nuestro proyecto tiene la nueva URL (ya que enlazamos a github con namecheap).
+
+Ahora regresamos a nuestro dominio en namecheap y quitamos los registros CNAME Record, porque ya no se quiere que enlace a la página de namecheap:
+Vamos a modificar URL Redirect Record, le colocamos que sea un A Record, es decir se van a crear dos A Record con las dos ip de Github, Clic en el chulito o icono de tilde y queda confirmado el cambio.
+Colocamos la ip 192.30.252.153.
+
+Procedemos a crear el 2do A Record con la otra (la segunda) ip de Github:
+Colocamos la ip 192.30.252.154 y en la columna TTL le cambiamos a automático para los dos A Record.
+Le agregamos el CNAME Record (que corresponde al CNAME creado en Github).
+
+En este caso el target (destino) es leonidasesteban.github.io. (Debe llevar un punto al final porque a partir de allí se derivan el resto de proyectos).
+Confirmamos los cambios dando clic en el chulito o tilde (save changes) ylisto tenemos nuestro dominio personalizado conectando github con namecheap, sin embargo el cambio no se reflejará de inmediato ya que lleva un tiempo que namecheap verifique y confirme los cambios (una hora, un días, normalmente dicen que toma dos días), no es automático ya que se tiene que enlazar nuestro dominio en namecheap con nuestro host que es Github, sin embargo probando ahora mismo, la página de invie-github cargo.
+
+(Resumen de alvaradoe556)
+
+<div align="right">
+  <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
+</div>
+
+### GitHub Desktop, todo lo que necesitas de Git en una sola herramienta gráfica
+
+Interfaz de escritorio en desktop.github.com para que puedas trabajar gráficamente desde tu PC. Desarrollada en Electron. Lo primero que debes hacer es iniciar sesión, luego clonar el proyecto.
+
+-Puedes ver todo el historial de tu proyecto de una manera muy amigable.
+-Quien hace los cambios, quien los aprueba.
+-También puedes navegar en todos tus repositorios.
+-Puedes hacer cambios.
+
 
 ## Recursos Complementarios
 * [Diapositivas del Curso](docs/GIT-intro.pdf)

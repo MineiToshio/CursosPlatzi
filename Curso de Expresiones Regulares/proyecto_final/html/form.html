@@ -1,0 +1,48 @@
+<html>
+<!--
+Standalone micro-App, just to be opened in the browser (Tested in Chrome) and
+start writing an email.
+There.
+
+@beco
+-->
+  <head>
+    <script>
+function go(action) {
+  //set the button
+  document.getElementById("b_submit").disabled = !action;
+
+  //set the texts color
+  input  = document.getElementById("t_email");
+  if(action) {
+    input.style.backgroundColor = "#b1ffb0";
+  } else {
+    input.style.backgroundColor = "#ff0006";
+  }
+}
+
+function check(email) {
+  //email   = form.elements.namedItem("email").value;
+  if(!email.match(/^[a-z0-9_]+\+?[a-z0-9]*@[a-z0-9_]+\.[a-z]{2,6}$/i)) {
+    console.log(email + " is not a valid email address!");
+    go(false);
+    return;
+  }
+  console.log("OK:" + email);
+  go(true);
+  return false;
+}
+    </script>
+  </head>
+  <body>
+    <form onsumbmit="return false">
+      <p>
+        email:
+        <input type="text" id="t_email"
+          placeholder="hola@gmail.com" size="50"
+          onkeyup="check(this.value)">
+      </p>
+      <button id="b_submit" disabled onclick="alert('Cool!')">submit</button>
+    </form>
+  </body>
+</html>

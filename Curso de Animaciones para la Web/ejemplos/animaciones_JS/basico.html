@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript element.animate</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            width: 600px;
+            border: 1px solid red;
+        }
+        
+        .pelota {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+        }
+        
+        .btn {
+            text-align: center;
+            background: #7dc800;
+            padding: .6em .8em .8em;
+            border: none;
+            color: white;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: inset 0 -.2em rgba(0, 0, 0, .2);
+            outline: 0;
+            transition: .2s;
+            will-change: transform;
+        }
+        
+        .btn:active {
+            transform: scale(.9);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pelota" id="pelota"></div>
+        <div class="buttons">
+            <button class="btn" id="play">Play</button>
+            <button class="btn" id="pause">Pause</button>
+            <button class="btn" id="stop">Stop</button>
+            <button class="btn" id="reverse">Reverse</button>
+        </div>
+    </div>
+    <script>
+        const $pelota = document.getElementById('pelota');
+
+        // element.animate(keyframes = [], option = {})
+        const animation = $pelota.animate([
+            // from
+            {
+                transform: 'translateX(0)'
+            },
+            // to
+            {
+                transform: 'translateX(500px)' // 250
+            }
+        ], {
+            duration: 1000,
+            delay: 1000,
+            direction: 'normal',
+            easing: 'linear',
+            iterations: Infinity,
+            fill: 'forwards',
+            iterationStart: .5, // = 50%
+            // endDelay: 5000,
+        })
+
+        const $playButton = document.getElementById('play');
+        const $pauseButton = document.getElementById('pause');
+        const $stopButton = document.getElementById('stop');
+        const $reverseButton = document.getElementById('reverse');
+
+        $playButton.addEventListener('click', (event) => {
+            animation.play();
+        });
+        $pauseButton.addEventListener('click', (event) => {
+            animation.pause();
+        });
+        $stopButton.addEventListener('click', (event) => {
+            animation.cancel();
+        });
+        $reverseButton.addEventListener('click', (event) => {
+            animation.reverse();
+        });
+    </script>
+</body>
+
+</html>

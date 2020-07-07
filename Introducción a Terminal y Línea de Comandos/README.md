@@ -493,6 +493,12 @@ El error y el output aparecen en el mismo archivo
 * -name: el nombre del archivo (*.js devuelve todos los archivos que terminan con .js)
 * -type: el tipo
 
+`find directorio_origen -type f -name [name] -exec [acción] {} ./directorio_destino \;` busca archivos
+según criterio de búsqueda y los copia o mueve todos a un directorio indicado.
+* -acción: puede ser `mv` para mover o `cp` para copiar
+
+### `Nota:` colocar el atributo -type f para seleccionar solo los archivos y colocar \; para terminar el comando.
+
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
