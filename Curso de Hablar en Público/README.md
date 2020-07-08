@@ -555,8 +555,7 @@ Si vas a leer un discurso o decir algo que sabes de memoria igual es importante 
 </div>
 
 ## Enlaces de Interés
-* [Curso de Hablar en Público
-](https://platzi.com/clases/hablar-en-publico/)
+* [Curso de Hablar en Público](https://platzi.com/clases/hablar-en-publico/)
 * [Paletton](http://www.paletton.com)
 
 <div align="right">
