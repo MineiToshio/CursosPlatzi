@@ -106,7 +106,7 @@ Si el número es positivo, entonces la rotación va a sentido horario, si es neg
 
 * `transform: translate(100px);` Mueve 100px en el eje X hacia la derecha
 * `transform: translate(-100px);` Mueve 100px en el eje X hacia la izquierda
-* `transform: translate(100px,100px);` Mueve 100px en el eje X hacia la derecha, y en Y hacia abaj
+* `transform: translate(100px,100px);` Mueve 100px en el eje X hacia la derecha, y en Y hacia abajo
 * `transform: translateX(100px);` Tambien podemos movernos en el eje X con la siguiente
 * `transform: translateY(100px);` Tambien podemos movernos en el eje Y con la siguiente
 * `transform: translateZ(100px);` Tambien podemos movernos en el eje Z con la siguiente, dar profundidad
@@ -126,8 +126,8 @@ Para que funciones las traslaciones en el eje Z debemos de usar la propiedad per
 Con perspective-origin podemos definir el punto de origen de la perspectiva. También podemos hacer combinaciones:
 * top right
 * top left
-* botoom left
-* botoom right
+* bottom left
+* bottom right
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Waves</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .wave {
+            position: absolute;
+            left: -180px;
+            bottom: 0;
+            width: 2402px;
+            height: 427px;
+            /*  border-radius: 50%; */
+            background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+            animation: 5s wave ease-in-out infinite alternate;
+        }
+        
+        .waves {
+            position: absolute;
+            bottom: -135px;
+            height: 527px;
+            width: 100%
+        }
+        
+        .wave.a {
+            background-position: 0 -854px;
+        }
+        
+        .wave.b {
+            background-position: 0 -427px;
+            animation-delay: .6s;
+        }
+        
+        .wave.c {
+            animation-delay: 1.2s;
+        }
+        
+        .container {
+            height: 500px;
+            background: #0f9bf6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .content {
+            font-family: Arial;
+            text-align: center;
+            font-size: 2em;
+            color: rgba(255, 255, 255, .8);
+        }
+        
+        @keyframes wave {
+            0% {
+                transform: translate(-80px, 30px);
+            }
+            100% {
+                transform: translate(160px, -60px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>HOLA MAMA!</h1>
+            <p>te mando estas olas de bahia de cata</p>
+        </div>
+        <div class="waves">
+            <div class="wave circulo a"></div>
+            <div class="wave circulo b"></div>
+            <div class="wave circulo c"></div>
+        </div>
+    </div>
+</body>
+
+</html>
