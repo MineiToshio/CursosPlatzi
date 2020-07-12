@@ -25,7 +25,7 @@
 - [Estructura general de un ensayo expositivo.](#estructura-general-de-un-ensayo-expositivo)
 - [La multimedialidad y la interactividad en la escritura online](#la-multimedialidad-y-la-interactividad-en-la-escritura-online)
 - [Conectores](#conectores)
-- [Hepertexto](#hepertexto)
+- [Hipertexto](#hipertexto)
   - [Estructura del hipertexto](#estructura-del-hipertexto)
   - [Elementos del hipertexto](#elementos-del-hipertexto)
   - [Uso correcto del hipertexto](#uso-correcto-del-hipertexto)
@@ -425,7 +425,7 @@ Si bien
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
 
-## Hepertexto
+## Hipertexto
 
 ### Estructura del hipertexto
 
