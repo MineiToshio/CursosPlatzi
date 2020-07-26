@@ -14,14 +14,14 @@
 
 ## Conceptos Fundamentales
 
-* **Grid Container**: va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
+* **Grid Container**: va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layout.
 * **Grid Item**: Son hijos directos de grid. Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. 
 * **Grid Line**: Lineas divisorias horizontales y verticales.
 * **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 * **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 * **Grid Area**: Espacio rodeado por 4 grid lines
 
-**Grid explicito** (explicit grid) es cuando nosotros definimos el numero de filas o columnas.
+**Grid explicito** (explicit grid) es cuando nosotros definimos el número de filas o columnas.
 
 **Grid implicito** (implicit grid) es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
 
@@ -31,7 +31,7 @@
 
 ## Propiedades
 
-**grid-template-columns**: define el numero de columnas en un grid layout, así como el tamaño en ancho de cada columna.
+**grid-template-columns**: define el número de columnas en un grid layout, así como el tamaño en ancho de cada columna.
 
 ```css
 grid-template-columns: 200px 200px 200px;
@@ -49,7 +49,7 @@ grid-template-rows: valores;
 grid-template: filas / columnas;
 ```
 
-**Display subgrid** para heredar la configuración del grid padre (cuando se esten anidando grids).
+**Display subgrid** para heredar la configuración del grid padre (cuando se estén anidando grids).
 
 ```css
 display: subgrid; //No disponible aun
@@ -216,7 +216,7 @@ Estos son los valores que se pueden usar:
 * **end**: Todo el grid se alinea a la derecha
 * **stretch**: Cambia el tamaño de los grid items para que el llenen el ancho máximo del contenedor grid. 
 * **space-around**: Los items tienen el mismo espacio a su alrededor.
-* **space-evenly**: Hay un espacio mas homogeneo entre items.
+* **space-evenly**: Hay un espacio más homogéneo entre items.
 * **space-between**: Hay un mismo espacio entre items pero se eliminan el espacio inicial y final.
 
 <div align="right">
@@ -226,7 +226,7 @@ Estos son los valores que se pueden usar:
 ## Funciones
 
 `repeat(cantidad de columnas, valor)` para usar el mismo valor varias veces.
-`minmax(min, max)` agregar un valor mínimo y maximo para el tamaño al hacer responsive.
+`minmax(min, max)` agregar un valor mínimo y máximo para el tamaño al hacer responsive.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
