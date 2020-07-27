@@ -198,7 +198,7 @@ Fetch devuelve una promesa. Esta promesa, a su vez, tiene un método llamado `js
 Una función asíncrona va a ser como una función normal, pero poniendo código asíncrono de forma que sea más fácil de leer de forma síncrona.
 
 Para declarar una función asíncrona se usa `async` / `await`:
-* async: declara quye una función es asíncrona.
+* async: declara que una función es asíncrona.
 * await: indica que se debe de terminar con el fragmento de código para continuar con la ejecución de la función.
 
 ```js
@@ -213,7 +213,7 @@ async function load() {
 
 ## Selectores
 
-Los selectores nos permites seleccionar un elemento del DOM con el fin de poder manipularlos. 
+Los selectores nos permiten seleccionar un elemento del DOM con el fin de poder manipularlos. 
 
 Por convención, las variables que son elementos del DOM comienzan con una `$`.
 
