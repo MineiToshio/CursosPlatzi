@@ -101,6 +101,9 @@
 ### Ventas
 1. [Curso de Ventas Práctico](Curso%20de%20Ventas%20Práctico/README.md#curso-de-ventas-práctico)
 
+### Curso de Gestión del Cambio
+1. [Curso de Gestión del Cambio](Curso%20de%20Gestión%20del%20Cambio/README.md)
+
 ## Quiero seguir aprendiendo
 
 [Platzi](https://platzi.com/r/MineiToshio/) cuenta con más de 210 cursos y 45 carreras.
