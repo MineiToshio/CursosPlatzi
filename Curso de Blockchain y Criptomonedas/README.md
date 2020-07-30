@@ -1,4 +1,4 @@
-# Curso de Inversión en Criptomonedas<!-- omit in toc -->
+# Curso de Blockchain y Criptomonedas<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Introducción](#introducción)
@@ -28,7 +28,7 @@
 - [Estafas, pirámides y esquemas Ponzi](#estafas-pirámides-y-esquemas-ponzi)
 - [Trading](#trading)
 - [Exchanges](#exchanges)
-- [Órdenes de compra y venta](#Órdenes-de-compra-y-venta)
+- [Órdenes de compra y venta](#órdenes-de-compra-y-venta)
 - [Análisis Técnico](#análisis-técnico)
 - [Análisis Técnico](#análisis-técnico-1)
 - [Margintrading, Short, long](#margintrading-short-long)
