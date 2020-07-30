@@ -85,6 +85,8 @@ Bitcoin fue creado en el 2008 por Satoshi Nakamoto. Un bitcoin es divisible hast
 >"Bitcoin es un increíble logro critográfico y la habilidad de crear algo que no se puede duplicar en el mundo digital tiene un valor enorme."  
 >*Erick Schmidt - Presidente Ejecutivo de Google*
 
+- 100M Satoshis = 1 bitcoin.
+
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
