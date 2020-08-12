@@ -1,7 +1,9 @@
 # Curso de Economía Digital: Bitcoin y Criptomonedas 📜
 
 ## Tabla de contenido
-- [Curso de Economía Digital: Bitcoin y Criptomonedas 📜](#curso-de-economía-digital-bitcoin-y-criptomonedas-)
+- [Curso de Economía Digital
+
+: Bitcoin y Criptomonedas 📜](#curso-de-economía-digital-bitcoin-y-criptomonedas-)
   - [Tabla de contenido](#tabla-de-contenido)
     - [Historia del Bitcoin](#historia-del-bitcoin)
     - [¿Por qué fue creado Bitcoin?](#por-qué-fue-creado-bitcoin)
