@@ -51,6 +51,9 @@
 2. [Curso de Redux](Curso%20de%20Redux/README.md#curso-de-redux)
 3. [Curso de Next.js](Curso%20de%20Next.js/README.md#curso-de-nextjs)
 
+### Frontend con Angular
+1. [Curso de Fundamentos de Typescript](Curso%20de%20Fundamentos%20de%20Typescript/README.md#fundamentos-de-typeScript)
+
 ### Desarrollo de Apps Multiplataforma
 1. [Curso de Progressive Web Apps con React.js](Curso%20de%20Progressive%20Web%20Apps%20con%20React.js/README.md#curso-de-progressive-web-apps-con-reactjs)
 
