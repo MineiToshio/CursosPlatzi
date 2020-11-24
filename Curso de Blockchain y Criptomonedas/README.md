@@ -1,4 +1,4 @@
-# Curso de Inversión en Criptomonedas<!-- omit in toc -->
+# Curso de Blockchain y Criptomonedas<!-- omit in toc -->
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Introducción](#introducción)
@@ -28,7 +28,7 @@
 - [Estafas, pirámides y esquemas Ponzi](#estafas-pirámides-y-esquemas-ponzi)
 - [Trading](#trading)
 - [Exchanges](#exchanges)
-- [Órdenes de compra y venta](#Órdenes-de-compra-y-venta)
+- [Órdenes de compra y venta](#órdenes-de-compra-y-venta)
 - [Análisis Técnico](#análisis-técnico)
 - [Análisis Técnico](#análisis-técnico-1)
 - [Margintrading, Short, long](#margintrading-short-long)
@@ -84,6 +84,8 @@ Bitcoin fue creado en el 2008 por Satoshi Nakamoto. Un bitcoin es divisible hast
 
 >"Bitcoin es un increíble logro critográfico y la habilidad de crear algo que no se puede duplicar en el mundo digital tiene un valor enorme."  
 >*Erick Schmidt - Presidente Ejecutivo de Google*
+
+- 100M Satoshis = 1 bitcoin.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
