@@ -15,6 +15,13 @@
 - [Uso de regex](#uso-de-regex)
 - [Procs y lambdas](#procs-y-lambdas)
 - [Clases](#clases)
+- [Módulos](#módulos)
+- [Concurrencia VS Paralelismo](#concurrencia-vs-paralelismo)
+  - [Limitaciones de concurrencia en Ruby](#limitaciones-de-concurrencia-en-ruby)
+  - [A tener en cuenta](#a-tener-en-cuenta)
+- [Bundler y gemas](#bundler-y-gemas)
+- [Testing](#testing)
+  - [Testing con Minitest](#testing-con-minitest)
 - [Enlaces de Interés](#enlaces-de-interés)
 
 ## Introducción
@@ -301,9 +308,200 @@ class Persona < Struct.new(:name, :age)
 end
 ```
 
+## Módulos
+
+Una buena práctica de programación es la modularización del código, lo que algunos llaman alta cohesión, lo que quiere decir que las clases o funcionalidades que hacen cosas similares estén dentro del mismo contenedor; en Ruby se utilizan los módulos para ello.
+
+```ruby
+module Model
+  class Company
+  end
+  class Employee
+  end
+end
+
+module Reports
+  class ExcelReporter
+    def build
+      puts "Generating excel report"
+    end
+  end
+
+  class EmailReporter
+  end
+end
+
+## Uso del módulo
+## Modulo::Clase
+excel_report = Reports::ExcelReporter.new
+excel_report.build
+```
+
+## Concurrencia VS Paralelismo
+
+Los términos concurrencia y paralelismo pueden ser fácilmente confundidos. Por un lado 2 tareas se ejecutan en paralelo cuando ambas se ejecutan en unidades de procesamiento independientes al mismo tiempo, es decir, ambas tareas pueden comenzar exactamente al mismo tiempo pues su ejecución es manejada por dos unidades de procesamiento diferente. Por otro lado, dos tareas se ejecutan concurrentemente cuando se pueden ejecutar en la misma unidad de procesamiento intercalando subtareas de ambas tareas.
+
+<div align="center">
+  <img src="img/concurrent-vs-parallel.jpg">
+  <small><p>Concurrencia vs Paralelismo</p></small>
+</div>
+
+### Limitaciones de concurrencia en Ruby
+
+En Ruby tenemos la posibilidad de crear Threads, sin embargo, su comportamiento depende del intérprete que utilicemos. El interprete que usamos en el curso que adicionalmente es el interprete más popular (cruby o MRI) no permite paralelismo asi el computador en el que ejecutemos nuestro programa tenga múltiples cores en su procesador. MRI utiliza un mecanismo llamado Global Interpreter Lock (GIL) que hace que el interprete solo pueda ejecutar un Thread a la vez. Esto es una decisión que tomaron quienes diseñaron el lenguaje pues es una manera relativamente sencilla de evitar race conditions, deadlocks y otros problemas comunes que surgen cuando se está haciendo programación concurrente o en paralelo.
+
+Aunque el GIL no permite que multiples threads se ejecuten, sí permite cambiar de contexto cuando se esta realizando una operación por fuera del interprete como operaciones de lectura o escritura. Como estas operaciones suceden por fuera del interprete, cruby permite cambiar de contexto para ejecutar otro thread mientras estas operaciones terminan y de esta manera se puede hacer programacion concurrente.
+
+Otros interpretes como JRuby y Rubinius no tienen un GIL así que permiten ejecución en paralelo.
+
+```ruby
+# threads.rb
+
+def without_threads
+  puts "Without threads"
+  start = Time.now
+  3.times { |i| http_call(i) }
+  puts "Total time: #{Time.now - start} seconds"
+  puts "----------------------------------------"
+end
+
+def with_threads
+  puts "With threads"
+  start = Time.now
+  threads = 3.times.map { |i| Thread.new { http_call(i) } }
+  #threads.map(&:join)
+  puts "Total time: #{Time.now - start} seconds"
+  puts "----------------------------------------"
+end
+
+# Ejecución sin threads
+```
+
+<div align="center">
+  <img src="img/ejecucion-threads.jpg">
+  <small><p>Ejecución de Threads</p></small>
+</div>
+
+### A tener en cuenta
+
+* Para inicializar un Thread se utiliza debe crear un objeto Thread con Thread.new y pasarle un bloque en donde definimos lo que se debe ejecutar.
+* El punto de entrada de un programa Ruby se ejecuta en un thread principal o “main thread”. Tan pronto este thread termina, la ejecución de todo el programa es terminado, así que si creamos varios threads pero el “main thread” finaliza primero los otros threads van a ser terminados. Para evitar esto debemos hacer “join” de los threads adicionales. Join es un mecanismo que hace que el thread principal espere a la finalizacion del thread al que se le hace join lo que podemos ver en la linea "threads.map(&:join)".
+
+## Bundler y gemas
+
+Bundler nos permite gestionar las dependencias de librerias(gemas) para nuestros proyectos ruby
+Para instalar bundler ejecutamos el comando
+
+```
+gem install bundler
+```
+
+Ahora disponemos del comando bundle. Con el comando `bundle init` generamos un archivo llamado **Gemfile** donde podemos definir las dependencias de gemas para nuestro proyecto ruby 
+
+Para ver la versión que se tiene instlada:
+```
+bundle --version
+```
+
+**Agregando gemas a Gemfile**
+
+`gem 'faker'`
+Es una buena practica especificar la version
+
+`gem 'faker', '~> 1.9'`
+Ahora es el momento de confirmar nuestras dependencias utilizando el comando
+
+Ahora es el momento de confirmar nuestras dependencias utilizando el comando
+
+```
+bundle install
+```
+
+Esta instruccion verifica las dependencias y procede a instalar las gemas. Tambien generará un archivo llamado Gemfile.lock que especifica las versiones de gemas utilizadas en nuestro proyecto
+
+## Testing 
+
+El testing es una práctica de programación con la que podemos escribir código que va a probar el código de nuestra aplicación para garantizar que con cada cambio que le agreguemos al proyecto, no vamos a hacer que funcionalidades anteriores se vayan a ver afectadas por este nuevo cambio.
+
+En Ruby existe una librería que nos ayuda con esto, se llama MiniTest.
+
+```ruby
+#clase calculadora
+class Calculator
+
+  def sum(a,b)
+    a+b
+  end
+
+  def subtract(a,b)
+    a-b
+  end
+end
+
+#instancio calculadora
+cal = Calculator.new
+
+test_sum = {
+  [1,2]=>3,
+  [5,5]=>10,
+  [6,8]=>14
+}
+
+#en el each recibimos la clave y el valor
+
+#recorro el hash de tes_sum
+#Ejemplo primer ciclo input[0]=1 input[1]=2 , expect_result=3
+#cal.sum(1,2)=3/==3
+test_sum.each do |input, expect_result|
+  if !(cal.sum(input[0],input[1]) == expect_result)
+    raise "test failed for input #{input}. Expected resul: #{expect_result}"
+  else
+    puts "bien hecho campeón"
+  end
+end
+```
+
+### Testing con Minitest
+
+```ruby
+require "minitest/autorun"
+
+class Calculator
+
+  def sum(a,b)
+    a+b
+  end
+
+  def subtract(a,b)
+    a-b
+  end
+end
+
+# Herencia: Clase < CLasePadre
+class TestCalculator < Minitest::Test
+  
+  def setup
+    @cal = Calculator.new
+  end
+  
+  def test_sum_positives
+    result = @calc.sum(1, 3)
+    assert_equal result, 4
+  end
+
+  def test_sum_negatives
+    result = @calc.sum(-1, -3)
+    assert_equal result, -4
+  end
+end
+```
+
 ## Enlaces de Interés
 * [Curso de Ruby](https://platzi.com/clases/ruby/)
 * [Ruby Installer](https://rubyinstaller.org)
+* [Rubygems](https://rubygems.org/)
+* [Ruby Toolbox](https://www.ruby-toolbox.com/)
+* [Ruby2d](https://www.ruby2d.com/)
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
