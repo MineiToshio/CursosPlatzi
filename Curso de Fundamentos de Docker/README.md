@@ -7,7 +7,7 @@
   - [Preparando tu entorno de trabajo](#Preparando-tu-entorno-de-trabajo)
   - [Que es y como funciona Docker](#Que-es-y-como-funciona-Docker)
 - [Contenedores](#contenedores)
-  - [Primeros pasos: hola mundo](#Primeros-pasos:-hola-mundo)
+  - [Primeros pasos: hola mundo](#Primeros-pasos-hola-mundo)
   - [Comprendiendo el estado de Docker](#Comprendiendo-el-estado-de-Docker)
   - [Ciclo de vida de un contenedor](#Ciclo-de-vida-de-un-contenedor)
   - [Exponiendo contenedores](#Exponiendo-contenedores)
@@ -16,22 +16,22 @@
   - [Volúmenes](#Volúmenes)
   - [Insertar y extraer archivos de un contenedor](#Insertar-y-extraer-archivos-de-un-contenedor)
 - [Imágenes](#Imágenes)
-  - [Conceptos fundamentales de Docker: imágenes](#Conceptos-fundamentales-de-Docker:-imágenes)
+  - [Conceptos fundamentales de Docker: imágenes](#Conceptos-fundamentales-de-Docker-imágenes)
   - [Construyendo una imagen propia](#Construyendo-una-imagen-propia)
   - [El sistema de capas](#El-sistema-de-capas)
 - [Docker como herramienta de desarrollo](#Docker-como-herramienta-de-desarrollo)
   - [Usando docker para desarrollar aplicaciones](#Usando-docker-para-desarrollar-aplicaciones)
   - [Aprovechando el caché de capas para estructurar correctamente tus imágenes](#Aprovechando-el-caché-de-capas-para-estructurar-correctamente-tus-imágenes)
-  - [Docker networking: colaboración entre contenedores](#Docker-networking:-colaboración-entre-contenedores)
+  - [Docker networking: colaboración entre contenedores](#Docker-networking-colaboración-entre-contenedores)
 - [Docker Compose](#Docker-Compose)
-  - [Docker Compose: la herramienta todo en uno](#Docker-Compose:-la-herramienta-todo-en-uno)
+  - [Docker Compose: la herramienta todo en uno](#Docker-Compose-la-herramienta-todo-en-uno)
   - [Subcomandos de Docker Compose](#Subcomandos-de-Docker-Compose)
   - [Docker Compose como herramienta de desarrollo](#Docker-Compose-como-herramienta-de-desarrollo)
-  - [Compose en equipo: override](#Compose-en-equipo:-override)
+  - [Compose en equipo: override](#Compose-en-equipo-override)
   - [Docker avanzado](#Docker-avanzado)
   - [Administrado tu ambiente de Docker](#Administrado-tu-ambiente-de-Docker)
-  - [Deteniendo contenedores correctamente: SHELL vs. EXEC](#Deteniendo-contenedores-correctamente:-SHELL-vs.-EXEC)
-  - [Contenedores ejecutables: ENTRYPOINT vs CMD](#Contenedores-ejecutables:-ENTRYPOINT-vs-CMD)
+  - [Deteniendo contenedores correctamente: SHELL vs. EXEC](#Deteniendo-contenedores-correctamente-SHELL-vs.-EXEC)
+  - [Contenedores ejecutables: ENTRYPOINT vs CMD](#Contenedores-ejecutables-ENTRYPOINT-vs-CMD)
   - [Multi stage build](#Multi-stage-build)
   - [Docker in Docker](#Docker-in-Docker)
 
@@ -107,7 +107,7 @@ Docker te permite construir, distribuir y ejecutar aplicaciones mediantes conten
 
 ## Contenedores
 
-### Primeros pasos: hola mundo
+### Primeros pasos hola mundo
 
 `docker run hello-world` —> Correo un contenedor llamado "hello-world".
 
@@ -217,7 +217,7 @@ Guarda los archivos temporalmente y persiste los datos en la memoria del contene
 
 ## Imágenes
 
-### Conceptos fundamentales de Docker: imágenes
+### Conceptos fundamentales de Docker imágenes
 
 Las imágenes son plantillas o moldes a partir de las cuales docker crea contenedores, una imagen es una pieza de software empaquedata, liviana que contiene todo lo necesario para que un contenedor puede ejecutarse exitosamente.
 
@@ -305,7 +305,7 @@ EXPOSE 3000
 CMD ["npx", "nodemon", "index.js"]
 ```
 
-### Docker networking: colaboración entre contenedores
+### Docker networking colaboración entre contenedores
 
 `docker network ls` → Listas las redes.
 
@@ -319,7 +319,7 @@ Ejemplo: `docker run -d --name app -p 3000:3000 --env MONGO_URL=mongodb://27017/
 
 ## Docker Compose
 
-### Docker Compose: la herramienta todo en uno
+### Docker Compose la herramienta todo en uno
 
 Docker compose es una herramienta que permite escribir de forma declarativa la arquitectura de servicios que nuestra aplicación necesita, a través de un archivo llamado ***docker-compose.yml***
 
@@ -381,7 +381,7 @@ services:
 
 `docker-compose build` → Construye una imagen utilizando el dockerfile que se encuentra en el contexto de build. Luego ya puede ser usada para iniciar los servicios con `docker-compose up`.
 
-### Compose en equipo: override
+### Compose en equipo override
 
 **docker-compose.override.yml** es un archivo que se encarga de sobreescribir tu configuración de **docker-compose.yml** , se puede usar para tener segura tu configuración y para no guardar los cambios en el repositorio de git.
 
@@ -445,7 +445,7 @@ Practica de borrado de imagenes.
 
 `docker stats` → Permite ver un cuadro de estadisticas de uso memoria de los contenedores.
 
-### Deteniendo contenedores correctamente: SHELL vs. EXEC
+### Deteniendo contenedores correctamente SHELL vs. EXEC
 
 Docker para indicarle a un proceso que tiene que terminar, le envia una señal, inicialmente le envia  SIGTERM, y si eso no responde en cierto tiempo, envia una señal de SIGKILL.
 
@@ -473,7 +473,7 @@ COPY ["loop.sh", "/"]
 CMD ["/loop.sh"]
 ```
 
-### Contenedores ejecutables: ENTRYPOINT vs CMD
+### Contenedores ejecutables ENTRYPOINT vs CMD
 
 En el Dockerfile el `ENTRYPOINT` permite establecer el comando base a ejecutarse en el contenedor. Si utilizamos este, se puede enviar como parametro valores a ejecutarse, que se concateran con lo existente en el `ENTRYPOINT`, reescribiendo lo que se encuentra en el `CMD`
 
