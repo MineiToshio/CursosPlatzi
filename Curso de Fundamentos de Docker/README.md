@@ -3,6 +3,37 @@
 ## Tabla de Contenido
 - [Introducción](#introducción)
 	- [Las tres áreas en el desarrollo de software profesional](#las-tres-áreas-en-el-desarrollo-de-software-profesional)
+  - [Virtualización](#virtualización)
+  - [Preparando tu entorno de trabajo](#Preparando-tu-entorno-de-trabajo)
+  - [Que es y como funciona Docker](#Que-es-y-como-funciona-Docker)
+- [Contenedores](#contenedores)
+  - [Primeros pasos: hola mundo](#Primeros-pasos:-hola-mundo)
+  - [Comprendiendo el estado de Docker](#Comprendiendo-el-estado-de-Docker)
+  - [Ciclo de vida de un contenedor](#Ciclo-de-vida-de-un-contenedor)
+  - [Exponiendo contenedores](#Exponiendo-contenedores)
+- [Datos en docker](#datos-en-docker)
+  - [Bind mounts](#bind-mounts)
+  - [Volúmenes](#Volúmenes)
+  - [Insertar y extraer archivos de un contenedor](#Insertar-y-extraer-archivos-de-un-contenedor)
+- [Imágenes](#Imágenes)
+  - [Conceptos fundamentales de Docker: imágenes](#Conceptos-fundamentales-de-Docker:-imágenes)
+  - [Construyendo una imagen propia](#Construyendo-una-imagen-propia)
+  - [El sistema de capas](#El-sistema-de-capas)
+- [Docker como herramienta de desarrollo](#Docker-como-herramienta-de-desarrollo)
+  - [Usando docker para desarrollar aplicaciones](#Usando-docker-para-desarrollar-aplicaciones)
+  - [Aprovechando el caché de capas para estructurar correctamente tus imágenes](#Aprovechando-el-caché-de-capas-para-estructurar-correctamente-tus-imágenes)
+  - [Docker networking: colaboración entre contenedores](#Docker-networking:-colaboración-entre-contenedores)
+- [Docker Compose](#Docker-Compose)
+  - [Docker Compose: la herramienta todo en uno](#Docker-Compose:-la-herramienta-todo-en-uno)
+  - [Subcomandos de Docker Compose](#Subcomandos-de-Docker-Compose)
+  - [Docker Compose como herramienta de desarrollo](#Docker-Compose-como-herramienta-de-desarrollo)
+  - [Compose en equipo: override](#Compose-en-equipo:-override)
+  - [Docker avanzado](#Docker-avanzado)
+  - [Administrado tu ambiente de Docker](#Administrado-tu-ambiente-de-Docker)
+  - [Deteniendo contenedores correctamente: SHELL vs. EXEC](#Deteniendo-contenedores-correctamente:-SHELL-vs.-EXEC)
+  - [Contenedores ejecutables: ENTRYPOINT vs CMD](#Contenedores-ejecutables:-ENTRYPOINT-vs-CMD)
+  - [Multi stage build](#Multi-stage-build)
+  - [Docker in Docker](#Docker-in-Docker)
 
 ## Introducción
 
@@ -454,7 +485,7 @@ ENTRYPOINT [ "/bin/ping", "-c", "3"]
 CMD ["localhost"]
 ```
 
-### Multi-stage build
+### Multi stage build
 
 ```docker
 # Define una "stage" o fase llamada builder accesible para la siguiente fase
@@ -493,7 +524,7 @@ CMD ["node", "index.js"]
 ### En tiempo de build en caso de que algún paso falle, el build se detendrá por completo.
 ```
 
-### Docker-in-Docker
+### Docker in Docker
 
 Si queremos tener docker dentro de un contenedor, mas llamado docker-in-docker. Compartiendo el socket de nuestro local a nuestro contenedor que tendra docker
 
