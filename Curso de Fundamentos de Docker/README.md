@@ -2,7 +2,7 @@
 
 ## Tabla de Contenido
 - [Introducción](#introducción)
-	- [Las tres áreas en el desarrollo de software profesional](#las tres áreas en el desarrollo de software profesional)
+	- [Las tres áreas en el desarrollo de software profesional](#las-tres-áreas-en-el-desarrollo-de-software-profesional)
 
 ## Introducción
 
