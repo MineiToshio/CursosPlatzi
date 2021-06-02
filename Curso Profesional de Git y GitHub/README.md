@@ -13,11 +13,16 @@
   - [Flujos de Trabajo](#flujos-de-trabajo)
   - [Múltiples entornos de trabajo](#múltiples-entornos-de-trabajo)
 - [Repositorios Remotos (Github)](#repositorios-remotos-github)
+- [Comandos colaborativos](#comandos-colaborativos)
 - [Configuraciones de Github](#configuraciones-de-github)
   - [Notificaciones](#notificaciones)
   - [Proteger un branch](#proteger-un-branch)
   - [Plantillas](#plantillas)
-- [Ignorar archivos](#ignorar-archivos)
+  - [Ignorar archivos](#ignorar-archivos)
+  - [Issues y Milestones](#issues-y-milestones)
+  - [Hosting Gratuito de archivos en GitHub](#hosting-gratuito-de-archivos-en-github)
+  - [Dominios personalizados en GitHub](#dominios-personalizados-en-github)
+  - [GitHub Desktop, todo lo que necesitas de Git en una sola herramienta gráfica](#github-desktop-todo-lo-que-necesitas-de-git-en-una-sola-herramienta-gráfica)
 - [Recursos Complementarios](#recursos-complementarios)
 - [Enlaces de Interés](#enlaces-de-interés)
 
@@ -177,7 +182,7 @@ git config --list
 * `git add -A` agrega todos los archivos del working directory al staging area. `git add .` hace lo mismo.
  * `git add -n [archivo]` simula el agregado de un [archivo].
 * `git rm --cached [archivo]` quita un [archivo] del staging al working area.
-* `git rm -f` quita el archivo del staging y del working directory.
+* `git rm -f` quita el archivo del staging y del working directory. La diferencia entre esto y simplemente borrar el archivo directamente es que se guarda en git un registro de eliminación.
 * `git commit -m ["mensaje"]` agrega los archivos del staging al repositorio.
 * `git commit --amend` anexa el nuevo cambio al anterior commit. Si se escribe un mensaje este sobreescribe el anterior.
 * `git tag -a [tag] -m ["comentario"]` agrega el tag con un comentario al ultimo commit.
@@ -186,15 +191,22 @@ git config --list
 * `git tag -d [tag]` elimina el tag.
 * `git tag -f -a [nuevo tag] [sha1 del commit]` renombra el tag del commit pero deja el anterior tag.
 * `git log` ver la lista de commits.
+  * `--stat` explica el número de líneas que se cambiaron brevemente.
+  * `--stat` explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
   * `--oneline` resumido.
   * `--graph` ver las ramificaciones.
   * `-[numero]` ver los ultimos [numero] commits.
+  * `--author="Name Author"` nuestra los los logs de un autor
+* `git relog` muestra el log completo de git, incluido branches eliminados.
+* `git show` muestra los últimos cambios que se han hecho.
 * `git diff [sha1 del commit]` muestra la diferencias del commit [sha1].
 * `git diff [sha1-1] [sha1-2]` diferencia entre la version 1 vs la version 2.
 * `git reset`
-  * `--soft [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al staging area.
+  * `--soft [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al staging area. Este comando resetea el HEAD al [sha1] mas no modifica ningún archivo.
   * `--mixed [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al working directory
   * `--hard [sha1]` elimina todos los cambios incluso del working directory.
+  * `HEAD` saca los archivos del staging area. Este comando no elimina ningún archivo ni borra commits del git.
+* `gitk` te muestra una ventana con toda la historia del repositorio.
 
 Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .git
 
@@ -206,20 +218,28 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 
 * `git branch [nombre]` crear la rama [nombre]
 * `git branch -l` lista las ramas
+* `git branch -r` muestra todas las ramas remotas
+* `git branch -a` muestra todas las ramas tanto locales como remotas
 * `git branch -d [nombre]` elimina el branch [nombre]. Esto solo funciona si el branch no tiene ningún commit.
 * `git branch -D [nombre]` fuerza la eliminación de un branch sin importar si tiene commits
 * `git branch -m [nombre inicial] [nuevo nombre] ` renombra el branch [nombre inicial] por [nuevo nombre]
 * `git checkout [brach]` moverse al branch [branch]
 * `git chechout [sha1]` ir al momento del tiempo de ese commit
+* `git chechout [sha1] [archivo]` ir al momento del tiempo de ese commit de un archivo específico.
 * `git checkout -b [nombre]` crea un branch y se mueva al mismo
 * `git checkout -- [archivo]` descarta todos los cambios del archivo
 * `git merge [branch]` mezcla el branch [branch] con el branch actual
-* `git rebase [branch]` mezcla el branch con el brach actual. Es como el merge pero sin crear bifurcaciones
-* `git stash` es un limbo como el staging area. Te permite cambiar de branch sin hacer commit
-* `git stash list` ver la lista de los stash
-* `git stash drop stash@{numero}` elimina el stash
-* `git stash apply stash@{numero}` aplica el stash
-* `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual
+* `git rebase [branch]` mezcla el [branch] con el branch actual. Es como el merge pero sin crear bifurcaciones. Para que funcione bien, primero se hace rebase a la rama con los cambios que queremos modificar y luego rebase a la rama final.
+* `git stash` es un limbo como el staging area. Te permite cambiar de branch sin hacer commit.
+* `git stash list` ver la lista de los stash.
+* `git stash pop` aplica el ultimo stash a la rama actual.
+* `git stash branch [brach]` mueve el stash al [branch]
+* `git stash drop stash@{numero}` elimina el stash.
+* `git stash apply stash@{numero}` aplica el stash.
+* `git clean` elimina los archivos que no están bajo el control de versión. Para que funcione es necesario usar alguno de los flags:
+  * `-n` no remueve nada, solo te muestra los archivos que va a eliminar.
+  * `-f` elimina los archivos que no se encuentran versionados.
+* `git cherry pick [sha1]` mover el commit [sha1] de otro branch al branch actual.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
@@ -243,6 +263,15 @@ Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .gi
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
 </div>
+
+## Comandos colaborativos
+
+* `git shortlog -sn` muestra cuantos commit han hecho cada miembros del equipo.
+* `git shortlog -sn --all` muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+* `git shortlog -sn --all --no-merge` muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+* `git blame [archivo]` muestra quien hizo cada cosa linea por linea
+* `git [comando] --help` muestra cómo funciona el comando.
+* `git blame [archivo] -L[linea_inicial],[linea_final]` muestra quién hizo cada cosa linea por linea indicándole desde qué linea ver. Ejemplo `-L35,50`
 
 ## Configuraciones de Github
 
